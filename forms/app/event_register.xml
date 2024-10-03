@@ -533,20 +533,20 @@
       <bind nodeset="/event_register/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
       <bind nodeset="/event_register/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
       <bind nodeset="/event_register/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
-      <bind nodeset="/event_register/event_desease/events" type="select1" required="true()" jr:requiredMsg="jr:itext('/event_register/event_desease/events:jr:requiredMsg')"/>
+      <bind nodeset="/event_register/event_desease/events" type="select1" jr:requiredMsg="jr:itext('/event_register/event_desease/events:jr:requiredMsg')" required="true()"/>
       <bind nodeset="/event_register/event_desease/other_event" type="string" relevant="selected(../events,'others_event') or selected(../events,'others_illness')"/>
       <bind nodeset="/event_register/event_desease/event_name" type="string" calculate="if(../events = '','',if(../events = 'others',../other_event,jr:choice-name( /event_register/event_desease/events ,' /event_register/event_desease/events ')))"/>
       <bind nodeset="/event_register/event_desease/is_event" type="string" calculate="if(selected(../events,'flood') or selected(../events,'fire') or selected(../events,'shipwreck') or selected(../events,'landslide') or selected(../events,'grouped_animal_deaths') or selected(../events,'others_event') or selected(../events,'community_deaths'),'true','false')"/>
       <bind nodeset="/event_register/event_desease/is_illness" type="string" calculate="if(selected(../events,'influenza_fever') or selected(../events,'dermatosis') or selected(../events,'measles') or selected(../events,'gender_based_v') or selected(../events,'perinatal_deaths') or selected(../events,'pfa') or selected(../events,'bloody_diarrhea') or selected(../events,'yellow_fever') or selected(../events,'cholera') or selected(../events,'maternal_and_neonatal_tetanus') or selected(../events,'viral_diseases') or selected(../events,'meningitis') or selected(../events,'maternal_deaths') or selected(../events,'others_illness'),'true','false')"/>
-      <bind nodeset="/event_register/event_desease/event_date" type="date" jr:requiredMsg="jr:itext('/event_register/event_desease/event_date:jr:requiredMsg')" constraint=". &lt;= today()" jr:constraintMsg="jr:itext('/event_register/event_desease/event_date:jr:constraintMsg')" required="true()"/>
-      <bind nodeset="/event_register/event_desease/village_location_name" type="string" required="true()" jr:requiredMsg="jr:itext('/event_register/event_desease/village_location_name:jr:requiredMsg')"/>
-      <bind nodeset="/event_register/event_desease/name" type="string" required="true()" relevant="../is_illness = 'true'"/>
-      <bind nodeset="/event_register/event_desease/sex" type="select1" required="true()" relevant="../is_illness = 'true'"/>
-      <bind nodeset="/event_register/event_desease/age" type="int" required="true()" relevant="../is_illness = 'true'"/>
-      <bind nodeset="/event_register/event_desease/name_person_in_charge" type="string" required="true()" relevant="../is_event = 'true'"/>
-      <bind nodeset="/event_register/event_desease/phone_person_in_charge" type="string" relevant="../is_event = 'true'" constraint="regex(., '^\d{9}$')" jr:constraintMsg="jr:itext('/event_register/event_desease/phone_person_in_charge:jr:constraintMsg')"/>
-      <bind nodeset="/event_register/event_desease/health_center_feedback_date" type="date" calculate="today()" constraint=". &gt;=  /event_register/event_desease/event_date  and . &lt;= today()" jr:constraintMsg="jr:itext('/event_register/event_desease/health_center_feedback_date:jr:constraintMsg')" readonly="true()"/>
-      <bind nodeset="/event_register/event_desease/health_center_feedback_location" type="select1" required="true()" jr:requiredMsg="jr:itext('/event_register/event_desease/health_center_feedback_location:jr:requiredMsg')"/>
+      <bind nodeset="/event_register/event_desease/event_date" type="date" required="true()" jr:constraintMsg="jr:itext('/event_register/event_desease/event_date:jr:constraintMsg')" constraint=". &lt;= today()" jr:requiredMsg="jr:itext('/event_register/event_desease/event_date:jr:requiredMsg')"/>
+      <bind nodeset="/event_register/event_desease/village_location_name" type="string" jr:requiredMsg="jr:itext('/event_register/event_desease/village_location_name:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/event_register/event_desease/name" type="string" relevant="../is_illness = 'true'" required="true()"/>
+      <bind nodeset="/event_register/event_desease/sex" type="select1" relevant="../is_illness = 'true'" required="true()"/>
+      <bind nodeset="/event_register/event_desease/age" type="int" relevant="../is_illness = 'true'" required="true()"/>
+      <bind nodeset="/event_register/event_desease/name_person_in_charge" type="string" relevant="../is_event = 'true'" required="true()"/>
+      <bind nodeset="/event_register/event_desease/phone_person_in_charge" type="string" jr:constraintMsg="jr:itext('/event_register/event_desease/phone_person_in_charge:jr:constraintMsg')" constraint="regex(., '^\d{9}$')" relevant="../is_event = 'true'"/>
+      <bind nodeset="/event_register/event_desease/health_center_feedback_date" type="date" jr:constraintMsg="jr:itext('/event_register/event_desease/health_center_feedback_date:jr:constraintMsg')" constraint=". &gt;=  /event_register/event_desease/event_date  and . &lt;= today()" calculate="today()" readonly="true()"/>
+      <bind nodeset="/event_register/event_desease/health_center_feedback_location" type="select1" jr:requiredMsg="jr:itext('/event_register/event_desease/health_center_feedback_location:jr:requiredMsg')" required="true()"/>
       <bind nodeset="/event_register/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>
   </h:head>

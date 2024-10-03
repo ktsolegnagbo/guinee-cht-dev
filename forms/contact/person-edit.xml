@@ -4,401 +4,6 @@
     <h:title>Modifier Personne</h:title>
     <model>
       <itext>
-        <translation lang="fr">
-          <text id="/data/inputs/contact:label">
-            <value>Information de l'utilisateur</value>
-          </text>
-          <text id="/data/inputs/contact/parent:label">
-            <value>Information du parent</value>
-          </text>
-          <text id="/data/inputs/meta/user_id:label">
-            <value>Votre nom</value>
-          </text>
-          <text id="/data/inputs/meta/user_phone:label">
-            <value>Votre téléphone</value>
-          </text>
-          <text id="/data/inputs/meta/user_fullname:label">
-            <value>Votre Nom complet</value>
-          </text>
-          <text id="/data/inputs/meta/user_role:label">
-            <value>Votre rôle</value>
-          </text>
-          <text id="/data/inputs/meta/user_external_id:label">
-            <value>Votre Identifiant</value>
-          </text>
-          <text id="/data/inputs/meta/user_parent_id:label">
-            <value>user parent id</value>
-          </text>
-          <text id="/data/inputs/meta/user_parent_name:label">
-            <value>user parent name</value>
-          </text>
-          <text id="/data/inputs/meta/user_parent_external_id:label">
-            <value>user parent external id</value>
-          </text>
-          <text id="/data/inputs/meta/user_parent_code:label">
-            <value>user parent code</value>
-          </text>
-          <text id="/data/inputs/meta/access_not:jr:constraintMsg">
-            <value>Contactez votre administrateur pour avoir l'autorisation!</value>
-          </text>
-          <text id="/data/inputs/meta/access_not:label">
-            <value>Vous ne pouvez pas modifier les informations de ce contact. Fermez donc le formulaire!</value>
-          </text>
-          <text id="/data/inputs/meta/access_not/ok:label">
-            <value>Compris</value>
-          </text>
-          <text id="/data/inputs/meta/init/person_parent:label">
-            <value>Place Actuelle</value>
-          </text>
-          <text id="/data/inputs/meta/init/type:label">
-            <value>type</value>
-          </text>
-          <text id="/data/inputs/meta/init/name:label">
-            <value>name</value>
-          </text>
-          <text id="/data/inputs/meta/init/note_place:label">
-            <value><output value=" /data/inputs/meta/init/person_name "/>&amp;nbsp;appartient actuellement au: **<output value=" /data/inputs/meta/init/person_place_name "/>**</value>
-          </text>
-          <text id="/data/inputs/meta/init/change_parent:label">
-            <value>Vous aimeriez le déplacer ailleurs?</value>
-          </text>
-          <text id="/data/inputs/meta/init/change_parent/yes:label">
-            <value>Oui</value>
-          </text>
-          <text id="/data/inputs/meta/init/change_parent/no:label">
-            <value>Non</value>
-          </text>
-          <text id="/data/inputs/meta/init/edited_place_type:label">
-            <value>Chercher par place</value>
-          </text>
-          <text id="/data/inputs/meta/init/edited_place_type/district_hospital:label">
-            <value>District/Quartier</value>
-          </text>
-          <text id="/data/inputs/meta/init/edited_place_type/health_center:label">
-            <value>Village/Secteur</value>
-          </text>
-          <text id="/data/inputs/meta/init/edited_place_type/clinic:label">
-            <value>Ménage</value>
-          </text>
-          <text id="/data/inputs/meta/init/id_district_hospital:label">
-            <value>Selectionner le nouveau District/Quartier</value>
-          </text>
-          <text id="/data/inputs/meta/init/id_health_center:label">
-            <value>Selectionner le nouveau Village/Secteur</value>
-          </text>
-          <text id="/data/inputs/meta/init/id_clinic:label">
-            <value>Selectionner le nouveau ménage</value>
-          </text>
-          <text id="/data/person:label">
-            <value>Informations de la nouvelle personne</value>
-          </text>
-          <text id="/data/person/pc0:label">
-            <value>Code de la personne</value>
-          </text>
-          <text id="/data/person/firstname:label">
-            <value>Prénoms du membre</value>
-          </text>
-          <text id="/data/person/lastname:label">
-            <value>Nom de famille du membre</value>
-          </text>
-          <text id="/data/person/fullname:label">
-            <value>Prénoms et nom</value>
-          </text>
-          <text id="/data/person/register_patient/selected_sex:label">
-            <value>Sexe</value>
-          </text>
-          <text id="/data/person/register_patient/selected_sex/male:label">
-            <value>Homme</value>
-          </text>
-          <text id="/data/person/register_patient/selected_sex/female:label">
-            <value>Femme</value>
-          </text>
-          <text id="/data/person/register_patient/has_birth_certificate:label">
-            <value>Est ce que &lt;b style=&quot;font-size:16px;&quot;&gt;<output value=" /data/person/firstname "/>&lt;/b&gt; a un extrait de naissance ?</value>
-          </text>
-          <text id="/data/person/register_patient/has_birth_certificate/yes:label">
-            <value>Oui</value>
-          </text>
-          <text id="/data/person/register_patient/has_birth_certificate/no:label">
-            <value>Non</value>
-          </text>
-          <text id="/data/person/register_patient/dob_method:label">
-            <value>Date de naissance</value>
-          </text>
-          <text id="/data/person/register_patient/dob_method/approx:label">
-            <value>Avec l'age actuel</value>
-          </text>
-          <text id="/data/person/register_patient/dob_method/calendar:label">
-            <value>Avec Calendrier</value>
-          </text>
-          <text id="/data/person/register_patient/dob_calendar:jr:constraintMsg">
-            <value>La date doit être au passé</value>
-          </text>
-          <text id="/data/person/register_patient/dob_calendar:label">
-            <value>Date calendaire</value>
-          </text>
-          <text id="/data/person/register_patient/age_years:jr:constraintMsg">
-            <value>L'age doit être entre 0 et 99</value>
-          </text>
-          <text id="/data/person/register_patient/age_years:label">
-            <value>Âge</value>
-          </text>
-          <text id="/data/person/register_patient/age_years:hint">
-            <value>**(Age en années)** L'age doit être entre 0 et 99</value>
-          </text>
-          <text id="/data/person/register_patient/age_months:jr:constraintMsg">
-            <value>le mois doit être entre 0 et 11</value>
-          </text>
-          <text id="/data/person/register_patient/age_months:label">
-            <value>*</value>
-          </text>
-          <text id="/data/person/register_patient/age_months:hint">
-            <value>(Combien de mois (0 à 11 mois))</value>
-          </text>
-          <text id="/data/person/register_patient/patient_age_in_years:label">
-            <value>patient_age_in_years</value>
-          </text>
-          <text id="/data/person/register_patient/patient_has_phone_0:label">
-            <value>Est ce que &lt;b style=&quot;font-size:16px;&quot;&gt;<output value=" /data/person/firstname "/>&lt;/b&gt; a un numero de téléphone ?</value>
-          </text>
-          <text id="/data/person/register_patient/patient_has_phone_0/yes:label">
-            <value>Oui</value>
-          </text>
-          <text id="/data/person/register_patient/patient_has_phone_0/no:label">
-            <value>Non</value>
-          </text>
-          <text id="/data/person/register_patient/phone:jr:constraintMsg">
-            <value>Format autorisé ( 9 Chiffres ) : XXXXXXXXX</value>
-          </text>
-          <text id="/data/person/register_patient/phone:label">
-            <value>Numéro de téléphone</value>
-          </text>
-          <text id="/data/person/register_patient/phone:hint">
-            <value>Format: XX XX XX XX X</value>
-          </text>
-          <text id="/data/person/register_patient/phone_other:jr:constraintMsg">
-            <value>Format autorisé ( 9 Chiffres ): XXXXXXXXX</value>
-          </text>
-          <text id="/data/person/register_patient/phone_other:label">
-            <value>Téléphone personne à contacter</value>
-          </text>
-          <text id="/data/person/register_patient/phone_other:hint">
-            <value>Format: XX XX XX XX X</value>
-          </text>
-          <text id="/data/person/register_patient/rwhh_x:label">
-            <value>&lt;b style=&quot;font-size:16px;&quot;&gt;<output value=" /data/person/firstname "/>&lt;/b&gt; est qui pour le chef de ménage ?</value>
-          </text>
-          <text id="/data/person/register_patient/rwhh_x/spouse:label">
-            <value>Épouse / Époux</value>
-          </text>
-          <text id="/data/person/register_patient/rwhh_x/son_daughter:label">
-            <value>Fils/Fille</value>
-          </text>
-          <text id="/data/person/register_patient/rwhh_x/grandchild:label">
-            <value>Petit-fils / Petite-Fille</value>
-          </text>
-          <text id="/data/person/register_patient/rwhh_x/brother_sister:label">
-            <value>Frère / Sœur</value>
-          </text>
-          <text id="/data/person/register_patient/rwhh_x/uncle_auntie:label">
-            <value>Oncle / Tante</value>
-          </text>
-          <text id="/data/person/register_patient/rwhh_x/father_mother:label">
-            <value>Père / Mère</value>
-          </text>
-          <text id="/data/person/register_patient/rwhh_x/others:label">
-            <value>Autres</value>
-          </text>
-          <text id="/data/person/register_patient/rwhh_y:label">
-            <value>&lt;b style=&quot;font-size:16px;&quot;&gt;<output value=" /data/person/firstname "/>&lt;/b&gt; est qui pour le chef de ménage ?</value>
-          </text>
-          <text id="/data/person/register_patient/rwhh_y/son_daughter:label">
-            <value>Fils/Fille</value>
-          </text>
-          <text id="/data/person/register_patient/rwhh_y/grandchild:label">
-            <value>Petit-fils / Petite-Fille</value>
-          </text>
-          <text id="/data/person/register_patient/rwhh_y/brother_sister:label">
-            <value>Frère / Sœur</value>
-          </text>
-          <text id="/data/person/register_patient/rwhh_y/uncle_auntie:label">
-            <value>Oncle / Tante</value>
-          </text>
-          <text id="/data/person/register_patient/rwhh_y/others:label">
-            <value>Autres</value>
-          </text>
-          <text id="/data/person/register_patient/other_relationship:label">
-            <value>Saisir la relation</value>
-          </text>
-          <text id="/data/person/register_patient/profession:label">
-            <value>Profession/Fonction</value>
-          </text>
-          <text id="/data/person/register_patient/profession/Cultivateur:label">
-            <value>Cultivateur/Agriculteur</value>
-          </text>
-          <text id="/data/person/register_patient/profession/Ménagère:label">
-            <value>Ménagère</value>
-          </text>
-          <text id="/data/person/register_patient/profession/Commerçant_marchand:label">
-            <value>Commerçant/marchand (e)</value>
-          </text>
-          <text id="/data/person/register_patient/profession/Orpailleurs:label">
-            <value>Orpailleurs</value>
-          </text>
-          <text id="/data/person/register_patient/profession/Couturier:label">
-            <value>Couturier (ère)</value>
-          </text>
-          <text id="/data/person/register_patient/profession/Coiffeur:label">
-            <value>Coiffeur (euse)</value>
-          </text>
-          <text id="/data/person/register_patient/profession/Mécanicien:label">
-            <value>Mécanicien</value>
-          </text>
-          <text id="/data/person/register_patient/profession/Menuisier:label">
-            <value>Menuisier</value>
-          </text>
-          <text id="/data/person/register_patient/profession/Maçon:label">
-            <value>Maçon</value>
-          </text>
-          <text id="/data/person/register_patient/profession/Agent de santé:label">
-            <value>Agent de santé</value>
-          </text>
-          <text id="/data/person/register_patient/profession/Élève:label">
-            <value>Élève</value>
-          </text>
-          <text id="/data/person/register_patient/profession/Etudiants:label">
-            <value>Etudiants</value>
-          </text>
-          <text id="/data/person/register_patient/profession/Enseignant:label">
-            <value>Enseignant (e)</value>
-          </text>
-          <text id="/data/person/register_patient/profession/Autres:label">
-            <value>Autres à préciser</value>
-          </text>
-          <text id="/data/person/register_patient/other_profession:label">
-            <value>Profession/Fonction</value>
-          </text>
-          <text id="/data/person/register_patient/no_birth_certificate_info:label">
-            <value>&lt;b style=&quot;color:red;&quot;&gt;Référer **<output value=" /data/person/firstname "/>** vers la Mairie pour absence d'extrait de naissance&lt;/b&gt;</value>
-          </text>
-          <text id="/data/person/register_patient/birth_certificate_referal:label">
-            <value>Avez-vous référé **<output value=" /data/person/firstname "/>** vers la mairie ?</value>
-          </text>
-          <text id="/data/person/register_patient/birth_certificate_referal/yes:label">
-            <value>Oui</value>
-          </text>
-          <text id="/data/person/register_patient/birth_certificate_referal/no:label">
-            <value>Non</value>
-          </text>
-          <text id="/data/person/register_patient/no_birth_certificate_referal_reason:label">
-            <value>Pourquoi vous n'avez pas référé **<output value=" /data/person/firstname "/>** ?</value>
-          </text>
-          <text id="/data/person/register_patient/no_birth_certificate_referal_reason/refusal:label">
-            <value>Refus</value>
-          </text>
-          <text id="/data/person/register_patient/no_birth_certificate_referal_reason/not_necessary:label">
-            <value>Pas nécessaire</value>
-          </text>
-          <text id="/data/person/register_patient/no_birth_certificate_referal_reason/others:label">
-            <value>Autres</value>
-          </text>
-          <text id="/data/person/register_patient/no_birth_certificate_referal_reason_other:label">
-            <value>Spécifier la raison</value>
-          </text>
-          <text id="/data/person/register_patient/birth_certificate_followup:label">
-            <value>&lt;b style="color:blue;"&gt;Une tâche de suivi de cette référence sera active dans 1 mois&lt;/b&gt;</value>
-          </text>
-          <text id="/data/person/register_other/selected_sex:label">
-            <value>Sexe</value>
-          </text>
-          <text id="/data/person/register_other/selected_sex/male:label">
-            <value>Homme</value>
-          </text>
-          <text id="/data/person/register_other/selected_sex/female:label">
-            <value>Femme</value>
-          </text>
-          <text id="/data/person/register_other/dob_method:label">
-            <value>Méthode de date de naissance souhaité</value>
-          </text>
-          <text id="/data/person/register_other/age_years:jr:constraintMsg">
-            <value>L'age doit être compris entre 18 et 150</value>
-          </text>
-          <text id="/data/person/register_other/age_years:label">
-            <value>Age en années</value>
-          </text>
-          <text id="/data/person/register_other/age_years:hint">
-            <value>**L'age doit être compris entre 18 et 150**</value>
-          </text>
-          <text id="/data/person/register_other/selected_role:label">
-            <value>Rôle</value>
-          </text>
-          <text id="/data/person/register_other/selected_role/country_manager:label">
-            <value>Niveau National/Pays</value>
-          </text>
-          <text id="/data/person/register_other/selected_role/region_manager:label">
-            <value>Niveau Région/IRS</value>
-          </text>
-          <text id="/data/person/register_other/selected_role/prefecture_manager:label">
-            <value>Niveau Préfecture/District Sanitaire</value>
-          </text>
-          <text id="/data/person/register_other/selected_role/commune_manager:label">
-            <value>Niveau Commune</value>
-          </text>
-          <text id="/data/person/register_other/selected_role/hospital_manager:label">
-            <value>Niveau Centre de Santé</value>
-          </text>
-          <text id="/data/person/register_other/selected_role/chw:label">
-            <value>Niveau ASC</value>
-          </text>
-          <text id="/data/person/register_other/selected_role/reco:label">
-            <value>Niveau RECO</value>
-          </text>
-          <text id="/data/person/register_other/reco_code:jr:constraintMsg">
-            <value>Seul les chiffres et lettres en majuscule sont autorisés</value>
-          </text>
-          <text id="/data/person/register_other/reco_code:label">
-            <value>Code</value>
-          </text>
-          <text id="/data/person/register_other/reco_code:hint">
-            <value>1-9 A-Z</value>
-          </text>
-          <text id="/data/person/register_other/other_code:jr:constraintMsg">
-            <value>Seul les chiffres et lettres en majuscule sont autorisés</value>
-          </text>
-          <text id="/data/person/register_other/other_code:label">
-            <value>Code</value>
-          </text>
-          <text id="/data/person/register_other/other_code:hint">
-            <value>1-9 A-Z</value>
-          </text>
-          <text id="/data/person/register_other/phone:jr:constraintMsg">
-            <value>Format autorisé ( 9 Chiffres ) : XXXXXXXXX</value>
-          </text>
-          <text id="/data/person/register_other/phone:label">
-            <value>Numéro de téléphone</value>
-          </text>
-          <text id="/data/person/register_other/profession:label">
-            <value>Profession/Fonction</value>
-          </text>
-          <text id="/data/person/register_other/chw_email:jr:constraintMsg">
-            <value>Veuillez entrer une adresse e-mail valide.</value>
-          </text>
-          <text id="/data/person/register_other/chw_email:label">
-            <value>Email</value>
-          </text>
-          <text id="/data/person/register_other/other_email:jr:constraintMsg">
-            <value>Veuillez entrer une adresse e-mail valide.</value>
-          </text>
-          <text id="/data/person/register_other/other_email:label">
-            <value>Email</value>
-          </text>
-          <text id="/data/person/type:label">
-            <value>Type de personne</value>
-          </text>
-          <text id="/data/person/parent:label">
-            <value>Parent</value>
-          </text>
-        </translation>
         <translation lang="en">
           <text id="/data/inputs/contact:label">
             <value>User Information</value>
@@ -794,6 +399,401 @@
             <value>Parent</value>
           </text>
         </translation>
+        <translation lang="fr">
+          <text id="/data/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/data/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/data/inputs/meta/user_id:label">
+            <value>Votre nom</value>
+          </text>
+          <text id="/data/inputs/meta/user_phone:label">
+            <value>Votre téléphone</value>
+          </text>
+          <text id="/data/inputs/meta/user_fullname:label">
+            <value>Votre Nom complet</value>
+          </text>
+          <text id="/data/inputs/meta/user_role:label">
+            <value>Votre rôle</value>
+          </text>
+          <text id="/data/inputs/meta/user_external_id:label">
+            <value>Votre Identifiant</value>
+          </text>
+          <text id="/data/inputs/meta/user_parent_id:label">
+            <value>user parent id</value>
+          </text>
+          <text id="/data/inputs/meta/user_parent_name:label">
+            <value>user parent name</value>
+          </text>
+          <text id="/data/inputs/meta/user_parent_external_id:label">
+            <value>user parent external id</value>
+          </text>
+          <text id="/data/inputs/meta/user_parent_code:label">
+            <value>user parent code</value>
+          </text>
+          <text id="/data/inputs/meta/access_not:jr:constraintMsg">
+            <value>Contactez votre administrateur pour avoir l'autorisation!</value>
+          </text>
+          <text id="/data/inputs/meta/access_not:label">
+            <value>Vous ne pouvez pas modifier les informations de ce contact. Fermez donc le formulaire!</value>
+          </text>
+          <text id="/data/inputs/meta/access_not/ok:label">
+            <value>Compris</value>
+          </text>
+          <text id="/data/inputs/meta/init/person_parent:label">
+            <value>Place Actuelle</value>
+          </text>
+          <text id="/data/inputs/meta/init/type:label">
+            <value>type</value>
+          </text>
+          <text id="/data/inputs/meta/init/name:label">
+            <value>name</value>
+          </text>
+          <text id="/data/inputs/meta/init/note_place:label">
+            <value><output value=" /data/inputs/meta/init/person_name "/>&amp;nbsp;appartient actuellement au: **<output value=" /data/inputs/meta/init/person_place_name "/>**</value>
+          </text>
+          <text id="/data/inputs/meta/init/change_parent:label">
+            <value>Vous aimeriez le déplacer ailleurs?</value>
+          </text>
+          <text id="/data/inputs/meta/init/change_parent/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/data/inputs/meta/init/change_parent/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/data/inputs/meta/init/edited_place_type:label">
+            <value>Chercher par place</value>
+          </text>
+          <text id="/data/inputs/meta/init/edited_place_type/district_hospital:label">
+            <value>District/Quartier</value>
+          </text>
+          <text id="/data/inputs/meta/init/edited_place_type/health_center:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/data/inputs/meta/init/edited_place_type/clinic:label">
+            <value>Ménage</value>
+          </text>
+          <text id="/data/inputs/meta/init/id_district_hospital:label">
+            <value>Selectionner le nouveau District/Quartier</value>
+          </text>
+          <text id="/data/inputs/meta/init/id_health_center:label">
+            <value>Selectionner le nouveau Village/Secteur</value>
+          </text>
+          <text id="/data/inputs/meta/init/id_clinic:label">
+            <value>Selectionner le nouveau ménage</value>
+          </text>
+          <text id="/data/person:label">
+            <value>Informations de la nouvelle personne</value>
+          </text>
+          <text id="/data/person/pc0:label">
+            <value>Code de la personne</value>
+          </text>
+          <text id="/data/person/firstname:label">
+            <value>Prénoms du membre</value>
+          </text>
+          <text id="/data/person/lastname:label">
+            <value>Nom de famille du membre</value>
+          </text>
+          <text id="/data/person/fullname:label">
+            <value>Prénoms et nom</value>
+          </text>
+          <text id="/data/person/register_patient/selected_sex:label">
+            <value>Sexe</value>
+          </text>
+          <text id="/data/person/register_patient/selected_sex/male:label">
+            <value>Homme</value>
+          </text>
+          <text id="/data/person/register_patient/selected_sex/female:label">
+            <value>Femme</value>
+          </text>
+          <text id="/data/person/register_patient/has_birth_certificate:label">
+            <value>Est ce que &lt;b style=&quot;font-size:16px;&quot;&gt;<output value=" /data/person/firstname "/>&lt;/b&gt; a un extrait de naissance ?</value>
+          </text>
+          <text id="/data/person/register_patient/has_birth_certificate/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/data/person/register_patient/has_birth_certificate/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/data/person/register_patient/dob_method:label">
+            <value>Date de naissance</value>
+          </text>
+          <text id="/data/person/register_patient/dob_method/approx:label">
+            <value>Avec l'age actuel</value>
+          </text>
+          <text id="/data/person/register_patient/dob_method/calendar:label">
+            <value>Avec Calendrier</value>
+          </text>
+          <text id="/data/person/register_patient/dob_calendar:jr:constraintMsg">
+            <value>La date doit être au passé</value>
+          </text>
+          <text id="/data/person/register_patient/dob_calendar:label">
+            <value>Date calendaire</value>
+          </text>
+          <text id="/data/person/register_patient/age_years:jr:constraintMsg">
+            <value>L'age doit être entre 0 et 99</value>
+          </text>
+          <text id="/data/person/register_patient/age_years:label">
+            <value>Âge</value>
+          </text>
+          <text id="/data/person/register_patient/age_years:hint">
+            <value>**(Age en années)** L'age doit être entre 0 et 99</value>
+          </text>
+          <text id="/data/person/register_patient/age_months:jr:constraintMsg">
+            <value>le mois doit être entre 0 et 11</value>
+          </text>
+          <text id="/data/person/register_patient/age_months:label">
+            <value>*</value>
+          </text>
+          <text id="/data/person/register_patient/age_months:hint">
+            <value>(Combien de mois (0 à 11 mois))</value>
+          </text>
+          <text id="/data/person/register_patient/patient_age_in_years:label">
+            <value>patient_age_in_years</value>
+          </text>
+          <text id="/data/person/register_patient/patient_has_phone_0:label">
+            <value>Est ce que &lt;b style=&quot;font-size:16px;&quot;&gt;<output value=" /data/person/firstname "/>&lt;/b&gt; a un numero de téléphone ?</value>
+          </text>
+          <text id="/data/person/register_patient/patient_has_phone_0/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/data/person/register_patient/patient_has_phone_0/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/data/person/register_patient/phone:jr:constraintMsg">
+            <value>Format autorisé ( 9 Chiffres ) : XXXXXXXXX</value>
+          </text>
+          <text id="/data/person/register_patient/phone:label">
+            <value>Numéro de téléphone</value>
+          </text>
+          <text id="/data/person/register_patient/phone:hint">
+            <value>Format: XX XX XX XX X</value>
+          </text>
+          <text id="/data/person/register_patient/phone_other:jr:constraintMsg">
+            <value>Format autorisé ( 9 Chiffres ): XXXXXXXXX</value>
+          </text>
+          <text id="/data/person/register_patient/phone_other:label">
+            <value>Téléphone personne à contacter</value>
+          </text>
+          <text id="/data/person/register_patient/phone_other:hint">
+            <value>Format: XX XX XX XX X</value>
+          </text>
+          <text id="/data/person/register_patient/rwhh_x:label">
+            <value>&lt;b style=&quot;font-size:16px;&quot;&gt;<output value=" /data/person/firstname "/>&lt;/b&gt; est qui pour le chef de ménage ?</value>
+          </text>
+          <text id="/data/person/register_patient/rwhh_x/spouse:label">
+            <value>Épouse / Époux</value>
+          </text>
+          <text id="/data/person/register_patient/rwhh_x/son_daughter:label">
+            <value>Fils/Fille</value>
+          </text>
+          <text id="/data/person/register_patient/rwhh_x/grandchild:label">
+            <value>Petit-fils / Petite-Fille</value>
+          </text>
+          <text id="/data/person/register_patient/rwhh_x/brother_sister:label">
+            <value>Frère / Sœur</value>
+          </text>
+          <text id="/data/person/register_patient/rwhh_x/uncle_auntie:label">
+            <value>Oncle / Tante</value>
+          </text>
+          <text id="/data/person/register_patient/rwhh_x/father_mother:label">
+            <value>Père / Mère</value>
+          </text>
+          <text id="/data/person/register_patient/rwhh_x/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/data/person/register_patient/rwhh_y:label">
+            <value>&lt;b style=&quot;font-size:16px;&quot;&gt;<output value=" /data/person/firstname "/>&lt;/b&gt; est qui pour le chef de ménage ?</value>
+          </text>
+          <text id="/data/person/register_patient/rwhh_y/son_daughter:label">
+            <value>Fils/Fille</value>
+          </text>
+          <text id="/data/person/register_patient/rwhh_y/grandchild:label">
+            <value>Petit-fils / Petite-Fille</value>
+          </text>
+          <text id="/data/person/register_patient/rwhh_y/brother_sister:label">
+            <value>Frère / Sœur</value>
+          </text>
+          <text id="/data/person/register_patient/rwhh_y/uncle_auntie:label">
+            <value>Oncle / Tante</value>
+          </text>
+          <text id="/data/person/register_patient/rwhh_y/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/data/person/register_patient/other_relationship:label">
+            <value>Saisir la relation</value>
+          </text>
+          <text id="/data/person/register_patient/profession:label">
+            <value>Profession/Fonction</value>
+          </text>
+          <text id="/data/person/register_patient/profession/Cultivateur:label">
+            <value>Cultivateur/Agriculteur</value>
+          </text>
+          <text id="/data/person/register_patient/profession/Ménagère:label">
+            <value>Ménagère</value>
+          </text>
+          <text id="/data/person/register_patient/profession/Commerçant_marchand:label">
+            <value>Commerçant/marchand (e)</value>
+          </text>
+          <text id="/data/person/register_patient/profession/Orpailleurs:label">
+            <value>Orpailleurs</value>
+          </text>
+          <text id="/data/person/register_patient/profession/Couturier:label">
+            <value>Couturier (ère)</value>
+          </text>
+          <text id="/data/person/register_patient/profession/Coiffeur:label">
+            <value>Coiffeur (euse)</value>
+          </text>
+          <text id="/data/person/register_patient/profession/Mécanicien:label">
+            <value>Mécanicien</value>
+          </text>
+          <text id="/data/person/register_patient/profession/Menuisier:label">
+            <value>Menuisier</value>
+          </text>
+          <text id="/data/person/register_patient/profession/Maçon:label">
+            <value>Maçon</value>
+          </text>
+          <text id="/data/person/register_patient/profession/Agent de santé:label">
+            <value>Agent de santé</value>
+          </text>
+          <text id="/data/person/register_patient/profession/Élève:label">
+            <value>Élève</value>
+          </text>
+          <text id="/data/person/register_patient/profession/Etudiants:label">
+            <value>Etudiants</value>
+          </text>
+          <text id="/data/person/register_patient/profession/Enseignant:label">
+            <value>Enseignant (e)</value>
+          </text>
+          <text id="/data/person/register_patient/profession/Autres:label">
+            <value>Autres à préciser</value>
+          </text>
+          <text id="/data/person/register_patient/other_profession:label">
+            <value>Profession/Fonction</value>
+          </text>
+          <text id="/data/person/register_patient/no_birth_certificate_info:label">
+            <value>&lt;b style=&quot;color:red;&quot;&gt;Référer **<output value=" /data/person/firstname "/>** vers la Mairie pour absence d'extrait de naissance&lt;/b&gt;</value>
+          </text>
+          <text id="/data/person/register_patient/birth_certificate_referal:label">
+            <value>Avez-vous référé **<output value=" /data/person/firstname "/>** vers la mairie ?</value>
+          </text>
+          <text id="/data/person/register_patient/birth_certificate_referal/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/data/person/register_patient/birth_certificate_referal/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/data/person/register_patient/no_birth_certificate_referal_reason:label">
+            <value>Pourquoi vous n'avez pas référé **<output value=" /data/person/firstname "/>** ?</value>
+          </text>
+          <text id="/data/person/register_patient/no_birth_certificate_referal_reason/refusal:label">
+            <value>Refus</value>
+          </text>
+          <text id="/data/person/register_patient/no_birth_certificate_referal_reason/not_necessary:label">
+            <value>Pas nécessaire</value>
+          </text>
+          <text id="/data/person/register_patient/no_birth_certificate_referal_reason/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/data/person/register_patient/no_birth_certificate_referal_reason_other:label">
+            <value>Spécifier la raison</value>
+          </text>
+          <text id="/data/person/register_patient/birth_certificate_followup:label">
+            <value>&lt;b style="color:blue;"&gt;Une tâche de suivi de cette référence sera active dans 1 mois&lt;/b&gt;</value>
+          </text>
+          <text id="/data/person/register_other/selected_sex:label">
+            <value>Sexe</value>
+          </text>
+          <text id="/data/person/register_other/selected_sex/male:label">
+            <value>Homme</value>
+          </text>
+          <text id="/data/person/register_other/selected_sex/female:label">
+            <value>Femme</value>
+          </text>
+          <text id="/data/person/register_other/dob_method:label">
+            <value>Méthode de date de naissance souhaité</value>
+          </text>
+          <text id="/data/person/register_other/age_years:jr:constraintMsg">
+            <value>L'age doit être compris entre 18 et 150</value>
+          </text>
+          <text id="/data/person/register_other/age_years:label">
+            <value>Age en années</value>
+          </text>
+          <text id="/data/person/register_other/age_years:hint">
+            <value>**L'age doit être compris entre 18 et 150**</value>
+          </text>
+          <text id="/data/person/register_other/selected_role:label">
+            <value>Rôle</value>
+          </text>
+          <text id="/data/person/register_other/selected_role/country_manager:label">
+            <value>Niveau National/Pays</value>
+          </text>
+          <text id="/data/person/register_other/selected_role/region_manager:label">
+            <value>Niveau Région/IRS</value>
+          </text>
+          <text id="/data/person/register_other/selected_role/prefecture_manager:label">
+            <value>Niveau Préfecture/District Sanitaire</value>
+          </text>
+          <text id="/data/person/register_other/selected_role/commune_manager:label">
+            <value>Niveau Commune</value>
+          </text>
+          <text id="/data/person/register_other/selected_role/hospital_manager:label">
+            <value>Niveau Centre de Santé</value>
+          </text>
+          <text id="/data/person/register_other/selected_role/chw:label">
+            <value>Niveau ASC</value>
+          </text>
+          <text id="/data/person/register_other/selected_role/reco:label">
+            <value>Niveau RECO</value>
+          </text>
+          <text id="/data/person/register_other/reco_code:jr:constraintMsg">
+            <value>Seul les chiffres et lettres en majuscule sont autorisés</value>
+          </text>
+          <text id="/data/person/register_other/reco_code:label">
+            <value>Code</value>
+          </text>
+          <text id="/data/person/register_other/reco_code:hint">
+            <value>1-9 A-Z</value>
+          </text>
+          <text id="/data/person/register_other/other_code:jr:constraintMsg">
+            <value>Seul les chiffres et lettres en majuscule sont autorisés</value>
+          </text>
+          <text id="/data/person/register_other/other_code:label">
+            <value>Code</value>
+          </text>
+          <text id="/data/person/register_other/other_code:hint">
+            <value>1-9 A-Z</value>
+          </text>
+          <text id="/data/person/register_other/phone:jr:constraintMsg">
+            <value>Format autorisé ( 9 Chiffres ) : XXXXXXXXX</value>
+          </text>
+          <text id="/data/person/register_other/phone:label">
+            <value>Numéro de téléphone</value>
+          </text>
+          <text id="/data/person/register_other/profession:label">
+            <value>Profession/Fonction</value>
+          </text>
+          <text id="/data/person/register_other/chw_email:jr:constraintMsg">
+            <value>Veuillez entrer une adresse e-mail valide.</value>
+          </text>
+          <text id="/data/person/register_other/chw_email:label">
+            <value>Email</value>
+          </text>
+          <text id="/data/person/register_other/other_email:jr:constraintMsg">
+            <value>Veuillez entrer une adresse e-mail valide.</value>
+          </text>
+          <text id="/data/person/register_other/other_email:label">
+            <value>Email</value>
+          </text>
+          <text id="/data/person/type:label">
+            <value>Type de personne</value>
+          </text>
+          <text id="/data/person/parent:label">
+            <value>Parent</value>
+          </text>
+        </translation>
       </itext>
       <instance>
         <data id="contact:person:edit" prefix="J1!contact:person:edit!" delimiter="#" version="2024-08-17  15-48">
@@ -954,7 +954,7 @@
       <bind nodeset="/data/inputs/meta/user_parent_name" type="string" calculate="/data/inputs/contact/parent/name"/>
       <bind nodeset="/data/inputs/meta/user_parent_external_id" type="string" calculate="/data/inputs/contact/parent/external_id"/>
       <bind nodeset="/data/inputs/meta/user_parent_code" type="string" calculate="/data/inputs/contact/parent/code"/>
-      <bind nodeset="/data/inputs/meta/access_not" type="select1" relevant="( /data/inputs/meta/user_role  = 'reco' and /data/person/register_patient/is_patient != 'true') or ( /data/inputs/meta/user_role  != 'reco' and  /data/inputs/user/facility_id  = /data/person/parent)" constraint=".='yesForAccess'" jr:constraintMsg="jr:itext('/data/inputs/meta/access_not:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/data/inputs/meta/access_not" type="select1" relevant="( /data/inputs/meta/user_role  = 'reco' and /data/person/register_patient/is_patient != 'true') or ( /data/inputs/meta/user_role  != 'reco' and  /data/inputs/user/facility_id  = /data/person/parent)" jr:constraintMsg="jr:itext('/data/inputs/meta/access_not:jr:constraintMsg')" constraint=".='yesForAccess'" required="true()"/>
       <bind nodeset="/data/inputs/meta/init" relevant=" /data/inputs/meta/user_role  != 'reco' or ( /data/inputs/meta/user_role  = 'reco' and /data/person/register_patient/is_household != 'true' and /data/person/register_patient/is_patient='true')"/>
       <bind nodeset="/data/inputs/meta/init/person_name" type="string" calculate="/data/person/name"/>
       <bind nodeset="/data/inputs/meta/init/person_place_name" type="string" calculate="../name"/>
@@ -963,14 +963,14 @@
       <bind nodeset="/data/inputs/meta/init/name" type="string" calculate="."/>
       <bind nodeset="/data/inputs/meta/init/note_place" readonly="true()" type="string"/>
       <bind nodeset="/data/inputs/meta/init/change_parent" type="select1" required="true()"/>
-      <bind nodeset="/data/inputs/meta/init/edited_place_type" type="select1" relevant="selected( /data/inputs/meta/init/change_parent , 'yes') and  /data/inputs/meta/user_role !='reco'" required="true()"/>
-      <bind nodeset="/data/inputs/meta/init/id_district_hospital" type="db:district_hospital" relevant="selected( /data/inputs/meta/init/change_parent , 'yes') and selected( /data/inputs/meta/init/edited_place_type , 'district_hospital')" required="true()"/>
-      <bind nodeset="/data/inputs/meta/init/id_health_center" type="db:health_center" relevant="selected( /data/inputs/meta/init/change_parent , 'yes') and selected( /data/inputs/meta/init/edited_place_type , 'health_center')" required="true()"/>
-      <bind nodeset="/data/inputs/meta/init/id_clinic" type="db:clinic" relevant="selected( /data/inputs/meta/init/change_parent , 'yes') and (selected( /data/inputs/meta/init/edited_place_type , 'clinic') or  /data/inputs/meta/user_role ='reco')" required="true()"/>
-      <bind nodeset="/data/person/pc0" type="string" relevant=" /data/inputs/meta/user_role ='reco'" required="true()" calculate="../register_patient/patient_code" readonly="true()"/>
-      <bind nodeset="/data/person/firstname" type="string" relevant=" /data/inputs/meta/user_role ='reco'" required="true()"/>
-      <bind nodeset="/data/person/lastname" type="string" relevant=" /data/inputs/meta/user_role ='reco'" required="true()"/>
-      <bind nodeset="/data/person/fullname" type="string" relevant=" /data/inputs/meta/user_role !='reco'" required="true()"/>
+      <bind nodeset="/data/inputs/meta/init/edited_place_type" type="select1" required="true()" relevant="selected( /data/inputs/meta/init/change_parent , 'yes') and  /data/inputs/meta/user_role !='reco'"/>
+      <bind nodeset="/data/inputs/meta/init/id_district_hospital" type="db:district_hospital" required="true()" relevant="selected( /data/inputs/meta/init/change_parent , 'yes') and selected( /data/inputs/meta/init/edited_place_type , 'district_hospital')"/>
+      <bind nodeset="/data/inputs/meta/init/id_health_center" type="db:health_center" required="true()" relevant="selected( /data/inputs/meta/init/change_parent , 'yes') and selected( /data/inputs/meta/init/edited_place_type , 'health_center')"/>
+      <bind nodeset="/data/inputs/meta/init/id_clinic" type="db:clinic" required="true()" relevant="selected( /data/inputs/meta/init/change_parent , 'yes') and (selected( /data/inputs/meta/init/edited_place_type , 'clinic') or  /data/inputs/meta/user_role ='reco')"/>
+      <bind nodeset="/data/person/pc0" type="string" required="true()" calculate="../register_patient/patient_code" relevant=" /data/inputs/meta/user_role ='reco'" readonly="true()"/>
+      <bind nodeset="/data/person/firstname" type="string" required="true()" relevant=" /data/inputs/meta/user_role ='reco'"/>
+      <bind nodeset="/data/person/lastname" type="string" required="true()" relevant=" /data/inputs/meta/user_role ='reco'"/>
+      <bind nodeset="/data/person/fullname" type="string" required="true()" relevant=" /data/inputs/meta/user_role !='reco'"/>
       <bind nodeset="/data/person/register_patient" relevant=" /data/inputs/meta/user_role ='reco'"/>
       <bind nodeset="/data/person/register_patient/is_household" type="string" required="true()"/>
       <bind nodeset="/data/person/register_patient/is_patient" type="string" required="true()"/>
@@ -979,38 +979,38 @@
       <bind nodeset="/data/person/register_patient/selected_sex" type="select1" required="true()"/>
       <bind nodeset="/data/person/register_patient/has_birth_certificate" type="select1" required="true()"/>
       <bind nodeset="/data/person/register_patient/dob_method" type="select1" required="true()"/>
-      <bind nodeset="/data/person/register_patient/dob_calendar" type="date" relevant="selected(../dob_method,'calendar')" constraint=".&lt;=today()" jr:constraintMsg="jr:itext('/data/person/register_patient/dob_calendar:jr:constraintMsg')" required="true()"/>
-      <bind nodeset="/data/person/register_patient/age_years" type="int" relevant="selected(../dob_method,'approx')" constraint=".&gt;=0 and .&lt;100" jr:constraintMsg="jr:itext('/data/person/register_patient/age_years:jr:constraintMsg')" required="true()"/>
-      <bind nodeset="/data/person/register_patient/age_months" type="int" relevant="selected(../dob_method,'approx')" constraint=". &gt;= 0 and . &lt;= 11" jr:constraintMsg="jr:itext('/data/person/register_patient/age_months:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/data/person/register_patient/dob_calendar" type="date" relevant="selected(../dob_method,'calendar')" jr:constraintMsg="jr:itext('/data/person/register_patient/dob_calendar:jr:constraintMsg')" constraint=".&lt;=today()" required="true()"/>
+      <bind nodeset="/data/person/register_patient/age_years" type="int" relevant="selected(../dob_method,'approx')" jr:constraintMsg="jr:itext('/data/person/register_patient/age_years:jr:constraintMsg')" constraint=".&gt;=0 and .&lt;100" required="true()"/>
+      <bind nodeset="/data/person/register_patient/age_months" type="int" relevant="selected(../dob_method,'approx')" jr:constraintMsg="jr:itext('/data/person/register_patient/age_months:jr:constraintMsg')" constraint=". &gt;= 0 and . &lt;= 11" required="true()"/>
       <bind nodeset="/data/person/register_patient/selected_date_of_birth" type="string" calculate="if(../dob_calendar='' and ../age_years='','',format-date-time(if(not(selected( ../dob_method,'approx')), ../dob_calendar, format-date-time( decimal-date-time( today() ) - (365.25 * ../age_years) - (30.5 * ../age_months ) - 0, &quot;%Y-%m-%d&quot; ) ),&quot;%Y-%m-%d&quot;))"/>
       <bind nodeset="/data/person/register_patient/patient_age_in_years" type="string" calculate="if(../selected_date_of_birth = '', '', floor( difference-in-months(../selected_date_of_birth, today() ) div 12 ) )"/>
-      <bind nodeset="/data/person/register_patient/patient_has_phone_0" type="select1" relevant=" /data/person/register_patient/patient_age_in_years &gt;=14" required="true()"/>
+      <bind nodeset="/data/person/register_patient/patient_has_phone_0" type="select1" required="true()" relevant=" /data/person/register_patient/patient_age_in_years &gt;=14"/>
       <bind nodeset="/data/person/register_patient/patient_has_phone" type="string" required="true()" calculate="if( /data/person/register_patient/patient_age_in_years &lt;14,'no', /data/person/register_patient/patient_has_phone_0 )"/>
-      <bind nodeset="/data/person/register_patient/phone" type="int" relevant="../patient_has_phone = 'yes'" constraint="regex(., '^\d{9}$')" jr:constraintMsg="jr:itext('/data/person/register_patient/phone:jr:constraintMsg')" required="true()"/>
-      <bind nodeset="/data/person/register_patient/phone_other" type="int" relevant="../patient_has_phone = 'no'" constraint="regex(., '^\d{9}$')" calculate="coalesce(., /data/inputs/meta/user_phone )" jr:constraintMsg="jr:itext('/data/person/register_patient/phone_other:jr:constraintMsg')"/>
-      <bind nodeset="/data/person/register_patient/rwhh_x" type="select1" relevant=" /data/person/register_patient/is_household  != 'true' and ../../firstname != '' and ../patient_age_in_years &gt;= 14" required="true()"/>
-      <bind nodeset="/data/person/register_patient/rwhh_y" type="select1" relevant=" /data/person/register_patient/is_household  != 'true' and ../../firstname != '' and ../patient_age_in_years &lt; 14" required="true()"/>
+      <bind nodeset="/data/person/register_patient/phone" type="int" relevant="../patient_has_phone = 'yes'" jr:constraintMsg="jr:itext('/data/person/register_patient/phone:jr:constraintMsg')" constraint="regex(., '^\d{9}$')" required="true()"/>
+      <bind nodeset="/data/person/register_patient/phone_other" type="int" relevant="../patient_has_phone = 'no'" calculate="coalesce(., /data/inputs/meta/user_phone )" jr:constraintMsg="jr:itext('/data/person/register_patient/phone_other:jr:constraintMsg')" constraint="regex(., '^\d{9}$')"/>
+      <bind nodeset="/data/person/register_patient/rwhh_x" type="select1" required="true()" relevant=" /data/person/register_patient/is_household  != 'true' and ../../firstname != '' and ../patient_age_in_years &gt;= 14"/>
+      <bind nodeset="/data/person/register_patient/rwhh_y" type="select1" required="true()" relevant=" /data/person/register_patient/is_household  != 'true' and ../../firstname != '' and ../patient_age_in_years &lt; 14"/>
       <bind nodeset="/data/person/register_patient/relationship_with_household_head" type="string" relevant=" /data/person/register_patient/is_household  != 'true'" calculate="if(../patient_age_in_years &gt;= 14,../rwhh_x,../rwhh_y)"/>
-      <bind nodeset="/data/person/register_patient/other_relationship" type="string" relevant="../relationship_with_household_head = 'others'" required="true()"/>
-      <bind nodeset="/data/person/register_patient/profession" type="select1" relevant="../patient_age_in_years &gt; 10" required="true()"/>
+      <bind nodeset="/data/person/register_patient/other_relationship" type="string" required="true()" relevant="../relationship_with_household_head = 'others'"/>
+      <bind nodeset="/data/person/register_patient/profession" type="select1" required="true()" relevant="../patient_age_in_years &gt; 10"/>
       <bind nodeset="/data/person/register_patient/other_profession" type="string" relevant="../patient_age_in_years &gt; 10 and ../profession = 'Autres'"/>
       <bind nodeset="/data/person/register_patient/no_birth_certificate_info" readonly="true()" type="string" relevant="../has_birth_certificate = 'no' and ../patient_age_in_years &lt; 5"/>
-      <bind nodeset="/data/person/register_patient/birth_certificate_referal" type="select1" relevant="../has_birth_certificate = 'no' and ../patient_age_in_years &lt; 5" required="true()"/>
-      <bind nodeset="/data/person/register_patient/no_birth_certificate_referal_reason" type="select1" relevant="../has_birth_certificate = 'no' and ../birth_certificate_referal = 'no' and ../patient_age_in_years &lt; 5" required="true()"/>
+      <bind nodeset="/data/person/register_patient/birth_certificate_referal" type="select1" required="true()" relevant="../has_birth_certificate = 'no' and ../patient_age_in_years &lt; 5"/>
+      <bind nodeset="/data/person/register_patient/no_birth_certificate_referal_reason" type="select1" required="true()" relevant="../has_birth_certificate = 'no' and ../birth_certificate_referal = 'no' and ../patient_age_in_years &lt; 5"/>
       <bind nodeset="/data/person/register_patient/no_birth_certificate_referal_reason_other" type="string" relevant="../has_birth_certificate = 'no' and ../birth_certificate_referal = 'no' and ../no_birth_certificate_referal_reason = 'others' and ../patient_age_in_years &lt; 5"/>
       <bind nodeset="/data/person/register_patient/birth_certificate_followup" readonly="true()" type="string" relevant="../has_birth_certificate = 'no' and ../birth_certificate_referal = 'yes' and ../patient_age_in_years &lt; 5"/>
       <bind nodeset="/data/person/register_other" relevant=" /data/inputs/meta/user_role !='reco'"/>
       <bind nodeset="/data/person/register_other/selected_sex" type="select1"/>
       <bind nodeset="/data/person/register_other/dob_method" type="string" calculate="concat('approx','')"/>
-      <bind nodeset="/data/person/register_other/age_years" type="int" constraint=". &gt;= 18 and .&lt;150" jr:constraintMsg="jr:itext('/data/person/register_other/age_years:jr:constraintMsg')"/>
+      <bind nodeset="/data/person/register_other/age_years" type="int" jr:constraintMsg="jr:itext('/data/person/register_other/age_years:jr:constraintMsg')" constraint=". &gt;= 18 and .&lt;150"/>
       <bind nodeset="/data/person/register_other/selected_date_of_birth" type="string" calculate="if(concat(../age_years,'')=&quot;&quot;,&quot;&quot;,format-date-time( decimal-date-time( today() ) - (365.25 * ../age_years) - 0 - 0, &quot;%Y-%m-%d&quot; ))"/>
       <bind nodeset="/data/person/register_other/selected_role" type="select1" required="true()"/>
-      <bind nodeset="/data/person/register_other/reco_code" type="string" relevant=" /data/person/register_other/selected_role ='reco'" constraint="regex(., '^[0-9A-Z]+$')" jr:constraintMsg="jr:itext('/data/person/register_other/reco_code:jr:constraintMsg')" required="true()"/>
-      <bind nodeset="/data/person/register_other/other_code" type="string" relevant=" /data/person/register_other/selected_role  !='reco'" constraint="regex(., '^[0-9A-Z]+$')" jr:constraintMsg="jr:itext('/data/person/register_other/other_code:jr:constraintMsg')"/>
-      <bind nodeset="/data/person/register_other/phone" type="int" required="true()" constraint="regex(., '^\d{9}$')" jr:constraintMsg="jr:itext('/data/person/register_other/phone:jr:constraintMsg')"/>
+      <bind nodeset="/data/person/register_other/reco_code" type="string" relevant=" /data/person/register_other/selected_role ='reco'" jr:constraintMsg="jr:itext('/data/person/register_other/reco_code:jr:constraintMsg')" constraint="regex(., '^[0-9A-Z]+$')" required="true()"/>
+      <bind nodeset="/data/person/register_other/other_code" type="string" relevant=" /data/person/register_other/selected_role  !='reco'" jr:constraintMsg="jr:itext('/data/person/register_other/other_code:jr:constraintMsg')" constraint="regex(., '^[0-9A-Z]+$')"/>
+      <bind nodeset="/data/person/register_other/phone" type="int" required="true()" jr:constraintMsg="jr:itext('/data/person/register_other/phone:jr:constraintMsg')" constraint="regex(., '^\d{9}$')"/>
       <bind nodeset="/data/person/register_other/profession" type="string" required="true()"/>
-      <bind nodeset="/data/person/register_other/chw_email" type="string" relevant=" /data/person/register_other/selected_role ='chw' or  /data/person/register_other/selected_role ='reco'" constraint="regex(., '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$')" jr:constraintMsg="jr:itext('/data/person/register_other/chw_email:jr:constraintMsg')"/>
-      <bind nodeset="/data/person/register_other/other_email" type="string" relevant=" /data/person/register_other/selected_role  !='chw' and  /data/person/register_other/selected_role  !='reco'" constraint="regex(., '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$')" jr:constraintMsg="jr:itext('/data/person/register_other/other_email:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/data/person/register_other/chw_email" type="string" relevant=" /data/person/register_other/selected_role ='chw' or  /data/person/register_other/selected_role ='reco'" jr:constraintMsg="jr:itext('/data/person/register_other/chw_email:jr:constraintMsg')" constraint="regex(., '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$')"/>
+      <bind nodeset="/data/person/register_other/other_email" type="string" relevant=" /data/person/register_other/selected_role  !='chw' and  /data/person/register_other/selected_role  !='reco'" jr:constraintMsg="jr:itext('/data/person/register_other/other_email:jr:constraintMsg')" constraint="regex(., '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$')" required="true()"/>
       <bind nodeset="/data/person/_id" type="string" readonly="true()"/>
       <bind nodeset="/data/person/type" type="string" readonly="true()"/>
       <bind nodeset="/data/person/parent" type="string" calculate="coalesce(coalesce(coalesce( /data/inputs/meta/init/id_district_hospital ,  /data/inputs/meta/init/id_health_center ),  /data/inputs/meta/init/id_clinic ),../parent)"/>

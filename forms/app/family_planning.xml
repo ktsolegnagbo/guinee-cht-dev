@@ -4,563 +4,6 @@
     <h:title>Planification familiale</h:title>
     <model>
       <itext>
-        <translation lang="en">
-          <text id="/family_planning/inputs/source:label">
-            <value>Source</value>
-          </text>
-          <text id="/family_planning/inputs/source_id:label">
-            <value>Source ID</value>
-          </text>
-          <text id="/family_planning/inputs/user/contact_id:label">
-            <value>Contact ID</value>
-          </text>
-          <text id="/family_planning/inputs/user/name:label">
-            <value>Username</value>
-          </text>
-          <text id="/family_planning/inputs/user/phone:label">
-            <value>Phone</value>
-          </text>
-          <text id="/family_planning/inputs/user/role:label">
-            <value>Role</value>
-          </text>
-          <text id="/family_planning/inputs/user/external_id:label">
-            <value>Externa Id</value>
-          </text>
-          <text id="/family_planning/inputs/contact:label">
-            <value>User Information</value>
-          </text>
-          <text id="/family_planning/inputs/contact/_id:label">
-            <value>Patient ID</value>
-          </text>
-          <text id="/family_planning/inputs/contact/name:label">
-            <value>Patient Name</value>
-          </text>
-          <text id="/family_planning/inputs/contact/sex:label">
-            <value>Patient Sex</value>
-          </text>
-          <text id="/family_planning/inputs/contact/date_of_birth:label">
-            <value>Patient Birth Date</value>
-          </text>
-          <text id="/family_planning/inputs/contact/external_id:label">
-            <value>Code Patient</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent:label">
-            <value>parent Information</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent/_id:label">
-            <value>Family UUID</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent/name:label">
-            <value>Family name</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent/external_id:label">
-            <value>Family external ID</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent/parent:label">
-            <value>Village/Secteur</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent/parent/_id:label">
-            <value>Village/Secteur ID</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent/parent/parent/_id:label">
-            <value>District/Quartier Id</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent/parent/parent/parent/_id:label">
-            <value>Hospital Id</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent/parent/parent/parent/parent/_id:label">
-            <value>Commune Id</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
-            <value>Prefecture Id</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
-            <value>Region Id</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
-            <value>Country Id</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent/parent/contact:label">
-            <value>RECO Information</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent/parent/contact/_id:label">
-            <value>RECO ID</value>
-          </text>
-          <text id="/family_planning/inputs/contact/parent/parent/contact/name:label">
-            <value>RECO Name</value>
-          </text>
-          <text id="/family_planning/user_id:label">
-            <value>User contact id</value>
-          </text>
-          <text id="/family_planning/user_phone:label">
-            <value>User phone</value>
-          </text>
-          <text id="/family_planning/patient_id:label">
-            <value>Patient ID</value>
-          </text>
-          <text id="/family_planning/patient_name:label">
-            <value>Patient Name</value>
-          </text>
-          <text id="/family_planning/patient_external_id:label">
-            <value>Code Patient</value>
-          </text>
-          <text id="/family_planning/patient_sex:label">
-            <value>Patient Sex</value>
-          </text>
-          <text id="/family_planning/patient_date_of_birth:label">
-            <value>Patient date_of_birth</value>
-          </text>
-          <text id="/family_planning/patient_age_in_years:label">
-            <value>Age in Years</value>
-          </text>
-          <text id="/family_planning/patient_age_in_months:label">
-            <value>Age In Months</value>
-          </text>
-          <text id="/family_planning/patient_age_in_days:label">
-            <value>Age In Days</value>
-          </text>
-          <text id="/family_planning/patient_age_display_fr:label">
-            <value>FR Age Display</value>
-          </text>
-          <text id="/family_planning/patient_age_display_en:label">
-            <value>EN Age Display</value>
-          </text>
-          <text id="/family_planning/patient_sex_en:label">
-            <value>FR Sex Display</value>
-          </text>
-          <text id="/family_planning/patient_sex_fr:label">
-            <value>EN Sex Display</value>
-          </text>
-          <text id="/family_planning/patient_family_name:label">
-            <value>Family name</value>
-          </text>
-          <text id="/family_planning/patient_family_external_id:label">
-            <value>Family external ID</value>
-          </text>
-          <text id="/family_planning/visited_contact_uuid:label">
-            <value>Family Id</value>
-          </text>
-          <text id="/family_planning/household_id:label">
-            <value>Household Id</value>
-          </text>
-          <text id="/family_planning/village_secteur_id:label">
-            <value>Village/Secteur ID</value>
-          </text>
-          <text id="/family_planning/district_quartier_id:label">
-            <value>District/Quartier Id</value>
-          </text>
-          <text id="/family_planning/hospital_id:label">
-            <value>Hospital Id</value>
-          </text>
-          <text id="/family_planning/commune_id:label">
-            <value>Commune Id</value>
-          </text>
-          <text id="/family_planning/prefecture_id:label">
-            <value>Prefecture Id</value>
-          </text>
-          <text id="/family_planning/region_id:label">
-            <value>Region Id</value>
-          </text>
-          <text id="/family_planning/country_id:label">
-            <value>Country Id</value>
-          </text>
-          <text id="/family_planning/c_planning:label">
-            <value>COUNSELING FOR PF</value>
-          </text>
-          <text id="/family_planning/c_planning/note0:label">
-            <value>**Veuillez sensibiliser la femme sur la PF**</value>
-          </text>
-          <text id="/family_planning/c_planning/c_has_counseling:label">
-            <value>Have you been made aware of PF?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_has_counseling/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/family_planning/c_planning/c_has_counseling/no:label">
-            <value>No</value>
-          </text>
-          <text id="/family_planning/c_planning/c_no_counseling_reason:label">
-            <value>Why was awareness not raised?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_already_use_method:label">
-            <value>Have you already used a method?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_already_use_method/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/family_planning/c_planning/c_already_use_method/no:label">
-            <value>No</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_already_used:label">
-            <value>What method was used?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_already_used/pill_coc:label">
-            <value>Pill - COC</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_already_used/pill_cop:label">
-            <value>Pill - COP</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_already_used/condoms:label">
-            <value>Condoms</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_already_used/dmpa_sc:label">
-            <value>DMPA-SC (Sayana Press)</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_already_used/depo_provera_im:label">
-            <value>Depo provera -IM</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_already_used/diu:label">
-            <value>DIU</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_already_used/implant:label">
-            <value>Implant</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_already_used/tubal_ligation:label">
-            <value>Tubal ligation</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_already_used/others:label">
-            <value>Others</value>
-          </text>
-          <text id="/family_planning/c_planning/c_currently_using_method:label">
-            <value>Are you currently on this method?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_currently_using_method/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/family_planning/c_planning/c_currently_using_method/no:label">
-            <value>No</value>
-          </text>
-          <text id="/family_planning/c_planning/c_want_change_method:label">
-            <value>Would you like to change method?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_want_change_method/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/family_planning/c_planning/c_want_change_method/no:label">
-            <value>No</value>
-          </text>
-          <text id="/family_planning/c_planning/c_want_renew_method:label">
-            <value>Would you like to repeat the method?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_want_renew_method/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/family_planning/c_planning/c_want_renew_method/no:label">
-            <value>No</value>
-          </text>
-          <text id="/family_planning/c_planning/c_want_renew_method_date:jr:constraintMsg">
-            <value>Date must be in the future</value>
-          </text>
-          <text id="/family_planning/c_planning/c_want_renew_method_date:label">
-            <value>When will the method be renewed?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_refuse_renew_method_reasons:label">
-            <value>Why do you want to renew the method anymore?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_new_method_wanted:label">
-            <value>Which method would you like to use?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_new_other_method_wanted:label">
-            <value>Enter the other method</value>
-          </text>
-          <text id="/family_planning/c_planning/c_who_will_give_method_selected:label">
-            <value>Who will give the method ?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_who_will_give_method_selected/reco:label">
-            <value>Reco</value>
-          </text>
-          <text id="/family_planning/c_planning/c_who_will_give_method_selected/health_center:label">
-            <value>Health Center</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_was_given:label">
-            <value>Is the chosen method administered?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_was_given/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_was_given/no:label">
-            <value>No</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_months_count_1:label">
-            <value>How long does the method last?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_months_count_2:label">
-            <value>How long does the method last?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_months_count_2/0:label">
-            <value>In Days</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_months_count_2/1:label">
-            <value>1 Month</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_months_count_2/2:label">
-            <value>2 Months</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_months_count_2/3:label">
-            <value>3 Months</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_days_count:jr:constraintMsg">
-            <value>The value must be between 1 and 29</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_days_count:label">
-            <value>Enter the number of days</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_days_count:hint">
-            <value>Between 1 and 29 days</value>
-          </text>
-          <text id="/family_planning/c_planning/c_condoms_quantity_given:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/family_planning/c_planning/c_condoms_quantity_given:label">
-            <value>How many condoms are given?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_start_today:label">
-            <value>Does the administered method start today?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_start_today/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_start_today/no:label">
-            <value>No</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_start_date:label">
-            <value>What is the start date of the method?</value>
-          </text>
-          <text id="/family_planning/c_planning/c_method_not_given_reason:label">
-            <value>Why was the method not administered?</value>
-          </text>
-          <text id="/family_planning/c_planning/i_no_counseling_reasons/refusal:label">
-            <value>Refusal</value>
-          </text>
-          <text id="/family_planning/c_planning/i_no_counseling_reasons/think_about_it:label">
-            <value>Think about it</value>
-          </text>
-          <text id="/family_planning/c_planning/i_no_counseling_reasons/want_babies:label">
-            <value>Want Babies</value>
-          </text>
-          <text id="/family_planning/c_planning/i_no_counseling_reasons/postponed:label">
-            <value>Postpone to a later date</value>
-          </text>
-          <text id="/family_planning/c_planning/i_no_counseling_reasons/others:label">
-            <value>Others</value>
-          </text>
-          <text id="/family_planning/c_planning/i_no_counseling_reasons/on_break:label">
-            <value>On break</value>
-          </text>
-          <text id="/family_planning/c_planning/i_refuse_renew_method_reasons/refusal:label">
-            <value>Refusal</value>
-          </text>
-          <text id="/family_planning/c_planning/i_refuse_renew_method_reasons/think_about_it:label">
-            <value>Think about it</value>
-          </text>
-          <text id="/family_planning/c_planning/i_refuse_renew_method_reasons/want_babies:label">
-            <value>Want Babies</value>
-          </text>
-          <text id="/family_planning/c_planning/i_refuse_renew_method_reasons/postponed:label">
-            <value>Postpone to a later date</value>
-          </text>
-          <text id="/family_planning/c_planning/i_refuse_renew_method_reasons/others:label">
-            <value>Others</value>
-          </text>
-          <text id="/family_planning/c_planning/i_refuse_renew_method_reasons/on_break:label">
-            <value>On break</value>
-          </text>
-          <text id="/family_planning/c_planning/i_method_not_given_reason/refusal:label">
-            <value>Refusal</value>
-          </text>
-          <text id="/family_planning/c_planning/i_method_not_given_reason/think_about_it:label">
-            <value>Think about it</value>
-          </text>
-          <text id="/family_planning/c_planning/i_method_not_given_reason/want_babies:label">
-            <value>Want Babies</value>
-          </text>
-          <text id="/family_planning/c_planning/i_method_not_given_reason/postponed:label">
-            <value>Postpone to a later date</value>
-          </text>
-          <text id="/family_planning/c_planning/i_method_not_given_reason/others:label">
-            <value>Others</value>
-          </text>
-          <text id="/family_planning/c_planning/i_method_not_given_reason/on_break:label">
-            <value>On break</value>
-          </text>
-          <text id="/family_planning/c_planning/i_fp_method/pill_coc:label">
-            <value>Pill - COC</value>
-          </text>
-          <text id="/family_planning/c_planning/i_fp_method/pill_cop:label">
-            <value>Pill - COP</value>
-          </text>
-          <text id="/family_planning/c_planning/i_fp_method/condoms:label">
-            <value>Condoms</value>
-          </text>
-          <text id="/family_planning/c_planning/i_fp_method/dmpa_sc:label">
-            <value>DMPA-SC (Sayana Press)</value>
-          </text>
-          <text id="/family_planning/c_planning/i_fp_method/depo_provera_im:label">
-            <value>Depo provera -IM</value>
-          </text>
-          <text id="/family_planning/c_planning/i_fp_method/diu:label">
-            <value>DIU</value>
-          </text>
-          <text id="/family_planning/c_planning/i_fp_method/implant:label">
-            <value>Implant</value>
-          </text>
-          <text id="/family_planning/c_planning/i_fp_method/tubal_ligation:label">
-            <value>Tubal ligation</value>
-          </text>
-          <text id="/family_planning/c_planning/i_fp_method/others:label">
-            <value>Others</value>
-          </text>
-          <text id="/family_planning/group_review/s_summary:label">
-            <value>Patient Summary&lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
-          </text>
-          <text id="/family_planning/group_review/s_patient_info_name:label">
-            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /family_planning/patient_name "/>&lt;/strong&gt;</value>
-          </text>
-          <text id="/family_planning/group_review/s_patient_info_sex:label">
-            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /family_planning/patient_sex_en "/>&lt;/strong&gt;</value>
-          </text>
-          <text id="/family_planning/group_review/s_patient_info_age:label">
-            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /family_planning/patient_age_display_en "/>&lt;/strong&gt;</value>
-          </text>
-          <text id="/family_planning/group_review/s_information_on_pf:label">
-            <value>Information on PF</value>
-          </text>
-          <text id="/family_planning/group_review/s_no_counseling:label">
-            <value>Reason for counseling not done: **<output value=" /family_planning/no_counseling_reasons_name "/>**</value>
-          </text>
-          <text id="/family_planning/group_review/s_method_selected:label">
-            <value>Chosen PF method: **<output value=" /family_planning/fp_method_name "/>**</value>
-          </text>
-          <text id="/family_planning/group_review/s_method_given:label">
-            <value>PF Method **<output value=" /family_planning/fp_method_name "/>** was administered</value>
-          </text>
-          <text id="/family_planning/group_review/s_method_not_renew_reason:label">
-            <value>Reason for not renewing the method: **<output value=" /family_planning/refuse_renew_method_reasons_name "/>**</value>
-          </text>
-          <text id="/family_planning/group_review/s_method_not_given_reason:label">
-            <value>Method reason not given: **<output value=" /family_planning/method_not_given_reason_name "/>**</value>
-          </text>
-          <text id="/family_planning/group_review/s_refer_USP:label">
-            <value>Referral to a health facility</value>
-          </text>
-          <text id="/family_planning/group_review/s_refer_FS_pf:label">
-            <value>Please refer the woman to a health facility for **FP** method not available</value>
-          </text>
-          <text id="/family_planning/group_review/s_referal_health_center:label">
-            <value>Select the reference health center</value>
-          </text>
-          <text id="/family_planning/group_review/s_referal_health_center/health_center:label">
-            <value>Health center</value>
-          </text>
-          <text id="/family_planning/group_review/s_referal_health_center/health_poste:label">
-            <value>Health poste</value>
-          </text>
-          <text id="/family_planning/group_review/s_referal_health_center/others:label">
-            <value>Others</value>
-          </text>
-          <text id="/family_planning/group_review/s_other_referal_health_center:label">
-            <value>Enter the name of the reference health facility</value>
-          </text>
-          <text id="/family_planning/group_review/followup:label">
-            <value>Follow up</value>
-          </text>
-          <text id="/family_planning/group_review/s_next_visit_date:label">
-            <value>You must do the side effects control on: **<output value=" /family_planning/fp_side_effects_control_date "/>**</value>
-          </text>
-          <text id="/family_planning/group_review/s_next_visit_date_renew_pf:label">
-            <value>You must renew this method on: **<output value=" /family_planning/next_fp_renew_date "/>**</value>
-          </text>
-          <text id="/family_planning/group_review/s_referal_followup:label">
-            <value>The reference follow-up visit is in **3 days**</value>
-          </text>
-          <text id="/family_planning/group_review/s_no_followup:label">
-            <value>**No Followup will be generated**</value>
-          </text>
-          <text id="static_instance-yes_no-0">
-            <value>Yes</value>
-          </text>
-          <text id="static_instance-yes_no-1">
-            <value>No</value>
-          </text>
-          <text id="static_instance-positive_negative-0">
-            <value>Positive</value>
-          </text>
-          <text id="static_instance-positive_negative-1">
-            <value>Negative</value>
-          </text>
-          <text id="static_instance-health_center_near-0">
-            <value>Health center</value>
-          </text>
-          <text id="static_instance-health_center_near-1">
-            <value>Health poste</value>
-          </text>
-          <text id="static_instance-health_center_near-2">
-            <value>Others</value>
-          </text>
-          <text id="static_instance-pf_reason_list-0">
-            <value>Refusal</value>
-          </text>
-          <text id="static_instance-pf_reason_list-1">
-            <value>Think about it</value>
-          </text>
-          <text id="static_instance-pf_reason_list-2">
-            <value>Want Babies</value>
-          </text>
-          <text id="static_instance-pf_reason_list-3">
-            <value>Postpone to a later date</value>
-          </text>
-          <text id="static_instance-pf_reason_list-4">
-            <value>Others</value>
-          </text>
-          <text id="static_instance-pf_reason_list-5">
-            <value>On break</value>
-          </text>
-          <text id="static_instance-method_pf_list-0">
-            <value>Pill - COC</value>
-          </text>
-          <text id="static_instance-method_pf_list-1">
-            <value>Pill - COP</value>
-          </text>
-          <text id="static_instance-method_pf_list-2">
-            <value>Condoms</value>
-          </text>
-          <text id="static_instance-method_pf_list-3">
-            <value>DMPA-SC (Sayana Press)</value>
-          </text>
-          <text id="static_instance-method_pf_list-4">
-            <value>Depo provera -IM</value>
-          </text>
-          <text id="static_instance-method_pf_list-5">
-            <value>DIU</value>
-          </text>
-          <text id="static_instance-method_pf_list-6">
-            <value>Implant</value>
-          </text>
-          <text id="static_instance-method_pf_list-7">
-            <value>Tubal ligation</value>
-          </text>
-          <text id="static_instance-method_pf_list-8">
-            <value>Others</value>
-          </text>
-          <text id="static_instance-pf_done_list-0">
-            <value>Reco</value>
-          </text>
-          <text id="static_instance-pf_done_list-1">
-            <value>Health Center</value>
-          </text>
-          <text id="static_instance-method_month_count_list-0">
-            <value>In Days</value>
-          </text>
-          <text id="static_instance-method_month_count_list-1">
-            <value>1 Month</value>
-          </text>
-          <text id="static_instance-method_month_count_list-2">
-            <value>2 Months</value>
-          </text>
-          <text id="static_instance-method_month_count_list-3">
-            <value>3 Months</value>
-          </text>
-        </translation>
         <translation lang="fr">
           <text id="/family_planning/inputs/source:label">
             <value>Source</value>
@@ -1118,6 +561,563 @@
             <value>3 Mois</value>
           </text>
         </translation>
+        <translation lang="en">
+          <text id="/family_planning/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/family_planning/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/family_planning/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/family_planning/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/family_planning/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/family_planning/inputs/user/role:label">
+            <value>Role</value>
+          </text>
+          <text id="/family_planning/inputs/user/external_id:label">
+            <value>Externa Id</value>
+          </text>
+          <text id="/family_planning/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/family_planning/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/family_planning/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/family_planning/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/family_planning/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/family_planning/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/family_planning/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/family_planning/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/family_planning/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/family_planning/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/family_planning/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/family_planning/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/family_planning/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/family_planning/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/family_planning/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/family_planning/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/family_planning/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/family_planning/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/family_planning/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/family_planning/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/family_planning/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/family_planning/patient_family_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/family_planning/patient_family_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/family_planning/visited_contact_uuid:label">
+            <value>Family Id</value>
+          </text>
+          <text id="/family_planning/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/family_planning/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/family_planning/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/family_planning/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/family_planning/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/family_planning/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/family_planning/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/family_planning/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/family_planning/c_planning:label">
+            <value>COUNSELING FOR PF</value>
+          </text>
+          <text id="/family_planning/c_planning/note0:label">
+            <value>**Veuillez sensibiliser la femme sur la PF**</value>
+          </text>
+          <text id="/family_planning/c_planning/c_has_counseling:label">
+            <value>Have you been made aware of PF?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_has_counseling/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/family_planning/c_planning/c_has_counseling/no:label">
+            <value>No</value>
+          </text>
+          <text id="/family_planning/c_planning/c_no_counseling_reason:label">
+            <value>Why was awareness not raised?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_already_use_method:label">
+            <value>Have you already used a method?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_already_use_method/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/family_planning/c_planning/c_already_use_method/no:label">
+            <value>No</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_already_used:label">
+            <value>What method was used?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_already_used/pill_coc:label">
+            <value>Pill - COC</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_already_used/pill_cop:label">
+            <value>Pill - COP</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_already_used/condoms:label">
+            <value>Condoms</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_already_used/dmpa_sc:label">
+            <value>DMPA-SC (Sayana Press)</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_already_used/depo_provera_im:label">
+            <value>Depo provera -IM</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_already_used/diu:label">
+            <value>DIU</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_already_used/implant:label">
+            <value>Implant</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_already_used/tubal_ligation:label">
+            <value>Tubal ligation</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_already_used/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/family_planning/c_planning/c_currently_using_method:label">
+            <value>Are you currently on this method?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_currently_using_method/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/family_planning/c_planning/c_currently_using_method/no:label">
+            <value>No</value>
+          </text>
+          <text id="/family_planning/c_planning/c_want_change_method:label">
+            <value>Would you like to change method?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_want_change_method/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/family_planning/c_planning/c_want_change_method/no:label">
+            <value>No</value>
+          </text>
+          <text id="/family_planning/c_planning/c_want_renew_method:label">
+            <value>Would you like to repeat the method?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_want_renew_method/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/family_planning/c_planning/c_want_renew_method/no:label">
+            <value>No</value>
+          </text>
+          <text id="/family_planning/c_planning/c_want_renew_method_date:jr:constraintMsg">
+            <value>Date must be in the future</value>
+          </text>
+          <text id="/family_planning/c_planning/c_want_renew_method_date:label">
+            <value>When will the method be renewed?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_refuse_renew_method_reasons:label">
+            <value>Why do you want to renew the method anymore?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_new_method_wanted:label">
+            <value>Which method would you like to use?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_new_other_method_wanted:label">
+            <value>Enter the other method</value>
+          </text>
+          <text id="/family_planning/c_planning/c_who_will_give_method_selected:label">
+            <value>Who will give the method ?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_who_will_give_method_selected/reco:label">
+            <value>Reco</value>
+          </text>
+          <text id="/family_planning/c_planning/c_who_will_give_method_selected/health_center:label">
+            <value>Health Center</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_was_given:label">
+            <value>Is the chosen method administered?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_was_given/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_was_given/no:label">
+            <value>No</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_months_count_1:label">
+            <value>How long does the method last?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_months_count_2:label">
+            <value>How long does the method last?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_months_count_2/0:label">
+            <value>In Days</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_months_count_2/1:label">
+            <value>1 Month</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_months_count_2/2:label">
+            <value>2 Months</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_months_count_2/3:label">
+            <value>3 Months</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_days_count:jr:constraintMsg">
+            <value>The value must be between 1 and 29</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_days_count:label">
+            <value>Enter the number of days</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_days_count:hint">
+            <value>Between 1 and 29 days</value>
+          </text>
+          <text id="/family_planning/c_planning/c_condoms_quantity_given:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/family_planning/c_planning/c_condoms_quantity_given:label">
+            <value>How many condoms are given?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_start_today:label">
+            <value>Does the administered method start today?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_start_today/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_start_today/no:label">
+            <value>No</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_start_date:label">
+            <value>What is the start date of the method?</value>
+          </text>
+          <text id="/family_planning/c_planning/c_method_not_given_reason:label">
+            <value>Why was the method not administered?</value>
+          </text>
+          <text id="/family_planning/c_planning/i_no_counseling_reasons/refusal:label">
+            <value>Refusal</value>
+          </text>
+          <text id="/family_planning/c_planning/i_no_counseling_reasons/think_about_it:label">
+            <value>Think about it</value>
+          </text>
+          <text id="/family_planning/c_planning/i_no_counseling_reasons/want_babies:label">
+            <value>Want Babies</value>
+          </text>
+          <text id="/family_planning/c_planning/i_no_counseling_reasons/postponed:label">
+            <value>Postpone to a later date</value>
+          </text>
+          <text id="/family_planning/c_planning/i_no_counseling_reasons/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/family_planning/c_planning/i_no_counseling_reasons/on_break:label">
+            <value>On break</value>
+          </text>
+          <text id="/family_planning/c_planning/i_refuse_renew_method_reasons/refusal:label">
+            <value>Refusal</value>
+          </text>
+          <text id="/family_planning/c_planning/i_refuse_renew_method_reasons/think_about_it:label">
+            <value>Think about it</value>
+          </text>
+          <text id="/family_planning/c_planning/i_refuse_renew_method_reasons/want_babies:label">
+            <value>Want Babies</value>
+          </text>
+          <text id="/family_planning/c_planning/i_refuse_renew_method_reasons/postponed:label">
+            <value>Postpone to a later date</value>
+          </text>
+          <text id="/family_planning/c_planning/i_refuse_renew_method_reasons/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/family_planning/c_planning/i_refuse_renew_method_reasons/on_break:label">
+            <value>On break</value>
+          </text>
+          <text id="/family_planning/c_planning/i_method_not_given_reason/refusal:label">
+            <value>Refusal</value>
+          </text>
+          <text id="/family_planning/c_planning/i_method_not_given_reason/think_about_it:label">
+            <value>Think about it</value>
+          </text>
+          <text id="/family_planning/c_planning/i_method_not_given_reason/want_babies:label">
+            <value>Want Babies</value>
+          </text>
+          <text id="/family_planning/c_planning/i_method_not_given_reason/postponed:label">
+            <value>Postpone to a later date</value>
+          </text>
+          <text id="/family_planning/c_planning/i_method_not_given_reason/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/family_planning/c_planning/i_method_not_given_reason/on_break:label">
+            <value>On break</value>
+          </text>
+          <text id="/family_planning/c_planning/i_fp_method/pill_coc:label">
+            <value>Pill - COC</value>
+          </text>
+          <text id="/family_planning/c_planning/i_fp_method/pill_cop:label">
+            <value>Pill - COP</value>
+          </text>
+          <text id="/family_planning/c_planning/i_fp_method/condoms:label">
+            <value>Condoms</value>
+          </text>
+          <text id="/family_planning/c_planning/i_fp_method/dmpa_sc:label">
+            <value>DMPA-SC (Sayana Press)</value>
+          </text>
+          <text id="/family_planning/c_planning/i_fp_method/depo_provera_im:label">
+            <value>Depo provera -IM</value>
+          </text>
+          <text id="/family_planning/c_planning/i_fp_method/diu:label">
+            <value>DIU</value>
+          </text>
+          <text id="/family_planning/c_planning/i_fp_method/implant:label">
+            <value>Implant</value>
+          </text>
+          <text id="/family_planning/c_planning/i_fp_method/tubal_ligation:label">
+            <value>Tubal ligation</value>
+          </text>
+          <text id="/family_planning/c_planning/i_fp_method/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/family_planning/group_review/s_summary:label">
+            <value>Patient Summary&lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/family_planning/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /family_planning/patient_name "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/family_planning/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /family_planning/patient_sex_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/family_planning/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /family_planning/patient_age_display_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/family_planning/group_review/s_information_on_pf:label">
+            <value>Information on PF</value>
+          </text>
+          <text id="/family_planning/group_review/s_no_counseling:label">
+            <value>Reason for counseling not done: **<output value=" /family_planning/no_counseling_reasons_name "/>**</value>
+          </text>
+          <text id="/family_planning/group_review/s_method_selected:label">
+            <value>Chosen PF method: **<output value=" /family_planning/fp_method_name "/>**</value>
+          </text>
+          <text id="/family_planning/group_review/s_method_given:label">
+            <value>PF Method **<output value=" /family_planning/fp_method_name "/>** was administered</value>
+          </text>
+          <text id="/family_planning/group_review/s_method_not_renew_reason:label">
+            <value>Reason for not renewing the method: **<output value=" /family_planning/refuse_renew_method_reasons_name "/>**</value>
+          </text>
+          <text id="/family_planning/group_review/s_method_not_given_reason:label">
+            <value>Method reason not given: **<output value=" /family_planning/method_not_given_reason_name "/>**</value>
+          </text>
+          <text id="/family_planning/group_review/s_refer_USP:label">
+            <value>Referral to a health facility</value>
+          </text>
+          <text id="/family_planning/group_review/s_refer_FS_pf:label">
+            <value>Please refer the woman to a health facility for **FP** method not available</value>
+          </text>
+          <text id="/family_planning/group_review/s_referal_health_center:label">
+            <value>Select the reference health center</value>
+          </text>
+          <text id="/family_planning/group_review/s_referal_health_center/health_center:label">
+            <value>Health center</value>
+          </text>
+          <text id="/family_planning/group_review/s_referal_health_center/health_poste:label">
+            <value>Health poste</value>
+          </text>
+          <text id="/family_planning/group_review/s_referal_health_center/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/family_planning/group_review/s_other_referal_health_center:label">
+            <value>Enter the name of the reference health facility</value>
+          </text>
+          <text id="/family_planning/group_review/followup:label">
+            <value>Follow up</value>
+          </text>
+          <text id="/family_planning/group_review/s_next_visit_date:label">
+            <value>You must do the side effects control on: **<output value=" /family_planning/fp_side_effects_control_date "/>**</value>
+          </text>
+          <text id="/family_planning/group_review/s_next_visit_date_renew_pf:label">
+            <value>You must renew this method on: **<output value=" /family_planning/next_fp_renew_date "/>**</value>
+          </text>
+          <text id="/family_planning/group_review/s_referal_followup:label">
+            <value>The reference follow-up visit is in **3 days**</value>
+          </text>
+          <text id="/family_planning/group_review/s_no_followup:label">
+            <value>**No Followup will be generated**</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-positive_negative-0">
+            <value>Positive</value>
+          </text>
+          <text id="static_instance-positive_negative-1">
+            <value>Negative</value>
+          </text>
+          <text id="static_instance-health_center_near-0">
+            <value>Health center</value>
+          </text>
+          <text id="static_instance-health_center_near-1">
+            <value>Health poste</value>
+          </text>
+          <text id="static_instance-health_center_near-2">
+            <value>Others</value>
+          </text>
+          <text id="static_instance-pf_reason_list-0">
+            <value>Refusal</value>
+          </text>
+          <text id="static_instance-pf_reason_list-1">
+            <value>Think about it</value>
+          </text>
+          <text id="static_instance-pf_reason_list-2">
+            <value>Want Babies</value>
+          </text>
+          <text id="static_instance-pf_reason_list-3">
+            <value>Postpone to a later date</value>
+          </text>
+          <text id="static_instance-pf_reason_list-4">
+            <value>Others</value>
+          </text>
+          <text id="static_instance-pf_reason_list-5">
+            <value>On break</value>
+          </text>
+          <text id="static_instance-method_pf_list-0">
+            <value>Pill - COC</value>
+          </text>
+          <text id="static_instance-method_pf_list-1">
+            <value>Pill - COP</value>
+          </text>
+          <text id="static_instance-method_pf_list-2">
+            <value>Condoms</value>
+          </text>
+          <text id="static_instance-method_pf_list-3">
+            <value>DMPA-SC (Sayana Press)</value>
+          </text>
+          <text id="static_instance-method_pf_list-4">
+            <value>Depo provera -IM</value>
+          </text>
+          <text id="static_instance-method_pf_list-5">
+            <value>DIU</value>
+          </text>
+          <text id="static_instance-method_pf_list-6">
+            <value>Implant</value>
+          </text>
+          <text id="static_instance-method_pf_list-7">
+            <value>Tubal ligation</value>
+          </text>
+          <text id="static_instance-method_pf_list-8">
+            <value>Others</value>
+          </text>
+          <text id="static_instance-pf_done_list-0">
+            <value>Reco</value>
+          </text>
+          <text id="static_instance-pf_done_list-1">
+            <value>Health Center</value>
+          </text>
+          <text id="static_instance-method_month_count_list-0">
+            <value>In Days</value>
+          </text>
+          <text id="static_instance-method_month_count_list-1">
+            <value>1 Month</value>
+          </text>
+          <text id="static_instance-method_month_count_list-2">
+            <value>2 Months</value>
+          </text>
+          <text id="static_instance-method_month_count_list-3">
+            <value>3 Months</value>
+          </text>
+        </translation>
       </itext>
       <instance>
         <family_planning id="family_planning" prefix="J1!family_planning!" delimiter="#" version="2024-08-17  19-29">
@@ -1333,33 +1333,33 @@
         <root>
           <item>
             <itextId>static_instance-pf_reason_list-0</itextId>
-            <name>refusal</name>
             <filter>1</filter>
+            <name>refusal</name>
           </item>
           <item>
             <itextId>static_instance-pf_reason_list-1</itextId>
-            <name>think_about_it</name>
             <filter>2</filter>
+            <name>think_about_it</name>
           </item>
           <item>
             <itextId>static_instance-pf_reason_list-2</itextId>
-            <name>want_babies</name>
             <filter>3</filter>
+            <name>want_babies</name>
           </item>
           <item>
             <itextId>static_instance-pf_reason_list-3</itextId>
-            <name>postponed</name>
             <filter>4</filter>
+            <name>postponed</name>
           </item>
           <item>
             <itextId>static_instance-pf_reason_list-4</itextId>
-            <name>others</name>
             <filter>5</filter>
+            <name>others</name>
           </item>
           <item>
             <itextId>static_instance-pf_reason_list-5</itextId>
-            <name>on_break</name>
             <filter>8</filter>
+            <name>on_break</name>
           </item>
         </root>
       </instance>
@@ -1367,48 +1367,48 @@
         <root>
           <item>
             <itextId>static_instance-method_pf_list-0</itextId>
-            <name>pill_coc</name>
             <filter>1</filter>
+            <name>pill_coc</name>
           </item>
           <item>
             <itextId>static_instance-method_pf_list-1</itextId>
-            <name>pill_cop</name>
             <filter>2</filter>
+            <name>pill_cop</name>
           </item>
           <item>
             <itextId>static_instance-method_pf_list-2</itextId>
-            <name>condoms</name>
             <filter>3</filter>
+            <name>condoms</name>
           </item>
           <item>
             <itextId>static_instance-method_pf_list-3</itextId>
-            <name>dmpa_sc</name>
             <filter>4</filter>
+            <name>dmpa_sc</name>
           </item>
           <item>
             <itextId>static_instance-method_pf_list-4</itextId>
-            <name>depo_provera_im</name>
             <filter>5</filter>
+            <name>depo_provera_im</name>
           </item>
           <item>
             <itextId>static_instance-method_pf_list-5</itextId>
-            <name>diu</name>
             <filter>6</filter>
+            <name>diu</name>
           </item>
           <item>
             <itextId>static_instance-method_pf_list-6</itextId>
-            <name>implant</name>
             <filter>7</filter>
+            <name>implant</name>
           </item>
           <item>
             <itextId>static_instance-method_pf_list-7</itextId>
-            <name>tubal_ligation</name>
             <filter>8</filter>
+            <name>tubal_ligation</name>
           </item>
           <item>
             <itextId>static_instance-method_pf_list-8</itextId>
-            <name>others</name>
             <filter>9</filter>
+            <name>others</name>
           </item>
         </root>
       </instance>
@@ -1428,23 +1428,23 @@
         <root>
           <item>
             <itextId>static_instance-method_month_count_list-0</itextId>
-            <name>0</name>
             <filter>0</filter>
+            <name>0</name>
           </item>
           <item>
             <itextId>static_instance-method_month_count_list-1</itextId>
-            <name>1</name>
             <filter>1</filter>
+            <name>1</name>
           </item>
           <item>
             <itextId>static_instance-method_month_count_list-2</itextId>
-            <name>2</name>
             <filter>2</filter>
+            <name>2</name>
           </item>
           <item>
             <itextId>static_instance-method_month_count_list-3</itextId>
-            <name>3</name>
             <filter>3</filter>
+            <name>3</name>
           </item>
         </root>
       </instance>
@@ -1499,62 +1499,62 @@
       <bind nodeset="/family_planning/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id"/>
       <bind nodeset="/family_planning/is_pregnant" type="string" calculate="&quot;false&quot;"/>
       <bind nodeset="/family_planning/has_counseling" type="string" calculate="if(../c_planning/c_has_counseling = '','',if(../c_planning/c_has_counseling = 'yes','true','false'))"/>
-      <bind nodeset="/family_planning/no_counseling_reasons" type="string" calculate="../c_planning/i_no_counseling_reasons" relevant="../has_counseling = 'false'"/>
-      <bind nodeset="/family_planning/no_counseling_reasons_name" type="string" calculate="if( /family_planning/no_counseling_reasons  = '','',jr:choice-name( /family_planning/c_planning/i_no_counseling_reasons ,' /family_planning/c_planning/i_no_counseling_reasons '))" relevant="../has_counseling = 'false'"/>
-      <bind nodeset="/family_planning/already_use_method" type="string" calculate="if(../c_planning/c_already_use_method = '','',if(../has_counseling = 'true' and ../c_planning/c_already_use_method = 'yes','true','false'))" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/method_already_used" type="string" calculate="if(../has_counseling = 'true' and ../already_use_method = 'true',../c_planning/c_method_already_used,'')" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/is_currently_using_method" type="string" calculate="if(../c_planning/c_currently_using_method = '','',if(../has_counseling = 'true' and ../already_use_method = 'true' and ../c_planning/c_currently_using_method = 'yes','true','false'))" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/has_changed_method" type="string" calculate="if(../c_planning/c_want_change_method = '','',if(../has_counseling = 'true' and ../c_planning/c_want_change_method = 'yes','true','false'))" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/want_renew_method" type="string" calculate="if(../c_planning/c_want_renew_method = '','',if(../has_counseling = 'true' and ../c_planning/c_want_renew_method = 'yes','true','false'))" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/want_renew_method_date" type="string" calculate="if(../has_counseling = 'true' and ../want_renew_method = 'true',../c_planning/c_want_renew_method_date,'')" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/refuse_renew_method_reasons" type="string" calculate="../c_planning/i_refuse_renew_method_reasons" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/refuse_renew_method_reasons_name" type="string" calculate="if( /family_planning/refuse_renew_method_reasons  = '','',jr:choice-name( /family_planning/c_planning/i_refuse_renew_method_reasons ,' /family_planning/c_planning/i_refuse_renew_method_reasons '))" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/new_method_wanted" type="string" calculate="if(../has_counseling = 'true' and ../c_planning/c_new_method_wanted != '',../c_planning/c_new_method_wanted,'')" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/who_will_give_method" type="string" calculate="if(../has_counseling = 'true',../c_planning/c_who_will_give_method,'')" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/method_was_given" type="string" calculate="if(../c_planning/c_method_was_given = '','',if(../has_counseling = 'true' and ../c_planning/c_method_was_given = 'yes','true','false'))" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/method_start_date" type="string" calculate="if(../has_counseling = 'true' and ../method_was_given = 'true',if(../c_planning/c_method_start_today = 'yes',format-date-time( decimal-date-time( today() ), &quot;%Y-%m-%d&quot; ),../c_planning/c_method_start_date),'')" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/method_not_given_reason" type="string" calculate="../c_planning/i_method_not_given_reason" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/method_not_given_reason_name" type="string" calculate="if( /family_planning/method_not_given_reason  = '','',jr:choice-name( /family_planning/c_planning/i_method_not_given_reason ,' /family_planning/c_planning/i_method_not_given_reason '))" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/is_method_avaible_reco" type="string" calculate="if(../fp_method = '','',if(../fp_method = 'pill_coc' or ../fp_method = 'pill_cop' or ../fp_method = 'condoms' or ../fp_method = 'dmpa_sc','true','false'))" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/fp_method" type="string" calculate="../c_planning/i_fp_method" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/fp_method_name" type="string" calculate="if( /family_planning/fp_method  = '','', jr:choice-name( /family_planning/c_planning/i_fp_method ,' /family_planning/c_planning/i_fp_method '))" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/fp_method_duration" type="string" calculate="if(../fp_method = '',0,if(../fp_method = 'dmpa_sc',90,if( /family_planning/c_planning/c_method_months_count  = '',0,if( /family_planning/c_planning/c_method_months_count  = 0,if( /family_planning/c_planning/c_method_days_count  = '',0, /family_planning/c_planning/c_method_days_count ), /family_planning/c_planning/c_method_months_count  * 30))))" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/fp_side_effects_control_date" type="string" calculate="if(../want_renew_method_date != '','',if(../method_start_date != '',format-date-time( decimal-date-time(../method_start_date) + 7, &quot;%Y-%m-%d&quot; ),''))" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/fp_side_effects_control_date_fr" type="string" calculate="if(../fp_side_effects_control_date = '','',format-date-time( decimal-date-time(../fp_side_effects_control_date),&quot;%d/%m/%Y&quot; ))" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/next_fp_renew_date" type="string" calculate="if(../want_renew_method_date != '',../want_renew_method_date,if(../method_start_date != '',format-date-time( decimal-date-time(../method_start_date) + ../fp_method_duration, &quot;%Y-%m-%d&quot; ),''))" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/next_fp_renew_date_fr" type="string" calculate="if(../next_fp_renew_date = '','',format-date-time( decimal-date-time(../next_fp_renew_date), &quot;%d/%m/%Y&quot; ))" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/has_fp_side_effect" type="string" calculate="if(selected(../method_not_given_reason,'side_effect'),'true','false')" relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/method_months_count_1" type="string" calculate=" /family_planning/c_planning/c_method_months_count_1 " relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/method_months_count_2" type="string" calculate=" /family_planning/c_planning/c_method_months_count_2 " relevant="../has_counseling = 'true'"/>
-      <bind nodeset="/family_planning/condoms_quantity_given" type="string" calculate=" /family_planning/c_planning/c_condoms_quantity_given " relevant="../has_counseling = 'true'"/>
+      <bind nodeset="/family_planning/no_counseling_reasons" type="string" relevant="../has_counseling = 'false'" calculate="../c_planning/i_no_counseling_reasons"/>
+      <bind nodeset="/family_planning/no_counseling_reasons_name" type="string" relevant="../has_counseling = 'false'" calculate="if( /family_planning/no_counseling_reasons  = '','',jr:choice-name( /family_planning/c_planning/i_no_counseling_reasons ,' /family_planning/c_planning/i_no_counseling_reasons '))"/>
+      <bind nodeset="/family_planning/already_use_method" type="string" relevant="../has_counseling = 'true'" calculate="if(../c_planning/c_already_use_method = '','',if(../has_counseling = 'true' and ../c_planning/c_already_use_method = 'yes','true','false'))"/>
+      <bind nodeset="/family_planning/method_already_used" type="string" relevant="../has_counseling = 'true'" calculate="if(../has_counseling = 'true' and ../already_use_method = 'true',../c_planning/c_method_already_used,'')"/>
+      <bind nodeset="/family_planning/is_currently_using_method" type="string" relevant="../has_counseling = 'true'" calculate="if(../c_planning/c_currently_using_method = '','',if(../has_counseling = 'true' and ../already_use_method = 'true' and ../c_planning/c_currently_using_method = 'yes','true','false'))"/>
+      <bind nodeset="/family_planning/has_changed_method" type="string" relevant="../has_counseling = 'true'" calculate="if(../c_planning/c_want_change_method = '','',if(../has_counseling = 'true' and ../c_planning/c_want_change_method = 'yes','true','false'))"/>
+      <bind nodeset="/family_planning/want_renew_method" type="string" relevant="../has_counseling = 'true'" calculate="if(../c_planning/c_want_renew_method = '','',if(../has_counseling = 'true' and ../c_planning/c_want_renew_method = 'yes','true','false'))"/>
+      <bind nodeset="/family_planning/want_renew_method_date" type="string" relevant="../has_counseling = 'true'" calculate="if(../has_counseling = 'true' and ../want_renew_method = 'true',../c_planning/c_want_renew_method_date,'')"/>
+      <bind nodeset="/family_planning/refuse_renew_method_reasons" type="string" relevant="../has_counseling = 'true'" calculate="../c_planning/i_refuse_renew_method_reasons"/>
+      <bind nodeset="/family_planning/refuse_renew_method_reasons_name" type="string" relevant="../has_counseling = 'true'" calculate="if( /family_planning/refuse_renew_method_reasons  = '','',jr:choice-name( /family_planning/c_planning/i_refuse_renew_method_reasons ,' /family_planning/c_planning/i_refuse_renew_method_reasons '))"/>
+      <bind nodeset="/family_planning/new_method_wanted" type="string" relevant="../has_counseling = 'true'" calculate="if(../has_counseling = 'true' and ../c_planning/c_new_method_wanted != '',../c_planning/c_new_method_wanted,'')"/>
+      <bind nodeset="/family_planning/who_will_give_method" type="string" relevant="../has_counseling = 'true'" calculate="if(../has_counseling = 'true',../c_planning/c_who_will_give_method,'')"/>
+      <bind nodeset="/family_planning/method_was_given" type="string" relevant="../has_counseling = 'true'" calculate="if(../c_planning/c_method_was_given = '','',if(../has_counseling = 'true' and ../c_planning/c_method_was_given = 'yes','true','false'))"/>
+      <bind nodeset="/family_planning/method_start_date" type="string" relevant="../has_counseling = 'true'" calculate="if(../has_counseling = 'true' and ../method_was_given = 'true',if(../c_planning/c_method_start_today = 'yes',format-date-time( decimal-date-time( today() ), &quot;%Y-%m-%d&quot; ),../c_planning/c_method_start_date),'')"/>
+      <bind nodeset="/family_planning/method_not_given_reason" type="string" relevant="../has_counseling = 'true'" calculate="../c_planning/i_method_not_given_reason"/>
+      <bind nodeset="/family_planning/method_not_given_reason_name" type="string" relevant="../has_counseling = 'true'" calculate="if( /family_planning/method_not_given_reason  = '','',jr:choice-name( /family_planning/c_planning/i_method_not_given_reason ,' /family_planning/c_planning/i_method_not_given_reason '))"/>
+      <bind nodeset="/family_planning/is_method_avaible_reco" type="string" relevant="../has_counseling = 'true'" calculate="if(../fp_method = '','',if(../fp_method = 'pill_coc' or ../fp_method = 'pill_cop' or ../fp_method = 'condoms' or ../fp_method = 'dmpa_sc','true','false'))"/>
+      <bind nodeset="/family_planning/fp_method" type="string" relevant="../has_counseling = 'true'" calculate="../c_planning/i_fp_method"/>
+      <bind nodeset="/family_planning/fp_method_name" type="string" relevant="../has_counseling = 'true'" calculate="if( /family_planning/fp_method  = '','', jr:choice-name( /family_planning/c_planning/i_fp_method ,' /family_planning/c_planning/i_fp_method '))"/>
+      <bind nodeset="/family_planning/fp_method_duration" type="string" relevant="../has_counseling = 'true'" calculate="if(../fp_method = '',0,if(../fp_method = 'dmpa_sc',90,if( /family_planning/c_planning/c_method_months_count  = '',0,if( /family_planning/c_planning/c_method_months_count  = 0,if( /family_planning/c_planning/c_method_days_count  = '',0, /family_planning/c_planning/c_method_days_count ), /family_planning/c_planning/c_method_months_count  * 30))))"/>
+      <bind nodeset="/family_planning/fp_side_effects_control_date" type="string" relevant="../has_counseling = 'true'" calculate="if(../want_renew_method_date != '','',if(../method_start_date != '',format-date-time( decimal-date-time(../method_start_date) + 7, &quot;%Y-%m-%d&quot; ),''))"/>
+      <bind nodeset="/family_planning/fp_side_effects_control_date_fr" type="string" relevant="../has_counseling = 'true'" calculate="if(../fp_side_effects_control_date = '','',format-date-time( decimal-date-time(../fp_side_effects_control_date),&quot;%d/%m/%Y&quot; ))"/>
+      <bind nodeset="/family_planning/next_fp_renew_date" type="string" relevant="../has_counseling = 'true'" calculate="if(../want_renew_method_date != '',../want_renew_method_date,if(../method_start_date != '',format-date-time( decimal-date-time(../method_start_date) + ../fp_method_duration, &quot;%Y-%m-%d&quot; ),''))"/>
+      <bind nodeset="/family_planning/next_fp_renew_date_fr" type="string" relevant="../has_counseling = 'true'" calculate="if(../next_fp_renew_date = '','',format-date-time( decimal-date-time(../next_fp_renew_date), &quot;%d/%m/%Y&quot; ))"/>
+      <bind nodeset="/family_planning/has_fp_side_effect" type="string" relevant="../has_counseling = 'true'" calculate="if(selected(../method_not_given_reason,'side_effect'),'true','false')"/>
+      <bind nodeset="/family_planning/method_months_count_1" type="string" relevant="../has_counseling = 'true'" calculate=" /family_planning/c_planning/c_method_months_count_1 "/>
+      <bind nodeset="/family_planning/method_months_count_2" type="string" relevant="../has_counseling = 'true'" calculate=" /family_planning/c_planning/c_method_months_count_2 "/>
+      <bind nodeset="/family_planning/condoms_quantity_given" type="string" relevant="../has_counseling = 'true'" calculate=" /family_planning/c_planning/c_condoms_quantity_given "/>
       <bind nodeset="/family_planning/is_referred" type="string" calculate="if(../method_already_used = 'tubal_ligation','false',if(../has_counseling = 'true' and ((../is_method_avaible_reco = 'false' or ../is_method_avaible_reco = 'true') and (../method_was_given = 'false' and (../method_not_given_reason = 'on_break' or ../method_not_given_reason = 'side_effect') or ../who_will_give_method = 'health_center' or ../has_changed_method = 'false' and ../want_renew_method = 'true' and ../want_renew_method_date != '' and ../want_renew_method_date &lt;= today())),'true','false'))"/>
       <bind nodeset="/family_planning/c_planning/note0" readonly="true()" type="string"/>
       <bind nodeset="/family_planning/c_planning/c_has_counseling" type="select1" required="true()"/>
-      <bind nodeset="/family_planning/c_planning/c_no_counseling_reason" type="select1" required="true()" relevant="../c_has_counseling = 'no'"/>
-      <bind nodeset="/family_planning/c_planning/c_already_use_method" type="select1" required="true()" relevant="../c_has_counseling = 'yes'"/>
-      <bind nodeset="/family_planning/c_planning/c_method_already_used" type="select1" required="true()" relevant="../c_has_counseling = 'yes' and ../c_already_use_method = 'yes'"/>
-      <bind nodeset="/family_planning/c_planning/c_currently_using_method" type="select1" required="true()" relevant="../c_has_counseling = 'yes' and ../c_already_use_method = 'yes' and ../c_method_already_used != 'tubal_ligation'"/>
-      <bind nodeset="/family_planning/c_planning/c_want_change_method" type="select1" required="true()" relevant="../c_has_counseling = 'yes' and ../c_already_use_method = 'yes' and ../c_currently_using_method = 'yes' and ../c_method_already_used != 'tubal_ligation'"/>
-      <bind nodeset="/family_planning/c_planning/c_want_renew_method" type="select1" required="true()" relevant="../c_has_counseling = 'yes' and ../c_already_use_method = 'yes' and ../c_currently_using_method = 'yes' and ../c_want_change_method = 'no' and ../c_method_already_used != 'tubal_ligation'"/>
-      <bind nodeset="/family_planning/c_planning/c_want_renew_method_date" type="date" constraint=". &gt;= today()" jr:constraintMsg="jr:itext('/family_planning/c_planning/c_want_renew_method_date:jr:constraintMsg')" required="true()" relevant="../c_has_counseling = 'yes' and ../c_already_use_method = 'yes' and ../c_currently_using_method = 'yes' and ../c_want_change_method = 'no' and ../c_want_renew_method = 'yes' and ../c_method_already_used != 'tubal_ligation'"/>
-      <bind nodeset="/family_planning/c_planning/c_refuse_renew_method_reasons" type="select1" required="true()" relevant="../c_has_counseling = 'yes' and ../c_already_use_method = 'yes' and ../c_currently_using_method = 'yes' and ../c_want_change_method = 'no' and ../c_want_renew_method = 'no' and ../c_method_already_used != 'tubal_ligation'"/>
-      <bind nodeset="/family_planning/c_planning/c_new_method_wanted" type="select1" required="true()" relevant="../c_has_counseling = 'yes' and (../c_already_use_method = 'no' or ../c_already_use_method = 'yes' and ../c_want_change_method = 'yes' or ../c_currently_using_method = 'no') and ../c_method_already_used != 'tubal_ligation'"/>
-      <bind nodeset="/family_planning/c_planning/c_new_other_method_wanted" type="string" required="true()" relevant="../c_has_counseling = 'yes' and ../c_new_method_wanted= 'others'"/>
-      <bind nodeset="/family_planning/c_planning/c_who_will_give_method_selected" type="select1" required="true()" relevant="../c_has_counseling = 'yes' and  /family_planning/is_method_avaible_reco  = 'true' and ((../c_already_use_method = 'no' or ../c_want_change_method = 'yes') and ../c_new_method_wanted != '' or ../c_want_renew_method = 'yes' or ../c_currently_using_method = 'no') and ../c_method_already_used != 'tubal_ligation'"/>
+      <bind nodeset="/family_planning/c_planning/c_no_counseling_reason" type="select1" relevant="../c_has_counseling = 'no'" required="true()"/>
+      <bind nodeset="/family_planning/c_planning/c_already_use_method" type="select1" relevant="../c_has_counseling = 'yes'" required="true()"/>
+      <bind nodeset="/family_planning/c_planning/c_method_already_used" type="select1" relevant="../c_has_counseling = 'yes' and ../c_already_use_method = 'yes'" required="true()"/>
+      <bind nodeset="/family_planning/c_planning/c_currently_using_method" type="select1" relevant="../c_has_counseling = 'yes' and ../c_already_use_method = 'yes' and ../c_method_already_used != 'tubal_ligation'" required="true()"/>
+      <bind nodeset="/family_planning/c_planning/c_want_change_method" type="select1" relevant="../c_has_counseling = 'yes' and ../c_already_use_method = 'yes' and ../c_currently_using_method = 'yes' and ../c_method_already_used != 'tubal_ligation'" required="true()"/>
+      <bind nodeset="/family_planning/c_planning/c_want_renew_method" type="select1" relevant="../c_has_counseling = 'yes' and ../c_already_use_method = 'yes' and ../c_currently_using_method = 'yes' and ../c_want_change_method = 'no' and ../c_method_already_used != 'tubal_ligation'" required="true()"/>
+      <bind nodeset="/family_planning/c_planning/c_want_renew_method_date" type="date" relevant="../c_has_counseling = 'yes' and ../c_already_use_method = 'yes' and ../c_currently_using_method = 'yes' and ../c_want_change_method = 'no' and ../c_want_renew_method = 'yes' and ../c_method_already_used != 'tubal_ligation'" required="true()" jr:constraintMsg="jr:itext('/family_planning/c_planning/c_want_renew_method_date:jr:constraintMsg')" constraint=". &gt;= today()"/>
+      <bind nodeset="/family_planning/c_planning/c_refuse_renew_method_reasons" type="select1" relevant="../c_has_counseling = 'yes' and ../c_already_use_method = 'yes' and ../c_currently_using_method = 'yes' and ../c_want_change_method = 'no' and ../c_want_renew_method = 'no' and ../c_method_already_used != 'tubal_ligation'" required="true()"/>
+      <bind nodeset="/family_planning/c_planning/c_new_method_wanted" type="select1" relevant="../c_has_counseling = 'yes' and (../c_already_use_method = 'no' or ../c_already_use_method = 'yes' and ../c_want_change_method = 'yes' or ../c_currently_using_method = 'no') and ../c_method_already_used != 'tubal_ligation'" required="true()"/>
+      <bind nodeset="/family_planning/c_planning/c_new_other_method_wanted" type="string" relevant="../c_has_counseling = 'yes' and ../c_new_method_wanted= 'others'" required="true()"/>
+      <bind nodeset="/family_planning/c_planning/c_who_will_give_method_selected" type="select1" relevant="../c_has_counseling = 'yes' and  /family_planning/is_method_avaible_reco  = 'true' and ((../c_already_use_method = 'no' or ../c_want_change_method = 'yes') and ../c_new_method_wanted != '' or ../c_want_renew_method = 'yes' or ../c_currently_using_method = 'no') and ../c_method_already_used != 'tubal_ligation'" required="true()"/>
       <bind nodeset="/family_planning/c_planning/c_who_will_give_method" type="string" calculate="if(../c_has_counseling = 'yes' and  /family_planning/is_method_avaible_reco  = 'true' and ((../c_already_use_method = 'no' or ../c_want_change_method = 'yes') and ../c_new_method_wanted != '' or ../c_want_renew_method = 'yes' or ../c_currently_using_method = 'no'),../c_who_will_give_method_selected,if(../c_has_counseling = 'yes' and  /family_planning/is_method_avaible_reco  = 'false' and ((../c_already_use_method = 'no' or ../c_want_change_method = 'yes') and ../c_new_method_wanted != '' or ../c_want_renew_method = 'yes' or ../c_currently_using_method = 'no'),'health_center',''))"/>
-      <bind nodeset="/family_planning/c_planning/c_method_was_given" type="select1" required="true()" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and (../c_already_use_method= 'no' or ../c_currently_using_method = 'no' or ../c_already_use_method= 'yes' and (../c_want_change_method = 'yes' or ../c_want_renew_method = 'yes' and ../c_want_renew_method_date = today())) and ../c_method_already_used != 'tubal_ligation'"/>
-      <bind nodeset="/family_planning/c_planning/c_method_months_count_1" type="select1" required="true()" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and (../c_already_use_method= 'no' or ../c_currently_using_method = 'no' or ../c_already_use_method= 'yes' and (../c_want_change_method = 'yes' or ../c_want_renew_method = 'yes' and ../c_want_renew_method_date = today())) and  /family_planning/is_method_avaible_reco  = 'true' and  /family_planning/fp_method  != 'dmpa_sc' and  /family_planning/fp_method  != 'condoms' and ../c_method_was_given = 'yes' and ../c_method_already_used != 'tubal_ligation'"/>
-      <bind nodeset="/family_planning/c_planning/c_method_months_count_2" type="select1" required="true()" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and (../c_already_use_method= 'no' or ../c_currently_using_method = 'no' or ../c_already_use_method= 'yes' and (../c_want_change_method = 'yes' or ../c_want_renew_method = 'yes' and ../c_want_renew_method_date = today())) and  /family_planning/is_method_avaible_reco  = 'true' and  /family_planning/fp_method  != 'dmpa_sc' and  /family_planning/fp_method  = 'condoms' and ../c_method_was_given = 'yes' and ../c_method_already_used != 'tubal_ligation'"/>
+      <bind nodeset="/family_planning/c_planning/c_method_was_given" type="select1" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and (../c_already_use_method= 'no' or ../c_currently_using_method = 'no' or ../c_already_use_method= 'yes' and (../c_want_change_method = 'yes' or ../c_want_renew_method = 'yes' and ../c_want_renew_method_date = today())) and ../c_method_already_used != 'tubal_ligation'" required="true()"/>
+      <bind nodeset="/family_planning/c_planning/c_method_months_count_1" type="select1" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and (../c_already_use_method= 'no' or ../c_currently_using_method = 'no' or ../c_already_use_method= 'yes' and (../c_want_change_method = 'yes' or ../c_want_renew_method = 'yes' and ../c_want_renew_method_date = today())) and  /family_planning/is_method_avaible_reco  = 'true' and  /family_planning/fp_method  != 'dmpa_sc' and  /family_planning/fp_method  != 'condoms' and ../c_method_was_given = 'yes' and ../c_method_already_used != 'tubal_ligation'" required="true()"/>
+      <bind nodeset="/family_planning/c_planning/c_method_months_count_2" type="select1" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and (../c_already_use_method= 'no' or ../c_currently_using_method = 'no' or ../c_already_use_method= 'yes' and (../c_want_change_method = 'yes' or ../c_want_renew_method = 'yes' and ../c_want_renew_method_date = today())) and  /family_planning/is_method_avaible_reco  = 'true' and  /family_planning/fp_method  != 'dmpa_sc' and  /family_planning/fp_method  = 'condoms' and ../c_method_was_given = 'yes' and ../c_method_already_used != 'tubal_ligation'" required="true()"/>
       <bind nodeset="/family_planning/c_planning/c_method_months_count" type="string" required="true()" calculate="if( /family_planning/fp_method  != 'condoms', /family_planning/c_planning/c_method_months_count_1 , /family_planning/c_planning/c_method_months_count_2 )"/>
-      <bind nodeset="/family_planning/c_planning/c_method_days_count" type="int" constraint=". &gt;= 1 and . &lt; 30" jr:constraintMsg="jr:itext('/family_planning/c_planning/c_method_days_count:jr:constraintMsg')" required="true()" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and (../c_already_use_method= 'no' or ../c_currently_using_method = 'no' or ../c_already_use_method= 'yes' and (../c_want_change_method = 'yes' or ../c_want_renew_method = 'yes' and ../c_want_renew_method_date = today())) and  /family_planning/is_method_avaible_reco  = 'true' and  /family_planning/fp_method  != 'dmpa_sc' and ../c_method_was_given = 'yes' and ../c_method_months_count = 0 and ../c_method_already_used != 'tubal_ligation'"/>
-      <bind nodeset="/family_planning/c_planning/c_condoms_quantity_given" type="int" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/family_planning/c_planning/c_condoms_quantity_given:jr:constraintMsg')" required="true()" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and (../c_already_use_method= 'no' or ../c_currently_using_method = 'no' or ../c_already_use_method= 'yes' and (../c_want_change_method = 'yes' or ../c_want_renew_method = 'yes' and ../c_want_renew_method_date = today())) and  /family_planning/is_method_avaible_reco  = 'true' and  /family_planning/fp_method  != 'dmpa_sc' and  /family_planning/fp_method  = 'condoms' and ../c_method_was_given = 'yes' and ../c_method_already_used != 'tubal_ligation'"/>
-      <bind nodeset="/family_planning/c_planning/c_method_start_today" type="select1" required="true()" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and (../c_already_use_method= 'no' or ../c_currently_using_method = 'no' or ../c_already_use_method= 'yes' and (../c_want_change_method = 'yes' or ../c_want_renew_method = 'yes' and ../c_want_renew_method_date = today())) and ../c_method_was_given = 'yes' and ../c_method_already_used != 'tubal_ligation'"/>
-      <bind nodeset="/family_planning/c_planning/c_method_start_date" type="date" required="true()" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and (../c_already_use_method= 'no' or ../c_currently_using_method = 'no' or ../c_already_use_method= 'yes' and (../c_want_change_method = 'yes' or ../c_want_renew_method = 'yes' and ../c_want_renew_method_date = today())) and ../c_method_was_given = 'yes' and ../c_method_start_today = 'no' and ../c_method_already_used != 'tubal_ligation'"/>
-      <bind nodeset="/family_planning/c_planning/c_method_not_given_reason" type="select1" required="true()" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and ../c_method_was_given = 'no' and ../c_method_already_used != 'tubal_ligation'"/>
-      <bind nodeset="/family_planning/c_planning/i_no_counseling_reasons" type="select1" calculate="if( /family_planning/has_counseling  = 'false', /family_planning/c_planning/c_no_counseling_reason ,'')" relevant=" /family_planning/has_counseling  = 'false'"/>
-      <bind nodeset="/family_planning/c_planning/i_refuse_renew_method_reasons" type="select1" calculate="if( /family_planning/has_counseling  = 'true' and  /family_planning/want_renew_method  = 'false', /family_planning/c_planning/c_refuse_renew_method_reasons ,'')" relevant=" /family_planning/has_counseling  = 'true'"/>
-      <bind nodeset="/family_planning/c_planning/i_method_not_given_reason" type="select1" calculate="if( /family_planning/has_counseling  = 'true' and  /family_planning/method_was_given  = 'false', /family_planning/c_planning/c_method_not_given_reason ,'')" relevant=" /family_planning/has_counseling  = 'true'"/>
-      <bind nodeset="/family_planning/c_planning/i_fp_method" type="select1" calculate="coalesce( /family_planning/new_method_wanted , /family_planning/method_already_used )" relevant=" /family_planning/has_counseling  = 'true'"/>
+      <bind nodeset="/family_planning/c_planning/c_method_days_count" type="int" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and (../c_already_use_method= 'no' or ../c_currently_using_method = 'no' or ../c_already_use_method= 'yes' and (../c_want_change_method = 'yes' or ../c_want_renew_method = 'yes' and ../c_want_renew_method_date = today())) and  /family_planning/is_method_avaible_reco  = 'true' and  /family_planning/fp_method  != 'dmpa_sc' and ../c_method_was_given = 'yes' and ../c_method_months_count = 0 and ../c_method_already_used != 'tubal_ligation'" required="true()" jr:constraintMsg="jr:itext('/family_planning/c_planning/c_method_days_count:jr:constraintMsg')" constraint=". &gt;= 1 and . &lt; 30"/>
+      <bind nodeset="/family_planning/c_planning/c_condoms_quantity_given" type="int" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and (../c_already_use_method= 'no' or ../c_currently_using_method = 'no' or ../c_already_use_method= 'yes' and (../c_want_change_method = 'yes' or ../c_want_renew_method = 'yes' and ../c_want_renew_method_date = today())) and  /family_planning/is_method_avaible_reco  = 'true' and  /family_planning/fp_method  != 'dmpa_sc' and  /family_planning/fp_method  = 'condoms' and ../c_method_was_given = 'yes' and ../c_method_already_used != 'tubal_ligation'" required="true()" jr:constraintMsg="jr:itext('/family_planning/c_planning/c_condoms_quantity_given:jr:constraintMsg')" constraint=". &gt;= 0"/>
+      <bind nodeset="/family_planning/c_planning/c_method_start_today" type="select1" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and (../c_already_use_method= 'no' or ../c_currently_using_method = 'no' or ../c_already_use_method= 'yes' and (../c_want_change_method = 'yes' or ../c_want_renew_method = 'yes' and ../c_want_renew_method_date = today())) and ../c_method_was_given = 'yes' and ../c_method_already_used != 'tubal_ligation'" required="true()"/>
+      <bind nodeset="/family_planning/c_planning/c_method_start_date" type="date" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and (../c_already_use_method= 'no' or ../c_currently_using_method = 'no' or ../c_already_use_method= 'yes' and (../c_want_change_method = 'yes' or ../c_want_renew_method = 'yes' and ../c_want_renew_method_date = today())) and ../c_method_was_given = 'yes' and ../c_method_start_today = 'no' and ../c_method_already_used != 'tubal_ligation'" required="true()"/>
+      <bind nodeset="/family_planning/c_planning/c_method_not_given_reason" type="select1" relevant="../c_has_counseling = 'yes' and ../c_who_will_give_method = 'reco' and ../c_method_was_given = 'no' and ../c_method_already_used != 'tubal_ligation'" required="true()"/>
+      <bind nodeset="/family_planning/c_planning/i_no_counseling_reasons" type="select1" relevant=" /family_planning/has_counseling  = 'false'" calculate="if( /family_planning/has_counseling  = 'false', /family_planning/c_planning/c_no_counseling_reason ,'')"/>
+      <bind nodeset="/family_planning/c_planning/i_refuse_renew_method_reasons" type="select1" relevant=" /family_planning/has_counseling  = 'true'" calculate="if( /family_planning/has_counseling  = 'true' and  /family_planning/want_renew_method  = 'false', /family_planning/c_planning/c_refuse_renew_method_reasons ,'')"/>
+      <bind nodeset="/family_planning/c_planning/i_method_not_given_reason" type="select1" relevant=" /family_planning/has_counseling  = 'true'" calculate="if( /family_planning/has_counseling  = 'true' and  /family_planning/method_was_given  = 'false', /family_planning/c_planning/c_method_not_given_reason ,'')"/>
+      <bind nodeset="/family_planning/c_planning/i_fp_method" type="select1" relevant=" /family_planning/has_counseling  = 'true'" calculate="coalesce( /family_planning/new_method_wanted , /family_planning/method_already_used )"/>
       <bind nodeset="/family_planning/group_review/s_summary" readonly="true()" type="string"/>
       <bind nodeset="/family_planning/group_review/s_patient_info_name" readonly="true()" type="string"/>
       <bind nodeset="/family_planning/group_review/s_patient_info_sex" readonly="true()" type="string"/>

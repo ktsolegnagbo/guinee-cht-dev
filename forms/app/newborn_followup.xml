@@ -1393,17 +1393,17 @@
       <bind nodeset="/newborn_followup/patient_infos/i_cough_cold" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_cough_cold  = 'yes'"/>
       <bind nodeset="/newborn_followup/patient_infos/i_reference_pattern_other" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_reference_pattern_other  != ''"/>
       <bind nodeset="/newborn_followup/patient_presence/c_is_present" type="select1" required="true()"/>
-      <bind nodeset="/newborn_followup/patient_presence/c_absence_reasons" type="select" required="true()" relevant="../c_is_present = 'no'"/>
+      <bind nodeset="/newborn_followup/patient_presence/c_absence_reasons" type="select" relevant="../c_is_present = 'no'" required="true()"/>
       <bind nodeset="/newborn_followup/patient_presence/c_other_absence_reasons" type="string" relevant="../c_is_present = 'no' and ../c_absence_reasons = 'others'"/>
-      <bind nodeset="/newborn_followup/patient_presence/c_reference_health_facility" type="select1" jr:requiredMsg="jr:itext('/newborn_followup/patient_presence/c_reference_health_facility:jr:requiredMsg')" required="true()" relevant="../c_is_present = 'yes'"/>
-      <bind nodeset="/newborn_followup/patient_presence/c_coupon_available" type="select1" jr:requiredMsg="jr:itext('/newborn_followup/patient_presence/c_coupon_available:jr:requiredMsg')" required="true()" relevant="../c_is_present = 'yes' and ../c_reference_health_facility = 'yes'"/>
-      <bind nodeset="/newborn_followup/patient_presence/c_coupon_number" type="int" relevant="../c_is_present = 'yes' and ../c_reference_health_facility = 'yes' and ../c_coupon_available = 'yes'" jr:requiredMsg="jr:itext('/newborn_followup/patient_presence/c_coupon_number:jr:requiredMsg')" constraint=". &gt;= 0" required="true()" jr:constraintMsg="jr:itext('/newborn_followup/patient_presence/c_coupon_number:jr:constraintMsg')"/>
+      <bind nodeset="/newborn_followup/patient_presence/c_reference_health_facility" type="select1" jr:requiredMsg="jr:itext('/newborn_followup/patient_presence/c_reference_health_facility:jr:requiredMsg')" relevant="../c_is_present = 'yes'" required="true()"/>
+      <bind nodeset="/newborn_followup/patient_presence/c_coupon_available" type="select1" jr:requiredMsg="jr:itext('/newborn_followup/patient_presence/c_coupon_available:jr:requiredMsg')" relevant="../c_is_present = 'yes' and ../c_reference_health_facility = 'yes'" required="true()"/>
+      <bind nodeset="/newborn_followup/patient_presence/c_coupon_number" type="int" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/newborn_followup/patient_presence/c_coupon_number:jr:constraintMsg')" jr:requiredMsg="jr:itext('/newborn_followup/patient_presence/c_coupon_number:jr:requiredMsg')" relevant="../c_is_present = 'yes' and ../c_reference_health_facility = 'yes' and ../c_coupon_available = 'yes'" required="true()"/>
       <bind nodeset="/newborn_followup/patient_presence/c_child_state" type="select1" jr:requiredMsg="jr:itext('/newborn_followup/patient_presence/c_child_state:jr:requiredMsg')" required="true()"/>
       <bind nodeset="/newborn_followup/c_time_of_consultation" relevant="selected( /newborn_followup/patient_presence/c_child_state ,'new_complaint')"/>
       <bind nodeset="/newborn_followup/c_time_of_consultation/c_promptitude" type="select1" required="true()"/>
       <bind nodeset="/newborn_followup/c_reference_pattern_control" relevant="selected( /newborn_followup/patient_presence/c_child_state ,'new_complaint')"/>
       <bind nodeset="/newborn_followup/c_reference_pattern_control/c_reference_pattern" type="select" required="true()"/>
-      <bind nodeset="/newborn_followup/c_reference_pattern_control/c_reference_pattern_other" type="string" required="true()" relevant=" /newborn_followup/c_reference_pattern_control/c_reference_pattern  = 'c_others'"/>
+      <bind nodeset="/newborn_followup/c_reference_pattern_control/c_reference_pattern_other" type="string" relevant=" /newborn_followup/c_reference_pattern_control/c_reference_pattern  = 'c_others'" required="true()"/>
       <bind nodeset="/newborn_followup/group_review/s_summary" readonly="true()" type="string"/>
       <bind nodeset="/newborn_followup/group_review/s_patient_info_name" readonly="true()" type="string"/>
       <bind nodeset="/newborn_followup/group_review/s_patient_info_sex" readonly="true()" type="string"/>

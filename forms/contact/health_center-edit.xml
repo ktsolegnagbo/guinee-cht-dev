@@ -4,62 +4,6 @@
     <h:title>Edit Village/Secteur</h:title>
     <model>
       <itext>
-        <translation lang="fr">
-          <text id="/data/inputs/contact:label">
-            <value>Information de l'utilisateur</value>
-          </text>
-          <text id="/data/inputs/contact/parent:label">
-            <value>Information du parent</value>
-          </text>
-          <text id="/data/inputs/meta/user_id:label">
-            <value>Votre Nom</value>
-          </text>
-          <text id="/data/inputs/meta/user_role:label">
-            <value>Votre rôle</value>
-          </text>
-          <text id="/data/inputs/meta/user_external_id:label">
-            <value>Votre Identifiant</value>
-          </text>
-          <text id="/data/inputs/meta/user_parent_id:label">
-            <value>user parent id</value>
-          </text>
-          <text id="/data/health_center:label">
-            <value>Modification du Village/Secteur</value>
-          </text>
-          <text id="/data/health_center/parent:label">
-            <value>Nom du District/Quartier</value>
-          </text>
-          <text id="/data/health_center/name:label">
-            <value>Nom du Village/Secteur</value>
-          </text>
-          <text id="/data/health_center/external_id:label">
-            <value>Identifiant DHIS2 du Village/Secteur</value>
-          </text>
-          <text id="/data/health_center/code:jr:constraintMsg">
-            <value>Seul les chiffres et lettres en majuscule sont autorisés</value>
-          </text>
-          <text id="/data/health_center/code:label">
-            <value>Code du Village/Secteur</value>
-          </text>
-          <text id="/data/health_center/code:hint">
-            <value>1-9 A-Z</value>
-          </text>
-          <text id="/data/health_center/geolocation:label">
-            <value>Veuillez capturer la position du Village/Secteur</value>
-          </text>
-          <text id="/data/health_center/last_family_code:jr:constraintMsg">
-            <value>La valeur doit être en entier positif</value>
-          </text>
-          <text id="/data/health_center/last_family_code:label">
-            <value>Dernier Code Ménage</value>
-          </text>
-          <text id="/data/health_center/last_patient_code:jr:constraintMsg">
-            <value>La valeur doit être en entier positif</value>
-          </text>
-          <text id="/data/health_center/last_patient_code:label">
-            <value>Dernier Code Patient</value>
-          </text>
-        </translation>
         <translation lang="en">
           <text id="/data/inputs/contact:label">
             <value>User Information</value>
@@ -114,6 +58,62 @@
           </text>
           <text id="/data/health_center/last_patient_code:label">
             <value>Last Patient Code</value>
+          </text>
+        </translation>
+        <translation lang="fr">
+          <text id="/data/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/data/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/data/inputs/meta/user_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/data/inputs/meta/user_role:label">
+            <value>Votre rôle</value>
+          </text>
+          <text id="/data/inputs/meta/user_external_id:label">
+            <value>Votre Identifiant</value>
+          </text>
+          <text id="/data/inputs/meta/user_parent_id:label">
+            <value>user parent id</value>
+          </text>
+          <text id="/data/health_center:label">
+            <value>Modification du Village/Secteur</value>
+          </text>
+          <text id="/data/health_center/parent:label">
+            <value>Nom du District/Quartier</value>
+          </text>
+          <text id="/data/health_center/name:label">
+            <value>Nom du Village/Secteur</value>
+          </text>
+          <text id="/data/health_center/external_id:label">
+            <value>Identifiant DHIS2 du Village/Secteur</value>
+          </text>
+          <text id="/data/health_center/code:jr:constraintMsg">
+            <value>Seul les chiffres et lettres en majuscule sont autorisés</value>
+          </text>
+          <text id="/data/health_center/code:label">
+            <value>Code du Village/Secteur</value>
+          </text>
+          <text id="/data/health_center/code:hint">
+            <value>1-9 A-Z</value>
+          </text>
+          <text id="/data/health_center/geolocation:label">
+            <value>Veuillez capturer la position du Village/Secteur</value>
+          </text>
+          <text id="/data/health_center/last_family_code:jr:constraintMsg">
+            <value>La valeur doit être en entier positif</value>
+          </text>
+          <text id="/data/health_center/last_family_code:label">
+            <value>Dernier Code Ménage</value>
+          </text>
+          <text id="/data/health_center/last_patient_code:jr:constraintMsg">
+            <value>La valeur doit être en entier positif</value>
+          </text>
+          <text id="/data/health_center/last_patient_code:label">
+            <value>Dernier Code Patient</value>
           </text>
         </translation>
       </itext>
@@ -189,7 +189,7 @@
       <bind nodeset="/data/inputs/contact/parent/name" type="string" calculate="/data/inputs/contact/parent/name"/>
       <bind nodeset="/data/inputs/contact/parent/external_id" type="string" calculate="/data/inputs/contact/parent/external_id"/>
       <bind nodeset="/data/inputs/contact/parent/code" type="string" calculate="/data/inputs/contact/parent/code"/>
-      <bind nodeset="/data/inputs/meta/user_id" type="string" readonly="true()" calculate="/data/inputs/user/contact_id"/>
+      <bind nodeset="/data/inputs/meta/user_id" type="string" calculate="/data/inputs/user/contact_id" readonly="true()"/>
       <bind nodeset="/data/inputs/meta/user_role" type="string" calculate="/data/inputs/contact/role"/>
       <bind nodeset="/data/inputs/meta/user_external_id" type="string" calculate="/data/inputs/contact/external_id"/>
       <bind nodeset="/data/inputs/meta/user_parent_id" type="string" calculate="/data/inputs/contact/parent/_id"/>
@@ -197,11 +197,11 @@
       <bind nodeset="/data/health_center/parent" type="string"/>
       <bind nodeset="/data/health_center/name" type="string" required="true()"/>
       <bind nodeset="/data/health_center/external_id" type="string" required="true()"/>
-      <bind nodeset="/data/health_center/code" type="string" jr:constraintMsg="jr:itext('/data/health_center/code:jr:constraintMsg')" constraint="regex(., '^[0-9A-Z]+$')"/>
+      <bind nodeset="/data/health_center/code" type="string" constraint="regex(., '^[0-9A-Z]+$')" jr:constraintMsg="jr:itext('/data/health_center/code:jr:constraintMsg')"/>
       <bind nodeset="/data/health_center/geolocation" type="geopoint"/>
       <bind nodeset="/data/health_center/contact" type="db:person"/>
-      <bind nodeset="/data/health_center/last_family_code" type="int" jr:constraintMsg="jr:itext('/data/health_center/last_family_code:jr:constraintMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/data/health_center/last_patient_code" type="int" jr:constraintMsg="jr:itext('/data/health_center/last_patient_code:jr:constraintMsg')" constraint=". &gt;= 0"/>
+      <bind nodeset="/data/health_center/last_family_code" type="int" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/data/health_center/last_family_code:jr:constraintMsg')"/>
+      <bind nodeset="/data/health_center/last_patient_code" type="int" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/data/health_center/last_patient_code:jr:constraintMsg')"/>
       <bind nodeset="/data/health_center/user_info/created_user_id" type="string"/>
       <bind nodeset="/data/health_center/user_info/created_user_role" type="string"/>
       <bind nodeset="/data/health_center/user_info/created_parent_id" type="string"/>

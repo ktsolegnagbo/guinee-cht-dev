@@ -361,9 +361,9 @@
       <bind nodeset="/supervision_notebook_reco/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
       <bind nodeset="/supervision_notebook_reco/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
       <bind nodeset="/supervision_notebook_reco/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
-      <bind nodeset="/supervision_notebook_reco/tracking_notebook/folowup_date" type="date" required="true()" jr:requiredMsg="jr:itext('/supervision_notebook_reco/tracking_notebook/folowup_date:jr:requiredMsg')" constraint=". &lt;= today()" jr:constraintMsg="jr:itext('/supervision_notebook_reco/tracking_notebook/folowup_date:jr:constraintMsg')" calculate="coalesce(.,today())"/>
-      <bind nodeset="/supervision_notebook_reco/tracking_notebook/supervisor" type="select1" required="true()" jr:requiredMsg="jr:itext('/supervision_notebook_reco/tracking_notebook/supervisor:jr:requiredMsg')"/>
-      <bind nodeset="/supervision_notebook_reco/tracking_notebook/other_supervisor" type="string" required="true()" relevant="../supervisor = 'others'" jr:requiredMsg="jr:itext('/supervision_notebook_reco/tracking_notebook/other_supervisor:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_notebook_reco/tracking_notebook/folowup_date" type="date" constraint=". &lt;= today()" jr:constraintMsg="jr:itext('/supervision_notebook_reco/tracking_notebook/folowup_date:jr:constraintMsg')" required="true()" calculate="coalesce(.,today())" jr:requiredMsg="jr:itext('/supervision_notebook_reco/tracking_notebook/folowup_date:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_notebook_reco/tracking_notebook/supervisor" type="select1" jr:requiredMsg="jr:itext('/supervision_notebook_reco/tracking_notebook/supervisor:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/supervision_notebook_reco/tracking_notebook/other_supervisor" type="string" jr:requiredMsg="jr:itext('/supervision_notebook_reco/tracking_notebook/other_supervisor:jr:requiredMsg')" required="true()" relevant="../supervisor = 'others'"/>
       <bind nodeset="/supervision_notebook_reco/tracking_notebook/recommendation" type="string"/>
       <bind nodeset="/supervision_notebook_reco/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>

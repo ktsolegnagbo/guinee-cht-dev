@@ -377,11 +377,11 @@
       <bind nodeset="/data/health_center/parent" type="string" readonly="true()" calculate="."/>
       <bind nodeset="/data/health_center/name" type="string" required="true()"/>
       <bind nodeset="/data/health_center/external_id" type="string" required="true()"/>
-      <bind nodeset="/data/health_center/code" type="string" constraint="regex(., '^[0-9A-Z]+$')" jr:constraintMsg="jr:itext('/data/health_center/code:jr:constraintMsg')"/>
+      <bind nodeset="/data/health_center/code" type="string" jr:constraintMsg="jr:itext('/data/health_center/code:jr:constraintMsg')" constraint="regex(., '^[0-9A-Z]+$')"/>
       <bind nodeset="/data/health_center/geolocation" type="geopoint"/>
       <bind nodeset="/data/health_center/contact" type="string" calculate="&quot;NEW&quot;"/>
-      <bind nodeset="/data/health_center/last_family_code" type="int" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/data/health_center/last_family_code:jr:constraintMsg')"/>
-      <bind nodeset="/data/health_center/last_patient_code" type="int" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/data/health_center/last_patient_code:jr:constraintMsg')"/>
+      <bind nodeset="/data/health_center/last_family_code" type="int" jr:constraintMsg="jr:itext('/data/health_center/last_family_code:jr:constraintMsg')" constraint=". &gt;= 0"/>
+      <bind nodeset="/data/health_center/last_patient_code" type="int" jr:constraintMsg="jr:itext('/data/health_center/last_patient_code:jr:constraintMsg')" constraint=". &gt;= 0"/>
       <bind nodeset="/data/health_center/user_info/created_user_id" type="string" calculate=" /data/inputs/meta/user_id "/>
       <bind nodeset="/data/health_center/user_info/created_user_role" type="string" calculate=" /data/inputs/meta/user_role "/>
       <bind nodeset="/data/health_center/user_info/created_parent_id" type="string" calculate=" /data/inputs/meta/user_parent_id "/>
@@ -391,12 +391,12 @@
       <bind nodeset="/data/contact/selected_role" type="string" calculate="concat('reco','')"/>
       <bind nodeset="/data/contact/register_other/selected_sex" type="select1"/>
       <bind nodeset="/data/contact/register_other/dob_method" type="string" calculate="concat('approx','')"/>
-      <bind nodeset="/data/contact/register_other/age_years" type="int" constraint=". &gt;= 18 and .&lt;150" jr:constraintMsg="jr:itext('/data/contact/register_other/age_years:jr:constraintMsg')"/>
+      <bind nodeset="/data/contact/register_other/age_years" type="int" jr:constraintMsg="jr:itext('/data/contact/register_other/age_years:jr:constraintMsg')" constraint=". &gt;= 18 and .&lt;150"/>
       <bind nodeset="/data/contact/register_other/selected_date_of_birth" type="string" calculate="if(concat(../age_years,'')=&quot;&quot;,&quot;&quot;,format-date-time( decimal-date-time( today() ) - (365.25 * ../age_years) - 0 - 0, &quot;%Y-%m-%d&quot; ))"/>
       <bind nodeset="/data/contact/register_other/reco_code" type="string" required="true()" constraint="regex(., '^[0-9A-Z]+$')" jr:constraintMsg="jr:itext('/data/contact/register_other/reco_code:jr:constraintMsg')"/>
       <bind nodeset="/data/contact/register_other/phone" type="int" required="true()" constraint="regex(., '^\d{9}$')" jr:constraintMsg="jr:itext('/data/contact/register_other/phone:jr:constraintMsg')"/>
       <bind nodeset="/data/contact/register_other/profession" type="string" required="true()"/>
-      <bind nodeset="/data/contact/register_other/other_email" type="string" constraint="regex(., '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$')" jr:constraintMsg="jr:itext('/data/contact/register_other/other_email:jr:constraintMsg')"/>
+      <bind nodeset="/data/contact/register_other/other_email" type="string" jr:constraintMsg="jr:itext('/data/contact/register_other/other_email:jr:constraintMsg')" constraint="regex(., '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$')"/>
       <bind nodeset="/data/contact/role" type="string" calculate="concat('reco','')"/>
       <bind nodeset="/data/contact/sex" type="string" calculate="../register_other/selected_sex"/>
       <bind nodeset="/data/contact/date_of_birth" type="string" calculate="../register_other/selected_date_of_birth"/>

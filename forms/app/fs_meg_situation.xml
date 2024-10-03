@@ -4,149 +4,6 @@
     <h:title>SITUATION MEG FS</h:title>
     <model>
       <itext>
-        <translation lang="fr">
-          <text id="/fs_meg_situation/inputs/source:label">
-            <value>Source</value>
-          </text>
-          <text id="/fs_meg_situation/inputs/source_id:label">
-            <value>Source ID</value>
-          </text>
-          <text id="/fs_meg_situation/inputs/user/contact_id:label">
-            <value>Votre Nom</value>
-          </text>
-          <text id="/fs_meg_situation/inputs/user/name:label">
-            <value>Username</value>
-          </text>
-          <text id="/fs_meg_situation/inputs/user/phone:label">
-            <value>Phone</value>
-          </text>
-          <text id="/fs_meg_situation/inputs/contact:label">
-            <value>Information de l'utilisateur</value>
-          </text>
-          <text id="/fs_meg_situation/inputs/contact/_id:label">
-            <value>Centre de Santé Id</value>
-          </text>
-          <text id="/fs_meg_situation/inputs/contact/name:label">
-            <value>Nom Hospital</value>
-          </text>
-          <text id="/fs_meg_situation/inputs/contact/parent/_id:label">
-            <value>Commune Id</value>
-          </text>
-          <text id="/fs_meg_situation/inputs/contact/parent/parent/_id:label">
-            <value>Préfecture/District Sanitaire Id</value>
-          </text>
-          <text id="/fs_meg_situation/inputs/contact/parent/parent/parent/_id:label">
-            <value>Région/IRS Id</value>
-          </text>
-          <text id="/fs_meg_situation/inputs/contact/parent/parent/parent/parent/_id:label">
-            <value>Pays Id</value>
-          </text>
-          <text id="/fs_meg_situation/user_id:label">
-            <value>User contact id</value>
-          </text>
-          <text id="/fs_meg_situation/user_phone:label">
-            <value>User phone</value>
-          </text>
-          <text id="/fs_meg_situation/patient_id:label">
-            <value>Hospital ID</value>
-          </text>
-          <text id="/fs_meg_situation/patient_name:label">
-            <value>Nom Hospital</value>
-          </text>
-          <text id="/fs_meg_situation/hospital_id:label">
-            <value>Centre de Santé Id</value>
-          </text>
-          <text id="/fs_meg_situation/commune_id:label">
-            <value>Commune Id</value>
-          </text>
-          <text id="/fs_meg_situation/prefecture_id:label">
-            <value>Préfecture/District Sanitaire Id</value>
-          </text>
-          <text id="/fs_meg_situation/region_id:label">
-            <value>Région/IRS Id</value>
-          </text>
-          <text id="/fs_meg_situation/country_id:label">
-            <value>Pays Id</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group:label">
-            <value>SITUATION DISPONIBILITE DES MEDICAMENTS</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/action_date:jr:constraintMsg">
-            <value>La date ne doit pas être au futur</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/action_date:jr:requiredMsg">
-            <value>Ce champ est obligatoire</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/action_date:label">
-            <value>Date de l'action</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/month_date_selected:label">
-            <value>Date du mois sélectionnée</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/month_date_selected/01:label">
-            <value>31</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/month_date_selected/02:label">
-            <value>28</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/month_date_selected/03:label">
-            <value>31</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/month_date_selected/04:label">
-            <value>30</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/month_date_selected/05:label">
-            <value>31</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/month_date_selected/06:label">
-            <value>30</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/month_date_selected/07:label">
-            <value>31</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/month_date_selected/08:label">
-            <value>31</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/month_date_selected/09:label">
-            <value>30</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/month_date_selected/10:label">
-            <value>31</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/month_date_selected/11:label">
-            <value>30</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/month_date_selected/12:label">
-            <value>31</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/month_day:label">
-            <value>Nombre de Jours dans mois de la date sélectionnée</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/all_med_shortage_days_number:jr:constraintMsg">
-            <value>La valeur doit être suppérieur à 0</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/all_med_shortage_days_number:jr:requiredMsg">
-            <value>Ce champ est obligatoire</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/all_med_shortage_days_number:label">
-            <value>Total de jour de rupture de tous les medicament de SI</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/all_med_number:jr:constraintMsg">
-            <value>La valeur doit être suppérieur à 0</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/all_med_number:jr:requiredMsg">
-            <value>Ce champ est obligatoire</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/all_med_number:label">
-            <value>Total de médicament (SI)</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/shortage_days_average:label">
-            <value>&lt;br&gt;**Taux de rupture total au CS:** &lt;strong style=&quot;color: rgb(87, 3, 3);&quot;&gt;<output value=" /fs_meg_situation/meg_average_group/meg_average_out_of "/> %&lt;/strong&gt;</value>
-          </text>
-          <text id="/fs_meg_situation/meg_average_group/available_days_average:label">
-            <value>**Taux de disponibilité des MEG au CS :** &lt;strong style=&quot;color: rgb(1, 34, 118);&quot;&gt;<output value=" /fs_meg_situation/meg_average_group/meg_average_available "/> %&lt;/strong&gt;</value>
-          </text>
-        </translation>
         <translation lang="en">
           <text id="/fs_meg_situation/inputs/source:label">
             <value>Source</value>
@@ -290,6 +147,149 @@
             <value>** Availability rate of MEGs at HC:** &lt;strong style=&quot;color: rgb(1, 34, 118);&quot;&gt;<output value=" /fs_meg_situation/meg_average_group/meg_average_available "/> %&lt;/strong&gt;</value>
           </text>
         </translation>
+        <translation lang="fr">
+          <text id="/fs_meg_situation/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/fs_meg_situation/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/fs_meg_situation/inputs/user/contact_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/fs_meg_situation/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/fs_meg_situation/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/fs_meg_situation/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/fs_meg_situation/inputs/contact/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/fs_meg_situation/inputs/contact/name:label">
+            <value>Nom Hospital</value>
+          </text>
+          <text id="/fs_meg_situation/inputs/contact/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/fs_meg_situation/inputs/contact/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/fs_meg_situation/inputs/contact/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/fs_meg_situation/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/fs_meg_situation/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/fs_meg_situation/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/fs_meg_situation/patient_id:label">
+            <value>Hospital ID</value>
+          </text>
+          <text id="/fs_meg_situation/patient_name:label">
+            <value>Nom Hospital</value>
+          </text>
+          <text id="/fs_meg_situation/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/fs_meg_situation/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/fs_meg_situation/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/fs_meg_situation/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/fs_meg_situation/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group:label">
+            <value>SITUATION DISPONIBILITE DES MEDICAMENTS</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/action_date:jr:constraintMsg">
+            <value>La date ne doit pas être au futur</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/action_date:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/action_date:label">
+            <value>Date de l'action</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/month_date_selected:label">
+            <value>Date du mois sélectionnée</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/month_date_selected/01:label">
+            <value>31</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/month_date_selected/02:label">
+            <value>28</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/month_date_selected/03:label">
+            <value>31</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/month_date_selected/04:label">
+            <value>30</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/month_date_selected/05:label">
+            <value>31</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/month_date_selected/06:label">
+            <value>30</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/month_date_selected/07:label">
+            <value>31</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/month_date_selected/08:label">
+            <value>31</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/month_date_selected/09:label">
+            <value>30</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/month_date_selected/10:label">
+            <value>31</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/month_date_selected/11:label">
+            <value>30</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/month_date_selected/12:label">
+            <value>31</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/month_day:label">
+            <value>Nombre de Jours dans mois de la date sélectionnée</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/all_med_shortage_days_number:jr:constraintMsg">
+            <value>La valeur doit être suppérieur à 0</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/all_med_shortage_days_number:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/all_med_shortage_days_number:label">
+            <value>Total de jour de rupture de tous les medicament de SI</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/all_med_number:jr:constraintMsg">
+            <value>La valeur doit être suppérieur à 0</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/all_med_number:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/all_med_number:label">
+            <value>Total de médicament (SI)</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/shortage_days_average:label">
+            <value>&lt;br&gt;**Taux de rupture total au CS:** &lt;strong style=&quot;color: rgb(87, 3, 3);&quot;&gt;<output value=" /fs_meg_situation/meg_average_group/meg_average_out_of "/> %&lt;/strong&gt;</value>
+          </text>
+          <text id="/fs_meg_situation/meg_average_group/available_days_average:label">
+            <value>**Taux de disponibilité des MEG au CS :** &lt;strong style=&quot;color: rgb(1, 34, 118);&quot;&gt;<output value=" /fs_meg_situation/meg_average_group/meg_average_available "/> %&lt;/strong&gt;</value>
+          </text>
+        </translation>
       </itext>
       <instance>
         <fs_meg_situation id="fs_meg_situation" prefix="J1!fs_meg_situation!" delimiter="#" version="2024-08-16  17-11">
@@ -372,11 +372,11 @@
       <bind nodeset="/fs_meg_situation/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
       <bind nodeset="/fs_meg_situation/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
       <bind nodeset="/fs_meg_situation/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
-      <bind nodeset="/fs_meg_situation/meg_average_group/action_date" type="date" constraint=". &lt;= today()" jr:requiredMsg="jr:itext('/fs_meg_situation/meg_average_group/action_date:jr:requiredMsg')" required="true()" jr:constraintMsg="jr:itext('/fs_meg_situation/meg_average_group/action_date:jr:constraintMsg')"/>
-      <bind nodeset="/fs_meg_situation/meg_average_group/month_date_selected" type="select1" calculate="format-date-time( decimal-date-time(../action_date), &quot;%m&quot; )" required="true()" readonly="true()"/>
-      <bind nodeset="/fs_meg_situation/meg_average_group/month_day" type="int" calculate="int( jr:choice-name( /fs_meg_situation/meg_average_group/month_date_selected ,' /fs_meg_situation/meg_average_group/month_date_selected ') )" relevant=" /fs_meg_situation/meg_average_group/action_date  != ''" required="true()" readonly="true()"/>
-      <bind nodeset="/fs_meg_situation/meg_average_group/all_med_shortage_days_number" type="int" constraint=". &gt; 0" jr:requiredMsg="jr:itext('/fs_meg_situation/meg_average_group/all_med_shortage_days_number:jr:requiredMsg')" required="true()" jr:constraintMsg="jr:itext('/fs_meg_situation/meg_average_group/all_med_shortage_days_number:jr:constraintMsg')"/>
-      <bind nodeset="/fs_meg_situation/meg_average_group/all_med_number" type="int" constraint=". &gt; 0" jr:requiredMsg="jr:itext('/fs_meg_situation/meg_average_group/all_med_number:jr:requiredMsg')" required="true()" jr:constraintMsg="jr:itext('/fs_meg_situation/meg_average_group/all_med_number:jr:constraintMsg')"/>
+      <bind nodeset="/fs_meg_situation/meg_average_group/action_date" type="date" required="true()" constraint=". &lt;= today()" jr:requiredMsg="jr:itext('/fs_meg_situation/meg_average_group/action_date:jr:requiredMsg')" jr:constraintMsg="jr:itext('/fs_meg_situation/meg_average_group/action_date:jr:constraintMsg')"/>
+      <bind nodeset="/fs_meg_situation/meg_average_group/month_date_selected" type="select1" required="true()" readonly="true()" calculate="format-date-time( decimal-date-time(../action_date), &quot;%m&quot; )"/>
+      <bind nodeset="/fs_meg_situation/meg_average_group/month_day" type="int" required="true()" relevant=" /fs_meg_situation/meg_average_group/action_date  != ''" readonly="true()" calculate="int( jr:choice-name( /fs_meg_situation/meg_average_group/month_date_selected ,' /fs_meg_situation/meg_average_group/month_date_selected ') )"/>
+      <bind nodeset="/fs_meg_situation/meg_average_group/all_med_shortage_days_number" type="int" required="true()" constraint=". &gt; 0" jr:requiredMsg="jr:itext('/fs_meg_situation/meg_average_group/all_med_shortage_days_number:jr:requiredMsg')" jr:constraintMsg="jr:itext('/fs_meg_situation/meg_average_group/all_med_shortage_days_number:jr:constraintMsg')"/>
+      <bind nodeset="/fs_meg_situation/meg_average_group/all_med_number" type="int" required="true()" constraint=". &gt; 0" jr:requiredMsg="jr:itext('/fs_meg_situation/meg_average_group/all_med_number:jr:requiredMsg')" jr:constraintMsg="jr:itext('/fs_meg_situation/meg_average_group/all_med_number:jr:constraintMsg')"/>
       <bind nodeset="/fs_meg_situation/meg_average_group/meg_average_out_of" type="string" calculate="round((( /fs_meg_situation/meg_average_group/month_day  *  /fs_meg_situation/meg_average_group/all_med_number ) -  /fs_meg_situation/meg_average_group/all_med_shortage_days_number ) div ( /fs_meg_situation/meg_average_group/month_day  *  /fs_meg_situation/meg_average_group/all_med_number ), 2) * 100"/>
       <bind nodeset="/fs_meg_situation/meg_average_group/meg_average_available" type="string" calculate="100 -  /fs_meg_situation/meg_average_group/meg_average_out_of "/>
       <bind nodeset="/fs_meg_situation/meg_average_group/shortage_days_average" readonly="true()" type="string" relevant=" /fs_meg_situation/meg_average_group/meg_average_out_of  &gt;= 0"/>

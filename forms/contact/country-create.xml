@@ -4,125 +4,6 @@
     <h:title>New Country</h:title>
     <model>
       <itext>
-        <translation lang="fr">
-          <text id="/data/inputs/contact:label">
-            <value>Information de l'utilisateur</value>
-          </text>
-          <text id="/data/inputs/contact/parent:label">
-            <value>Information du parent</value>
-          </text>
-          <text id="/data/inputs/meta/user_id:label">
-            <value>Votre Nom</value>
-          </text>
-          <text id="/data/inputs/meta/user_role:label">
-            <value>Votre rôle</value>
-          </text>
-          <text id="/data/inputs/meta/user_external_id:label">
-            <value>Votre Identifiant</value>
-          </text>
-          <text id="/data/inputs/meta/user_parent_id:label">
-            <value>user parent id</value>
-          </text>
-          <text id="/data/country:label">
-            <value>Création de Pays</value>
-          </text>
-          <text id="/data/country/name:label">
-            <value>Nom du Pays</value>
-          </text>
-          <text id="/data/country/external_id:label">
-            <value>Identifiant DHIS2 du Pays</value>
-          </text>
-          <text id="/data/country/code:jr:constraintMsg">
-            <value>Seul les chiffres et lettres en majuscule sont autorisés</value>
-          </text>
-          <text id="/data/country/code:label">
-            <value>Code du Pays</value>
-          </text>
-          <text id="/data/country/code:hint">
-            <value>1-9 A-Z</value>
-          </text>
-          <text id="/data/country/geolocation:label">
-            <value>Veuillez capturer la position du pays</value>
-          </text>
-          <text id="/data/contact:label">
-            <value>Contact Principal</value>
-          </text>
-          <text id="/data/contact/type:label">
-            <value>Type de personne</value>
-          </text>
-          <text id="/data/contact/type:hint">
-            <value>obligatoire</value>
-          </text>
-          <text id="/data/contact/parent:label">
-            <value>Parent</value>
-          </text>
-          <text id="/data/contact/parent:hint">
-            <value>obligatoire</value>
-          </text>
-          <text id="/data/contact/name:label">
-            <value>Prénom et Nom</value>
-          </text>
-          <text id="/data/contact/register_other:label">
-            <value>Informations de la nouvelle personne</value>
-          </text>
-          <text id="/data/contact/register_other/selected_sex:label">
-            <value>Sexe</value>
-          </text>
-          <text id="/data/contact/register_other/selected_sex/male:label">
-            <value>Homme</value>
-          </text>
-          <text id="/data/contact/register_other/selected_sex/female:label">
-            <value>Femme</value>
-          </text>
-          <text id="/data/contact/register_other/dob_method:label">
-            <value>Méthode de date de naissance souhaité</value>
-          </text>
-          <text id="/data/contact/register_other/age_years:jr:constraintMsg">
-            <value>L'age doit être compris entre 18 et 150</value>
-          </text>
-          <text id="/data/contact/register_other/age_years:label">
-            <value>Age en années</value>
-          </text>
-          <text id="/data/contact/register_other/age_years:hint">
-            <value>**L'age doit être compris entre 18 et 150**</value>
-          </text>
-          <text id="/data/contact/register_other/phone:jr:constraintMsg">
-            <value>Format autorisé: XX XX XX XX X</value>
-          </text>
-          <text id="/data/contact/register_other/phone:label">
-            <value>Numéro de téléphone</value>
-          </text>
-          <text id="/data/contact/register_other/phone:hint">
-            <value>Format: XX XX XX XX X</value>
-          </text>
-          <text id="/data/contact/register_other/profession:label">
-            <value>Profession/Fonction</value>
-          </text>
-          <text id="/data/contact/register_other/other_email:jr:constraintMsg">
-            <value>Veuillez entrer une adresse e-mail valide.</value>
-          </text>
-          <text id="/data/contact/register_other/other_email:label">
-            <value>Email</value>
-          </text>
-          <text id="/data/contact/register_other/other_code:jr:constraintMsg">
-            <value>Seul les chiffres et lettres en majuscule sont autorisés</value>
-          </text>
-          <text id="/data/contact/register_other/other_code:label">
-            <value>Code</value>
-          </text>
-          <text id="/data/contact/register_other/other_code:hint">
-            <value>1-9 A-Z</value>
-          </text>
-          <text id="/data/contact/geolocation_selected:label">
-            <value>Veuillez capturer son emplacement</value>
-          </text>
-          <text id="/data/country:hint">
-            <value>-</value>
-          </text>
-          <text id="/data/country/contact:hint">
-            <value>-</value>
-          </text>
-        </translation>
         <translation lang="en">
           <text id="/data/inputs/contact:label">
             <value>User Information</value>
@@ -242,6 +123,125 @@
             <value>Please capture its location</value>
           </text>
         </translation>
+        <translation lang="fr">
+          <text id="/data/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/data/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/data/inputs/meta/user_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/data/inputs/meta/user_role:label">
+            <value>Votre rôle</value>
+          </text>
+          <text id="/data/inputs/meta/user_external_id:label">
+            <value>Votre Identifiant</value>
+          </text>
+          <text id="/data/inputs/meta/user_parent_id:label">
+            <value>user parent id</value>
+          </text>
+          <text id="/data/country:label">
+            <value>Création de Pays</value>
+          </text>
+          <text id="/data/country/name:label">
+            <value>Nom du Pays</value>
+          </text>
+          <text id="/data/country/external_id:label">
+            <value>Identifiant DHIS2 du Pays</value>
+          </text>
+          <text id="/data/country/code:jr:constraintMsg">
+            <value>Seul les chiffres et lettres en majuscule sont autorisés</value>
+          </text>
+          <text id="/data/country/code:label">
+            <value>Code du Pays</value>
+          </text>
+          <text id="/data/country/code:hint">
+            <value>1-9 A-Z</value>
+          </text>
+          <text id="/data/country/geolocation:label">
+            <value>Veuillez capturer la position du pays</value>
+          </text>
+          <text id="/data/contact:label">
+            <value>Contact Principal</value>
+          </text>
+          <text id="/data/contact/type:label">
+            <value>Type de personne</value>
+          </text>
+          <text id="/data/contact/type:hint">
+            <value>obligatoire</value>
+          </text>
+          <text id="/data/contact/parent:label">
+            <value>Parent</value>
+          </text>
+          <text id="/data/contact/parent:hint">
+            <value>obligatoire</value>
+          </text>
+          <text id="/data/contact/name:label">
+            <value>Prénom et Nom</value>
+          </text>
+          <text id="/data/contact/register_other:label">
+            <value>Informations de la nouvelle personne</value>
+          </text>
+          <text id="/data/contact/register_other/selected_sex:label">
+            <value>Sexe</value>
+          </text>
+          <text id="/data/contact/register_other/selected_sex/male:label">
+            <value>Homme</value>
+          </text>
+          <text id="/data/contact/register_other/selected_sex/female:label">
+            <value>Femme</value>
+          </text>
+          <text id="/data/contact/register_other/dob_method:label">
+            <value>Méthode de date de naissance souhaité</value>
+          </text>
+          <text id="/data/contact/register_other/age_years:jr:constraintMsg">
+            <value>L'age doit être compris entre 18 et 150</value>
+          </text>
+          <text id="/data/contact/register_other/age_years:label">
+            <value>Age en années</value>
+          </text>
+          <text id="/data/contact/register_other/age_years:hint">
+            <value>**L'age doit être compris entre 18 et 150**</value>
+          </text>
+          <text id="/data/contact/register_other/phone:jr:constraintMsg">
+            <value>Format autorisé: XX XX XX XX X</value>
+          </text>
+          <text id="/data/contact/register_other/phone:label">
+            <value>Numéro de téléphone</value>
+          </text>
+          <text id="/data/contact/register_other/phone:hint">
+            <value>Format: XX XX XX XX X</value>
+          </text>
+          <text id="/data/contact/register_other/profession:label">
+            <value>Profession/Fonction</value>
+          </text>
+          <text id="/data/contact/register_other/other_email:jr:constraintMsg">
+            <value>Veuillez entrer une adresse e-mail valide.</value>
+          </text>
+          <text id="/data/contact/register_other/other_email:label">
+            <value>Email</value>
+          </text>
+          <text id="/data/contact/register_other/other_code:jr:constraintMsg">
+            <value>Seul les chiffres et lettres en majuscule sont autorisés</value>
+          </text>
+          <text id="/data/contact/register_other/other_code:label">
+            <value>Code</value>
+          </text>
+          <text id="/data/contact/register_other/other_code:hint">
+            <value>1-9 A-Z</value>
+          </text>
+          <text id="/data/contact/geolocation_selected:label">
+            <value>Veuillez capturer son emplacement</value>
+          </text>
+          <text id="/data/country:hint">
+            <value>-</value>
+          </text>
+          <text id="/data/country/contact:hint">
+            <value>-</value>
+          </text>
+        </translation>
       </itext>
       <instance>
         <data id="contact:country:create" prefix="J1!contact:country:create!" delimiter="#" version="2018-01-24">
@@ -338,13 +338,13 @@
       <bind nodeset="/data/inputs/contact/parent/name" type="string" calculate="/data/inputs/contact/parent/name"/>
       <bind nodeset="/data/inputs/contact/parent/external_id" type="string" calculate="/data/inputs/contact/parent/external_id"/>
       <bind nodeset="/data/inputs/contact/parent/code" type="string" calculate="/data/inputs/contact/parent/code"/>
-      <bind nodeset="/data/inputs/meta/user_id" type="string" calculate="/data/inputs/user/contact_id" readonly="true()"/>
+      <bind nodeset="/data/inputs/meta/user_id" type="string" readonly="true()" calculate="/data/inputs/user/contact_id"/>
       <bind nodeset="/data/inputs/meta/user_role" type="string" calculate="/data/inputs/contact/role"/>
       <bind nodeset="/data/inputs/meta/user_external_id" type="string" calculate="/data/inputs/contact/external_id"/>
       <bind nodeset="/data/inputs/meta/user_parent_id" type="string" calculate="/data/inputs/contact/parent/_id"/>
       <bind nodeset="/data/country/name" type="string" required="true()"/>
       <bind nodeset="/data/country/external_id" type="string" required="true()"/>
-      <bind nodeset="/data/country/code" type="string" jr:constraintMsg="jr:itext('/data/country/code:jr:constraintMsg')" constraint="regex(., '^[0-9A-Z]+$')"/>
+      <bind nodeset="/data/country/code" type="string" constraint="regex(., '^[0-9A-Z]+$')" jr:constraintMsg="jr:itext('/data/country/code:jr:constraintMsg')"/>
       <bind nodeset="/data/country/geolocation" type="geopoint"/>
       <bind nodeset="/data/country/contact" type="string" calculate="&quot;NEW&quot;"/>
       <bind nodeset="/data/country/user_info/created_user_id" type="string" calculate=" /data/inputs/meta/user_id "/>
@@ -356,12 +356,12 @@
       <bind nodeset="/data/contact/selected_role" type="string" calculate="concat('country_manager','')"/>
       <bind nodeset="/data/contact/register_other/selected_sex" type="select1"/>
       <bind nodeset="/data/contact/register_other/dob_method" type="string" calculate="concat('approx','')"/>
-      <bind nodeset="/data/contact/register_other/age_years" type="int" jr:constraintMsg="jr:itext('/data/contact/register_other/age_years:jr:constraintMsg')" constraint=". &gt;= 18 and .&lt;150"/>
+      <bind nodeset="/data/contact/register_other/age_years" type="int" constraint=". &gt;= 18 and .&lt;150" jr:constraintMsg="jr:itext('/data/contact/register_other/age_years:jr:constraintMsg')"/>
       <bind nodeset="/data/contact/register_other/selected_date_of_birth" type="string" calculate="if(concat(../age_years,'')=&quot;&quot;,&quot;&quot;,format-date-time( decimal-date-time( today() ) - (365.25 * ../age_years) - 0 - 0, &quot;%Y-%m-%d&quot; ))"/>
-      <bind nodeset="/data/contact/register_other/phone" type="int" jr:constraintMsg="jr:itext('/data/contact/register_other/phone:jr:constraintMsg')" constraint="regex(., '^\d{9}$')" required="true()"/>
+      <bind nodeset="/data/contact/register_other/phone" type="int" required="true()" constraint="regex(., '^\d{9}$')" jr:constraintMsg="jr:itext('/data/contact/register_other/phone:jr:constraintMsg')"/>
       <bind nodeset="/data/contact/register_other/profession" type="string" required="true()"/>
-      <bind nodeset="/data/contact/register_other/other_email" type="string" jr:constraintMsg="jr:itext('/data/contact/register_other/other_email:jr:constraintMsg')" constraint="regex(., '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$')" required="true()"/>
-      <bind nodeset="/data/contact/register_other/other_code" type="string" jr:constraintMsg="jr:itext('/data/contact/register_other/other_code:jr:constraintMsg')" constraint="regex(., '^[0-9A-Z]+$')"/>
+      <bind nodeset="/data/contact/register_other/other_email" type="string" required="true()" constraint="regex(., '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$')" jr:constraintMsg="jr:itext('/data/contact/register_other/other_email:jr:constraintMsg')"/>
+      <bind nodeset="/data/contact/register_other/other_code" type="string" constraint="regex(., '^[0-9A-Z]+$')" jr:constraintMsg="jr:itext('/data/contact/register_other/other_code:jr:constraintMsg')"/>
       <bind nodeset="/data/contact/role" type="string" calculate="concat('country_manager','')"/>
       <bind nodeset="/data/contact/sex" type="string" calculate="../register_other/selected_sex"/>
       <bind nodeset="/data/contact/date_of_birth" type="string" calculate="../register_other/selected_date_of_birth"/>

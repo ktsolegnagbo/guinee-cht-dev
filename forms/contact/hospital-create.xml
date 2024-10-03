@@ -344,14 +344,14 @@
       <bind nodeset="/data/inputs/contact/parent/name" type="string" calculate="/data/inputs/contact/parent/name"/>
       <bind nodeset="/data/inputs/contact/parent/external_id" type="string" calculate="/data/inputs/contact/parent/external_id"/>
       <bind nodeset="/data/inputs/contact/parent/code" type="string" calculate="/data/inputs/contact/parent/code"/>
-      <bind nodeset="/data/inputs/meta/user_id" type="string" readonly="true()" calculate="/data/inputs/user/contact_id"/>
+      <bind nodeset="/data/inputs/meta/user_id" type="string" calculate="/data/inputs/user/contact_id" readonly="true()"/>
       <bind nodeset="/data/inputs/meta/user_role" type="string" calculate="/data/inputs/contact/role"/>
       <bind nodeset="/data/inputs/meta/user_external_id" type="string" calculate="/data/inputs/contact/external_id"/>
       <bind nodeset="/data/inputs/meta/user_parent_id" type="string" calculate="/data/inputs/contact/parent/_id"/>
-      <bind nodeset="/data/hospital/parent" type="string" readonly="true()" calculate="."/>
+      <bind nodeset="/data/hospital/parent" type="string" calculate="." readonly="true()"/>
       <bind nodeset="/data/hospital/name" type="string" required="true()"/>
       <bind nodeset="/data/hospital/external_id" type="string" required="true()"/>
-      <bind nodeset="/data/hospital/code" type="string" constraint="regex(., '^[0-9A-Z]+$')" jr:constraintMsg="jr:itext('/data/hospital/code:jr:constraintMsg')"/>
+      <bind nodeset="/data/hospital/code" type="string" jr:constraintMsg="jr:itext('/data/hospital/code:jr:constraintMsg')" constraint="regex(., '^[0-9A-Z]+$')"/>
       <bind nodeset="/data/hospital/geolocation" type="geopoint"/>
       <bind nodeset="/data/hospital/contact" type="string" calculate="&quot;NEW&quot;"/>
       <bind nodeset="/data/hospital/user_info/created_user_id" type="string" calculate=" /data/inputs/meta/user_id "/>
@@ -363,12 +363,12 @@
       <bind nodeset="/data/contact/selected_role" type="string" calculate="concat('hospital_manager','')"/>
       <bind nodeset="/data/contact/register_other/selected_sex" type="select1"/>
       <bind nodeset="/data/contact/register_other/dob_method" type="string" calculate="concat('approx','')"/>
-      <bind nodeset="/data/contact/register_other/age_years" type="int" constraint=". &gt;= 18 and .&lt;150" jr:constraintMsg="jr:itext('/data/contact/register_other/age_years:jr:constraintMsg')"/>
+      <bind nodeset="/data/contact/register_other/age_years" type="int" jr:constraintMsg="jr:itext('/data/contact/register_other/age_years:jr:constraintMsg')" constraint=". &gt;= 18 and .&lt;150"/>
       <bind nodeset="/data/contact/register_other/selected_date_of_birth" type="string" calculate="if(concat(../age_years,'')=&quot;&quot;,&quot;&quot;,format-date-time( decimal-date-time( today() ) - (365.25 * ../age_years) - 0 - 0, &quot;%Y-%m-%d&quot; ))"/>
-      <bind nodeset="/data/contact/register_other/phone" type="int" constraint="regex(., '^\d{9}$')" jr:constraintMsg="jr:itext('/data/contact/register_other/phone:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/data/contact/register_other/phone" type="int" required="true()" jr:constraintMsg="jr:itext('/data/contact/register_other/phone:jr:constraintMsg')" constraint="regex(., '^\d{9}$')"/>
       <bind nodeset="/data/contact/register_other/profession" type="string" required="true()"/>
-      <bind nodeset="/data/contact/register_other/other_email" type="string" constraint="regex(., '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$')" jr:constraintMsg="jr:itext('/data/contact/register_other/other_email:jr:constraintMsg')" required="true()"/>
-      <bind nodeset="/data/contact/register_other/other_code" type="string" constraint="regex(., '^[0-9A-Z]+$')" jr:constraintMsg="jr:itext('/data/contact/register_other/other_code:jr:constraintMsg')"/>
+      <bind nodeset="/data/contact/register_other/other_email" type="string" required="true()" jr:constraintMsg="jr:itext('/data/contact/register_other/other_email:jr:constraintMsg')" constraint="regex(., '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$')"/>
+      <bind nodeset="/data/contact/register_other/other_code" type="string" jr:constraintMsg="jr:itext('/data/contact/register_other/other_code:jr:constraintMsg')" constraint="regex(., '^[0-9A-Z]+$')"/>
       <bind nodeset="/data/contact/role" type="string" calculate="concat('hospital_manager','')"/>
       <bind nodeset="/data/contact/sex" type="string" calculate="../register_other/selected_sex"/>
       <bind nodeset="/data/contact/date_of_birth" type="string" calculate="../register_other/selected_date_of_birth"/>

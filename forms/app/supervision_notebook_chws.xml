@@ -4,131 +4,6 @@
     <h:title>Cahier de supervision du RECO</h:title>
     <model>
       <itext>
-        <translation lang="en">
-          <text id="/supervision_notebook_chws/inputs/source:label">
-            <value>Source</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/source_id:label">
-            <value>Source ID</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/user/contact_id:label">
-            <value>Contact ID</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/user/name:label">
-            <value>Username</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/user/phone:label">
-            <value>Phone</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/user/role:label">
-            <value>Role</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/user/external_id:label">
-            <value>Externa Id</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/contact:label">
-            <value>User Information</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/contact/_id:label">
-            <value>ASC ID</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/contact/name:label">
-            <value>ASC Name</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/contact/sex:label">
-            <value>ASC Sex</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/contact/date_of_birth:label">
-            <value>ASC Birth Date</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/contact/external_id:label">
-            <value>ASC external_id</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/contact/parent/_id:label">
-            <value>District/Quartier Id</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/contact/parent/name:label">
-            <value>District/Quartier name</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/contact/parent/external_id:label">
-            <value>District/Quartier external ID</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/contact/parent/parent/_id:label">
-            <value>Hospital Id</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/contact/parent/parent/parent/_id:label">
-            <value>Commune Id</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/contact/parent/parent/parent/parent/_id:label">
-            <value>Prefecture Id</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/contact/parent/parent/parent/parent/parent/_id:label">
-            <value>Region Id</value>
-          </text>
-          <text id="/supervision_notebook_chws/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
-            <value>Country Id</value>
-          </text>
-          <text id="/supervision_notebook_chws/user_id:label">
-            <value>User contact id</value>
-          </text>
-          <text id="/supervision_notebook_chws/user_phone:label">
-            <value>User phone</value>
-          </text>
-          <text id="/supervision_notebook_chws/patient_id:label">
-            <value>Patient ID</value>
-          </text>
-          <text id="/supervision_notebook_chws/patient_name:label">
-            <value>Patient Name</value>
-          </text>
-          <text id="/supervision_notebook_chws/district_quartier_id:label">
-            <value>District/Quartier Id</value>
-          </text>
-          <text id="/supervision_notebook_chws/hospital_id:label">
-            <value>Hospital Id</value>
-          </text>
-          <text id="/supervision_notebook_chws/commune_id:label">
-            <value>Commune Id</value>
-          </text>
-          <text id="/supervision_notebook_chws/prefecture_id:label">
-            <value>Prefecture Id</value>
-          </text>
-          <text id="/supervision_notebook_chws/region_id:label">
-            <value>Region Id</value>
-          </text>
-          <text id="/supervision_notebook_chws/country_id:label">
-            <value>Country Id</value>
-          </text>
-          <text id="/supervision_notebook_chws/tracking_notebook:label">
-            <value>Cahier de supervision du RECO</value>
-          </text>
-          <text id="/supervision_notebook_chws/tracking_notebook/folowup_date:jr:requiredMsg">
-            <value>This field is requiered</value>
-          </text>
-          <text id="/supervision_notebook_chws/tracking_notebook/folowup_date:label">
-            <value>Date du suivi/passage</value>
-          </text>
-          <text id="/supervision_notebook_chws/tracking_notebook/findings:jr:requiredMsg">
-            <value>This field is requiered</value>
-          </text>
-          <text id="/supervision_notebook_chws/tracking_notebook/findings:label">
-            <value>Findings during monitoring</value>
-          </text>
-          <text id="/supervision_notebook_chws/tracking_notebook/actions_taken:jr:requiredMsg">
-            <value>This field is requiered</value>
-          </text>
-          <text id="/supervision_notebook_chws/tracking_notebook/actions_taken:label">
-            <value>Actions taken on findings</value>
-          </text>
-          <text id="/supervision_notebook_chws/tracking_notebook/recommendation:jr:requiredMsg">
-            <value>This field is requiered</value>
-          </text>
-          <text id="/supervision_notebook_chws/tracking_notebook/recommendation:label">
-            <value>Recommendation</value>
-          </text>
-          <text id="/supervision_notebook_chws/tracking_notebook/folowup_date:jr:constraintMsg">
-            <value>-</value>
-          </text>
-        </translation>
         <translation lang="fr">
           <text id="/supervision_notebook_chws/inputs/source:label">
             <value>Source</value>
@@ -254,6 +129,131 @@
             <value>Recommandation</value>
           </text>
         </translation>
+        <translation lang="en">
+          <text id="/supervision_notebook_chws/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/user/role:label">
+            <value>Role</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/user/external_id:label">
+            <value>Externa Id</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/contact/_id:label">
+            <value>ASC ID</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/contact/name:label">
+            <value>ASC Name</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/contact/sex:label">
+            <value>ASC Sex</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/contact/date_of_birth:label">
+            <value>ASC Birth Date</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/contact/external_id:label">
+            <value>ASC external_id</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/contact/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/contact/parent/name:label">
+            <value>District/Quartier name</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/contact/parent/external_id:label">
+            <value>District/Quartier external ID</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/contact/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/contact/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/supervision_notebook_chws/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/supervision_notebook_chws/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/supervision_notebook_chws/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/supervision_notebook_chws/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/supervision_notebook_chws/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/supervision_notebook_chws/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/supervision_notebook_chws/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/supervision_notebook_chws/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/supervision_notebook_chws/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/supervision_notebook_chws/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/supervision_notebook_chws/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/supervision_notebook_chws/tracking_notebook:label">
+            <value>Cahier de supervision du RECO</value>
+          </text>
+          <text id="/supervision_notebook_chws/tracking_notebook/folowup_date:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_notebook_chws/tracking_notebook/folowup_date:label">
+            <value>Date du suivi/passage</value>
+          </text>
+          <text id="/supervision_notebook_chws/tracking_notebook/findings:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_notebook_chws/tracking_notebook/findings:label">
+            <value>Findings during monitoring</value>
+          </text>
+          <text id="/supervision_notebook_chws/tracking_notebook/actions_taken:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_notebook_chws/tracking_notebook/actions_taken:label">
+            <value>Actions taken on findings</value>
+          </text>
+          <text id="/supervision_notebook_chws/tracking_notebook/recommendation:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_notebook_chws/tracking_notebook/recommendation:label">
+            <value>Recommendation</value>
+          </text>
+          <text id="/supervision_notebook_chws/tracking_notebook/folowup_date:jr:constraintMsg">
+            <value>-</value>
+          </text>
+        </translation>
       </itext>
       <instance>
         <supervision_notebook_chws id="supervision_notebook_chws" prefix="J1!supervision_notebook_chws!" delimiter="#" version="2024-08-17  16-13">
@@ -355,7 +355,7 @@
       <bind nodeset="/supervision_notebook_chws/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
       <bind nodeset="/supervision_notebook_chws/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
       <bind nodeset="/supervision_notebook_chws/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
-      <bind nodeset="/supervision_notebook_chws/tracking_notebook/folowup_date" type="date" jr:requiredMsg="jr:itext('/supervision_notebook_chws/tracking_notebook/folowup_date:jr:requiredMsg')" constraint=". &lt;= today()" required="true()" jr:constraintMsg="jr:itext('/supervision_notebook_chws/tracking_notebook/folowup_date:jr:constraintMsg')" calculate="coalesce(.,today())"/>
+      <bind nodeset="/supervision_notebook_chws/tracking_notebook/folowup_date" type="date" jr:constraintMsg="jr:itext('/supervision_notebook_chws/tracking_notebook/folowup_date:jr:constraintMsg')" calculate="coalesce(.,today())" required="true()" jr:requiredMsg="jr:itext('/supervision_notebook_chws/tracking_notebook/folowup_date:jr:requiredMsg')" constraint=". &lt;= today()"/>
       <bind nodeset="/supervision_notebook_chws/tracking_notebook/findings" type="string" required="true()" jr:requiredMsg="jr:itext('/supervision_notebook_chws/tracking_notebook/findings:jr:requiredMsg')"/>
       <bind nodeset="/supervision_notebook_chws/tracking_notebook/actions_taken" type="string" required="true()" jr:requiredMsg="jr:itext('/supervision_notebook_chws/tracking_notebook/actions_taken:jr:requiredMsg')"/>
       <bind nodeset="/supervision_notebook_chws/tracking_notebook/recommendation" type="string" required="true()" jr:requiredMsg="jr:itext('/supervision_notebook_chws/tracking_notebook/recommendation:jr:requiredMsg')"/>

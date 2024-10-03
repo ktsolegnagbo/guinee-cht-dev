@@ -570,7 +570,7 @@
       <bind nodeset="/men_family_planning/fp_method_name" type="string" calculate="if( /men_family_planning/c_planning/c_method_wanted  = '','',jr:choice-name( /men_family_planning/c_planning/c_method_wanted ,' /men_family_planning/c_planning/c_method_wanted '))"/>
       <bind nodeset="/men_family_planning/condoms_quantity" type="string" calculate=" /men_family_planning/condoms_quantity "/>
       <bind nodeset="/men_family_planning/c_planning/c_method_wanted" type="select1" required="true()"/>
-      <bind nodeset="/men_family_planning/c_planning/c_condoms_quantity" type="int" constraint=". &gt;= 0" required="true()" relevant="selected( /men_family_planning/c_planning/c_method_wanted ,'condoms')" jr:constraintMsg="jr:itext('/men_family_planning/c_planning/c_condoms_quantity:jr:constraintMsg')"/>
+      <bind nodeset="/men_family_planning/c_planning/c_condoms_quantity" type="int" constraint=". &gt;= 0" relevant="selected( /men_family_planning/c_planning/c_method_wanted ,'condoms')" required="true()" jr:constraintMsg="jr:itext('/men_family_planning/c_planning/c_condoms_quantity:jr:constraintMsg')"/>
       <bind nodeset="/men_family_planning/group_review/s_summary" readonly="true()" type="string"/>
       <bind nodeset="/men_family_planning/group_review/s_patient_info_name" readonly="true()" type="string"/>
       <bind nodeset="/men_family_planning/group_review/s_patient_info_sex" readonly="true()" type="string"/>

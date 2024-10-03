@@ -4,50 +4,6 @@
     <h:title>Edit District/Quartier</h:title>
     <model>
       <itext>
-        <translation lang="en">
-          <text id="/data/inputs/contact:label">
-            <value>User Information</value>
-          </text>
-          <text id="/data/inputs/contact/parent:label">
-            <value>parent Information</value>
-          </text>
-          <text id="/data/inputs/meta/user_id:label">
-            <value>Your Fullname</value>
-          </text>
-          <text id="/data/inputs/meta/user_role:label">
-            <value>Your role</value>
-          </text>
-          <text id="/data/inputs/meta/user_external_id:label">
-            <value>Your external Id</value>
-          </text>
-          <text id="/data/inputs/meta/user_parent_id:label">
-            <value>user parent id</value>
-          </text>
-          <text id="/data/district_hospital:label">
-            <value>District/Quartier update</value>
-          </text>
-          <text id="/data/district_hospital/parent:label">
-            <value>Health Center Name</value>
-          </text>
-          <text id="/data/district_hospital/name:label">
-            <value>Name of District/Quartier</value>
-          </text>
-          <text id="/data/district_hospital/external_id:label">
-            <value>DHIS2 District/Quartier Identifier</value>
-          </text>
-          <text id="/data/district_hospital/code:jr:constraintMsg">
-            <value>Only numbers and uppercase letters are allowed</value>
-          </text>
-          <text id="/data/district_hospital/code:label">
-            <value>District/Quartier code</value>
-          </text>
-          <text id="/data/district_hospital/code:hint">
-            <value>1-9 A-Z</value>
-          </text>
-          <text id="/data/district_hospital/geolocation:label">
-            <value>Please capture District/Quartier location</value>
-          </text>
-        </translation>
         <translation lang="fr">
           <text id="/data/inputs/contact:label">
             <value>Information de l'utilisateur</value>
@@ -90,6 +46,50 @@
           </text>
           <text id="/data/district_hospital/geolocation:label">
             <value>Veuillez capturer la position du District/Quartier</value>
+          </text>
+        </translation>
+        <translation lang="en">
+          <text id="/data/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/data/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/data/inputs/meta/user_id:label">
+            <value>Your Fullname</value>
+          </text>
+          <text id="/data/inputs/meta/user_role:label">
+            <value>Your role</value>
+          </text>
+          <text id="/data/inputs/meta/user_external_id:label">
+            <value>Your external Id</value>
+          </text>
+          <text id="/data/inputs/meta/user_parent_id:label">
+            <value>user parent id</value>
+          </text>
+          <text id="/data/district_hospital:label">
+            <value>District/Quartier update</value>
+          </text>
+          <text id="/data/district_hospital/parent:label">
+            <value>Health Center Name</value>
+          </text>
+          <text id="/data/district_hospital/name:label">
+            <value>Name of District/Quartier</value>
+          </text>
+          <text id="/data/district_hospital/external_id:label">
+            <value>DHIS2 District/Quartier Identifier</value>
+          </text>
+          <text id="/data/district_hospital/code:jr:constraintMsg">
+            <value>Only numbers and uppercase letters are allowed</value>
+          </text>
+          <text id="/data/district_hospital/code:label">
+            <value>District/Quartier code</value>
+          </text>
+          <text id="/data/district_hospital/code:hint">
+            <value>1-9 A-Z</value>
+          </text>
+          <text id="/data/district_hospital/geolocation:label">
+            <value>Please capture District/Quartier location</value>
           </text>
         </translation>
       </itext>
@@ -171,7 +171,7 @@
       <bind nodeset="/data/district_hospital/parent" type="string"/>
       <bind nodeset="/data/district_hospital/name" type="string" required="true()"/>
       <bind nodeset="/data/district_hospital/external_id" type="string" required="true()"/>
-      <bind nodeset="/data/district_hospital/code" type="string" constraint="regex(., '^[0-9A-Z]+$')" jr:constraintMsg="jr:itext('/data/district_hospital/code:jr:constraintMsg')"/>
+      <bind nodeset="/data/district_hospital/code" type="string" jr:constraintMsg="jr:itext('/data/district_hospital/code:jr:constraintMsg')" constraint="regex(., '^[0-9A-Z]+$')"/>
       <bind nodeset="/data/district_hospital/geolocation" type="geopoint"/>
       <bind nodeset="/data/district_hospital/contact" type="db:person"/>
       <bind nodeset="/data/district_hospital/user_info/created_user_id" type="string"/>

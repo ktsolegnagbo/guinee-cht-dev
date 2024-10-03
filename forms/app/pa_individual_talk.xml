@@ -4,377 +4,6 @@
     <h:title>CIP:Communication Inter-Personnelle</h:title>
     <model>
       <itext>
-        <translation lang="fr">
-          <text id="/pa_individual_talk/inputs/source:label">
-            <value>Source</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/source_id:label">
-            <value>Source ID</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/user/contact_id:label">
-            <value>Votre Nom</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/user/fullname:label">
-            <value>Contact FULL Name</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/user/name:label">
-            <value>Username</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/user/phone:label">
-            <value>Phone</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/user/roles:label">
-            <value>Role</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact:label">
-            <value>Information de l'utilisateur</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/_id:label">
-            <value>Patient ID</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/name:label">
-            <value>Patient Name</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/sex:label">
-            <value>Patient Sex</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/date_of_birth:label">
-            <value>Patient Birth Date</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/phone:label">
-            <value>Patient Phone</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/geolocation:label">
-            <value>Information geolocation</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/_id:label">
-            <value>Family UUID</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/name:label">
-            <value>Family name</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/external_id:label">
-            <value>Family External ID</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/parent:label">
-            <value>Village/Secteur</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/parent/_id:label">
-            <value>Village/Secteur ID</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/parent/parent/_id:label">
-            <value>District/Quartier Id</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/parent/parent/parent/_id:label">
-            <value>Centre de Santé Id</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/parent/parent/parent/parent/_id:label">
-            <value>Commune Id</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
-            <value>Préfecture/District Sanitaire Id</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
-            <value>Région/IRS Id</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
-            <value>Pays Id</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/parent/contact:label">
-            <value>INFORMATIONS CONTACT PRINCIPAL</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/parent/contact/_id:label">
-            <value>ID CONTACT PRINCIPAL</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/parent/contact/name:label">
-            <value>NOM CONTACT PRINCIPAL</value>
-          </text>
-          <text id="/pa_individual_talk/inputs/contact/parent/parent/contact/external_id:label">
-            <value>ID EXTERNE CONTACT PRINCIPAL</value>
-          </text>
-          <text id="/pa_individual_talk/user_id:label">
-            <value>User contact id</value>
-          </text>
-          <text id="/pa_individual_talk/user_phone:label">
-            <value>User phone</value>
-          </text>
-          <text id="/pa_individual_talk/user_external_id:label">
-            <value>User external id</value>
-          </text>
-          <text id="/pa_individual_talk/user_role:label">
-            <value>User rôle</value>
-          </text>
-          <text id="/pa_individual_talk/patient_id:label">
-            <value>Patient ID</value>
-          </text>
-          <text id="/pa_individual_talk/patient_name:label">
-            <value>Patient Name</value>
-          </text>
-          <text id="/pa_individual_talk/patient_date_of_birth:label">
-            <value>Patient date of birth</value>
-          </text>
-          <text id="/pa_individual_talk/patient_sex:label">
-            <value>Patient Sexe</value>
-          </text>
-          <text id="/pa_individual_talk/patient_age_in_years:label">
-            <value>Age en Annees</value>
-          </text>
-          <text id="/pa_individual_talk/patient_age_in_months:label">
-            <value>Age en Mois</value>
-          </text>
-          <text id="/pa_individual_talk/patient_age_in_days:label">
-            <value>Age en Jours</value>
-          </text>
-          <text id="/pa_individual_talk/patient_age_display_fr:label">
-            <value>FR Age Display</value>
-          </text>
-          <text id="/pa_individual_talk/patient_age_display_en:label">
-            <value>EN Age Display</value>
-          </text>
-          <text id="/pa_individual_talk/patient_sex_en:label">
-            <value>FR Sex Display</value>
-          </text>
-          <text id="/pa_individual_talk/patient_sex_fr:label">
-            <value>EN Sex Display</value>
-          </text>
-          <text id="/pa_individual_talk/patient_geolocation:label">
-            <value>EN Sex Display</value>
-          </text>
-          <text id="/pa_individual_talk/patient_phone:label">
-            <value>Phone Patient</value>
-          </text>
-          <text id="/pa_individual_talk/household_id:label">
-            <value>Ménage Id</value>
-          </text>
-          <text id="/pa_individual_talk/household_name:label">
-            <value>Ménage Name</value>
-          </text>
-          <text id="/pa_individual_talk/household_external_id:label">
-            <value>Ménage External Id</value>
-          </text>
-          <text id="/pa_individual_talk/village_secteur_id:label">
-            <value>Village/Secteur Id</value>
-          </text>
-          <text id="/pa_individual_talk/district_quartier_id:label">
-            <value>District/Quartier Id</value>
-          </text>
-          <text id="/pa_individual_talk/hospital_id:label">
-            <value>Centre de Santé Id</value>
-          </text>
-          <text id="/pa_individual_talk/commune_id:label">
-            <value>Commune Id</value>
-          </text>
-          <text id="/pa_individual_talk/prefecture_id:label">
-            <value>Préfecture/District Sanitaire Id</value>
-          </text>
-          <text id="/pa_individual_talk/region_id:label">
-            <value>Région/IRS Id</value>
-          </text>
-          <text id="/pa_individual_talk/country_id:label">
-            <value>Pays Id</value>
-          </text>
-          <text id="/pa_individual_talk/visited_contact_uuid:label">
-            <value>Identifiant de la famille</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/activity_date:jr:constraintMsg">
-            <value>La date doit être comprise entre le 25 du mois passé et aujourd'hui</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/activity_date:jr:requiredMsg">
-            <value>Ce champ est obligatoire</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/activity_date:label">
-            <value>Date de l'activité</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/activity_method:label">
-            <value>Quelle est la méthode utilisée ?</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/activity_domain:jr:requiredMsg">
-            <value>Ce champ est obligatoire</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/activity_domain:label">
-            <value>Quel est le domaine de l'activité ?</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/activity_domain/maternel_childhealth:label">
-            <value>sante de la mère, du nouveau-né et de l'enfant</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/activity_domain/education:label">
-            <value>éducation</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/activity_domain/gbv:label">
-            <value>les violences basées sur le genre (VBG)</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/activity_domain/nutrition:label">
-            <value>nutrition</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/activity_domain/water_hygiene:label">
-            <value>eau-hygiène et assainissement</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/activity_domain/disease_control:label">
-            <value>lutte contre la maladie</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/other_activity_domain:jr:requiredMsg">
-            <value>Ce champ est obligatoire</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/other_activity_domain:label">
-            <value>Quel est l'autre domaine d'activité ?</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/theme:jr:requiredMsg">
-            <value>Ce champ est obligatoire</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/theme:label">
-            <value>Quel est le thème ?</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/women_number:jr:requiredMsg">
-            <value>Ce champ est obligatoire</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/women_number:label">
-            <value>Nombre de femme touchée</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/men_number:jr:requiredMsg">
-            <value>Ce champ est obligatoire</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/men_number:label">
-            <value>Nombre d'homme touché</value>
-          </text>
-          <text id="/pa_individual_talk/promotional_activity/total_person:label">
-            <value>Personne totale touchée</value>
-          </text>
-          <text id="static_instance-activity_methods-0">
-            <value>VAD : Visite a domicile</value>
-          </text>
-          <text id="static_instance-activity_methods-1">
-            <value>CE : causerie éducative</value>
-          </text>
-          <text id="static_instance-activity_methods-2">
-            <value>CIP : Communication interpersonnelle</value>
-          </text>
-          <text id="static_instance-activity_domains-0">
-            <value>sante de la mère, du nouveau-né et de l'enfant</value>
-          </text>
-          <text id="static_instance-activity_domains-1">
-            <value>éducation</value>
-          </text>
-          <text id="static_instance-activity_domains-2">
-            <value>les violences basées sur le genre (VBG)</value>
-          </text>
-          <text id="static_instance-activity_domains-3">
-            <value>nutrition</value>
-          </text>
-          <text id="static_instance-activity_domains-4">
-            <value>eau-hygiène et assainissement</value>
-          </text>
-          <text id="static_instance-activity_domains-5">
-            <value>lutte contre la maladie</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-0">
-            <value>Consultation prénatale</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-1">
-            <value>Accouchement assisté par un personnel qualifié</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-2">
-            <value>Suivi post natal</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-3">
-            <value>Soins après avortement</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-4">
-            <value>Fistule obstétricale</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-5">
-            <value>Planification familiale (PF)</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-6">
-            <value>Contraceptifs oraux</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-7">
-            <value>Vaccination</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-8">
-            <value>Prise en charge du nouveau-né à domicile</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-9">
-            <value>Prise en charge intégrée des cas de maladies à domicile</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-10">
-            <value>Soins pour le développement de l'enfant</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-11">
-            <value>Conseils à la famille sur les problèmes en matière de soins pour le développement de l'enfant</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-12">
-            <value>Maltraitance des enfants</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-13">
-            <value>Mutilation Génitale Féminine MGF et le rejet de filles non excise</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-14">
-            <value>Allaitement maternel exclusif</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-15">
-            <value>Supplémentation en vitamine A</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-16">
-            <value>Alimentation de complément</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-17">
-            <value>Malnutrition</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-18">
-            <value>Lutte contre la carence en iode</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-19">
-            <value>Lavage des mains</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-20">
-            <value>Assainissement total piloté par la communauté (ATPCtpc)</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-21">
-            <value>Tuberculose</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-22">
-            <value>Lèpre</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-23">
-            <value>Ulcère de Buruli</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-24">
-            <value>Onchocercose</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-25">
-            <value>Bilharziose ou schistosomiase</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-26">
-            <value>Déparasitage de masse</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-27">
-            <value>Trypanosomiase humaine africaine (THA)</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-28">
-            <value>Filariose lymphatique</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-29">
-            <value>Trachome</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-30">
-            <value>IST-VIH/SIDA et les hépatites</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-31">
-            <value>Hypertension artérielle</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-32">
-            <value>Diabète</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-33">
-            <value>Cancers</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-34">
-            <value>Drépanocytose</value>
-          </text>
-          <text id="static_instance-theme_list_by_domain-35">
-            <value>Paludisme</value>
-          </text>
-        </translation>
         <translation lang="en">
           <text id="/pa_individual_talk/inputs/source:label">
             <value>Source</value>
@@ -746,6 +375,377 @@
             <value>Malaria</value>
           </text>
         </translation>
+        <translation lang="fr">
+          <text id="/pa_individual_talk/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/user/contact_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/user/fullname:label">
+            <value>Contact FULL Name</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/user/roles:label">
+            <value>Role</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/geolocation:label">
+            <value>Information geolocation</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/external_id:label">
+            <value>Family External ID</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/parent/contact:label">
+            <value>INFORMATIONS CONTACT PRINCIPAL</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/parent/contact/_id:label">
+            <value>ID CONTACT PRINCIPAL</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/parent/contact/name:label">
+            <value>NOM CONTACT PRINCIPAL</value>
+          </text>
+          <text id="/pa_individual_talk/inputs/contact/parent/parent/contact/external_id:label">
+            <value>ID EXTERNE CONTACT PRINCIPAL</value>
+          </text>
+          <text id="/pa_individual_talk/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/pa_individual_talk/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/pa_individual_talk/user_external_id:label">
+            <value>User external id</value>
+          </text>
+          <text id="/pa_individual_talk/user_role:label">
+            <value>User rôle</value>
+          </text>
+          <text id="/pa_individual_talk/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pa_individual_talk/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/pa_individual_talk/patient_date_of_birth:label">
+            <value>Patient date of birth</value>
+          </text>
+          <text id="/pa_individual_talk/patient_sex:label">
+            <value>Patient Sexe</value>
+          </text>
+          <text id="/pa_individual_talk/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/pa_individual_talk/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/pa_individual_talk/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/pa_individual_talk/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/pa_individual_talk/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/pa_individual_talk/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/pa_individual_talk/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/pa_individual_talk/patient_geolocation:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/pa_individual_talk/patient_phone:label">
+            <value>Phone Patient</value>
+          </text>
+          <text id="/pa_individual_talk/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/pa_individual_talk/household_name:label">
+            <value>Ménage Name</value>
+          </text>
+          <text id="/pa_individual_talk/household_external_id:label">
+            <value>Ménage External Id</value>
+          </text>
+          <text id="/pa_individual_talk/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/pa_individual_talk/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/pa_individual_talk/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/pa_individual_talk/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/pa_individual_talk/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/pa_individual_talk/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/pa_individual_talk/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/pa_individual_talk/visited_contact_uuid:label">
+            <value>Identifiant de la famille</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/activity_date:jr:constraintMsg">
+            <value>La date doit être comprise entre le 25 du mois passé et aujourd'hui</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/activity_date:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/activity_date:label">
+            <value>Date de l'activité</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/activity_method:label">
+            <value>Quelle est la méthode utilisée ?</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/activity_domain:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/activity_domain:label">
+            <value>Quel est le domaine de l'activité ?</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/activity_domain/maternel_childhealth:label">
+            <value>sante de la mère, du nouveau-né et de l'enfant</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/activity_domain/education:label">
+            <value>éducation</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/activity_domain/gbv:label">
+            <value>les violences basées sur le genre (VBG)</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/activity_domain/nutrition:label">
+            <value>nutrition</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/activity_domain/water_hygiene:label">
+            <value>eau-hygiène et assainissement</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/activity_domain/disease_control:label">
+            <value>lutte contre la maladie</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/other_activity_domain:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/other_activity_domain:label">
+            <value>Quel est l'autre domaine d'activité ?</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/theme:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/theme:label">
+            <value>Quel est le thème ?</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/women_number:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/women_number:label">
+            <value>Nombre de femme touchée</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/men_number:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/men_number:label">
+            <value>Nombre d'homme touché</value>
+          </text>
+          <text id="/pa_individual_talk/promotional_activity/total_person:label">
+            <value>Personne totale touchée</value>
+          </text>
+          <text id="static_instance-activity_methods-0">
+            <value>VAD : Visite a domicile</value>
+          </text>
+          <text id="static_instance-activity_methods-1">
+            <value>CE : causerie éducative</value>
+          </text>
+          <text id="static_instance-activity_methods-2">
+            <value>CIP : Communication interpersonnelle</value>
+          </text>
+          <text id="static_instance-activity_domains-0">
+            <value>sante de la mère, du nouveau-né et de l'enfant</value>
+          </text>
+          <text id="static_instance-activity_domains-1">
+            <value>éducation</value>
+          </text>
+          <text id="static_instance-activity_domains-2">
+            <value>les violences basées sur le genre (VBG)</value>
+          </text>
+          <text id="static_instance-activity_domains-3">
+            <value>nutrition</value>
+          </text>
+          <text id="static_instance-activity_domains-4">
+            <value>eau-hygiène et assainissement</value>
+          </text>
+          <text id="static_instance-activity_domains-5">
+            <value>lutte contre la maladie</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-0">
+            <value>Consultation prénatale</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-1">
+            <value>Accouchement assisté par un personnel qualifié</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-2">
+            <value>Suivi post natal</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-3">
+            <value>Soins après avortement</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-4">
+            <value>Fistule obstétricale</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-5">
+            <value>Planification familiale (PF)</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-6">
+            <value>Contraceptifs oraux</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-7">
+            <value>Vaccination</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-8">
+            <value>Prise en charge du nouveau-né à domicile</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-9">
+            <value>Prise en charge intégrée des cas de maladies à domicile</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-10">
+            <value>Soins pour le développement de l'enfant</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-11">
+            <value>Conseils à la famille sur les problèmes en matière de soins pour le développement de l'enfant</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-12">
+            <value>Maltraitance des enfants</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-13">
+            <value>Mutilation Génitale Féminine MGF et le rejet de filles non excise</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-14">
+            <value>Allaitement maternel exclusif</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-15">
+            <value>Supplémentation en vitamine A</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-16">
+            <value>Alimentation de complément</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-17">
+            <value>Malnutrition</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-18">
+            <value>Lutte contre la carence en iode</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-19">
+            <value>Lavage des mains</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-20">
+            <value>Assainissement total piloté par la communauté (ATPCtpc)</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-21">
+            <value>Tuberculose</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-22">
+            <value>Lèpre</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-23">
+            <value>Ulcère de Buruli</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-24">
+            <value>Onchocercose</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-25">
+            <value>Bilharziose ou schistosomiase</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-26">
+            <value>Déparasitage de masse</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-27">
+            <value>Trypanosomiase humaine africaine (THA)</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-28">
+            <value>Filariose lymphatique</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-29">
+            <value>Trachome</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-30">
+            <value>IST-VIH/SIDA et les hépatites</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-31">
+            <value>Hypertension artérielle</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-32">
+            <value>Diabète</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-33">
+            <value>Cancers</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-34">
+            <value>Drépanocytose</value>
+          </text>
+          <text id="static_instance-theme_list_by_domain-35">
+            <value>Paludisme</value>
+          </text>
+        </translation>
       </itext>
       <instance>
         <pa_individual_talk id="pa_individual_talk" prefix="J1!pa_individual_talk!" delimiter="#" version="2024-08-17  6-08">
@@ -902,183 +902,183 @@
         <root>
           <item>
             <itextId>static_instance-theme_list_by_domain-0</itextId>
-            <filter>maternel_childhealth</filter>
             <name>prenatal_consultation</name>
+            <filter>maternel_childhealth</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-1</itextId>
-            <filter>maternel_childhealth</filter>
             <name>birth_attended</name>
+            <filter>maternel_childhealth</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-2</itextId>
-            <filter>maternel_childhealth</filter>
             <name>post_natal</name>
+            <filter>maternel_childhealth</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-3</itextId>
-            <filter>maternel_childhealth</filter>
             <name>post_abortion</name>
+            <filter>maternel_childhealth</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-4</itextId>
-            <filter>maternel_childhealth</filter>
             <name>obstetric_fistula</name>
+            <filter>maternel_childhealth</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-5</itextId>
-            <filter>maternel_childhealth</filter>
             <name>family_planning</name>
+            <filter>maternel_childhealth</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-6</itextId>
-            <filter>maternel_childhealth</filter>
             <name>oral_contraceptive</name>
+            <filter>maternel_childhealth</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-7</itextId>
-            <filter>maternel_childhealth</filter>
             <name>vaccination</name>
+            <filter>maternel_childhealth</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-8</itextId>
-            <filter>maternel_childhealth</filter>
             <name>newborn_care_home</name>
+            <filter>maternel_childhealth</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-9</itextId>
-            <filter>maternel_childhealth</filter>
             <name>integrated_case</name>
+            <filter>maternel_childhealth</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-10</itextId>
-            <filter>education</filter>
             <name>advice_family</name>
+            <filter>education</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-11</itextId>
-            <filter>education</filter>
             <name>child_abuse</name>
+            <filter>education</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-12</itextId>
-            <filter>gbv</filter>
             <name>female_genital</name>
+            <filter>gbv</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-13</itextId>
-            <filter>gbv</filter>
             <name>exclusive_breastfeeding</name>
+            <filter>gbv</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-14</itextId>
-            <filter>nutrition</filter>
             <name>exclusive_breastfeeding</name>
+            <filter>nutrition</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-15</itextId>
-            <filter>nutrition</filter>
             <name>vitamin_a_supp</name>
+            <filter>nutrition</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-16</itextId>
-            <filter>nutrition</filter>
             <name>suppl_feeding</name>
+            <filter>nutrition</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-17</itextId>
-            <filter>nutrition</filter>
             <name>malnutrition</name>
+            <filter>nutrition</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-18</itextId>
-            <filter>nutrition</filter>
             <name>combating_iodine</name>
+            <filter>nutrition</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-19</itextId>
-            <filter>water_hygiene</filter>
             <name>hand_washing</name>
+            <filter>water_hygiene</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-20</itextId>
-            <filter>water_hygiene</filter>
             <name>community_led</name>
+            <filter>water_hygiene</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-21</itextId>
-            <filter>disease_control</filter>
             <name>tuberculosis</name>
+            <filter>disease_control</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-22</itextId>
-            <filter>disease_control</filter>
             <name>leprosy</name>
+            <filter>disease_control</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-23</itextId>
-            <filter>disease_control</filter>
             <name>buruli_ulcer</name>
+            <filter>disease_control</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-24</itextId>
-            <filter>disease_control</filter>
             <name>onchocerciasis</name>
+            <filter>disease_control</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-25</itextId>
-            <filter>disease_control</filter>
             <name>bilharzia</name>
+            <filter>disease_control</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-26</itextId>
-            <filter>disease_control</filter>
             <name>mass_deworming</name>
+            <filter>disease_control</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-27</itextId>
-            <filter>disease_control</filter>
             <name>human_african</name>
+            <filter>disease_control</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-28</itextId>
-            <filter>disease_control</filter>
             <name>lymphatic</name>
+            <filter>disease_control</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-29</itextId>
-            <filter>disease_control</filter>
             <name>trachoma</name>
+            <filter>disease_control</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-30</itextId>
-            <filter>disease_control</filter>
             <name>sti_and_hepatitis</name>
+            <filter>disease_control</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-31</itextId>
-            <filter>disease_control</filter>
             <name>hypertension</name>
+            <filter>disease_control</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-32</itextId>
-            <filter>disease_control</filter>
             <name>diabetes</name>
+            <filter>disease_control</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-33</itextId>
-            <filter>disease_control</filter>
             <name>cancers</name>
+            <filter>disease_control</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-34</itextId>
-            <filter>disease_control</filter>
             <name>sickle_cell_disease</name>
+            <filter>disease_control</filter>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-35</itextId>
-            <filter>disease_control</filter>
             <name>malaria</name>
+            <filter>disease_control</filter>
           </item>
         </root>
       </instance>
@@ -1139,13 +1139,13 @@
       <bind nodeset="/pa_individual_talk/is_vad_method" type="string" calculate="&quot;false&quot;"/>
       <bind nodeset="/pa_individual_talk/is_talk_method" type="string" calculate="&quot;false&quot;"/>
       <bind nodeset="/pa_individual_talk/is_interpersonal_com_method" type="string" calculate="&quot;true&quot;"/>
-      <bind nodeset="/pa_individual_talk/promotional_activity/activity_date" type="date" jr:constraintMsg="jr:itext('/pa_individual_talk/promotional_activity/activity_date:jr:constraintMsg')" constraint=". &gt;= date(concat(format-date(date(decimal-date-time(today()) - 30 - format-date(today(), '%d') + 5), '%Y-%m'), '-25')) and . &lt;= today()" jr:requiredMsg="jr:itext('/pa_individual_talk/promotional_activity/activity_date:jr:requiredMsg')" required="true()" calculate="coalesce(.,today())"/>
-      <bind nodeset="/pa_individual_talk/promotional_activity/activity_method" type="string" required="true()" calculate="&quot;interpersonal_com&quot;"/>
+      <bind nodeset="/pa_individual_talk/promotional_activity/activity_date" type="date" required="true()" constraint=". &gt;= date(concat(format-date(date(decimal-date-time(today()) - 30 - format-date(today(), '%d') + 5), '%Y-%m'), '-25')) and . &lt;= today()" jr:requiredMsg="jr:itext('/pa_individual_talk/promotional_activity/activity_date:jr:requiredMsg')" calculate="coalesce(.,today())" jr:constraintMsg="jr:itext('/pa_individual_talk/promotional_activity/activity_date:jr:constraintMsg')"/>
+      <bind nodeset="/pa_individual_talk/promotional_activity/activity_method" type="string" calculate="&quot;interpersonal_com&quot;" required="true()"/>
       <bind nodeset="/pa_individual_talk/promotional_activity/activity_domain" type="select" jr:requiredMsg="jr:itext('/pa_individual_talk/promotional_activity/activity_domain:jr:requiredMsg')" required="true()"/>
-      <bind nodeset="/pa_individual_talk/promotional_activity/other_activity_domain" type="string" jr:requiredMsg="jr:itext('/pa_individual_talk/promotional_activity/other_activity_domain:jr:requiredMsg')" required="true()" relevant="selected( /pa_individual_talk/promotional_activity/activity_domain ,'other_diseases_domain')"/>
+      <bind nodeset="/pa_individual_talk/promotional_activity/other_activity_domain" type="string" jr:requiredMsg="jr:itext('/pa_individual_talk/promotional_activity/other_activity_domain:jr:requiredMsg')" relevant="selected( /pa_individual_talk/promotional_activity/activity_domain ,'other_diseases_domain')" required="true()"/>
       <bind nodeset="/pa_individual_talk/promotional_activity/theme" type="select" jr:requiredMsg="jr:itext('/pa_individual_talk/promotional_activity/theme:jr:requiredMsg')" required="true()"/>
-      <bind nodeset="/pa_individual_talk/promotional_activity/women_number" type="string" jr:requiredMsg="jr:itext('/pa_individual_talk/promotional_activity/women_number:jr:requiredMsg')" required="true()" calculate="if( /pa_individual_talk/patient_sex  = 'female',1,0)"/>
-      <bind nodeset="/pa_individual_talk/promotional_activity/men_number" type="string" jr:requiredMsg="jr:itext('/pa_individual_talk/promotional_activity/men_number:jr:requiredMsg')" required="true()" calculate="if( /pa_individual_talk/patient_sex  = 'male',1,0)"/>
+      <bind nodeset="/pa_individual_talk/promotional_activity/women_number" type="string" jr:requiredMsg="jr:itext('/pa_individual_talk/promotional_activity/women_number:jr:requiredMsg')" calculate="if( /pa_individual_talk/patient_sex  = 'female',1,0)" required="true()"/>
+      <bind nodeset="/pa_individual_talk/promotional_activity/men_number" type="string" jr:requiredMsg="jr:itext('/pa_individual_talk/promotional_activity/men_number:jr:requiredMsg')" calculate="if( /pa_individual_talk/patient_sex  = 'male',1,0)" required="true()"/>
       <bind nodeset="/pa_individual_talk/promotional_activity/total_person" type="string" calculate="coalesce(../women_number,0) + coalesce(../men_number,0)"/>
       <bind nodeset="/pa_individual_talk/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>

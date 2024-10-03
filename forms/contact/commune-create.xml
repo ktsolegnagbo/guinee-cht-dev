@@ -366,9 +366,9 @@
       <bind nodeset="/data/contact/register_other/dob_method" type="string" calculate="concat('approx','')"/>
       <bind nodeset="/data/contact/register_other/age_years" type="int" jr:constraintMsg="jr:itext('/data/contact/register_other/age_years:jr:constraintMsg')" constraint=". &gt;= 18 and .&lt;150"/>
       <bind nodeset="/data/contact/register_other/selected_date_of_birth" type="string" calculate="if(concat(../age_years,'')=&quot;&quot;,&quot;&quot;,format-date-time( decimal-date-time( today() ) - (365.25 * ../age_years) - 0 - 0, &quot;%Y-%m-%d&quot; ))"/>
-      <bind nodeset="/data/contact/register_other/phone" type="int" required="true()" jr:constraintMsg="jr:itext('/data/contact/register_other/phone:jr:constraintMsg')" constraint="regex(., '^\d{9}$')"/>
+      <bind nodeset="/data/contact/register_other/phone" type="int" jr:constraintMsg="jr:itext('/data/contact/register_other/phone:jr:constraintMsg')" required="true()" constraint="regex(., '^\d{9}$')"/>
       <bind nodeset="/data/contact/register_other/profession" type="string" required="true()"/>
-      <bind nodeset="/data/contact/register_other/other_email" type="string" required="true()" jr:constraintMsg="jr:itext('/data/contact/register_other/other_email:jr:constraintMsg')" constraint="regex(., '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$')"/>
+      <bind nodeset="/data/contact/register_other/other_email" type="string" jr:constraintMsg="jr:itext('/data/contact/register_other/other_email:jr:constraintMsg')" required="true()" constraint="regex(., '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$')"/>
       <bind nodeset="/data/contact/register_other/other_code" type="string" jr:constraintMsg="jr:itext('/data/contact/register_other/other_code:jr:constraintMsg')" constraint="regex(., '^[0-9A-Z]+$')"/>
       <bind nodeset="/data/contact/role" type="string" calculate="concat('commune_manager','')"/>
       <bind nodeset="/data/contact/sex" type="string" calculate="../register_other/selected_sex"/>

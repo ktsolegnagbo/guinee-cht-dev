@@ -1937,48 +1937,48 @@
         <root>
           <item>
             <itextId>static_instance-reason_anc-0</itextId>
-            <name>busy</name>
             <filter>1</filter>
+            <name>busy</name>
           </item>
           <item>
             <itextId>static_instance-reason_anc-1</itextId>
-            <name>forget</name>
             <filter>2</filter>
+            <name>forget</name>
           </item>
           <item>
             <itextId>static_instance-reason_anc-2</itextId>
-            <name>refused</name>
             <filter>3</filter>
+            <name>refused</name>
           </item>
           <item>
             <itextId>static_instance-reason_anc-3</itextId>
-            <name>no_money</name>
             <filter>4</filter>
+            <name>no_money</name>
           </item>
           <item>
             <itextId>static_instance-reason_anc-4</itextId>
-            <name>miscarriage</name>
             <filter>5</filter>
+            <name>miscarriage</name>
           </item>
           <item>
             <itextId>static_instance-reason_anc-5</itextId>
-            <name>deceased</name>
             <filter>6</filter>
+            <name>deceased</name>
           </item>
           <item>
             <itextId>static_instance-reason_anc-6</itextId>
-            <name>hospitalized</name>
             <filter>7</filter>
+            <name>hospitalized</name>
           </item>
           <item>
             <itextId>static_instance-reason_anc-7</itextId>
-            <name>absent</name>
             <filter>8</filter>
+            <name>absent</name>
           </item>
           <item>
             <itextId>static_instance-reason_anc-8</itextId>
-            <name>others</name>
             <filter>9</filter>
+            <name>others</name>
           </item>
         </root>
       </instance>
@@ -2010,8 +2010,8 @@
           </item>
           <item>
             <itextId>static_instance-death_reason_list-6</itextId>
-            <name>miscarriage</name>
             <filter>5</filter>
+            <name>miscarriage</name>
           </item>
           <item>
             <itextId>static_instance-death_reason_list-7</itextId>
@@ -2144,16 +2144,16 @@
       <bind nodeset="/prenatal_followup/patient_infos/i_milda" readonly="true()" type="string" relevant=" /prenatal_followup/inputs/t_milda  != '' and  /prenatal_followup/inputs/t_milda  = 'yes'"/>
       <bind nodeset="/prenatal_followup/patient_infos/i_next_cpn_date" readonly="true()" type="string" relevant=" /prenatal_followup/inputs/t_cpn_next_number  != '' and  /prenatal_followup/inputs/t_next_cpn_date  != ''"/>
       <bind nodeset="/prenatal_followup/informations/c_task_to_perform" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_task_to_perform:jr:requiredMsg')"/>
-      <bind nodeset="/prenatal_followup/informations/c_closing_reason" type="select1" required="true()" relevant="../c_task_to_perform = 'close'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_closing_reason:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/informations/c_closing_reason" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_closing_reason:jr:requiredMsg')" relevant="../c_task_to_perform = 'close'"/>
       <bind nodeset="/prenatal_followup/informations/c_other_closing_reason" type="string" relevant="../c_task_to_perform = 'close' and ../c_closing_reason = 'others'"/>
-      <bind nodeset="/prenatal_followup/informations/c_health_facility_for_miscarriage" type="select1" required="true()" relevant="../c_task_to_perform = 'close' and ../c_closing_reason = 'miscarriage'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_health_facility_for_miscarriage:jr:requiredMsg')"/>
-      <bind nodeset="/prenatal_followup/informations/c_record_death_informations" type="select1" required="true()" relevant="../c_task_to_perform = 'close' and ../c_closing_reason = 'deceased'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_record_death_informations:jr:requiredMsg')"/>
-      <bind nodeset="/prenatal_followup/informations/c_woman_available" type="select1" required="true()" relevant="../c_task_to_perform = 'followup'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_woman_available:jr:requiredMsg')"/>
-      <bind nodeset="/prenatal_followup/informations/c_absent_motif" type="select1" required="true()" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'no'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_absent_motif:jr:requiredMsg')"/>
-      <bind nodeset="/prenatal_followup/informations/c_reschedule_task" type="select1" required="true()" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'no'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_reschedule_task:jr:requiredMsg')"/>
-      <bind nodeset="/prenatal_followup/informations/c_reschedule_date" type="date" jr:constraintMsg="jr:itext('/prenatal_followup/informations/c_reschedule_date:jr:constraintMsg')" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_reschedule_date:jr:requiredMsg')" required="true()" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'no' and ../c_reschedule_task = 'yes'" constraint=". &gt; today()"/>
-      <bind nodeset="/prenatal_followup/informations/c_cpn_done" type="select1" required="true()" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'yes'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_cpn_done:jr:requiredMsg')"/>
-      <bind nodeset="/prenatal_followup/informations/c_reason_cpn_not_done" type="select1" required="true()" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'yes' and ../c_cpn_done = 'no'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_reason_cpn_not_done:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/informations/c_health_facility_for_miscarriage" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_health_facility_for_miscarriage:jr:requiredMsg')" relevant="../c_task_to_perform = 'close' and ../c_closing_reason = 'miscarriage'"/>
+      <bind nodeset="/prenatal_followup/informations/c_record_death_informations" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_record_death_informations:jr:requiredMsg')" relevant="../c_task_to_perform = 'close' and ../c_closing_reason = 'deceased'"/>
+      <bind nodeset="/prenatal_followup/informations/c_woman_available" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_woman_available:jr:requiredMsg')" relevant="../c_task_to_perform = 'followup'"/>
+      <bind nodeset="/prenatal_followup/informations/c_absent_motif" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_absent_motif:jr:requiredMsg')" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'no'"/>
+      <bind nodeset="/prenatal_followup/informations/c_reschedule_task" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_reschedule_task:jr:requiredMsg')" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'no'"/>
+      <bind nodeset="/prenatal_followup/informations/c_reschedule_date" type="date" required="true()" jr:constraintMsg="jr:itext('/prenatal_followup/informations/c_reschedule_date:jr:constraintMsg')" constraint=". &gt; today()" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_reschedule_date:jr:requiredMsg')" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'no' and ../c_reschedule_task = 'yes'"/>
+      <bind nodeset="/prenatal_followup/informations/c_cpn_done" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_cpn_done:jr:requiredMsg')" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'yes'"/>
+      <bind nodeset="/prenatal_followup/informations/c_reason_cpn_not_done" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_reason_cpn_not_done:jr:requiredMsg')" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'yes' and ../c_cpn_done = 'no'"/>
       <bind nodeset="/prenatal_followup/woman_death_info" relevant="../informations/c_task_to_perform = 'close' and ../informations/c_closing_reason = 'deceased' and ../informations/c_record_death_informations = 'yes'"/>
       <bind nodeset="/prenatal_followup/woman_death_info/death_report/_id" type="string" calculate="concat( /prenatal_followup/patient_uuid ,&quot;-&quot;, /prenatal_followup/today_decimal_date ,&quot;d1&quot;)"/>
       <bind nodeset="/prenatal_followup/woman_death_info/death_report/form" type="string" calculate="&quot;death_report&quot;"/>
@@ -2183,9 +2183,9 @@
       <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/death_reason" type="string" calculate=" /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason "/>
       <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/death_place_label" type="string" calculate="if( /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place ='other', /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_place ,jr:choice-name( /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place ,' /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place '))"/>
       <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/death_reason_label" type="string" calculate="if( /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason ='other', /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_reason ,jr:choice-name( /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason ,' /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason '))"/>
-      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date" type="date" jr:constraintMsg="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date:jr:constraintMsg')" jr:requiredMsg="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date:jr:requiredMsg')" required="true()" constraint=". &lt;= today()"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date" type="date" required="true()" jr:constraintMsg="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date:jr:constraintMsg')" constraint=". &lt;= today()" jr:requiredMsg="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date:jr:requiredMsg')"/>
       <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason" type="select" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason:jr:requiredMsg')"/>
-      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_reason" type="string" required="true()" relevant=" /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason ='other'" jr:requiredMsg="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_reason:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_reason" type="string" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_reason:jr:requiredMsg')" relevant=" /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason ='other'"/>
       <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place:jr:requiredMsg')"/>
       <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_place" type="string" relevant=" /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place ='other'"/>
       <bind nodeset="/prenatal_followup/woman_death_info/death_report/created_by_doc" type="string" calculate="."/>
@@ -2193,19 +2193,19 @@
       <bind nodeset="/prenatal_followup/c_danger_signs" relevant="../informations/c_task_to_perform = 'followup' and ../informations/c_woman_available = 'yes' and ../informations/c_cpn_done = 'yes'"/>
       <bind nodeset="/prenatal_followup/c_danger_signs/c_health_problem" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/c_danger_signs/c_health_problem:jr:requiredMsg')"/>
       <bind nodeset="/prenatal_followup/c_danger_signs/c_health_description" type="string" relevant="../c_health_problem = 'yes'"/>
-      <bind nodeset="/prenatal_followup/c_danger_signs/c_continu_follow_up" type="select1" required="true()" relevant="../c_health_problem = 'yes'" jr:requiredMsg="jr:itext('/prenatal_followup/c_danger_signs/c_continu_follow_up:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/c_danger_signs/c_continu_follow_up" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/c_danger_signs/c_continu_follow_up:jr:requiredMsg')" relevant="../c_health_problem = 'yes'"/>
       <bind nodeset="/prenatal_followup/c_pregnancy" relevant="../informations/c_task_to_perform = 'followup' and ../informations/c_woman_available = 'yes' and ../informations/c_cpn_done = 'yes' and (../c_danger_signs/c_health_problem = 'no' or ../c_danger_signs/c_health_problem = 'yes' and ../c_danger_signs/c_continu_follow_up = 'yes')"/>
-      <bind nodeset="/prenatal_followup/c_pregnancy/c_date_cpn1" type="date" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn1:jr:constraintMsg')" required="true()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/cpn_number  = 1" constraint=". &lt;= today()"/>
-      <bind nodeset="/prenatal_followup/c_pregnancy/c_date_cpn2" type="date" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn2:jr:constraintMsg')" required="true()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/cpn_number  = 2" constraint=". &lt;= today()"/>
-      <bind nodeset="/prenatal_followup/c_pregnancy/c_date_cpn3" type="date" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn3:jr:constraintMsg')" required="true()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/cpn_number  = 3" constraint=". &lt;= today()"/>
-      <bind nodeset="/prenatal_followup/c_pregnancy/c_date_cpn4" type="date" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn4:jr:constraintMsg')" required="true()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/cpn_number  = 4" constraint=". &lt;= today()"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_date_cpn1" type="date" required="true()" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn1:jr:constraintMsg')" constraint=". &lt;= today()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/cpn_number  = 1"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_date_cpn2" type="date" required="true()" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn2:jr:constraintMsg')" constraint=". &lt;= today()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/cpn_number  = 2"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_date_cpn3" type="date" required="true()" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn3:jr:constraintMsg')" constraint=". &lt;= today()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/cpn_number  = 3"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_date_cpn4" type="date" required="true()" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn4:jr:constraintMsg')" constraint=". &lt;= today()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/cpn_number  = 4"/>
       <bind nodeset="/prenatal_followup/c_pregnancy/c_td1" type="select1" required="true()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/inputs/t_td1  != 'yes'"/>
       <bind nodeset="/prenatal_followup/c_pregnancy/c_td2" type="select1" required="true()" relevant="../../informations/c_cpn_done = 'yes' and (../c_td1 = 'yes' or  /prenatal_followup/inputs/t_td1  = 'yes') and  /prenatal_followup/inputs/t_td2  != 'yes'"/>
       <bind nodeset="/prenatal_followup/c_pregnancy/c_milda" type="select1" required="true()" relevant=" /prenatal_followup/inputs/t_milda  != 'yes'"/>
       <bind nodeset="/prenatal_followup/c_pregnancy/c_milda_reason" type="select1" required="true()" relevant=" /prenatal_followup/c_pregnancy/c_milda  = 'no'"/>
       <bind nodeset="/prenatal_followup/c_pregnancy/c_cpn_late" type="select1" required="true()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/cpn_number  &gt;= 1"/>
       <bind nodeset="/prenatal_followup/c_pregnancy/c_discuss_cpn_date" readonly="true()" type="string" relevant="../../informations/c_cpn_done = 'no' or ../c_cpn_late = 'yes'"/>
-      <bind nodeset="/prenatal_followup/c_pregnancy/c_next_cpn_date" type="date" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_next_cpn_date:jr:constraintMsg')" required="true()" relevant="../../informations/c_cpn_done != '' and  /prenatal_followup/cpn_number  &lt; 4" constraint=". &gt;= today()"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_next_cpn_date" type="date" required="true()" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_next_cpn_date:jr:constraintMsg')" constraint=". &gt;= today()" relevant="../../informations/c_cpn_done != '' and  /prenatal_followup/cpn_number  &lt; 4"/>
       <bind nodeset="/prenatal_followup/group_review/s_summary" readonly="true()" type="string"/>
       <bind nodeset="/prenatal_followup/group_review/s_patient_info_name" readonly="true()" type="string"/>
       <bind nodeset="/prenatal_followup/group_review/s_patient_info_sex" readonly="true()" type="string"/>

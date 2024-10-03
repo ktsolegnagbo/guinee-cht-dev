@@ -4,383 +4,6 @@
     <h:title>Gestion de médicaments</h:title>
     <model>
       <itext>
-        <translation lang="en">
-          <text id="/drugs_management/inputs/source:label">
-            <value>Source</value>
-          </text>
-          <text id="/drugs_management/inputs/source_id:label">
-            <value>Source ID</value>
-          </text>
-          <text id="/drugs_management/inputs/user/contact_id:label">
-            <value>Contact ID</value>
-          </text>
-          <text id="/drugs_management/inputs/user/name:label">
-            <value>Username</value>
-          </text>
-          <text id="/drugs_management/inputs/user/phone:label">
-            <value>Phone</value>
-          </text>
-          <text id="/drugs_management/inputs/contact:label">
-            <value>User Information</value>
-          </text>
-          <text id="/drugs_management/inputs/contact/_id:label">
-            <value>Village/Secteur ID</value>
-          </text>
-          <text id="/drugs_management/inputs/contact/name:label">
-            <value>Village/Secteur Name</value>
-          </text>
-          <text id="/drugs_management/inputs/contact/parent/_id:label">
-            <value>District/Quartier Id</value>
-          </text>
-          <text id="/drugs_management/inputs/contact/parent/parent/_id:label">
-            <value>Hospital Id</value>
-          </text>
-          <text id="/drugs_management/inputs/contact/parent/parent/parent/_id:label">
-            <value>Commune Id</value>
-          </text>
-          <text id="/drugs_management/inputs/contact/parent/parent/parent/parent/_id:label">
-            <value>Prefecture Id</value>
-          </text>
-          <text id="/drugs_management/inputs/contact/parent/parent/parent/parent/parent/_id:label">
-            <value>Region Id</value>
-          </text>
-          <text id="/drugs_management/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
-            <value>Country Id</value>
-          </text>
-          <text id="/drugs_management/user_id:label">
-            <value>User contact id</value>
-          </text>
-          <text id="/drugs_management/user_phone:label">
-            <value>User phone</value>
-          </text>
-          <text id="/drugs_management/patient_id:label">
-            <value>Village/Secteur ID</value>
-          </text>
-          <text id="/drugs_management/patient_name:label">
-            <value>Village Name</value>
-          </text>
-          <text id="/drugs_management/village_secteur_id:label">
-            <value>Village/Secteur ID</value>
-          </text>
-          <text id="/drugs_management/district_quartier_id:label">
-            <value>District/Quartier Id</value>
-          </text>
-          <text id="/drugs_management/hospital_id:label">
-            <value>Hospital Id</value>
-          </text>
-          <text id="/drugs_management/commune_id:label">
-            <value>Commune Id</value>
-          </text>
-          <text id="/drugs_management/prefecture_id:label">
-            <value>Prefecture Id</value>
-          </text>
-          <text id="/drugs_management/region_id:label">
-            <value>Region Id</value>
-          </text>
-          <text id="/drugs_management/country_id:label">
-            <value>Country Id</value>
-          </text>
-          <text id="/drugs_management/meg_management:label">
-            <value>Drugs Management</value>
-          </text>
-          <text id="/drugs_management/meg_management/meg_management_date:jr:constraintMsg">
-            <value>Date must be in past or today</value>
-          </text>
-          <text id="/drugs_management/meg_management/meg_management_date:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_management/meg_management_date:label">
-            <value>Action date</value>
-          </text>
-          <text id="/drugs_management/meg_management/meg_management_reason:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_management/meg_management_reason:label">
-            <value>Action reason</value>
-          </text>
-          <text id="/drugs_management/meg_management/meg_management_reason/stock:label">
-            <value>Stock entry</value>
-          </text>
-          <text id="/drugs_management/meg_management/meg_management_reason/inventory:label">
-            <value>Inventory Qty</value>
-          </text>
-          <text id="/drugs_management/meg_management/meg_management_reason/loss:label">
-            <value>Loss</value>
-          </text>
-          <text id="/drugs_management/meg_management/meg_management_reason/damaged:label">
-            <value>Damaged</value>
-          </text>
-          <text id="/drugs_management/meg_management/meg_management_reason/broken:label">
-            <value>Broken</value>
-          </text>
-          <text id="/drugs_management/meg_management/meg_management_reason/expired:label">
-            <value>expired</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list:label">
-            <value>Select the inputs</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/pilule_coc:label">
-            <value>Pill - COC</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/pilule_cop:label">
-            <value>Pill - COP</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/condoms_preservatif:label">
-            <value>Femidon Condoms</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/dpoprovera_im:label">
-            <value>Depo provera -IM</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/dmpa_sc:label">
-            <value>DMPA-SC</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/cta_nn:label">
-            <value>CTA : AL(NN)</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/cta_pe:label">
-            <value>CTA : AL(PE)</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/cta_ge:label">
-            <value>CTA : AL(GE)</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/cta_ad:label">
-            <value>CTA : AL(AD)</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/tdr:label">
-            <value>TDR</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/amoxicilline_250_mg:label">
-            <value>Amoxicillin 250 mg</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/amoxicilline_500_mg:label">
-            <value>Amoxicillin 500 mg</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/paracetamol_100_mg:label">
-            <value>Paracetamol 100 mg</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/paracetamol_250_mg:label">
-            <value>Paracetamol 250 mg</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/paracetamol_500_mg:label">
-            <value>Paracetamol 500 mg</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/sro:label">
-            <value>ORS</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/zinc:label">
-            <value>Zinc</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/vitamine_a:label">
-            <value>Vitamin A</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/mebendazole_250_mg:label">
-            <value>Mebendazole 250 mg</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/mebendazole_500_mg:label">
-            <value>Mebendazole 500 mg</value>
-          </text>
-          <text id="/drugs_management/meg_management/intrants_list/pommade_t_tracycline:label">
-            <value>Tetracycline Ointment</value>
-          </text>
-          <text id="/drugs_management/meg_quantity:label">
-            <value>Drugs Management</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/pilule_coc:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/pilule_coc:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/pilule_coc:label">
-            <value>Pilule - COC Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/pilule_cop:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/pilule_cop:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/pilule_cop:label">
-            <value>Pilule - COP Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/condoms:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/condoms:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/condoms:label">
-            <value>Femidon Condoms Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/depo_provera_im:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/depo_provera_im:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/depo_provera_im:label">
-            <value>Dépo provera -IM Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/dmpa_sc:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/dmpa_sc:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/dmpa_sc:label">
-            <value>DMPA-SC Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/cta_nn:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/cta_nn:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/cta_nn:label">
-            <value>CTA Quantity : AL(NN)</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/cta_pe:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/cta_pe:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/cta_pe:label">
-            <value>CTA Quantity : AL(PE)</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/cta_ge:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/cta_ge:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/cta_ge:label">
-            <value>CTA Quantity : AL(GE)</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/cta_ad:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/cta_ad:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/cta_ad:label">
-            <value>CTA Quantity : AL(AD)</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/cta:label">
-            <value>CTA Total Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/tdr:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/tdr:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/tdr:label">
-            <value>TDR Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/amoxicillin_250mg:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/amoxicillin_250mg:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/amoxicillin_250mg:label">
-            <value>Amoxicilline 250 mg Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/amoxicillin_500mg:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/amoxicillin_500mg:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/amoxicillin_500mg:label">
-            <value>Amoxicilline 500 mg Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/paracetamol_100mg:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/paracetamol_100mg:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/paracetamol_100mg:label">
-            <value>Paracetamol 100 mg Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/paracetamol_250mg:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/paracetamol_250mg:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/paracetamol_250mg:label">
-            <value>Paracetamol 250 mg Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/paracetamol_500mg:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/paracetamol_500mg:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/paracetamol_500mg:label">
-            <value>Paracetamol 500 mg Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/ors:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/ors:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/ors:label">
-            <value>SRO Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/zinc:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/zinc:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/zinc:label">
-            <value>Zinc Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/vitamin_a:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/vitamin_a:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/vitamin_a:label">
-            <value>Vitamine A Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/mebendazol_250mg:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/mebendazol_250mg:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/mebendazol_250mg:label">
-            <value>Mebendazole 250 mg Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/mebendazol_500mg:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/mebendazol_500mg:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/mebendazol_500mg:label">
-            <value>Mebendazole 500 mg Quantity</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/tetracycline_ointment:jr:constraintMsg">
-            <value>The value must be a positive integer</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/tetracycline_ointment:jr:requiredMsg">
-            <value>This field is mandatory</value>
-          </text>
-          <text id="/drugs_management/meg_quantity/tetracycline_ointment:label">
-            <value>Pommade Tétracycline Quantity</value>
-          </text>
-        </translation>
         <translation lang="fr">
           <text id="/drugs_management/inputs/source:label">
             <value>Source</value>
@@ -758,6 +381,383 @@
             <value>Quantité Pommade Tétracycline</value>
           </text>
         </translation>
+        <translation lang="en">
+          <text id="/drugs_management/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/drugs_management/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/drugs_management/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/drugs_management/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/drugs_management/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/drugs_management/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/drugs_management/inputs/contact/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/drugs_management/inputs/contact/name:label">
+            <value>Village/Secteur Name</value>
+          </text>
+          <text id="/drugs_management/inputs/contact/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/drugs_management/inputs/contact/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/drugs_management/inputs/contact/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/drugs_management/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/drugs_management/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/drugs_management/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/drugs_management/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/drugs_management/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/drugs_management/patient_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/drugs_management/patient_name:label">
+            <value>Village Name</value>
+          </text>
+          <text id="/drugs_management/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/drugs_management/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/drugs_management/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/drugs_management/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/drugs_management/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/drugs_management/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/drugs_management/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/drugs_management/meg_management:label">
+            <value>Drugs Management</value>
+          </text>
+          <text id="/drugs_management/meg_management/meg_management_date:jr:constraintMsg">
+            <value>Date must be in past or today</value>
+          </text>
+          <text id="/drugs_management/meg_management/meg_management_date:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_management/meg_management_date:label">
+            <value>Action date</value>
+          </text>
+          <text id="/drugs_management/meg_management/meg_management_reason:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_management/meg_management_reason:label">
+            <value>Action reason</value>
+          </text>
+          <text id="/drugs_management/meg_management/meg_management_reason/stock:label">
+            <value>Stock entry</value>
+          </text>
+          <text id="/drugs_management/meg_management/meg_management_reason/inventory:label">
+            <value>Inventory Qty</value>
+          </text>
+          <text id="/drugs_management/meg_management/meg_management_reason/loss:label">
+            <value>Loss</value>
+          </text>
+          <text id="/drugs_management/meg_management/meg_management_reason/damaged:label">
+            <value>Damaged</value>
+          </text>
+          <text id="/drugs_management/meg_management/meg_management_reason/broken:label">
+            <value>Broken</value>
+          </text>
+          <text id="/drugs_management/meg_management/meg_management_reason/expired:label">
+            <value>expired</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list:label">
+            <value>Select the inputs</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/pilule_coc:label">
+            <value>Pill - COC</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/pilule_cop:label">
+            <value>Pill - COP</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/condoms_preservatif:label">
+            <value>Femidon Condoms</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/dpoprovera_im:label">
+            <value>Depo provera -IM</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/dmpa_sc:label">
+            <value>DMPA-SC</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/cta_nn:label">
+            <value>CTA : AL(NN)</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/cta_pe:label">
+            <value>CTA : AL(PE)</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/cta_ge:label">
+            <value>CTA : AL(GE)</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/cta_ad:label">
+            <value>CTA : AL(AD)</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/tdr:label">
+            <value>TDR</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/amoxicilline_250_mg:label">
+            <value>Amoxicillin 250 mg</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/amoxicilline_500_mg:label">
+            <value>Amoxicillin 500 mg</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/paracetamol_100_mg:label">
+            <value>Paracetamol 100 mg</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/paracetamol_250_mg:label">
+            <value>Paracetamol 250 mg</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/paracetamol_500_mg:label">
+            <value>Paracetamol 500 mg</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/sro:label">
+            <value>ORS</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/zinc:label">
+            <value>Zinc</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/vitamine_a:label">
+            <value>Vitamin A</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/mebendazole_250_mg:label">
+            <value>Mebendazole 250 mg</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/mebendazole_500_mg:label">
+            <value>Mebendazole 500 mg</value>
+          </text>
+          <text id="/drugs_management/meg_management/intrants_list/pommade_t_tracycline:label">
+            <value>Tetracycline Ointment</value>
+          </text>
+          <text id="/drugs_management/meg_quantity:label">
+            <value>Drugs Management</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/pilule_coc:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/pilule_coc:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/pilule_coc:label">
+            <value>Pilule - COC Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/pilule_cop:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/pilule_cop:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/pilule_cop:label">
+            <value>Pilule - COP Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/condoms:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/condoms:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/condoms:label">
+            <value>Femidon Condoms Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/depo_provera_im:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/depo_provera_im:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/depo_provera_im:label">
+            <value>Dépo provera -IM Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/dmpa_sc:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/dmpa_sc:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/dmpa_sc:label">
+            <value>DMPA-SC Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/cta_nn:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/cta_nn:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/cta_nn:label">
+            <value>CTA Quantity : AL(NN)</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/cta_pe:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/cta_pe:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/cta_pe:label">
+            <value>CTA Quantity : AL(PE)</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/cta_ge:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/cta_ge:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/cta_ge:label">
+            <value>CTA Quantity : AL(GE)</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/cta_ad:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/cta_ad:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/cta_ad:label">
+            <value>CTA Quantity : AL(AD)</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/cta:label">
+            <value>CTA Total Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/tdr:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/tdr:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/tdr:label">
+            <value>TDR Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/amoxicillin_250mg:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/amoxicillin_250mg:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/amoxicillin_250mg:label">
+            <value>Amoxicilline 250 mg Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/amoxicillin_500mg:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/amoxicillin_500mg:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/amoxicillin_500mg:label">
+            <value>Amoxicilline 500 mg Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/paracetamol_100mg:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/paracetamol_100mg:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/paracetamol_100mg:label">
+            <value>Paracetamol 100 mg Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/paracetamol_250mg:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/paracetamol_250mg:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/paracetamol_250mg:label">
+            <value>Paracetamol 250 mg Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/paracetamol_500mg:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/paracetamol_500mg:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/paracetamol_500mg:label">
+            <value>Paracetamol 500 mg Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/ors:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/ors:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/ors:label">
+            <value>SRO Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/zinc:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/zinc:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/zinc:label">
+            <value>Zinc Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/vitamin_a:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/vitamin_a:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/vitamin_a:label">
+            <value>Vitamine A Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/mebendazol_250mg:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/mebendazol_250mg:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/mebendazol_250mg:label">
+            <value>Mebendazole 250 mg Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/mebendazol_500mg:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/mebendazol_500mg:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/mebendazol_500mg:label">
+            <value>Mebendazole 500 mg Quantity</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/tetracycline_ointment:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/tetracycline_ointment:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/drugs_management/meg_quantity/tetracycline_ointment:label">
+            <value>Pommade Tétracycline Quantity</value>
+          </text>
+        </translation>
       </itext>
       <instance>
         <drugs_management id="drugs_management" prefix="J1!drugs_management!" delimiter="#" version="2024-08-16  17-09">
@@ -870,32 +870,32 @@
       <bind nodeset="/drugs_management/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
       <bind nodeset="/drugs_management/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
       <bind nodeset="/drugs_management/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
-      <bind nodeset="/drugs_management/meg_management/meg_management_date" type="date" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_management/meg_management_date:jr:constraintMsg')" jr:requiredMsg="jr:itext('/drugs_management/meg_management/meg_management_date:jr:requiredMsg')" calculate="coalesce(.,today())" constraint=". &lt;= today()"/>
+      <bind nodeset="/drugs_management/meg_management/meg_management_date" type="date" jr:requiredMsg="jr:itext('/drugs_management/meg_management/meg_management_date:jr:requiredMsg')" constraint=". &lt;= today()" jr:constraintMsg="jr:itext('/drugs_management/meg_management/meg_management_date:jr:constraintMsg')" calculate="coalesce(.,today())" required="true()"/>
       <bind nodeset="/drugs_management/meg_management/meg_management_reason" type="select1" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_management/meg_management_reason:jr:requiredMsg')"/>
       <bind nodeset="/drugs_management/meg_management/intrants_list" type="select" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_management/intrants_list:jr:requiredMsg')"/>
       <bind nodeset="/drugs_management/meg_quantity" relevant=" /drugs_management/meg_management/intrants_list  != ''"/>
-      <bind nodeset="/drugs_management/meg_quantity/pilule_coc" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/pilule_coc:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'pilule_coc')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/pilule_coc:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/pilule_cop" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/pilule_cop:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'pilule_cop')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/pilule_cop:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/condoms" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/condoms:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'condoms_preservatif')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/condoms:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/depo_provera_im" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/depo_provera_im:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'dpoprovera_im')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/depo_provera_im:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/dmpa_sc" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/dmpa_sc:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'dmpa_sc')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/dmpa_sc:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/cta_nn" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/cta_nn:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'cta_nn')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/cta_nn:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/cta_pe" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/cta_pe:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'cta_pe')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/cta_pe:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/cta_ge" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/cta_ge:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'cta_ge')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/cta_ge:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/cta_ad" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/cta_ad:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'cta_ad')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/cta_ad:jr:requiredMsg')" constraint=". &gt;= 0"/>
+      <bind nodeset="/drugs_management/meg_quantity/pilule_coc" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/pilule_coc:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/pilule_coc:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'pilule_coc')"/>
+      <bind nodeset="/drugs_management/meg_quantity/pilule_cop" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/pilule_cop:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/pilule_cop:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'pilule_cop')"/>
+      <bind nodeset="/drugs_management/meg_quantity/condoms" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/condoms:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/condoms:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'condoms_preservatif')"/>
+      <bind nodeset="/drugs_management/meg_quantity/depo_provera_im" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/depo_provera_im:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/depo_provera_im:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'dpoprovera_im')"/>
+      <bind nodeset="/drugs_management/meg_quantity/dmpa_sc" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/dmpa_sc:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/dmpa_sc:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'dmpa_sc')"/>
+      <bind nodeset="/drugs_management/meg_quantity/cta_nn" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/cta_nn:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/cta_nn:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'cta_nn')"/>
+      <bind nodeset="/drugs_management/meg_quantity/cta_pe" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/cta_pe:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/cta_pe:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'cta_pe')"/>
+      <bind nodeset="/drugs_management/meg_quantity/cta_ge" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/cta_ge:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/cta_ge:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'cta_ge')"/>
+      <bind nodeset="/drugs_management/meg_quantity/cta_ad" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/cta_ad:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/cta_ad:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'cta_ad')"/>
       <bind nodeset="/drugs_management/meg_quantity/cta" type="string" calculate="coalesce( /drugs_management/meg_quantity/cta_nn ,0) + coalesce( /drugs_management/meg_quantity/cta_pe ,0) + coalesce( /drugs_management/meg_quantity/cta_ge ,0) + coalesce( /drugs_management/meg_quantity/cta_ad ,0)"/>
-      <bind nodeset="/drugs_management/meg_quantity/tdr" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/tdr:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'tdr')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/tdr:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/amoxicillin_250mg" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/amoxicillin_250mg:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'amoxicilline_250_mg')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/amoxicillin_250mg:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/amoxicillin_500mg" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/amoxicillin_500mg:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'amoxicilline_500_mg')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/amoxicillin_500mg:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/paracetamol_100mg" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/paracetamol_100mg:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'paracetamol_100_mg')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/paracetamol_100mg:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/paracetamol_250mg" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/paracetamol_250mg:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'paracetamol_250_mg')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/paracetamol_250mg:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/paracetamol_500mg" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/paracetamol_500mg:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'paracetamol_500_mg')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/paracetamol_500mg:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/ors" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/ors:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'sro')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/ors:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/zinc" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/zinc:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'zinc')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/zinc:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/vitamin_a" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/vitamin_a:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'vitamine_a')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/vitamin_a:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/mebendazol_250mg" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/mebendazol_250mg:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'mebendazole_250_mg')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/mebendazol_250mg:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/mebendazol_500mg" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/mebendazol_500mg:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'mebendazole_500_mg')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/mebendazol_500mg:jr:requiredMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/drugs_management/meg_quantity/tetracycline_ointment" type="int" required="true()" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/tetracycline_ointment:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'pommade_t_tracycline')" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/tetracycline_ointment:jr:requiredMsg')" constraint=". &gt;= 0"/>
+      <bind nodeset="/drugs_management/meg_quantity/tdr" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/tdr:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/tdr:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'tdr')"/>
+      <bind nodeset="/drugs_management/meg_quantity/amoxicillin_250mg" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/amoxicillin_250mg:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/amoxicillin_250mg:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'amoxicilline_250_mg')"/>
+      <bind nodeset="/drugs_management/meg_quantity/amoxicillin_500mg" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/amoxicillin_500mg:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/amoxicillin_500mg:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'amoxicilline_500_mg')"/>
+      <bind nodeset="/drugs_management/meg_quantity/paracetamol_100mg" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/paracetamol_100mg:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/paracetamol_100mg:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'paracetamol_100_mg')"/>
+      <bind nodeset="/drugs_management/meg_quantity/paracetamol_250mg" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/paracetamol_250mg:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/paracetamol_250mg:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'paracetamol_250_mg')"/>
+      <bind nodeset="/drugs_management/meg_quantity/paracetamol_500mg" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/paracetamol_500mg:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/paracetamol_500mg:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'paracetamol_500_mg')"/>
+      <bind nodeset="/drugs_management/meg_quantity/ors" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/ors:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/ors:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'sro')"/>
+      <bind nodeset="/drugs_management/meg_quantity/zinc" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/zinc:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/zinc:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'zinc')"/>
+      <bind nodeset="/drugs_management/meg_quantity/vitamin_a" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/vitamin_a:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/vitamin_a:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'vitamine_a')"/>
+      <bind nodeset="/drugs_management/meg_quantity/mebendazol_250mg" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/mebendazol_250mg:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/mebendazol_250mg:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'mebendazole_250_mg')"/>
+      <bind nodeset="/drugs_management/meg_quantity/mebendazol_500mg" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/mebendazol_500mg:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/mebendazol_500mg:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'mebendazole_500_mg')"/>
+      <bind nodeset="/drugs_management/meg_quantity/tetracycline_ointment" type="int" required="true()" jr:requiredMsg="jr:itext('/drugs_management/meg_quantity/tetracycline_ointment:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/drugs_management/meg_quantity/tetracycline_ointment:jr:constraintMsg')" relevant="selected( /drugs_management/meg_management/intrants_list , 'pommade_t_tracycline')"/>
       <bind nodeset="/drugs_management/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>
   </h:head>

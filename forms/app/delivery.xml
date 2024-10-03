@@ -1587,7 +1587,7 @@
         </translation>
       </itext>
       <instance>
-        <delivery id="delivery" prefix="J1!delivery!" delimiter="#" version="2024-08-17  19-21">
+        <delivery id="delivery" prefix="J1!delivery!" delimiter="#" version="2024-10-03  14-44">
           <inputs>
             <meta>
               <location>
@@ -1962,38 +1962,38 @@
         <root>
           <item>
             <itextId>static_instance-babies_alive-0</itextId>
-            <name>0</name>
             <filter>0</filter>
+            <name>0</name>
           </item>
           <item>
             <itextId>static_instance-babies_alive-1</itextId>
-            <name>1</name>
             <filter>1</filter>
+            <name>1</name>
           </item>
           <item>
             <itextId>static_instance-babies_alive-2</itextId>
-            <name>2</name>
             <filter>2</filter>
+            <name>2</name>
           </item>
           <item>
             <itextId>static_instance-babies_alive-3</itextId>
-            <name>3</name>
             <filter>3</filter>
+            <name>3</name>
           </item>
           <item>
             <itextId>static_instance-babies_alive-4</itextId>
-            <name>4</name>
             <filter>4</filter>
+            <name>4</name>
           </item>
           <item>
             <itextId>static_instance-babies_alive-5</itextId>
-            <name>5</name>
             <filter>5</filter>
+            <name>5</name>
           </item>
           <item>
             <itextId>static_instance-babies_alive-6</itextId>
-            <name>6</name>
             <filter>6</filter>
+            <name>6</name>
           </item>
         </root>
       </instance>
@@ -2222,12 +2222,12 @@
       <bind nodeset="/delivery/c_delivery/c_has_health_record" type="select1" required="true()"/>
       <bind nodeset="/delivery/c_delivery/date_note_en" type="string" calculate="if( /delivery/pregnancy_register_date  != '','Date must between pregnancy register date and today','Date must be in pass')"/>
       <bind nodeset="/delivery/c_delivery/date_note_fr" type="string" calculate="if( /delivery/pregnancy_register_date  != '','La Date doit se situé entre la date enregistrement de grossesse et aujourdhui','La date doit être au passé')"/>
-      <bind nodeset="/delivery/c_delivery/c_delivery_date" type="date" required="true()" constraint=" /delivery/pregnancy_register_date  != '' and . &gt;=  /delivery/pregnancy_register_date  and . &lt;= today() or  /delivery/pregnancy_register_date  = '' and . &lt;= today()" jr:constraintMsg="jr:itext('/delivery/c_delivery/c_delivery_date:jr:constraintMsg')"/>
+      <bind nodeset="/delivery/c_delivery/c_delivery_date" type="date" constraint=" /delivery/pregnancy_register_date  != '' and . &gt;=  /delivery/pregnancy_register_date  and . &lt;= today() or  /delivery/pregnancy_register_date  = '' and . &lt;= today()" required="true()" jr:constraintMsg="jr:itext('/delivery/c_delivery/c_delivery_date:jr:constraintMsg')"/>
       <bind nodeset="/delivery/c_delivery/c_delivery_place" type="select1" required="true()"/>
       <bind nodeset="/delivery/c_delivery/c_cpon2_done" type="select1" required="true()" relevant=" /delivery/c_delivery/c_has_health_record  = 'yes' and  /delivery/delivery_days  &gt;= 6 and  /delivery/delivery_days  &lt; 56"/>
-      <bind nodeset="/delivery/c_delivery/c_cpon2_date" type="date" required="true()" relevant=" /delivery/c_delivery/c_has_health_record  = 'yes' and  /delivery/c_delivery/c_cpon2_done  = 'yes' and  /delivery/delivery_days  &gt;= 6 and  /delivery/delivery_days  &lt; 56" jr:constraintMsg="jr:itext('/delivery/c_delivery/c_cpon2_date:jr:constraintMsg')" constraint=". &gt;  /delivery/c_delivery/c_delivery_date  and . &lt;=today()"/>
+      <bind nodeset="/delivery/c_delivery/c_cpon2_date" type="date" required="true()" constraint=". &gt;  /delivery/c_delivery/c_delivery_date  and . &lt;=today()" relevant=" /delivery/c_delivery/c_has_health_record  = 'yes' and  /delivery/c_delivery/c_cpon2_done  = 'yes' and  /delivery/delivery_days  &gt;= 6 and  /delivery/delivery_days  &lt; 56" jr:constraintMsg="jr:itext('/delivery/c_delivery/c_cpon2_date:jr:constraintMsg')"/>
       <bind nodeset="/delivery/c_delivery/c_cpon3_done" type="select1" required="true()" relevant=" /delivery/c_delivery/c_has_health_record  = 'yes' and  /delivery/delivery_days  &gt;=42 and  /delivery/delivery_days  &lt;= 56"/>
-      <bind nodeset="/delivery/c_delivery/c_cpon3_date" type="date" required="true()" relevant=" /delivery/c_delivery/c_has_health_record  = 'yes' and  /delivery/c_delivery/c_cpon3_done  = 'yes' and  /delivery/delivery_days  &gt;=42 and  /delivery/delivery_days  &lt;= 56" jr:constraintMsg="jr:itext('/delivery/c_delivery/c_cpon3_date:jr:constraintMsg')" constraint=". &gt;  /delivery/c_delivery/c_delivery_date  and . &lt;=today()"/>
+      <bind nodeset="/delivery/c_delivery/c_cpon3_date" type="date" required="true()" constraint=". &gt;  /delivery/c_delivery/c_delivery_date  and . &lt;=today()" relevant=" /delivery/c_delivery/c_has_health_record  = 'yes' and  /delivery/c_delivery/c_cpon3_done  = 'yes' and  /delivery/delivery_days  &gt;=42 and  /delivery/delivery_days  &lt;= 56" jr:constraintMsg="jr:itext('/delivery/c_delivery/c_cpon3_date:jr:constraintMsg')"/>
       <bind nodeset="/delivery/c_delivery/c_cpon_done" type="string" calculate="coalesce(../c_cpon2_done,../c_cpon3_done)"/>
       <bind nodeset="/delivery/c_delivery/c_cpon_date" type="string" calculate="coalesce(../c_cpon2_date,../c_cpon3_date)"/>
       <bind nodeset="/delivery/c_delivery/c_received_milda" type="select1" required="true()" relevant=" /delivery/c_delivery/c_has_health_record  = 'yes'"/>
@@ -2245,7 +2245,7 @@
       <bind nodeset="/delivery/c_health_problem/c_child_health_problem_writen" type="string" relevant="../c_continue_visit != 'no' and ../c_babies_health_problem = 'yes' and selected(../c_reference_pattern,'others')"/>
       <bind nodeset="/delivery/c_baby_death" relevant=" /delivery/has_babies_danger_signs  = 'false' and ( /delivery/has_mum_health_problem  = 'false' or  /delivery/has_mum_health_problem  = 'true' and  /delivery/c_health_problem/c_continue_visit  = 'yes') and  /delivery/babies_deceased_number  &gt; 0 and  /delivery/is_creation_mode  = 'true'"/>
       <bind nodeset="/delivery/c_baby_death/s_fr_death_sentence" type="string" calculate="if( /delivery/babies_deceased_number  &gt; 1,&quot;enfants décédés. Déclarer chaque décès&quot;,&quot;enfant décédé, déclarer le décès&quot;)"/>
-      <bind nodeset="/delivery/c_baby_death/c_register_death_babies" readonly="true()" type="string" required="true()"/>
+      <bind nodeset="/delivery/c_baby_death/c_register_death_babies" readonly="true()" type="string"/>
       <bind nodeset="/delivery/c_baby_death/c_baby_death_repeat_count" type="string" readonly="true()" calculate=" /delivery/babies_deceased_number "/>
       <bind nodeset="/delivery/c_baby_death/c_baby_death_repeat/death_position_number" type="string" calculate="position(..)"/>
       <bind nodeset="/delivery/c_baby_death/c_baby_death_repeat/c_register_death_babies_start_note" readonly="true()" type="string"/>
@@ -2255,7 +2255,7 @@
       <bind nodeset="/delivery/c_baby_death/c_baby_death_repeat/c_baby_sex" type="select1" required="true()" relevant="../c_baby_know_sex = 'yes'"/>
       <bind nodeset="/delivery/c_baby_death/c_baby_death_repeat/c_baby_death_date" type="select1" required="true()"/>
       <bind nodeset="/delivery/c_baby_death/c_baby_death_repeat/c_baby_death_place" type="select1" required="true()"/>
-      <bind nodeset="/delivery/c_baby_death/c_baby_death_repeat/c_baby_death_notes" type="string" required="false()" constraint="string-length(.) &lt;= 200" jr:constraintMsg="jr:itext('/delivery/c_baby_death/c_baby_death_repeat/c_baby_death_notes:jr:constraintMsg')"/>
+      <bind nodeset="/delivery/c_baby_death/c_baby_death_repeat/c_baby_death_notes" type="string" constraint="string-length(.) &lt;= 200" required="false()" jr:constraintMsg="jr:itext('/delivery/c_baby_death/c_baby_death_repeat/c_baby_death_notes:jr:constraintMsg')"/>
       <bind nodeset="/delivery/c_baby_death/c_baby_death_repeat/c_baby_death_profile/name" type="string" calculate="if(../../c_baby_death_has_name = 'yes',../../c_baby_death_name,concat(&quot;Bébé décédé N° &quot;, /delivery/c_baby_death/c_baby_death_repeat/death_position_number ))"/>
       <bind nodeset="/delivery/c_baby_death/c_baby_death_repeat/c_baby_death_profile/register_patient/is_patient" type="string" calculate="&quot;true&quot;"/>
       <bind nodeset="/delivery/c_baby_death/c_baby_death_repeat/c_baby_death_profile/register_patient/selected_sex" type="string" calculate="if(../../../c_baby_know_sex = 'yes',../../../c_baby_sex,&quot;NA&quot;)"/>

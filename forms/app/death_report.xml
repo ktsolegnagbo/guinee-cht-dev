@@ -756,10 +756,10 @@
       <bind nodeset="/death_report/death_place" type="string" calculate=" /death_report/c_death/c_death_place "/>
       <bind nodeset="/death_report/death_place_label" type="string" calculate="if( /death_report/c_death/c_death_place ='other', /death_report/c_death/c_death_other_place ,jr:choice-name( /death_report/c_death/c_death_place ,' /death_report/c_death/c_death_place '))"/>
       <bind nodeset="/death_report/death_reason_label" type="string" calculate="if( /death_report/c_death/c_death_reason ='other', /death_report/c_death/c_death_other_reason ,jr:choice-name( /death_report/c_death/c_death_reason ,' /death_report/c_death/c_death_reason '))"/>
-      <bind nodeset="/death_report/c_death/c_death_date" type="date" required="true()" constraint=". &lt;= today()" jr:requiredMsg="jr:itext('/death_report/c_death/c_death_date:jr:requiredMsg')" jr:constraintMsg="jr:itext('/death_report/c_death/c_death_date:jr:constraintMsg')"/>
-      <bind nodeset="/death_report/c_death/c_death_reason" type="select" jr:requiredMsg="jr:itext('/death_report/c_death/c_death_reason:jr:requiredMsg')" required="true()"/>
-      <bind nodeset="/death_report/c_death/c_death_other_reason" type="string" relevant=" /death_report/c_death/c_death_reason ='other'" jr:requiredMsg="jr:itext('/death_report/c_death/c_death_other_reason:jr:requiredMsg')" required="true()"/>
-      <bind nodeset="/death_report/c_death/c_death_place" type="select1" jr:requiredMsg="jr:itext('/death_report/c_death/c_death_place:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/death_report/c_death/c_death_date" type="date" jr:constraintMsg="jr:itext('/death_report/c_death/c_death_date:jr:constraintMsg')" required="true()" constraint=". &lt;= today()" jr:requiredMsg="jr:itext('/death_report/c_death/c_death_date:jr:requiredMsg')"/>
+      <bind nodeset="/death_report/c_death/c_death_reason" type="select" required="true()" jr:requiredMsg="jr:itext('/death_report/c_death/c_death_reason:jr:requiredMsg')"/>
+      <bind nodeset="/death_report/c_death/c_death_other_reason" type="string" required="true()" relevant=" /death_report/c_death/c_death_reason ='other'" jr:requiredMsg="jr:itext('/death_report/c_death/c_death_other_reason:jr:requiredMsg')"/>
+      <bind nodeset="/death_report/c_death/c_death_place" type="select1" required="true()" jr:requiredMsg="jr:itext('/death_report/c_death/c_death_place:jr:requiredMsg')"/>
       <bind nodeset="/death_report/c_death/c_death_other_place" type="string" relevant=" /death_report/c_death/c_death_place ='other'"/>
       <bind nodeset="/death_report/group_diagnosis/s_summary" readonly="true()" type="string"/>
       <bind nodeset="/death_report/group_diagnosis/s_patient_name_info" readonly="true()" type="string"/>

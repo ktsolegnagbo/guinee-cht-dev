@@ -862,183 +862,183 @@
         <root>
           <item>
             <itextId>static_instance-theme_list_by_domain-0</itextId>
-            <name>prenatal_consultation</name>
             <filter>maternel_childhealth</filter>
+            <name>prenatal_consultation</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-1</itextId>
-            <name>birth_attended</name>
             <filter>maternel_childhealth</filter>
+            <name>birth_attended</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-2</itextId>
-            <name>post_natal</name>
             <filter>maternel_childhealth</filter>
+            <name>post_natal</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-3</itextId>
-            <name>post_abortion</name>
             <filter>maternel_childhealth</filter>
+            <name>post_abortion</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-4</itextId>
-            <name>obstetric_fistula</name>
             <filter>maternel_childhealth</filter>
+            <name>obstetric_fistula</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-5</itextId>
-            <name>family_planning</name>
             <filter>maternel_childhealth</filter>
+            <name>family_planning</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-6</itextId>
-            <name>oral_contraceptive</name>
             <filter>maternel_childhealth</filter>
+            <name>oral_contraceptive</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-7</itextId>
-            <name>vaccination</name>
             <filter>maternel_childhealth</filter>
+            <name>vaccination</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-8</itextId>
-            <name>newborn_care_home</name>
             <filter>maternel_childhealth</filter>
+            <name>newborn_care_home</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-9</itextId>
-            <name>integrated_case</name>
             <filter>maternel_childhealth</filter>
+            <name>integrated_case</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-10</itextId>
-            <name>advice_family</name>
             <filter>education</filter>
+            <name>advice_family</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-11</itextId>
-            <name>child_abuse</name>
             <filter>education</filter>
+            <name>child_abuse</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-12</itextId>
-            <name>female_genital</name>
             <filter>gbv</filter>
+            <name>female_genital</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-13</itextId>
-            <name>exclusive_breastfeeding</name>
             <filter>gbv</filter>
+            <name>exclusive_breastfeeding</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-14</itextId>
-            <name>exclusive_breastfeeding</name>
             <filter>nutrition</filter>
+            <name>exclusive_breastfeeding</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-15</itextId>
-            <name>vitamin_a_supp</name>
             <filter>nutrition</filter>
+            <name>vitamin_a_supp</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-16</itextId>
-            <name>suppl_feeding</name>
             <filter>nutrition</filter>
+            <name>suppl_feeding</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-17</itextId>
-            <name>malnutrition</name>
             <filter>nutrition</filter>
+            <name>malnutrition</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-18</itextId>
-            <name>combating_iodine</name>
             <filter>nutrition</filter>
+            <name>combating_iodine</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-19</itextId>
-            <name>hand_washing</name>
             <filter>water_hygiene</filter>
+            <name>hand_washing</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-20</itextId>
-            <name>community_led</name>
             <filter>water_hygiene</filter>
+            <name>community_led</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-21</itextId>
-            <name>tuberculosis</name>
             <filter>disease_control</filter>
+            <name>tuberculosis</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-22</itextId>
-            <name>leprosy</name>
             <filter>disease_control</filter>
+            <name>leprosy</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-23</itextId>
-            <name>buruli_ulcer</name>
             <filter>disease_control</filter>
+            <name>buruli_ulcer</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-24</itextId>
-            <name>onchocerciasis</name>
             <filter>disease_control</filter>
+            <name>onchocerciasis</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-25</itextId>
-            <name>bilharzia</name>
             <filter>disease_control</filter>
+            <name>bilharzia</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-26</itextId>
-            <name>mass_deworming</name>
             <filter>disease_control</filter>
+            <name>mass_deworming</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-27</itextId>
-            <name>human_african</name>
             <filter>disease_control</filter>
+            <name>human_african</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-28</itextId>
-            <name>lymphatic</name>
             <filter>disease_control</filter>
+            <name>lymphatic</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-29</itextId>
-            <name>trachoma</name>
             <filter>disease_control</filter>
+            <name>trachoma</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-30</itextId>
-            <name>sti_and_hepatitis</name>
             <filter>disease_control</filter>
+            <name>sti_and_hepatitis</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-31</itextId>
-            <name>hypertension</name>
             <filter>disease_control</filter>
+            <name>hypertension</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-32</itextId>
-            <name>diabetes</name>
             <filter>disease_control</filter>
+            <name>diabetes</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-33</itextId>
-            <name>cancers</name>
             <filter>disease_control</filter>
+            <name>cancers</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-34</itextId>
-            <name>sickle_cell_disease</name>
             <filter>disease_control</filter>
+            <name>sickle_cell_disease</name>
           </item>
           <item>
             <itextId>static_instance-theme_list_by_domain-35</itextId>
-            <name>malaria</name>
             <filter>disease_control</filter>
+            <name>malaria</name>
           </item>
         </root>
       </instance>
@@ -1090,15 +1090,15 @@
       <bind nodeset="/pa_home_visit/is_vad_method" type="string" calculate="&quot;true&quot;"/>
       <bind nodeset="/pa_home_visit/is_talk_method" type="string" calculate="&quot;false&quot;"/>
       <bind nodeset="/pa_home_visit/is_interpersonal_com_method" type="string" calculate="&quot;false&quot;"/>
-      <bind nodeset="/pa_home_visit/promotional_activity/activity_date" type="date" calculate="coalesce(.,today())" required="true()" jr:requiredMsg="jr:itext('/pa_home_visit/promotional_activity/activity_date:jr:requiredMsg')" jr:constraintMsg="jr:itext('/pa_home_visit/promotional_activity/activity_date:jr:constraintMsg')" constraint=". &gt;= date(concat(format-date(date(decimal-date-time(today()) - 30 - format-date(today(), '%d') + 5), '%Y-%m'), '-25')) and . &lt;= today()"/>
+      <bind nodeset="/pa_home_visit/promotional_activity/activity_date" type="date" required="true()" jr:constraintMsg="jr:itext('/pa_home_visit/promotional_activity/activity_date:jr:constraintMsg')" constraint=". &gt;= date(concat(format-date(date(decimal-date-time(today()) - 30 - format-date(today(), '%d') + 5), '%Y-%m'), '-25')) and . &lt;= today()" calculate="coalesce(.,today())" jr:requiredMsg="jr:itext('/pa_home_visit/promotional_activity/activity_date:jr:requiredMsg')"/>
       <bind nodeset="/pa_home_visit/promotional_activity/activity_method" type="string" required="true()" calculate="&quot;vad&quot;"/>
-      <bind nodeset="/pa_home_visit/promotional_activity/family_number" type="string" required="true()" readonly="true()" calculate=" /pa_home_visit/household_external_id "/>
+      <bind nodeset="/pa_home_visit/promotional_activity/family_number" type="string" required="true()" calculate=" /pa_home_visit/household_external_id " readonly="true()"/>
       <bind nodeset="/pa_home_visit/promotional_activity/activity_domain" type="select" required="true()" jr:requiredMsg="jr:itext('/pa_home_visit/promotional_activity/activity_domain:jr:requiredMsg')"/>
-      <bind nodeset="/pa_home_visit/promotional_activity/other_activity_domain" type="string" required="true()" jr:requiredMsg="jr:itext('/pa_home_visit/promotional_activity/other_activity_domain:jr:requiredMsg')" relevant="selected( /pa_home_visit/promotional_activity/activity_domain ,'other_diseases_domain')"/>
+      <bind nodeset="/pa_home_visit/promotional_activity/other_activity_domain" type="string" required="true()" relevant="selected( /pa_home_visit/promotional_activity/activity_domain ,'other_diseases_domain')" jr:requiredMsg="jr:itext('/pa_home_visit/promotional_activity/other_activity_domain:jr:requiredMsg')"/>
       <bind nodeset="/pa_home_visit/promotional_activity/theme" type="select" required="true()" jr:requiredMsg="jr:itext('/pa_home_visit/promotional_activity/theme:jr:requiredMsg')"/>
-      <bind nodeset="/pa_home_visit/promotional_activity/women_number" type="int" required="true()" jr:requiredMsg="jr:itext('/pa_home_visit/promotional_activity/women_number:jr:requiredMsg')" jr:constraintMsg="jr:itext('/pa_home_visit/promotional_activity/women_number:jr:constraintMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/pa_home_visit/promotional_activity/men_number" type="int" required="true()" jr:requiredMsg="jr:itext('/pa_home_visit/promotional_activity/men_number:jr:requiredMsg')" jr:constraintMsg="jr:itext('/pa_home_visit/promotional_activity/men_number:jr:constraintMsg')" constraint=". &gt;= 0"/>
-      <bind nodeset="/pa_home_visit/promotional_activity/total_person" type="int" jr:constraintMsg="jr:itext('/pa_home_visit/promotional_activity/total_person:jr:constraintMsg')" calculate="coalesce(../women_number,0) + coalesce(../men_number,0)" relevant="../women_number != '' and ../men_number != ''" readonly="true()" constraint=". &gt; 1"/>
+      <bind nodeset="/pa_home_visit/promotional_activity/women_number" type="int" required="true()" jr:constraintMsg="jr:itext('/pa_home_visit/promotional_activity/women_number:jr:constraintMsg')" constraint=". &gt;= 0" jr:requiredMsg="jr:itext('/pa_home_visit/promotional_activity/women_number:jr:requiredMsg')"/>
+      <bind nodeset="/pa_home_visit/promotional_activity/men_number" type="int" required="true()" jr:constraintMsg="jr:itext('/pa_home_visit/promotional_activity/men_number:jr:constraintMsg')" constraint=". &gt;= 0" jr:requiredMsg="jr:itext('/pa_home_visit/promotional_activity/men_number:jr:requiredMsg')"/>
+      <bind nodeset="/pa_home_visit/promotional_activity/total_person" type="int" readonly="true()" relevant="../women_number != '' and ../men_number != ''" constraint=". &gt; 1" calculate="coalesce(../women_number,0) + coalesce(../men_number,0)" jr:constraintMsg="jr:itext('/pa_home_visit/promotional_activity/total_person:jr:constraintMsg')"/>
       <bind nodeset="/pa_home_visit/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>
   </h:head>

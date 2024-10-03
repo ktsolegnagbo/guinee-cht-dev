@@ -156,7 +156,7 @@
       <bind nodeset="/data/inputs/contact/parent/name" type="string" calculate="/data/inputs/contact/parent/name"/>
       <bind nodeset="/data/inputs/contact/parent/external_id" type="string" calculate="/data/inputs/contact/parent/external_id"/>
       <bind nodeset="/data/inputs/contact/parent/code" type="string" calculate="/data/inputs/contact/parent/code"/>
-      <bind nodeset="/data/inputs/meta/user_id" type="string" readonly="true()" calculate="/data/inputs/user/contact_id"/>
+      <bind nodeset="/data/inputs/meta/user_id" type="string" calculate="/data/inputs/user/contact_id" readonly="true()"/>
       <bind nodeset="/data/inputs/meta/user_role" type="string" calculate="/data/inputs/contact/role"/>
       <bind nodeset="/data/inputs/meta/user_external_id" type="string" calculate="/data/inputs/contact/external_id"/>
       <bind nodeset="/data/inputs/meta/user_parent_id" type="string" calculate="/data/inputs/contact/parent/_id"/>

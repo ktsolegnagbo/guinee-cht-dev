@@ -4,656 +4,6 @@
     <h:title>Suivi VACCINATION</h:title>
     <model>
       <itext>
-        <translation lang="en">
-          <text id="/vaccination_referal_followup/inputs/source:label">
-            <value>Source</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/source_id:label">
-            <value>Source ID</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/user/contact_id:label">
-            <value>Contact ID</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/user/name:label">
-            <value>Username</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/user/phone:label">
-            <value>Phone</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact:label">
-            <value>User Information</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/_id:label">
-            <value>Patient ID</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/name:label">
-            <value>Patient Name</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/sex:label">
-            <value>Patient Sex</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/date_of_birth:label">
-            <value>Patient Birth Date</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/external_id:label">
-            <value>Code Patient</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/phone:label">
-            <value>Phone</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent:label">
-            <value>parent Information</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent/_id:label">
-            <value>Family UUID</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent/name:label">
-            <value>Family name</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent/external_id:label">
-            <value>Family external ID</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent/parent:label">
-            <value>Village/Secteur</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/_id:label">
-            <value>Village/Secteur ID</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/parent/_id:label">
-            <value>District/Quartier Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/parent/parent/_id:label">
-            <value>Hospital Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label">
-            <value>Commune Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
-            <value>Prefecture Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
-            <value>Region Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
-            <value>Country Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/contact:label">
-            <value>RECO Information</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/contact/_id:label">
-            <value>RECO ID</value>
-          </text>
-          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/contact/name:label">
-            <value>RECO Name</value>
-          </text>
-          <text id="/vaccination_referal_followup/creation_number:label">
-            <value>creation_number</value>
-          </text>
-          <text id="/vaccination_referal_followup/is_creation_mode:label">
-            <value>is_creation_mode</value>
-          </text>
-          <text id="/vaccination_referal_followup/access_not:jr:constraintMsg">
-            <value>Ask for permission</value>
-          </text>
-          <text id="/vaccination_referal_followup/access_not:label">
-            <value>You don't have permission to edit this report</value>
-          </text>
-          <text id="/vaccination_referal_followup/access_not/ok:label">
-            <value>Ok</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_infos:label">
-            <value>PATIENT DETAILS</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_infos/i_patient_family_name:label">
-            <value>Family name : **<output value=" /vaccination_referal_followup/vaccination_followup/fields/patient_family_name "/>**</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_infos/i_patient_family_ext_id:label">
-            <value>Family External ID : **<output value=" /vaccination_referal_followup/vaccination_followup/fields/patient_family_external_id "/>**</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_infos/i_patient_name:label">
-            <value>Patient name : **<output value=" /vaccination_referal_followup/patient_name_to_show "/>**</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_infos/i_patient_sexe:label">
-            <value>Patient sexe : **<output value=" /vaccination_referal_followup/patient_sex_fr "/>**</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_infos/i_code_patient:label">
-            <value>Patient code : **<output value=" /vaccination_referal_followup/patient_external_id_to_show "/>**</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_infos/i_patient_info_age:label">
-            <value>Age : **<output value=" /vaccination_referal_followup/patient_age_display_en "/>**</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup:label">
-            <value>IMMUNIZATION STATUS</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth:label">
-            <value>Birth</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG:label">
-            <value>BCG</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG/no:label">
-            <value>No</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason:label">
-            <value>Why BCG not given ?</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason/shortage:label">
-            <value>Shortage</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason/no_appointment_respect:label">
-            <value>Failure to keep the appointment</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0:label">
-            <value>VPO 0</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0/no:label">
-            <value>No</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason:label">
-            <value>Why VPO 0 not given ?</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason/shortage:label">
-            <value>Shortage</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason/no_appointment_respect:label">
-            <value>Failure to keep the appointment</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks:label">
-            <value>6 weeks</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1:label">
-            <value>Penta 1</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1/no:label">
-            <value>No</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason:label">
-            <value>Why Penta 1 not given ?</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason/shortage:label">
-            <value>Shortage</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason/no_appointment_respect:label">
-            <value>Failure to keep the appointment</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1:label">
-            <value>VPO 1</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1/no:label">
-            <value>No</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason:label">
-            <value>Why VPO 1 not given ?</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason/shortage:label">
-            <value>Shortage</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason/no_appointment_respect:label">
-            <value>Failure to keep the appointment</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks:label">
-            <value>10 weeks</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_vaccine_PENTA_2:label">
-            <value>Penta 2</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_vaccine_PENTA_2/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_vaccine_PENTA_2/no:label">
-            <value>No</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_no_PENTA_2_reason:label">
-            <value>Why Penta 2 not given ?</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_no_PENTA_2_reason/shortage:label">
-            <value>Shortage</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_no_PENTA_2_reason/no_appointment_respect:label">
-            <value>Failure to keep the appointment</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_vaccine_VPO_2:label">
-            <value>VPO 2</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_vaccine_VPO_2/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_vaccine_VPO_2/no:label">
-            <value>No</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_no_VPO_2_reason:label">
-            <value>Why VPO 2 not given ?</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_no_VPO_2_reason/shortage:label">
-            <value>Shortage</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_no_VPO_2_reason/no_appointment_respect:label">
-            <value>Failure to keep the appointment</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks:label">
-            <value>14 weeks</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_PENTA_3:label">
-            <value>Penta 3</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_PENTA_3/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_PENTA_3/no:label">
-            <value>No</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_PENTA_3_reason:label">
-            <value>Why Penta 3 not given ?</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_PENTA_3_reason/shortage:label">
-            <value>Shortage</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_PENTA_3_reason/no_appointment_respect:label">
-            <value>Failure to keep the appointment</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_VPO_3:label">
-            <value>VPO 3</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_VPO_3/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_VPO_3/no:label">
-            <value>No</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_VPO_3_reason:label">
-            <value>Why VPO 3 not given ?</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_VPO_3_reason/shortage:label">
-            <value>Shortage</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_VPO_3_reason/no_appointment_respect:label">
-            <value>Failure to keep the appointment</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_VPI_1:label">
-            <value>VPI 1</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_VPI_1/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_VPI_1/no:label">
-            <value>No</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_VPI_1_reason:label">
-            <value>Why VPI 1 not given ?</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_VPI_1_reason/shortage:label">
-            <value>Shortage</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_VPI_1_reason/no_appointment_respect:label">
-            <value>Failure to keep the appointment</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months:label">
-            <value>9 months</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VAR_1:label">
-            <value>VAR 1</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VAR_1/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VAR_1/no:label">
-            <value>No</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VAR_1_reason:label">
-            <value>Why VAR 1 not given ?</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VAR_1_reason/shortage:label">
-            <value>Shortage</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VAR_1_reason/no_appointment_respect:label">
-            <value>Failure to keep the appointment</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VAA:label">
-            <value>VAA</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VAA/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VAA/no:label">
-            <value>No</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VAA_reason:label">
-            <value>Why VAA not given ?</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VAA_reason/shortage:label">
-            <value>Shortage</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VAA_reason/no_appointment_respect:label">
-            <value>Failure to keep the appointment</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VPI_2:label">
-            <value>VPI 2</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VPI_2/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VPI_2/no:label">
-            <value>No</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VPI_2_reason:label">
-            <value>Why VPI 2 not given ?</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VPI_2_reason/shortage:label">
-            <value>Shortage</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VPI_2_reason/no_appointment_respect:label">
-            <value>Failure to keep the appointment</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months:label">
-            <value>15 months</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_vaccine_MEN_A:label">
-            <value>MenA</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_vaccine_MEN_A/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_vaccine_MEN_A/no:label">
-            <value>No</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_no_MEN_A_reason:label">
-            <value>Why MenA not given ?</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_no_MEN_A_reason/shortage:label">
-            <value>Shortage</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_no_MEN_A_reason/no_appointment_respect:label">
-            <value>Failure to keep the appointment</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_vaccine_VAR_2:label">
-            <value>VAR 2</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_vaccine_VAR_2/yes:label">
-            <value>Yes</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_vaccine_VAR_2/no:label">
-            <value>No</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_no_VAR_2_reason:label">
-            <value>Why VAR 2 not given ?</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_no_VAR_2_reason/shortage:label">
-            <value>Shortage</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_no_VAR_2_reason/no_appointment_respect:label">
-            <value>Failure to keep the appointment</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_summary:label">
-            <value>Patient Summary&lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_patient_info_name:label">
-            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /vaccination_referal_followup/patient_name_to_show "/>&lt;/strong&gt;</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_patient_info_sex:label">
-            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /vaccination_referal_followup/patient_sex_en "/>&lt;/strong&gt;</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_patient_info_age:label">
-            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /vaccination_referal_followup/patient_age_display_en "/>&lt;/strong&gt;</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/all_vaccine_has_done:label">
-            <value>&lt;b&gt;All Vaccin of child has done&lt;/b&gt;</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/vaccine_not_done:label">
-            <value>&lt;b&gt;Vaccine not done&lt;/b&gt;</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_BCG:label">
-            <value>BCG</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VPO_0:label">
-            <value>VPO 0</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_PENTA_1:label">
-            <value>Penta 1</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VPO_1:label">
-            <value>VPO 1</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_PENTA_2:label">
-            <value>Penta 2</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VPO_2:label">
-            <value>VPO 2</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_PENTA_3:label">
-            <value>Penta 3</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VPO_3:label">
-            <value>VPO 3</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VPI_1:label">
-            <value>VPI 1</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VAR_1:label">
-            <value>VAR 1</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VAA:label">
-            <value>VAA</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VPI_2:label">
-            <value>VPI 2</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_MEN_A:label">
-            <value>MenA</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VAR_2:label">
-            <value>VAR 2</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/r_refer_USP_for_vaccin:label">
-            <value>Refer USP.</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_refer_child_note:label">
-            <value>Refer the child for **vaccin not up to date**</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_referal_health_center:label">
-            <value>Select the reference health center</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_referal_health_center/health_center:label">
-            <value>Health center</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_referal_health_center/health_poste:label">
-            <value>Health poste</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_referal_health_center/others:label">
-            <value>Others</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_other_referal_health_center:label">
-            <value>Enter the name of the reference health facility</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/followup:label">
-            <value>Follow up</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_vaccine_next_visit_date:label">
-            <value>The next visit of vaccination is for 7 days</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_no_next_visit_date:label">
-            <value>No followup will be generate</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/patient_id:label">
-            <value>Patient ID</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/patient_name:label">
-            <value>Patient Name</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/visited_contact_uuid:label">
-            <value>Family Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/patient_family_name:label">
-            <value>Family name</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/patient_family_external_id:label">
-            <value>Family external ID</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/household_id:label">
-            <value>Household Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/village_secteur_id:label">
-            <value>Village/Secteur ID</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/district_quartier_id:label">
-            <value>District/Quartier Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/hospital_id:label">
-            <value>Hospital Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/commune_id:label">
-            <value>Commune Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/prefecture_id:label">
-            <value>Prefecture Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/region_id:label">
-            <value>Region Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/fields/country_id:label">
-            <value>Country Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/type:label">
-            <value>Type</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup/created_by_doc:label">
-            <value>created_by_doc</value>
-          </text>
-          <text id="/vaccination_referal_followup/vaccination_followup_report_doc:label">
-            <value>vaccination_followup_report_doc</value>
-          </text>
-          <text id="/vaccination_referal_followup/user_id:label">
-            <value>User contact id</value>
-          </text>
-          <text id="/vaccination_referal_followup/user_uid:label">
-            <value>User contact id</value>
-          </text>
-          <text id="/vaccination_referal_followup/user_phone:label">
-            <value>User phone</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_id:label">
-            <value>Patient ID</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_uuid:label">
-            <value>Patient ID</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_name:label">
-            <value>Patient Name</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_name_to_show:label">
-            <value>Patient Name</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_sex:label">
-            <value>Patient Sex</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_sex_to_show:label">
-            <value>Patient Sex</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_external_id:label">
-            <value>Code Patient</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_external_id_to_show:label">
-            <value>Code Patient</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_date_of_birth:label">
-            <value>Patient date_of_birth</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_date_of_birth_to_show:label">
-            <value>Patient date_of_birth</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_age_in_years:label">
-            <value>Age in Years</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_age_in_months:label">
-            <value>Age In Months</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_age_in_days:label">
-            <value>Age In Days</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_age_display_fr:label">
-            <value>FR Age Display</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_age_display_en:label">
-            <value>EN Age Display</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_sex_en:label">
-            <value>FR Sex Display</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_sex_fr:label">
-            <value>EN Sex Display</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_phone:label">
-            <value>Patient Phone</value>
-          </text>
-          <text id="/vaccination_referal_followup/patient_phone_to_show:label">
-            <value>Patient Phone</value>
-          </text>
-          <text id="/vaccination_referal_followup/household_name:label">
-            <value>Family name</value>
-          </text>
-          <text id="/vaccination_referal_followup/household_external_id:label">
-            <value>Family external ID</value>
-          </text>
-          <text id="/vaccination_referal_followup/household_id:label">
-            <value>Household Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/household_uid:label">
-            <value>Household Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/village_secteur_id:label">
-            <value>Village/Secteur ID</value>
-          </text>
-          <text id="/vaccination_referal_followup/village_secteur_uid:label">
-            <value>Village/Secteur ID</value>
-          </text>
-          <text id="/vaccination_referal_followup/district_quartier_id:label">
-            <value>District/Quartier Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/district_quartier_uid:label">
-            <value>District/Quartier Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/hospital_id:label">
-            <value>Hospital Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/hospital_uid:label">
-            <value>Hospital Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/commune_id:label">
-            <value>Commune Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/commune_uid:label">
-            <value>Commune Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/prefecture_id:label">
-            <value>Prefecture Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/prefecture_uid:label">
-            <value>Prefecture Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/region_id:label">
-            <value>Region Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/region_uid:label">
-            <value>Region Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/country_id:label">
-            <value>Country Id</value>
-          </text>
-          <text id="/vaccination_referal_followup/country_uid:label">
-            <value>Country Id</value>
-          </text>
-        </translation>
         <translation lang="fr">
           <text id="/vaccination_referal_followup/inputs/source:label">
             <value>Source</value>
@@ -1302,6 +652,656 @@
           </text>
           <text id="/vaccination_referal_followup/country_uid:label">
             <value>Pays Id</value>
+          </text>
+        </translation>
+        <translation lang="en">
+          <text id="/vaccination_referal_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/vaccination_referal_followup/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/vaccination_referal_followup/creation_number:label">
+            <value>creation_number</value>
+          </text>
+          <text id="/vaccination_referal_followup/is_creation_mode:label">
+            <value>is_creation_mode</value>
+          </text>
+          <text id="/vaccination_referal_followup/access_not:jr:constraintMsg">
+            <value>Ask for permission</value>
+          </text>
+          <text id="/vaccination_referal_followup/access_not:label">
+            <value>You don't have permission to edit this report</value>
+          </text>
+          <text id="/vaccination_referal_followup/access_not/ok:label">
+            <value>Ok</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_infos:label">
+            <value>PATIENT DETAILS</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_infos/i_patient_family_name:label">
+            <value>Family name : **<output value=" /vaccination_referal_followup/vaccination_followup/fields/patient_family_name "/>**</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_infos/i_patient_family_ext_id:label">
+            <value>Family External ID : **<output value=" /vaccination_referal_followup/vaccination_followup/fields/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_infos/i_patient_name:label">
+            <value>Patient name : **<output value=" /vaccination_referal_followup/patient_name_to_show "/>**</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_infos/i_patient_sexe:label">
+            <value>Patient sexe : **<output value=" /vaccination_referal_followup/patient_sex_fr "/>**</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_infos/i_code_patient:label">
+            <value>Patient code : **<output value=" /vaccination_referal_followup/patient_external_id_to_show "/>**</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_infos/i_patient_info_age:label">
+            <value>Age : **<output value=" /vaccination_referal_followup/patient_age_display_en "/>**</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup:label">
+            <value>IMMUNIZATION STATUS</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth:label">
+            <value>Birth</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG:label">
+            <value>BCG</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG/no:label">
+            <value>No</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason:label">
+            <value>Why BCG not given ?</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0:label">
+            <value>VPO 0</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0/no:label">
+            <value>No</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason:label">
+            <value>Why VPO 0 not given ?</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks:label">
+            <value>6 weeks</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1:label">
+            <value>Penta 1</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason:label">
+            <value>Why Penta 1 not given ?</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1:label">
+            <value>VPO 1</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason:label">
+            <value>Why VPO 1 not given ?</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks:label">
+            <value>10 weeks</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_vaccine_PENTA_2:label">
+            <value>Penta 2</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_vaccine_PENTA_2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_vaccine_PENTA_2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_no_PENTA_2_reason:label">
+            <value>Why Penta 2 not given ?</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_no_PENTA_2_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_no_PENTA_2_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_vaccine_VPO_2:label">
+            <value>VPO 2</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_vaccine_VPO_2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_vaccine_VPO_2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_no_VPO_2_reason:label">
+            <value>Why VPO 2 not given ?</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_no_VPO_2_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_ten_weeks/c_no_VPO_2_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks:label">
+            <value>14 weeks</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_PENTA_3:label">
+            <value>Penta 3</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_PENTA_3/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_PENTA_3/no:label">
+            <value>No</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_PENTA_3_reason:label">
+            <value>Why Penta 3 not given ?</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_PENTA_3_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_PENTA_3_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_VPO_3:label">
+            <value>VPO 3</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_VPO_3/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_VPO_3/no:label">
+            <value>No</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_VPO_3_reason:label">
+            <value>Why VPO 3 not given ?</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_VPO_3_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_VPO_3_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_VPI_1:label">
+            <value>VPI 1</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_VPI_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_vaccine_VPI_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_VPI_1_reason:label">
+            <value>Why VPI 1 not given ?</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_VPI_1_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_forteen_weeks/c_no_VPI_1_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months:label">
+            <value>9 months</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VAR_1:label">
+            <value>VAR 1</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VAR_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VAR_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VAR_1_reason:label">
+            <value>Why VAR 1 not given ?</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VAR_1_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VAR_1_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VAA:label">
+            <value>VAA</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VAA/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VAA/no:label">
+            <value>No</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VAA_reason:label">
+            <value>Why VAA not given ?</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VAA_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VAA_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VPI_2:label">
+            <value>VPI 2</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VPI_2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_vaccine_VPI_2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VPI_2_reason:label">
+            <value>Why VPI 2 not given ?</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VPI_2_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_nine_months/c_no_VPI_2_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months:label">
+            <value>15 months</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_vaccine_MEN_A:label">
+            <value>MenA</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_vaccine_MEN_A/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_vaccine_MEN_A/no:label">
+            <value>No</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_no_MEN_A_reason:label">
+            <value>Why MenA not given ?</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_no_MEN_A_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_no_MEN_A_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_vaccine_VAR_2:label">
+            <value>VAR 2</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_vaccine_VAR_2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_vaccine_VAR_2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_no_VAR_2_reason:label">
+            <value>Why VAR 2 not given ?</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_no_VAR_2_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/c_vaccine_status/c_fifty_months/c_no_VAR_2_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_summary:label">
+            <value>Patient Summary&lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /vaccination_referal_followup/patient_name_to_show "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /vaccination_referal_followup/patient_sex_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /vaccination_referal_followup/patient_age_display_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/all_vaccine_has_done:label">
+            <value>&lt;b&gt;All Vaccin of child has done&lt;/b&gt;</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/vaccine_not_done:label">
+            <value>&lt;b&gt;Vaccine not done&lt;/b&gt;</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_BCG:label">
+            <value>BCG</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VPO_0:label">
+            <value>VPO 0</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_PENTA_1:label">
+            <value>Penta 1</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VPO_1:label">
+            <value>VPO 1</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_PENTA_2:label">
+            <value>Penta 2</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VPO_2:label">
+            <value>VPO 2</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_PENTA_3:label">
+            <value>Penta 3</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VPO_3:label">
+            <value>VPO 3</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VPI_1:label">
+            <value>VPI 1</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VAR_1:label">
+            <value>VAR 1</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VAA:label">
+            <value>VAA</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VPI_2:label">
+            <value>VPI 2</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_MEN_A:label">
+            <value>MenA</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/n_vaccine_VAR_2:label">
+            <value>VAR 2</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/r_refer_USP_for_vaccin:label">
+            <value>Refer USP.</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_refer_child_note:label">
+            <value>Refer the child for **vaccin not up to date**</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_referal_health_center:label">
+            <value>Select the reference health center</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_referal_health_center/health_center:label">
+            <value>Health center</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_referal_health_center/health_poste:label">
+            <value>Health poste</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_referal_health_center/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_other_referal_health_center:label">
+            <value>Enter the name of the reference health facility</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/followup:label">
+            <value>Follow up</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_vaccine_next_visit_date:label">
+            <value>The next visit of vaccination is for 7 days</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/group_review/s_no_next_visit_date:label">
+            <value>No followup will be generate</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/visited_contact_uuid:label">
+            <value>Family Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/patient_family_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/patient_family_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/fields/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/type:label">
+            <value>Type</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup/created_by_doc:label">
+            <value>created_by_doc</value>
+          </text>
+          <text id="/vaccination_referal_followup/vaccination_followup_report_doc:label">
+            <value>vaccination_followup_report_doc</value>
+          </text>
+          <text id="/vaccination_referal_followup/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/vaccination_referal_followup/user_uid:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/vaccination_referal_followup/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_sex_to_show:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_date_of_birth_to_show:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/vaccination_referal_followup/patient_phone_to_show:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/vaccination_referal_followup/household_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/vaccination_referal_followup/household_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/vaccination_referal_followup/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/household_uid:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/vaccination_referal_followup/village_secteur_uid:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/vaccination_referal_followup/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/district_quartier_uid:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/hospital_uid:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/commune_uid:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/prefecture_uid:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/region_uid:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/vaccination_referal_followup/country_uid:label">
+            <value>Country Id</value>
           </text>
         </translation>
       </itext>

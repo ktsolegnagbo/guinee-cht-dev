@@ -1,0 +1,1253 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>GRILLE DE SUPERVISION</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/supervision_grid/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/supervision_grid/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/supervision_grid/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/supervision_grid/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/supervision_grid/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/supervision_grid/inputs/user/role:label">
+            <value>Role</value>
+          </text>
+          <text id="/supervision_grid/inputs/user/external_id:label">
+            <value>Externa Id</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/_id:label">
+            <value>ASC ID</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/name:label">
+            <value>ASC Name</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/sex:label">
+            <value>ASC Sex</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/date_of_birth:label">
+            <value>ASC Birth Date</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/external_id:label">
+            <value>ASC external_id</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/name:label">
+            <value>District/Quartier name</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/external_id:label">
+            <value>District/Quartier external ID</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/supervision_grid/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/supervision_grid/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/supervision_grid/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/supervision_grid/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/supervision_grid/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/supervision_grid/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/supervision_grid/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/supervision_grid/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/supervision_grid/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/supervision_grid/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/supervision_grid/sup_grid:label">
+            <value>RECO supervision grid</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/activity_date:jr:constraintMsg">
+            <value>La date ne doit pas etre anterieur au 15 du mois passé</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/activity_date:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/activity_date:label">
+            <value>Report date</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_activity_plan:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_activity_plan:label">
+            <value>Does RECO have a monthly business plan?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_activity_plan/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_activity_plan/no:label">
+            <value>No</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_activity_plan_reason:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_activity_plan_reason:label">
+            <value>Why ?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_update_register:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_update_register:label">
+            <value>Does RECO update the population census register for its area of intervention?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_update_register/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_update_register/no:label">
+            <value>No</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_update_register_reason:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_update_register_reason:label">
+            <value>Why ?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/continue_pregnant_census:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/continue_pregnant_census:label">
+            <value>Does RECO continue the census of pregnant women?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/continue_pregnant_census/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/continue_pregnant_census/no:label">
+            <value>No</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_pregnant_census_reason:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_pregnant_census_reason:label">
+            <value>Why ?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_previous_month_meeting:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_previous_month_meeting:label">
+            <value>Does the RECO take part in the previous month's monthly meeting?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_previous_month_meeting/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_previous_month_meeting/no:label">
+            <value>No</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_meeting_reason:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_meeting_reason:label">
+            <value>Why ?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_well_maintained_tools:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_well_maintained_tools:label">
+            <value>Are RECO tools well maintained and updated?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_well_maintained_tools/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_well_maintained_tools/no:label">
+            <value>No</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/bad_maintained_tools_reason:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/bad_maintained_tools_reason:label">
+            <value>Why ?</value>
+          </text>
+          <text id="/supervision_grid/promo_activity:label">
+            <value>Promotional activities and active research</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/vad_planned:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/vad_planned:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/vad_planned:label">
+            <value>VAD Planned</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/vad_carried:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/vad_carried:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/vad_carried:label">
+            <value>VAD carried out at date of supervision</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/ec_planned:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/ec_planned:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/ec_planned:label">
+            <value>EC Planned</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/ec_carried:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/ec_carried:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/ec_carried:label">
+            <value>EC completed at date of supervision</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_active_search_sheet_given:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_active_search_sheet_given:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_active_search_sheet_given:label">
+            <value>How many overdue cards have been handed over to RECO for active search?</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_vaccinal_late_found_reffered:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_vaccinal_late_found_reffered:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_vaccinal_late_found_reffered:label">
+            <value>How many children behind in their immunization schedule have been found and referred by RECO?</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_women_anc_late:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_women_anc_late:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_women_anc_late:label">
+            <value>How many women are behind in their ANC/CPoN schedule?</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_women_anc_referred:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_women_anc_referred:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_women_anc_referred:label">
+            <value>How many women have been referred by RECO for ANC/CPoN</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment:label">
+            <value>Checking equipment</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/android:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/android:label">
+            <value>Android phone</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/android/good:label">
+            <value>Good condition</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/android/bad:label">
+            <value>Poor condition</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/android/not_available:label">
+            <value>Not available</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/power_bank:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/power_bank:label">
+            <value>Power bank</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/power_bank/good:label">
+            <value>Good condition</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/power_bank/bad:label">
+            <value>Poor condition</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/power_bank/not_available:label">
+            <value>Not available</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/visibility_kit:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/visibility_kit:label">
+            <value>Visibility kit (T-shirt, cap, vest, badge)</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/visibility_kit/good:label">
+            <value>Good condition</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/visibility_kit/bad:label">
+            <value>Poor condition</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/visibility_kit/not_available:label">
+            <value>Not available</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/protection_kit:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/protection_kit:label">
+            <value>Protection kit (Raincoats; Boots)</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/protection_kit/good:label">
+            <value>Good condition</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/protection_kit/bad:label">
+            <value>Poor condition</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/protection_kit/not_available:label">
+            <value>Not available</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup:label">
+            <value>Household level supervision</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/note_sup:label">
+            <value>The CHW must visit at least two pregnant women who have undergone their first ANC and one new member of the RECO community.</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/followup_cible:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/followup_cible:label">
+            <value>Avez vous les cibles suivantes ?</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/followup_cible/women_cpn1:label">
+            <value>Femme enceinte ayant fait CPN 1</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/followup_cible/newborn:label">
+            <value>Nouveau né</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/followup_cible/none:label">
+            <value>Aucun</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/women_cpn1_followup_count:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/women_cpn1_followup_no_milda_count:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/newborn_followup_count:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/newborn_followup_no_milda_count:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/supervision_difficulty:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/supervision_difficulty:label">
+            <value>What are the difficulties associated with supervision?</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/recommendation:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/recommendation:label">
+            <value>Recommendation</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/women_cpn1_followup_count:label">
+            <value>-</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/women_cpn1_followup_no_milda_count:label">
+            <value>-</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/newborn_followup_count:label">
+            <value>-</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/newborn_followup_no_milda_count:label">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation lang="fr">
+          <text id="/supervision_grid/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/supervision_grid/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/supervision_grid/inputs/user/contact_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/supervision_grid/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/supervision_grid/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/supervision_grid/inputs/user/role:label">
+            <value>Role</value>
+          </text>
+          <text id="/supervision_grid/inputs/user/external_id:label">
+            <value>ID Externe</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/_id:label">
+            <value>ASC ID</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/name:label">
+            <value>ASC Name</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/sex:label">
+            <value>ASC Sex</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/date_of_birth:label">
+            <value>ASC Birth Date</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/external_id:label">
+            <value>ASC external_id</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/name:label">
+            <value>District/Quartier name</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/external_id:label">
+            <value>District/Quartier external ID</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/supervision_grid/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/supervision_grid/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/supervision_grid/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/supervision_grid/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/supervision_grid/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/supervision_grid/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/supervision_grid/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/supervision_grid/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/supervision_grid/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/supervision_grid/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/supervision_grid/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/supervision_grid/sup_grid:label">
+            <value>Grille de suivi / supervision du RECO</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/activity_date:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/activity_date:label">
+            <value>Date de supervision</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_activity_plan:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_activity_plan:label">
+            <value>Le RECO a-t-il son plan d'activités mensuelle ?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_activity_plan/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_activity_plan/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_activity_plan_reason:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_activity_plan_reason:label">
+            <value>Pourquoi ?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_update_register:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_update_register:label">
+            <value>Le RECO remet-t-il à jour le registre de recensement de la population de son aire d'intervention ?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_update_register/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_update_register/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_update_register_reason:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_update_register_reason:label">
+            <value>Pourquoi ?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/continue_pregnant_census:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/continue_pregnant_census:label">
+            <value>Le RECO continue-t-il le recensement des femmes enceintes ?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/continue_pregnant_census/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/continue_pregnant_census/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_pregnant_census_reason:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_pregnant_census_reason:label">
+            <value>Pourquoi ?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_previous_month_meeting:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_previous_month_meeting:label">
+            <value>Le RECO a t-il participé à la réunion mensuelle du mois précédent ?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_previous_month_meeting/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_previous_month_meeting/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_meeting_reason:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/no_meeting_reason:label">
+            <value>Pourquoi ?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_well_maintained_tools:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_well_maintained_tools:label">
+            <value>Les outils du RECO sont-ils bien entretenus et mise à jour ?</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_well_maintained_tools/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/has_well_maintained_tools/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/bad_maintained_tools_reason:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/bad_maintained_tools_reason:label">
+            <value>Pourquoi ?</value>
+          </text>
+          <text id="/supervision_grid/promo_activity:label">
+            <value>Activités promotionnelles et recherche active</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/vad_planned:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/vad_planned:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/vad_planned:label">
+            <value>VAD Prévues</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/vad_carried:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/vad_carried:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/vad_carried:label">
+            <value>VAD réalisées à la date de la supervision</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/ec_planned:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/ec_planned:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/ec_planned:label">
+            <value>CE Prévues</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/ec_carried:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/ec_carried:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/ec_carried:label">
+            <value>CE réalisées à la date de la supervision</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_active_search_sheet_given:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_active_search_sheet_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_active_search_sheet_given:label">
+            <value>Combien de fiches en souffrance ont été remise au RECO pour la recherche active</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_vaccinal_late_found_reffered:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_vaccinal_late_found_reffered:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_vaccinal_late_found_reffered:label">
+            <value>Combien d'enfants en retard dans le calendrier vaccinal ont été retrouvé et référé par le RECO</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_women_anc_late:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_women_anc_late:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_women_anc_late:label">
+            <value>Combien de Femmes sont en retard dans leur calendrier de CPN/CPoN</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_women_anc_referred:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_women_anc_referred:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/promo_activity/num_women_anc_referred:label">
+            <value>Combien de Femme sont référées par le RECO pour la CPN/CPoN</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment:label">
+            <value>Vérification des équipements</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/android:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/android:label">
+            <value>Téléphone Android</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/android/good:label">
+            <value>Bon état</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/android/bad:label">
+            <value>Mauvais état</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/android/not_available:label">
+            <value>Non disponible</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/power_bank:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/power_bank:label">
+            <value>Power bank</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/power_bank/good:label">
+            <value>Bon état</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/power_bank/bad:label">
+            <value>Mauvais état</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/power_bank/not_available:label">
+            <value>Non disponible</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/visibility_kit:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/visibility_kit:label">
+            <value>Kit de visibilité (T-shirt, casquette, gilet, badge)</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/visibility_kit/good:label">
+            <value>Bon état</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/visibility_kit/bad:label">
+            <value>Mauvais état</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/visibility_kit/not_available:label">
+            <value>Non disponible</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/protection_kit:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/protection_kit:label">
+            <value>Kit de protection (Imperméables ; Bottes)</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/protection_kit/good:label">
+            <value>Bon état</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/protection_kit/bad:label">
+            <value>Mauvais état</value>
+          </text>
+          <text id="/supervision_grid/checking_equipment/protection_kit/not_available:label">
+            <value>Non disponible</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup:label">
+            <value>Supervision niveau ménage</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/note_sup:label">
+            <value>L'ASC doit visiter au moins **deux femmes enceinte** qui ont fait leur première CPN et **un nouveau né** de la communauté du RECO</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/followup_cible:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/followup_cible:label">
+            <value>Avez vous les cibles suivantes ?</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/followup_cible/women_cpn1:label">
+            <value>Femme enceinte ayant fait CPN 1</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/followup_cible/newborn:label">
+            <value>Nouveau né</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/followup_cible/none:label">
+            <value>Aucun</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/women_cpn1_followup_count:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/women_cpn1_followup_count:label">
+            <value>Nombre femme enceinte visité par l'ASC</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/women_cpn1_followup_no_milda_count:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/women_cpn1_followup_no_milda_count:label">
+            <value>Nombre femme enceinte visité ayant reçu MILDA</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/newborn_followup_count:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/newborn_followup_count:label">
+            <value>Nombre nouveau né visité par l'ASC</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/newborn_followup_no_milda_count:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/newborn_followup_no_milda_count:label">
+            <value>Nombre nouveau né visité ayant reçu MILDA</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/supervision_difficulty:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/supervision_difficulty:label">
+            <value>Quelle sont les difficultés liées à la supervision ?</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/recommendation:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/supervision_grid/g_household_sup/recommendation:label">
+            <value>Recommandation</value>
+          </text>
+          <text id="/supervision_grid/sup_grid/activity_date:jr:constraintMsg">
+            <value>-</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <supervision_grid id="supervision_grid" prefix="J1!supervision_grid!" delimiter="#" version="2024-08-17  15-17">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+              <role/>
+              <external_id/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <sex/>
+              <date_of_birth/>
+              <external_id/>
+              <parent>
+                <_id/>
+                <name/>
+                <external_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_name/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <sup_grid>
+            <activity_date/>
+            <has_activity_plan/>
+            <no_activity_plan_reason/>
+            <has_update_register/>
+            <no_update_register_reason/>
+            <continue_pregnant_census/>
+            <no_pregnant_census_reason/>
+            <has_previous_month_meeting/>
+            <no_meeting_reason/>
+            <has_well_maintained_tools/>
+            <bad_maintained_tools_reason/>
+          </sup_grid>
+          <promo_activity>
+            <vad_planned/>
+            <vad_carried/>
+            <ec_planned/>
+            <ec_carried/>
+            <num_active_search_sheet_given/>
+            <num_vaccinal_late_found_reffered/>
+            <num_women_anc_late/>
+            <num_women_anc_referred/>
+          </promo_activity>
+          <checking_equipment>
+            <android/>
+            <power_bank/>
+            <visibility_kit/>
+            <protection_kit/>
+          </checking_equipment>
+          <g_household_sup>
+            <note_sup/>
+            <followup_cible/>
+            <women_cpn1_followup_count/>
+            <women_cpn1_followup_no_milda_count/>
+            <newborn_followup_count/>
+            <newborn_followup_no_milda_count/>
+            <supervision_difficulty/>
+            <recommendation/>
+          </g_household_sup>
+          <meta>
+            <instanceID/>
+          </meta>
+        </supervision_grid>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/supervision_grid/inputs/source" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/source_id" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/supervision_grid/inputs/user/name" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/user/phone" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/user/role" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/user/external_id" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/contact/_id" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/contact/name" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/contact/sex" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/contact/external_id" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/contact/parent/_id" type="db:person"/>
+      <bind nodeset="/supervision_grid/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/contact/parent/external_id" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/supervision_grid/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/supervision_grid/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/supervision_grid/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/supervision_grid/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/supervision_grid/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/supervision_grid/district_quartier_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/supervision_grid/hospital_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/supervision_grid/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/supervision_grid/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/supervision_grid/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/supervision_grid/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/supervision_grid/sup_grid/activity_date" type="date" jr:requiredMsg="jr:itext('/supervision_grid/sup_grid/activity_date:jr:requiredMsg')" constraint=". &lt;= today()" jr:constraintMsg="jr:itext('/supervision_grid/sup_grid/activity_date:jr:constraintMsg')" required="true()" calculate="coalesce(.,today())"/>
+      <bind nodeset="/supervision_grid/sup_grid/has_activity_plan" type="select1" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/sup_grid/has_activity_plan:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/sup_grid/no_activity_plan_reason" type="string" relevant=" /supervision_grid/sup_grid/has_activity_plan  = 'no'" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/sup_grid/no_activity_plan_reason:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/sup_grid/has_update_register" type="select1" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/sup_grid/has_update_register:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/sup_grid/no_update_register_reason" type="string" relevant=" /supervision_grid/sup_grid/has_update_register  = 'no'" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/sup_grid/no_update_register_reason:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/sup_grid/continue_pregnant_census" type="select1" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/sup_grid/continue_pregnant_census:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/sup_grid/no_pregnant_census_reason" type="string" relevant=" /supervision_grid/sup_grid/continue_pregnant_census  = 'no'" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/sup_grid/no_pregnant_census_reason:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/sup_grid/has_previous_month_meeting" type="select1" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/sup_grid/has_previous_month_meeting:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/sup_grid/no_meeting_reason" type="string" relevant=" /supervision_grid/sup_grid/has_previous_month_meeting  = 'no'" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/sup_grid/no_meeting_reason:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/sup_grid/has_well_maintained_tools" type="select1" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/sup_grid/has_well_maintained_tools:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/sup_grid/bad_maintained_tools_reason" type="string" relevant=" /supervision_grid/sup_grid/has_well_maintained_tools  = 'no'" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/sup_grid/bad_maintained_tools_reason:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/promo_activity/vad_planned" type="int" jr:requiredMsg="jr:itext('/supervision_grid/promo_activity/vad_planned:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/supervision_grid/promo_activity/vad_planned:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/supervision_grid/promo_activity/vad_carried" type="int" jr:requiredMsg="jr:itext('/supervision_grid/promo_activity/vad_carried:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/supervision_grid/promo_activity/vad_carried:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/supervision_grid/promo_activity/ec_planned" type="int" jr:requiredMsg="jr:itext('/supervision_grid/promo_activity/ec_planned:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/supervision_grid/promo_activity/ec_planned:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/supervision_grid/promo_activity/ec_carried" type="int" jr:requiredMsg="jr:itext('/supervision_grid/promo_activity/ec_carried:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/supervision_grid/promo_activity/ec_carried:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/supervision_grid/promo_activity/num_active_search_sheet_given" type="int" jr:requiredMsg="jr:itext('/supervision_grid/promo_activity/num_active_search_sheet_given:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/supervision_grid/promo_activity/num_active_search_sheet_given:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/supervision_grid/promo_activity/num_vaccinal_late_found_reffered" type="int" jr:requiredMsg="jr:itext('/supervision_grid/promo_activity/num_vaccinal_late_found_reffered:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/supervision_grid/promo_activity/num_vaccinal_late_found_reffered:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/supervision_grid/promo_activity/num_women_anc_late" type="int" jr:requiredMsg="jr:itext('/supervision_grid/promo_activity/num_women_anc_late:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/supervision_grid/promo_activity/num_women_anc_late:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/supervision_grid/promo_activity/num_women_anc_referred" type="int" jr:requiredMsg="jr:itext('/supervision_grid/promo_activity/num_women_anc_referred:jr:requiredMsg')" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/supervision_grid/promo_activity/num_women_anc_referred:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/supervision_grid/checking_equipment/android" type="select1" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/checking_equipment/android:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/checking_equipment/power_bank" type="select1" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/checking_equipment/power_bank:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/checking_equipment/visibility_kit" type="select1" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/checking_equipment/visibility_kit:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/checking_equipment/protection_kit" type="select1" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/checking_equipment/protection_kit:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/g_household_sup/note_sup" readonly="true()" type="string"/>
+      <bind nodeset="/supervision_grid/g_household_sup/followup_cible" type="select" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/g_household_sup/followup_cible:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/g_household_sup/women_cpn1_followup_count" type="int" constraint=". &gt; 0" jr:requiredMsg="jr:itext('/supervision_grid/g_household_sup/women_cpn1_followup_count:jr:requiredMsg')" required="true()" relevant="selected(../followup_cible,'women_cpn1')"/>
+      <bind nodeset="/supervision_grid/g_household_sup/women_cpn1_followup_no_milda_count" type="int" constraint=". &gt;= 0 and . &lt;= ../women_cpn1_followup_count" jr:requiredMsg="jr:itext('/supervision_grid/g_household_sup/women_cpn1_followup_no_milda_count:jr:requiredMsg')" required="true()" relevant="selected(../followup_cible,'women_cpn1') and ../women_cpn1_followup_count != ''"/>
+      <bind nodeset="/supervision_grid/g_household_sup/newborn_followup_count" type="int" constraint=". &gt; 0" jr:requiredMsg="jr:itext('/supervision_grid/g_household_sup/newborn_followup_count:jr:requiredMsg')" required="true()" relevant="selected(../followup_cible,'newborn')"/>
+      <bind nodeset="/supervision_grid/g_household_sup/newborn_followup_no_milda_count" type="int" constraint=". &gt;= 0 and . &lt;= ../newborn_followup_count" jr:requiredMsg="jr:itext('/supervision_grid/g_household_sup/newborn_followup_no_milda_count:jr:requiredMsg')" required="true()" relevant="selected(../followup_cible,'newborn') and ../newborn_followup_count != ''"/>
+      <bind nodeset="/supervision_grid/g_household_sup/supervision_difficulty" type="string" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/g_household_sup/supervision_difficulty:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/g_household_sup/recommendation" type="string" required="true()" jr:requiredMsg="jr:itext('/supervision_grid/g_household_sup/recommendation:jr:requiredMsg')"/>
+      <bind nodeset="/supervision_grid/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/supervision_grid/inputs">
+      <label ref="jr:itext('/supervision_grid/inputs:label')"/>
+      <input appearance="hidden" ref="/supervision_grid/inputs/source">
+        <label ref="jr:itext('/supervision_grid/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/supervision_grid/inputs/source_id">
+        <label ref="jr:itext('/supervision_grid/inputs/source_id:label')"/>
+      </input>
+      <group ref="/supervision_grid/inputs/user">
+        <label ref="jr:itext('/supervision_grid/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/supervision_grid/inputs/user/contact_id">
+          <label ref="jr:itext('/supervision_grid/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/supervision_grid/inputs/user/name">
+          <label ref="jr:itext('/supervision_grid/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/supervision_grid/inputs/user/phone">
+          <label ref="jr:itext('/supervision_grid/inputs/user/phone:label')"/>
+        </input>
+        <input appearance="hidden" ref="/supervision_grid/inputs/user/role">
+          <label ref="jr:itext('/supervision_grid/inputs/user/role:label')"/>
+        </input>
+        <input appearance="hidden" ref="/supervision_grid/inputs/user/external_id">
+          <label ref="jr:itext('/supervision_grid/inputs/user/external_id:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/supervision_grid/inputs/contact">
+        <label ref="jr:itext('/supervision_grid/inputs/contact:label')"/>
+        <input appearance="select-contact type-person" ref="/supervision_grid/inputs/contact/_id">
+          <label ref="jr:itext('/supervision_grid/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/supervision_grid/inputs/contact/name">
+          <label ref="jr:itext('/supervision_grid/inputs/contact/name:label')"/>
+        </input>
+        <input ref="/supervision_grid/inputs/contact/sex">
+          <label ref="jr:itext('/supervision_grid/inputs/contact/sex:label')"/>
+        </input>
+        <input ref="/supervision_grid/inputs/contact/date_of_birth">
+          <label ref="jr:itext('/supervision_grid/inputs/contact/date_of_birth:label')"/>
+        </input>
+        <input ref="/supervision_grid/inputs/contact/external_id">
+          <label ref="jr:itext('/supervision_grid/inputs/contact/external_id:label')"/>
+        </input>
+        <group ref="/supervision_grid/inputs/contact/parent">
+          <label ref="jr:itext('/supervision_grid/inputs/contact/parent:label')"/>
+          <input appearance="db-object bind-id-only" ref="/supervision_grid/inputs/contact/parent/_id">
+            <label ref="jr:itext('/supervision_grid/inputs/contact/parent/_id:label')"/>
+          </input>
+          <input ref="/supervision_grid/inputs/contact/parent/name">
+            <label ref="jr:itext('/supervision_grid/inputs/contact/parent/name:label')"/>
+          </input>
+          <input ref="/supervision_grid/inputs/contact/parent/external_id">
+            <label ref="jr:itext('/supervision_grid/inputs/contact/parent/external_id:label')"/>
+          </input>
+          <group ref="/supervision_grid/inputs/contact/parent/parent">
+            <label ref="jr:itext('/supervision_grid/inputs/contact/parent/parent:label')"/>
+            <input ref="/supervision_grid/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/supervision_grid/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/supervision_grid/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/supervision_grid/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/supervision_grid/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/supervision_grid/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/supervision_grid/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/supervision_grid/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/supervision_grid/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/supervision_grid/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/supervision_grid/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/supervision_grid/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/supervision_grid/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/supervision_grid/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/supervision_grid/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/supervision_grid/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/supervision_grid/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/supervision_grid/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                  </group>
+                </group>
+              </group>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/supervision_grid/sup_grid">
+      <label ref="jr:itext('/supervision_grid/sup_grid:label')"/>
+      <input ref="/supervision_grid/sup_grid/activity_date">
+        <label ref="jr:itext('/supervision_grid/sup_grid/activity_date:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/supervision_grid/sup_grid/has_activity_plan">
+        <label ref="jr:itext('/supervision_grid/sup_grid/has_activity_plan:label')"/>
+        <item>
+          <label ref="jr:itext('/supervision_grid/sup_grid/has_activity_plan/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/sup_grid/has_activity_plan/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/supervision_grid/sup_grid/no_activity_plan_reason">
+        <label ref="jr:itext('/supervision_grid/sup_grid/no_activity_plan_reason:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/supervision_grid/sup_grid/has_update_register">
+        <label ref="jr:itext('/supervision_grid/sup_grid/has_update_register:label')"/>
+        <item>
+          <label ref="jr:itext('/supervision_grid/sup_grid/has_update_register/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/sup_grid/has_update_register/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/supervision_grid/sup_grid/no_update_register_reason">
+        <label ref="jr:itext('/supervision_grid/sup_grid/no_update_register_reason:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/supervision_grid/sup_grid/continue_pregnant_census">
+        <label ref="jr:itext('/supervision_grid/sup_grid/continue_pregnant_census:label')"/>
+        <item>
+          <label ref="jr:itext('/supervision_grid/sup_grid/continue_pregnant_census/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/sup_grid/continue_pregnant_census/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/supervision_grid/sup_grid/no_pregnant_census_reason">
+        <label ref="jr:itext('/supervision_grid/sup_grid/no_pregnant_census_reason:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/supervision_grid/sup_grid/has_previous_month_meeting">
+        <label ref="jr:itext('/supervision_grid/sup_grid/has_previous_month_meeting:label')"/>
+        <item>
+          <label ref="jr:itext('/supervision_grid/sup_grid/has_previous_month_meeting/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/sup_grid/has_previous_month_meeting/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/supervision_grid/sup_grid/no_meeting_reason">
+        <label ref="jr:itext('/supervision_grid/sup_grid/no_meeting_reason:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/supervision_grid/sup_grid/has_well_maintained_tools">
+        <label ref="jr:itext('/supervision_grid/sup_grid/has_well_maintained_tools:label')"/>
+        <item>
+          <label ref="jr:itext('/supervision_grid/sup_grid/has_well_maintained_tools/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/sup_grid/has_well_maintained_tools/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/supervision_grid/sup_grid/bad_maintained_tools_reason">
+        <label ref="jr:itext('/supervision_grid/sup_grid/bad_maintained_tools_reason:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/supervision_grid/promo_activity">
+      <label ref="jr:itext('/supervision_grid/promo_activity:label')"/>
+      <input ref="/supervision_grid/promo_activity/vad_planned">
+        <label ref="jr:itext('/supervision_grid/promo_activity/vad_planned:label')"/>
+      </input>
+      <input ref="/supervision_grid/promo_activity/vad_carried">
+        <label ref="jr:itext('/supervision_grid/promo_activity/vad_carried:label')"/>
+      </input>
+      <input ref="/supervision_grid/promo_activity/ec_planned">
+        <label ref="jr:itext('/supervision_grid/promo_activity/ec_planned:label')"/>
+      </input>
+      <input ref="/supervision_grid/promo_activity/ec_carried">
+        <label ref="jr:itext('/supervision_grid/promo_activity/ec_carried:label')"/>
+      </input>
+      <input ref="/supervision_grid/promo_activity/num_active_search_sheet_given">
+        <label ref="jr:itext('/supervision_grid/promo_activity/num_active_search_sheet_given:label')"/>
+      </input>
+      <input ref="/supervision_grid/promo_activity/num_vaccinal_late_found_reffered">
+        <label ref="jr:itext('/supervision_grid/promo_activity/num_vaccinal_late_found_reffered:label')"/>
+      </input>
+      <input ref="/supervision_grid/promo_activity/num_women_anc_late">
+        <label ref="jr:itext('/supervision_grid/promo_activity/num_women_anc_late:label')"/>
+      </input>
+      <input ref="/supervision_grid/promo_activity/num_women_anc_referred">
+        <label ref="jr:itext('/supervision_grid/promo_activity/num_women_anc_referred:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/supervision_grid/checking_equipment">
+      <label ref="jr:itext('/supervision_grid/checking_equipment:label')"/>
+      <select1 ref="/supervision_grid/checking_equipment/android">
+        <label ref="jr:itext('/supervision_grid/checking_equipment/android:label')"/>
+        <item>
+          <label ref="jr:itext('/supervision_grid/checking_equipment/android/good:label')"/>
+          <value>good</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/checking_equipment/android/bad:label')"/>
+          <value>bad</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/checking_equipment/android/not_available:label')"/>
+          <value>not_available</value>
+        </item>
+      </select1>
+      <select1 ref="/supervision_grid/checking_equipment/power_bank">
+        <label ref="jr:itext('/supervision_grid/checking_equipment/power_bank:label')"/>
+        <item>
+          <label ref="jr:itext('/supervision_grid/checking_equipment/power_bank/good:label')"/>
+          <value>good</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/checking_equipment/power_bank/bad:label')"/>
+          <value>bad</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/checking_equipment/power_bank/not_available:label')"/>
+          <value>not_available</value>
+        </item>
+      </select1>
+      <select1 ref="/supervision_grid/checking_equipment/visibility_kit">
+        <label ref="jr:itext('/supervision_grid/checking_equipment/visibility_kit:label')"/>
+        <item>
+          <label ref="jr:itext('/supervision_grid/checking_equipment/visibility_kit/good:label')"/>
+          <value>good</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/checking_equipment/visibility_kit/bad:label')"/>
+          <value>bad</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/checking_equipment/visibility_kit/not_available:label')"/>
+          <value>not_available</value>
+        </item>
+      </select1>
+      <select1 ref="/supervision_grid/checking_equipment/protection_kit">
+        <label ref="jr:itext('/supervision_grid/checking_equipment/protection_kit:label')"/>
+        <item>
+          <label ref="jr:itext('/supervision_grid/checking_equipment/protection_kit/good:label')"/>
+          <value>good</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/checking_equipment/protection_kit/bad:label')"/>
+          <value>bad</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/checking_equipment/protection_kit/not_available:label')"/>
+          <value>not_available</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/supervision_grid/g_household_sup">
+      <label ref="jr:itext('/supervision_grid/g_household_sup:label')"/>
+      <input ref="/supervision_grid/g_household_sup/note_sup">
+        <label ref="jr:itext('/supervision_grid/g_household_sup/note_sup:label')"/>
+      </input>
+      <select ref="/supervision_grid/g_household_sup/followup_cible">
+        <label ref="jr:itext('/supervision_grid/g_household_sup/followup_cible:label')"/>
+        <item>
+          <label ref="jr:itext('/supervision_grid/g_household_sup/followup_cible/women_cpn1:label')"/>
+          <value>women_cpn1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/g_household_sup/followup_cible/newborn:label')"/>
+          <value>newborn</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/supervision_grid/g_household_sup/followup_cible/none:label')"/>
+          <value>none</value>
+        </item>
+      </select>
+      <input ref="/supervision_grid/g_household_sup/women_cpn1_followup_count">
+        <label ref="jr:itext('/supervision_grid/g_household_sup/women_cpn1_followup_count:label')"/>
+      </input>
+      <input ref="/supervision_grid/g_household_sup/women_cpn1_followup_no_milda_count">
+        <label ref="jr:itext('/supervision_grid/g_household_sup/women_cpn1_followup_no_milda_count:label')"/>
+      </input>
+      <input ref="/supervision_grid/g_household_sup/newborn_followup_count">
+        <label ref="jr:itext('/supervision_grid/g_household_sup/newborn_followup_count:label')"/>
+      </input>
+      <input ref="/supervision_grid/g_household_sup/newborn_followup_no_milda_count">
+        <label ref="jr:itext('/supervision_grid/g_household_sup/newborn_followup_no_milda_count:label')"/>
+      </input>
+      <input ref="/supervision_grid/g_household_sup/supervision_difficulty">
+        <label ref="jr:itext('/supervision_grid/g_household_sup/supervision_difficulty:label')"/>
+      </input>
+      <input ref="/supervision_grid/g_household_sup/recommendation">
+        <label ref="jr:itext('/supervision_grid/g_household_sup/recommendation:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

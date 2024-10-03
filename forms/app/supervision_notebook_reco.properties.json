@@ -1,0 +1,18 @@
+{
+  "context": {
+    "expression": "user.role === 'reco' && contact.type === 'health_center'",
+    "person": false,
+    "place": true
+  },
+  "icon": "drugs-50x",
+    "title": [
+      {
+        "locale": "en",
+        "content": "Cahier de supervision"
+      },
+      {
+        "locale": "fr",
+        "content": "Cahier de supervision"
+      }
+    ]
+}

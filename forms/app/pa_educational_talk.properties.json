@@ -1,0 +1,18 @@
+{
+    "context": {
+        "expression": "user.role === 'reco' && contact.type === 'health_center'",
+        "person": false,
+        "place": true
+    },
+    "icon": "reschedule",
+    "title": [
+      {
+        "locale": "en",
+        "content": "Educational talk"
+      },
+      {
+        "locale": "fr",
+        "content": "CE: Causerie éducative"
+      }
+    ]
+}

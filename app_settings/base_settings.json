@@ -1,0 +1,569 @@
+{
+  "websites": [
+    {
+      "url": "https://kendeyaanalyse.portal-integratehealth.org",
+      "name": "TABLEAU DE BORD 1",
+      "enabled": false
+    },
+    {
+      "url": "https://tonoudayoanalyse.portal-integratehealth.org",
+      "name": "TABLEAU DE BORD 2",
+      "enabled": false
+    }
+  ],
+  "languages": [
+    {
+      "locale": "fr",
+      "enabled": true
+    },
+    {
+      "locale": "en",
+      "enabled": false
+    }
+  ],
+  "locales": [
+    {
+      "code": "en",
+      "name": "English"
+    },
+    {
+      "code": "fr",
+      "name": "Français"
+    }
+  ],
+  "locale": "fr",
+  "locale_outgoing": "fr",
+  "date_format": "DD/MM/YYYY",
+  "reported_date_format": "DD/MM/YYYY h:mm:ss",
+  "forms_only_mode": false,
+  "default_responses": {
+    "start_date": ""
+  },
+  "district_admins_access_unallocated_messages": false,
+  "public_access": false,
+  "default_country_code": 224,
+  "gateway_number": "+22892645651",
+  "schedule_morning_hours": 0,
+  "schedule_morning_minutes": 0,
+  "schedule_evening_hours": 23,
+  "schedule_evening_minutes": 0,
+  "synthetic_date": "",
+  "contact_display_short": "clinic.name",
+  "roles": {
+    "country_manager": {
+      "name": "usertype.country_manager"
+    },
+    "region_manager": {
+      "name": "usertype.region_manager"
+    },
+    "prefecture_manager": {
+      "name": "usertype.prefecture_manager"
+    },
+    "commune_manager": {
+      "name": "usertype.commune_manager"
+    },
+    "hospital_manager": {
+      "name": "usertype.hospital_manager"
+    },
+    "chw": {
+      "name": "usertype.chw",
+      "offline": true
+    },
+    "reco": {
+      "name": "usertype.reco",
+      "offline": true
+    }
+  },
+  "permissions": {
+    "can_export_messages": [
+      "program_manager"
+    ],
+    "can_export_forms": [
+      "program_manager"
+    ],
+    "can_export_contacts": [
+      "program_manager"
+    ],
+    "can_export_feedback": [
+      "program_manager"
+    ],
+    "can_upgrade": [
+      "program_manager"
+    ],
+    "can_delete_contacts": [
+      "program_manager"
+    ],
+    "can_delete_messages": [
+      "program_manager"
+    ],
+    "can_delete_users": [
+      "program_manager"
+    ],
+    "can_view_message_action": [
+      "program_manager"
+    ],
+    "can_view_users": [
+      "program_manager"
+    ],
+    "can_update_messages": [
+      "program_manager"
+    ],
+    "can_update_users": [
+      "program_manager"
+    ],
+    "can_access_gateway_api": [
+      "program_manager"
+    ],
+    "can_create_users": [
+      "program_manager"
+    ],
+    "can_configure": [
+      "program_manager"
+    ],
+    "can_view_messages": [
+      "program_manager"
+    ],
+    "can_view_messages_tab": [
+      "program_manager"
+    ],
+    "can_delete_reports": [
+      "program_manager"
+    ],
+    "can_bulk_delete_reports": [
+      "program_manager"
+    ],
+    "can_write_wealth_quintiles": [
+      "program_manager"
+    ],
+    "can_view_outgoing_messages": [
+      "program_manager"
+    ],
+    "can_export_all": [
+      "program_manager"
+    ],
+    "can_export_dhis": [
+      "program_manager"
+    ],
+    "can_export_devices_details": [
+      "program_manager"
+    ],
+    "can_have_multiple_places": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw"
+    ],
+    "can_view_uhc_stats": [
+      "program_manager",
+      "chw",
+      "reco"
+    ],
+    "can_view_analytics_tab": [
+      "program_manager",
+      "chw",
+      "reco"
+    ],
+    "can_view_analytics": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw",
+      "reco"
+    ],
+    "can_log_out_on_android": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw"
+    ],
+    "can_view_data_records": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw",
+      "reco"
+    ],
+    "can_view_unallocated_data_records": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw",
+      "reco"
+    ],
+    "can_edit": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw",
+      "reco"
+    ],
+    "can_update_people": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "reco"
+    ],
+    "can_update_places": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "reco"
+    ],
+    "can_create_records": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw",
+      "reco"
+    ],
+    "can_create_people": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "reco"
+    ],
+    "can_create_places": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "reco"
+    ],
+    "can_view_reports": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw",
+      "reco"
+    ],
+    "can_view_tasks_group": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw",
+      "reco"
+    ],
+    "can_view_reports_tab": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw",
+      "reco"
+    ],
+    "can_view_contacts": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw",
+      "reco"
+    ],
+    "can_view_contacts_tab": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw",
+      "reco"
+    ],
+    "can_edit_profile": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw",
+      "reco"
+    ],
+    "can_update_reports": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw",
+      "reco"
+    ],
+    "can_view_call_action": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw",
+      "reco"
+    ],
+    "can_verify_reports": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw"
+    ],
+    "can_view_last_visited_date": [
+      "reco"
+    ],
+    "can_edit_verification": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw",
+      "reco"
+    ],
+    "can_aggregate_targets": [
+      "program_manager",
+      "country_manager",
+      "region_manager",
+      "prefecture_manager",
+      "commune_manager",
+      "hospital_manager",
+      "chw"
+    ],
+    "can_view_tasks": [
+      "chw",
+      "reco"
+    ],
+    "can_view_tasks_tab": [
+      "chw",
+      "reco"
+    ],
+    "can_default_facility_filter": [
+      "chw"
+    ],
+    "can_view_old_action_bar": [],
+    "can_view_old_filter_and_search": []
+  },
+  "place_hierarchy_types": [
+    "country",
+    "region",
+    "prefecture",
+    "commune",
+    "hospital",
+    "district_hospital",
+    "health_center"
+  ],
+  "contact_types": [
+    {
+      "id": "country",
+      "name_key": "contact.type.country",
+      "group_key": "contact.type.country.plural",
+      "create_key": "contact.type.country.new",
+      "edit_key": "contact.type.country.edit",
+      "icon": "medic-district-hospital",
+      "create_form": "form:contact:country:create",
+      "edit_form": "form:contact:country:edit"
+    },
+    {
+      "id": "region",
+      "name_key": "contact.type.region",
+      "group_key": "contact.type.region.plural",
+      "create_key": "contact.type.region.new",
+      "edit_key": "contact.type.region.edit",
+      "parents": [
+        "country"
+      ],
+      "icon": "medic-district-hospital",
+      "create_form": "form:contact:region:create",
+      "edit_form": "form:contact:region:edit"
+    },
+    {
+      "id": "prefecture",
+      "name_key": "contact.type.prefecture",
+      "group_key": "contact.type.prefecture.plural",
+      "create_key": "contact.type.prefecture.new",
+      "edit_key": "contact.type.prefecture.edit",
+      "parents": [
+        "region"
+      ],
+      "icon": "medic-district-hospital",
+      "create_form": "form:contact:prefecture:create",
+      "edit_form": "form:contact:prefecture:edit"
+    },
+    {
+      "id": "commune",
+      "name_key": "contact.type.commune",
+      "group_key": "contact.type.commune.plural",
+      "create_key": "contact.type.commune.new",
+      "edit_key": "contact.type.commune.edit",
+      "parents": [
+        "prefecture"
+      ],
+      "icon": "medic-district-hospital",
+      "create_form": "form:contact:commune:create",
+      "edit_form": "form:contact:commune:edit"
+    },
+    {
+      "id": "hospital",
+      "name_key": "contact.type.hospital",
+      "group_key": "contact.type.hospital.plural",
+      "create_key": "contact.type.hospital.new",
+      "edit_key": "contact.type.hospital.edit",
+      "parents": [
+        "commune"
+      ],
+      "icon": "medic-district-hospital",
+      "create_form": "form:contact:hospital:create",
+      "edit_form": "form:contact:hospital:edit"
+    },
+    {
+      "id": "district_hospital",
+      "name_key": "contact.type.district_hospital",
+      "group_key": "contact.type.district_hospital.plural",
+      "create_key": "contact.type.district_hospital.new",
+      "edit_key": "contact.type.district_hospital.edit",
+      "parents": [
+        "hospital"
+      ],
+      "icon": "medic-district-hospital",
+      "create_form": "form:contact:district_hospital:create",
+      "edit_form": "form:contact:district_hospital:edit"
+    },
+    {
+      "id": "health_center",
+      "name_key": "contact.type.health_center",
+      "group_key": "contact.type.health_center.plural",
+      "create_key": "contact.type.health_center.new",
+      "edit_key": "contact.type.health_center.edit",
+      "parents": [
+        "district_hospital"
+      ],
+      "icon": "medic-health-center",
+      "create_form": "form:contact:health_center:create",
+      "edit_form": "form:contact:health_center:edit"
+    },
+    {
+      "id": "clinic",
+      "name_key": "contact.type.clinic",
+      "group_key": "contact.type.clinic.plural",
+      "create_key": "contact.type.clinic.new",
+      "edit_key": "contact.type.clinic.edit",
+      "parents": [
+        "health_center"
+      ],
+      "icon": "household-place",
+      "create_form": "form:contact:clinic:create",
+      "edit_form": "form:contact:clinic:edit",
+      "count_visits": true
+    },
+    {
+      "id": "person",
+      "name_key": "contact.type.person",
+      "group_key": "contact.type.person.plural",
+      "create_key": "contact.type.person.new",
+      "edit_key": "contact.type.person.edit",
+      "primary_contact_key": "clinic.field.contact",
+      "parents": [
+        "country",
+        "region",
+        "prefecture",
+        "commune",
+        "hospital",
+        "district_hospital",
+        "health_center",
+        "clinic"
+      ],
+      "icon": "person",
+      "create_form": "form:contact:person:create",
+      "edit_form": "form:contact:person:edit",
+      "person": true,
+      "sort_by_dob": true
+    }
+  ],
+  "replication_depth": [
+    {
+      "role": "chw",
+      "depth": 3,
+      "report_depth": 0
+    }
+  ],
+  "transitions": {
+    "update_clinics": false,
+    "registration": false,
+
+    "accept_patient_reports": true,
+    "accept_case_reports": true,
+    "generate_shortcode_on_contacts": true,
+
+    "conditional_alerts": true,
+    "multi_report_alerts": true,
+    "resolve_pending": true,
+    "mark_for_outbound": true,
+    "self_report": true,
+    "create_user_for_contacts": true,
+
+    "default_responses": true,
+    "update_sent_by": true,
+    "update_scheduled_reports": true,
+    "death_reporting": true
+  },
+  "death_reporting": {
+    "mark_deceased_forms": [
+      "death_report"
+    ],
+    "undo_deceased_forms": [
+      "undo_death_report"
+    ],
+    "date_field": "fields.date_of_death"
+  },
+  "uhc": {
+    "contacts_default_sort": "last_visited_date",
+    "visit_count": {
+      "month_start_date": 1,
+      "visit_count_goal": 1
+    }
+  },
+  "task_days_overdue": true
+}

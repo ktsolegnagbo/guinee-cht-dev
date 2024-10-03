@@ -1,0 +1,761 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Régistre Événement</h:title>
+    <model>
+      <itext>
+        <translation lang="fr">
+          <text id="/event_register/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/event_register/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/event_register/inputs/user:label">
+            <value>User</value>
+          </text>
+          <text id="/event_register/inputs/user/contact_id:label">
+            <value>Votre nom</value>
+          </text>
+          <text id="/event_register/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/event_register/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/event_register/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/event_register/inputs/contact/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/event_register/inputs/contact/name:label">
+            <value>Nom Village/Secteur</value>
+          </text>
+          <text id="/event_register/inputs/contact/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/event_register/inputs/contact/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/event_register/inputs/contact/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/event_register/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/event_register/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/event_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/event_register/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/event_register/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/event_register/patient_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/event_register/patient_name:label">
+            <value>Nom du village</value>
+          </text>
+          <text id="/event_register/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/event_register/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/event_register/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/event_register/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/event_register/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/event_register/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/event_register/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/event_register/event_desease:label">
+            <value>Maladies et Évènement dans la communauté</value>
+          </text>
+          <text id="/event_register/event_desease/events:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/event_register/event_desease/events:label">
+            <value>Nom de l'évènement</value>
+          </text>
+          <text id="/event_register/event_desease/events/flood:label">
+            <value>Inondation</value>
+          </text>
+          <text id="/event_register/event_desease/events/fire:label">
+            <value>Incendie</value>
+          </text>
+          <text id="/event_register/event_desease/events/shipwreck:label">
+            <value>Naufrage</value>
+          </text>
+          <text id="/event_register/event_desease/events/landslide:label">
+            <value>Glissement de terre</value>
+          </text>
+          <text id="/event_register/event_desease/events/grouped_animal_deaths:label">
+            <value>Décès groupés d'animaux</value>
+          </text>
+          <text id="/event_register/event_desease/events/community_deaths:label">
+            <value>Décès communautaires</value>
+          </text>
+          <text id="/event_register/event_desease/events/others_event:label">
+            <value>Autres événements</value>
+          </text>
+          <text id="/event_register/event_desease/events/influenza_fever:label">
+            <value>Fievre grippale</value>
+          </text>
+          <text id="/event_register/event_desease/events/dermatosis:label">
+            <value>Dermatose</value>
+          </text>
+          <text id="/event_register/event_desease/events/measles:label">
+            <value>Rougeole</value>
+          </text>
+          <text id="/event_register/event_desease/events/gender_based_v:label">
+            <value>Violence basées sur le genre (VBG)</value>
+          </text>
+          <text id="/event_register/event_desease/events/perinatal_deaths:label">
+            <value>Décès périnatals</value>
+          </text>
+          <text id="/event_register/event_desease/events/pfa:label">
+            <value>PFA</value>
+          </text>
+          <text id="/event_register/event_desease/events/bloody_diarrhea:label">
+            <value>Diarrhée sanglantes</value>
+          </text>
+          <text id="/event_register/event_desease/events/yellow_fever:label">
+            <value>Fièvre Jaune</value>
+          </text>
+          <text id="/event_register/event_desease/events/cholera:label">
+            <value>Cholera</value>
+          </text>
+          <text id="/event_register/event_desease/events/maternal_and_neonatal_tetanus:label">
+            <value>Tétanos Maternel et Néonatal</value>
+          </text>
+          <text id="/event_register/event_desease/events/viral_diseases:label">
+            <value>Maladies virales(ebola, marburg, lassa)</value>
+          </text>
+          <text id="/event_register/event_desease/events/meningitis:label">
+            <value>Méningite</value>
+          </text>
+          <text id="/event_register/event_desease/events/maternal_deaths:label">
+            <value>Décès maternels</value>
+          </text>
+          <text id="/event_register/event_desease/events/others_illness:label">
+            <value>Autres maladies</value>
+          </text>
+          <text id="/event_register/event_desease/other_event:label">
+            <value>Écrire l'autre évènement</value>
+          </text>
+          <text id="/event_register/event_desease/event_date:jr:constraintMsg">
+            <value>La date ne doit pas être au futur</value>
+          </text>
+          <text id="/event_register/event_desease/event_date:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/event_register/event_desease/event_date:label">
+            <value>Date de début de l'évènement</value>
+          </text>
+          <text id="/event_register/event_desease/village_location_name:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/event_register/event_desease/village_location_name:label">
+            <value>Lieu de l'évènement ( Nom du village / secteur )</value>
+          </text>
+          <text id="/event_register/event_desease/name:label">
+            <value>Nom et Prénoms de la victime</value>
+          </text>
+          <text id="/event_register/event_desease/sex:label">
+            <value>Son sexe</value>
+          </text>
+          <text id="/event_register/event_desease/sex/male:label">
+            <value>Masculin</value>
+          </text>
+          <text id="/event_register/event_desease/sex/female:label">
+            <value>Féminin</value>
+          </text>
+          <text id="/event_register/event_desease/age:label">
+            <value>Son age (en année)</value>
+          </text>
+          <text id="/event_register/event_desease/name_person_in_charge:label">
+            <value>Responsable de la/des victime(s)</value>
+          </text>
+          <text id="/event_register/event_desease/phone_person_in_charge:jr:constraintMsg">
+            <value>Format autorisé (9 chiffres): XXXXXXXXX</value>
+          </text>
+          <text id="/event_register/event_desease/phone_person_in_charge:label">
+            <value>Numéro de téléphone Responsable de la/des victime(s)</value>
+          </text>
+          <text id="/event_register/event_desease/health_center_feedback_date:jr:constraintMsg">
+            <value>La date doit être comprise entre la date de début de l'évènement et aujourd'hui</value>
+          </text>
+          <text id="/event_register/event_desease/health_center_feedback_date:label">
+            <value>Date de la remontée de l'information au structure de santé</value>
+          </text>
+          <text id="/event_register/event_desease/health_center_feedback_location:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/event_register/event_desease/health_center_feedback_location:label">
+            <value>Vers qui avez-vous remontée l'information</value>
+          </text>
+          <text id="/event_register/event_desease/health_center_feedback_location/health_post_manager:label">
+            <value>Chef de Poste de santé</value>
+          </text>
+          <text id="/event_register/event_desease/health_center_feedback_location/health_center_manager:label">
+            <value>Chef de Centre de santé</value>
+          </text>
+          <text id="/event_register/event_desease/health_center_feedback_location/asc:label">
+            <value>ASC</value>
+          </text>
+        </translation>
+        <translation lang="en">
+          <text id="/event_register/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/event_register/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/event_register/inputs/user:label">
+            <value>User</value>
+          </text>
+          <text id="/event_register/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/event_register/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/event_register/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/event_register/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/event_register/inputs/contact/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/event_register/inputs/contact/name:label">
+            <value>Village/Secteur Name</value>
+          </text>
+          <text id="/event_register/inputs/contact/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/event_register/inputs/contact/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/event_register/inputs/contact/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/event_register/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/event_register/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/event_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/event_register/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/event_register/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/event_register/patient_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/event_register/patient_name:label">
+            <value>Village Name</value>
+          </text>
+          <text id="/event_register/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/event_register/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/event_register/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/event_register/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/event_register/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/event_register/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/event_register/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/event_register/event_desease:label">
+            <value>Event in the community</value>
+          </text>
+          <text id="/event_register/event_desease/events:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/event_register/event_desease/events:label">
+            <value>Event name</value>
+          </text>
+          <text id="/event_register/event_desease/events/flood:label">
+            <value>Flood</value>
+          </text>
+          <text id="/event_register/event_desease/events/fire:label">
+            <value>Fire</value>
+          </text>
+          <text id="/event_register/event_desease/events/shipwreck:label">
+            <value>Shipwreck</value>
+          </text>
+          <text id="/event_register/event_desease/events/landslide:label">
+            <value>Earth slip</value>
+          </text>
+          <text id="/event_register/event_desease/events/grouped_animal_deaths:label">
+            <value>Grouped animal deaths</value>
+          </text>
+          <text id="/event_register/event_desease/events/community_deaths:label">
+            <value>Community deaths</value>
+          </text>
+          <text id="/event_register/event_desease/events/others_event:label">
+            <value>Others</value>
+          </text>
+          <text id="/event_register/event_desease/events/influenza_fever:label">
+            <value>Influenza fever</value>
+          </text>
+          <text id="/event_register/event_desease/events/dermatosis:label">
+            <value>Dermatosis</value>
+          </text>
+          <text id="/event_register/event_desease/events/measles:label">
+            <value>Measles</value>
+          </text>
+          <text id="/event_register/event_desease/events/gender_based_v:label">
+            <value>Gender-based violence (GBV)</value>
+          </text>
+          <text id="/event_register/event_desease/events/perinatal_deaths:label">
+            <value>Perinatal deaths</value>
+          </text>
+          <text id="/event_register/event_desease/events/pfa:label">
+            <value>PFA</value>
+          </text>
+          <text id="/event_register/event_desease/events/bloody_diarrhea:label">
+            <value>Bloody diarrhea</value>
+          </text>
+          <text id="/event_register/event_desease/events/yellow_fever:label">
+            <value>Yellow fever</value>
+          </text>
+          <text id="/event_register/event_desease/events/cholera:label">
+            <value>Cholera</value>
+          </text>
+          <text id="/event_register/event_desease/events/maternal_and_neonatal_tetanus:label">
+            <value>Maternal and Neonatal Tetanus</value>
+          </text>
+          <text id="/event_register/event_desease/events/viral_diseases:label">
+            <value>Viral diseases (ebola, marburg, lassa)</value>
+          </text>
+          <text id="/event_register/event_desease/events/meningitis:label">
+            <value>Meningitis</value>
+          </text>
+          <text id="/event_register/event_desease/events/maternal_deaths:label">
+            <value>Maternal deaths</value>
+          </text>
+          <text id="/event_register/event_desease/events/others_illness:label">
+            <value>Others</value>
+          </text>
+          <text id="/event_register/event_desease/other_event:label">
+            <value>Write the other event</value>
+          </text>
+          <text id="/event_register/event_desease/event_date:jr:constraintMsg">
+            <value>The date must be in future</value>
+          </text>
+          <text id="/event_register/event_desease/event_date:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/event_register/event_desease/event_date:label">
+            <value>Start date of the event</value>
+          </text>
+          <text id="/event_register/event_desease/village_location_name:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/event_register/event_desease/village_location_name:label">
+            <value>Name of the village / sector (place of the event)</value>
+          </text>
+          <text id="/event_register/event_desease/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/event_register/event_desease/sex:label">
+            <value>Sexe</value>
+          </text>
+          <text id="/event_register/event_desease/sex/male:label">
+            <value>Male</value>
+          </text>
+          <text id="/event_register/event_desease/sex/female:label">
+            <value>Female</value>
+          </text>
+          <text id="/event_register/event_desease/age:label">
+            <value>Age</value>
+          </text>
+          <text id="/event_register/event_desease/name_person_in_charge:label">
+            <value>Name of the responsible person (Respondent)</value>
+          </text>
+          <text id="/event_register/event_desease/phone_person_in_charge:jr:constraintMsg">
+            <value>Please enter a valid local number. For example: XXXXXXXXX</value>
+          </text>
+          <text id="/event_register/event_desease/phone_person_in_charge:label">
+            <value>phone number</value>
+          </text>
+          <text id="/event_register/event_desease/health_center_feedback_date:jr:constraintMsg">
+            <value>The date must be between the event start date and today</value>
+          </text>
+          <text id="/event_register/event_desease/health_center_feedback_date:label">
+            <value>Date of the transmission of the information to the health structure</value>
+          </text>
+          <text id="/event_register/event_desease/health_center_feedback_location:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/event_register/event_desease/health_center_feedback_location:label">
+            <value>Information feedback location</value>
+          </text>
+          <text id="/event_register/event_desease/health_center_feedback_location/health_post_manager:label">
+            <value>health post manager</value>
+          </text>
+          <text id="/event_register/event_desease/health_center_feedback_location/health_center_manager:label">
+            <value>health center manager</value>
+          </text>
+          <text id="/event_register/event_desease/health_center_feedback_location/asc:label">
+            <value>ASC</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <event_register id="event_register" prefix="J1!event_register!" delimiter="#" version="2024-08-17  7-05">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <parent>
+                <_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_name/>
+          <village_secteur_id/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <event_desease>
+            <events/>
+            <other_event/>
+            <event_name/>
+            <is_event/>
+            <is_illness/>
+            <event_date/>
+            <village_location_name/>
+            <name/>
+            <sex/>
+            <age/>
+            <name_person_in_charge/>
+            <phone_person_in_charge/>
+            <health_center_feedback_date/>
+            <health_center_feedback_location/>
+          </event_desease>
+          <meta>
+            <instanceID/>
+          </meta>
+        </event_register>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/event_register/inputs/source" type="string"/>
+      <bind nodeset="/event_register/inputs/source_id" type="string"/>
+      <bind nodeset="/event_register/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/event_register/inputs/user/name" type="string"/>
+      <bind nodeset="/event_register/inputs/user/phone" type="string"/>
+      <bind nodeset="/event_register/inputs/contact/_id" type="string"/>
+      <bind nodeset="/event_register/inputs/contact/name" type="string"/>
+      <bind nodeset="/event_register/inputs/contact/parent/_id" type="string"/>
+      <bind nodeset="/event_register/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/event_register/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/event_register/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/event_register/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/event_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/event_register/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/event_register/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/event_register/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/event_register/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/event_register/village_secteur_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/event_register/district_quartier_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/event_register/hospital_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/event_register/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/event_register/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/event_register/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/event_register/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/event_register/event_desease/events" type="select1" required="true()" jr:requiredMsg="jr:itext('/event_register/event_desease/events:jr:requiredMsg')"/>
+      <bind nodeset="/event_register/event_desease/other_event" type="string" relevant="selected(../events,'others_event') or selected(../events,'others_illness')"/>
+      <bind nodeset="/event_register/event_desease/event_name" type="string" calculate="if(../events = '','',if(../events = 'others',../other_event,jr:choice-name( /event_register/event_desease/events ,' /event_register/event_desease/events ')))"/>
+      <bind nodeset="/event_register/event_desease/is_event" type="string" calculate="if(selected(../events,'flood') or selected(../events,'fire') or selected(../events,'shipwreck') or selected(../events,'landslide') or selected(../events,'grouped_animal_deaths') or selected(../events,'others_event') or selected(../events,'community_deaths'),'true','false')"/>
+      <bind nodeset="/event_register/event_desease/is_illness" type="string" calculate="if(selected(../events,'influenza_fever') or selected(../events,'dermatosis') or selected(../events,'measles') or selected(../events,'gender_based_v') or selected(../events,'perinatal_deaths') or selected(../events,'pfa') or selected(../events,'bloody_diarrhea') or selected(../events,'yellow_fever') or selected(../events,'cholera') or selected(../events,'maternal_and_neonatal_tetanus') or selected(../events,'viral_diseases') or selected(../events,'meningitis') or selected(../events,'maternal_deaths') or selected(../events,'others_illness'),'true','false')"/>
+      <bind nodeset="/event_register/event_desease/event_date" type="date" jr:requiredMsg="jr:itext('/event_register/event_desease/event_date:jr:requiredMsg')" constraint=". &lt;= today()" jr:constraintMsg="jr:itext('/event_register/event_desease/event_date:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/event_register/event_desease/village_location_name" type="string" required="true()" jr:requiredMsg="jr:itext('/event_register/event_desease/village_location_name:jr:requiredMsg')"/>
+      <bind nodeset="/event_register/event_desease/name" type="string" required="true()" relevant="../is_illness = 'true'"/>
+      <bind nodeset="/event_register/event_desease/sex" type="select1" required="true()" relevant="../is_illness = 'true'"/>
+      <bind nodeset="/event_register/event_desease/age" type="int" required="true()" relevant="../is_illness = 'true'"/>
+      <bind nodeset="/event_register/event_desease/name_person_in_charge" type="string" required="true()" relevant="../is_event = 'true'"/>
+      <bind nodeset="/event_register/event_desease/phone_person_in_charge" type="string" relevant="../is_event = 'true'" constraint="regex(., '^\d{9}$')" jr:constraintMsg="jr:itext('/event_register/event_desease/phone_person_in_charge:jr:constraintMsg')"/>
+      <bind nodeset="/event_register/event_desease/health_center_feedback_date" type="date" calculate="today()" constraint=". &gt;=  /event_register/event_desease/event_date  and . &lt;= today()" jr:constraintMsg="jr:itext('/event_register/event_desease/health_center_feedback_date:jr:constraintMsg')" readonly="true()"/>
+      <bind nodeset="/event_register/event_desease/health_center_feedback_location" type="select1" required="true()" jr:requiredMsg="jr:itext('/event_register/event_desease/health_center_feedback_location:jr:requiredMsg')"/>
+      <bind nodeset="/event_register/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/event_register/inputs">
+      <label ref="jr:itext('/event_register/inputs:label')"/>
+      <input appearance="hidden" ref="/event_register/inputs/source">
+        <label ref="jr:itext('/event_register/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/event_register/inputs/source_id">
+        <label ref="jr:itext('/event_register/inputs/source_id:label')"/>
+      </input>
+      <group ref="/event_register/inputs/user">
+        <label ref="jr:itext('/event_register/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/event_register/inputs/user/contact_id">
+          <label ref="jr:itext('/event_register/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/event_register/inputs/user/name">
+          <label ref="jr:itext('/event_register/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/event_register/inputs/user/phone">
+          <label ref="jr:itext('/event_register/inputs/user/phone:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/event_register/inputs/contact">
+        <label ref="jr:itext('/event_register/inputs/contact:label')"/>
+        <input ref="/event_register/inputs/contact/_id">
+          <label ref="jr:itext('/event_register/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/event_register/inputs/contact/name">
+          <label ref="jr:itext('/event_register/inputs/contact/name:label')"/>
+        </input>
+        <group ref="/event_register/inputs/contact/parent">
+          <label ref="jr:itext('/event_register/inputs/contact/parent:label')"/>
+          <input ref="/event_register/inputs/contact/parent/_id">
+            <label ref="jr:itext('/event_register/inputs/contact/parent/_id:label')"/>
+          </input>
+          <group ref="/event_register/inputs/contact/parent/parent">
+            <label ref="jr:itext('/event_register/inputs/contact/parent/parent:label')"/>
+            <input ref="/event_register/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/event_register/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/event_register/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/event_register/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/event_register/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/event_register/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/event_register/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/event_register/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/event_register/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/event_register/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/event_register/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/event_register/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/event_register/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/event_register/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/event_register/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/event_register/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/event_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/event_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                  </group>
+                </group>
+              </group>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/event_register/event_desease">
+      <label ref="jr:itext('/event_register/event_desease:label')"/>
+      <select1 ref="/event_register/event_desease/events">
+        <label ref="jr:itext('/event_register/event_desease/events:label')"/>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/flood:label')"/>
+          <value>flood</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/fire:label')"/>
+          <value>fire</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/shipwreck:label')"/>
+          <value>shipwreck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/landslide:label')"/>
+          <value>landslide</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/grouped_animal_deaths:label')"/>
+          <value>grouped_animal_deaths</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/community_deaths:label')"/>
+          <value>community_deaths</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/others_event:label')"/>
+          <value>others_event</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/influenza_fever:label')"/>
+          <value>influenza_fever</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/dermatosis:label')"/>
+          <value>dermatosis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/measles:label')"/>
+          <value>measles</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/gender_based_v:label')"/>
+          <value>gender_based_v</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/perinatal_deaths:label')"/>
+          <value>perinatal_deaths</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/pfa:label')"/>
+          <value>pfa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/bloody_diarrhea:label')"/>
+          <value>bloody_diarrhea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/yellow_fever:label')"/>
+          <value>yellow_fever</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/cholera:label')"/>
+          <value>cholera</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/maternal_and_neonatal_tetanus:label')"/>
+          <value>maternal_and_neonatal_tetanus</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/viral_diseases:label')"/>
+          <value>viral_diseases</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/meningitis:label')"/>
+          <value>meningitis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/maternal_deaths:label')"/>
+          <value>maternal_deaths</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/events/others_illness:label')"/>
+          <value>others_illness</value>
+        </item>
+      </select1>
+      <input ref="/event_register/event_desease/other_event">
+        <label ref="jr:itext('/event_register/event_desease/other_event:label')"/>
+      </input>
+      <input ref="/event_register/event_desease/event_date">
+        <label ref="jr:itext('/event_register/event_desease/event_date:label')"/>
+      </input>
+      <input ref="/event_register/event_desease/village_location_name">
+        <label ref="jr:itext('/event_register/event_desease/village_location_name:label')"/>
+      </input>
+      <input ref="/event_register/event_desease/name">
+        <label ref="jr:itext('/event_register/event_desease/name:label')"/>
+      </input>
+      <select1 ref="/event_register/event_desease/sex">
+        <label ref="jr:itext('/event_register/event_desease/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/sex/male:label')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/sex/female:label')"/>
+          <value>female</value>
+        </item>
+      </select1>
+      <input ref="/event_register/event_desease/age">
+        <label ref="jr:itext('/event_register/event_desease/age:label')"/>
+      </input>
+      <input ref="/event_register/event_desease/name_person_in_charge">
+        <label ref="jr:itext('/event_register/event_desease/name_person_in_charge:label')"/>
+      </input>
+      <input ref="/event_register/event_desease/phone_person_in_charge">
+        <label ref="jr:itext('/event_register/event_desease/phone_person_in_charge:label')"/>
+      </input>
+      <input ref="/event_register/event_desease/health_center_feedback_date">
+        <label ref="jr:itext('/event_register/event_desease/health_center_feedback_date:label')"/>
+      </input>
+      <select1 ref="/event_register/event_desease/health_center_feedback_location">
+        <label ref="jr:itext('/event_register/event_desease/health_center_feedback_location:label')"/>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/health_center_feedback_location/health_post_manager:label')"/>
+          <value>health_post_manager</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/health_center_feedback_location/health_center_manager:label')"/>
+          <value>health_center_manager</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/event_register/event_desease/health_center_feedback_location/asc:label')"/>
+          <value>asc</value>
+        </item>
+      </select1>
+    </group>
+  </h:body>
+</h:html>

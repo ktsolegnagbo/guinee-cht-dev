@@ -1,0 +1,18 @@
+{
+    "context": {
+        "expression": "user.role === 'reco' && summary.alive && summary.is_family_person && !summary.muted && contact.type === 'person' && ageInYears(contact) > 10",
+        "person": true,
+        "place": false
+    },
+    "icon": "reschedule",
+    "title": [
+      {
+        "locale": "en",
+        "content": "Individual Communication"
+      },
+      {
+        "locale": "fr",
+        "content": "CIP:Communication Inter-Personnelle"
+      }
+    ]
+}

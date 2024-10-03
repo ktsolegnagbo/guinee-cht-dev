@@ -1,0 +1,1718 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Enrégistrement femme enceinte</h:title>
+    <model>
+      <itext>
+        <translation lang="fr">
+          <text id="/pregnancy_register/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pregnancy_register/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pregnancy_register/inputs/user/contact_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/pregnancy_register/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/pregnancy_register/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/pregnancy_register/inputs/user/role:label">
+            <value>Role</value>
+          </text>
+          <text id="/pregnancy_register/inputs/user/external_id:label">
+            <value>ID Externe</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/contact:label">
+            <value>Information du RECO</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/pregnancy_register/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/pregnancy_register/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/pregnancy_register/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pregnancy_register/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/pregnancy_register/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/pregnancy_register/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/pregnancy_register/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/pregnancy_register/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/pregnancy_register/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/pregnancy_register/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/pregnancy_register/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/pregnancy_register/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/pregnancy_register/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/pregnancy_register/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/pregnancy_register/patient_family_name:label">
+            <value>Nom du ménage</value>
+          </text>
+          <text id="/pregnancy_register/patient_family_external_id:label">
+            <value>Numéro du ménage</value>
+          </text>
+          <text id="/pregnancy_register/visited_contact_uuid:label">
+            <value>Identifiant de la famille</value>
+          </text>
+          <text id="/pregnancy_register/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/pregnancy_register/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/pregnancy_register/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/pregnancy_register/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/pregnancy_register/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/pregnancy_register/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/pregnancy_register/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/pregnancy_register/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy:label">
+            <value>Enregistrement de la grossesse</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done:label">
+            <value>Avez-vous été dans une structure de santé pour votre votre CPN ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason:label">
+            <value>Pourquoi ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason/no_time:label">
+            <value>Pas de temps</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason/forget:label">
+            <value>Oublie</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason/no_money:label">
+            <value>Pas d'argent</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason/hc_too_far:label">
+            <value>Centre de santé trop loin</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason/refusal:label">
+            <value>refus</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason_other:label">
+            <value>Saisir la raison</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign:label">
+            <value>La femme présente t'elle un signe de danger.</value>
+            <value form="image">jr://images/danger_signe.png</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status:label">
+            <value>Sélectionner les signes de dangers</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status/convulsion:label">
+            <value>Convulsion</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status/anemia:label">
+            <value>Anémie</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status/fever:label">
+            <value>Fièvre</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status/bleeding:label">
+            <value>Saignement</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status/smelly_shedding:label">
+            <value>Perte malodorante</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status/headache:label">
+            <value>Maux de tête</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status_other:label">
+            <value>Saisir l'autre signe de danger</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_health_record:label">
+            <value>Avez-vous le carnet mère et enfant ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_health_record/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_health_record/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_number:label">
+            <value>Nombre de CPN déjà effectuée</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_number/1:label">
+            <value>1</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_number/2:label">
+            <value>2</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_number/3:label">
+            <value>3</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_number/4:label">
+            <value>4</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn1:jr:constraintMsg">
+            <value>La date doit être au passé</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn1:label">
+            <value>Date CPN 1</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn2:jr:constraintMsg">
+            <value>La date doit être au passé</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn2:label">
+            <value>Date CPN 2</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn3:jr:constraintMsg">
+            <value>La date doit être au passé</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn3:label">
+            <value>Date CPN 3</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn4:jr:constraintMsg">
+            <value>La date doit être au passé</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn4:label">
+            <value>Date CPN 4</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1:label">
+            <value>Avez-vous reçu Td 1 ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1_reason:label">
+            <value>Pourquoi ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1_reason/breakup:label">
+            <value>rupture</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1_reason/refusal:label">
+            <value>refus</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1_reason/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1_reason_other:label">
+            <value>Saisir la raison</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2:label">
+            <value>Avez-vous reçu Td 2 ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2_reason:label">
+            <value>Pourquoi ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2_reason/breakup:label">
+            <value>rupture</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2_reason/refusal:label">
+            <value>refus</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2_reason/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2_reason_other:label">
+            <value>Saisir la raison</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda:label">
+            <value>Avez-vous reçu MILDA ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda_reason:label">
+            <value>Pourquoi ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda_reason/breakup:label">
+            <value>rupture</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda_reason/refusal:label">
+            <value>refus</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda_reason/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda_reason_other:label">
+            <value>Saisir la raison</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_delivery_place_wanted:label">
+            <value>Où désirez-vous accoucher ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_delivery_place_wanted/health_center:label">
+            <value>Dans une structure de santé</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_delivery_place_wanted/home:label">
+            <value>A Domicile</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_home_delivery_wanted_note:label">
+            <value>**Veuillez orienter la femme dans une structure de santé pour son accouchement**</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_hc_delivery_wanted_note:label">
+            <value>**Encourager la femme à continuer ainsi**</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late:label">
+            <value>La femme est-elle en retard sur sa CPN <output value=" /pregnancy_register/cpn_next_number "/></value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason:label">
+            <value>Pourquoi ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason/no_time:label">
+            <value>Pas de temps</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason/forget:label">
+            <value>Oublie</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason/no_money:label">
+            <value>Pas d'argent</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason/hc_too_far:label">
+            <value>Centre de santé trop loin</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason/refusal:label">
+            <value>refus</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason_other:label">
+            <value>Saisir la raison</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_discuss_cpn_date:label">
+            <value>**Trouvez ensemble avec la femme Une date assez proche pour sa CPN <output value=" /pregnancy_register/cpn_next_number "/>**</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_next_cpn_date:jr:constraintMsg">
+            <value>La date doit être supérieur ou égale à aujourd'hui</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_next_cpn_date:label">
+            <value>Date de la prochaine consultation prénatal ( **CPN <output value=" /pregnancy_register/cpn_next_number "/>** )</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_summary:label">
+            <value>Détails du Patient &lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /pregnancy_register/patient_name "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /pregnancy_register/patient_sex_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /pregnancy_register/patient_age_display_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_pregnancy_information:label">
+            <value>Informations sur la grossesse</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_cpn_number:label">
+            <value>Nombre de CPN effectuée : **<output value=" /pregnancy_register/cpn_number "/>**</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_cpn_prog_date:label">
+            <value>La femme doit se rendre à la formation Sanitaire pour sa **CPN <output value=" /pregnancy_register/cpn_next_number "/>** le : **<output value=" /pregnancy_register/next_cpn_date_fr "/>**</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_c_milda:label">
+            <value>La femme à reçu **MILDA**</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_note_milda:label">
+            <value>Conseiller la femme de se rendre dans une structure de santé pour recevoir **MILDA**</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_refer_USP:label">
+            <value>Référence vers une formation sanitaire</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_has_danger_sign:label">
+            <value>Veuillez référer la femme pour présence de signe de danger</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_refer_FS_pregnancy_cpn:label">
+            <value>Veuillez référer la femme pour la **CPN <output value=" /pregnancy_register/cpn_next_number "/>**</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_refer_FS_td1:label">
+            <value>Veuillez référer la femme pour **Td1 non fait**</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_refer_FS_td2:label">
+            <value>Veuillez référer la femme pour **Td2 non fait**</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_referal_health_center:label">
+            <value>Selectionner le centre de santé de référence</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_referal_health_center/health_center:label">
+            <value>Centre de santé</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_referal_health_center/health_poste:label">
+            <value>Poste de santé</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_referal_health_center/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_other_referal_health_center:label">
+            <value>Saisir le nom de la formation sanitaire de référence</value>
+          </text>
+          <text id="/pregnancy_register/group_review/followup:label">
+            <value>Visite de Suivi</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_next_visit_date_cpn:label">
+            <value>La prochaine visite de suivi **CPN <output value=" /pregnancy_register/cpn_next_number "/>** est : **<output value=" /pregnancy_register/next_cpn_visit_date_fr "/>**</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_referal_followup:label">
+            <value>La visite de suivi référence est dans **3 jours**</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_no_followup:label">
+            <value>**Aucun suivi ne sera généré**</value>
+          </text>
+        </translation>
+        <translation lang="en">
+          <text id="/pregnancy_register/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pregnancy_register/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pregnancy_register/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/pregnancy_register/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/pregnancy_register/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/pregnancy_register/inputs/user/role:label">
+            <value>Role</value>
+          </text>
+          <text id="/pregnancy_register/inputs/user/external_id:label">
+            <value>Externa Id</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/pregnancy_register/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/pregnancy_register/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/pregnancy_register/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/pregnancy_register/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pregnancy_register/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/pregnancy_register/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/pregnancy_register/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/pregnancy_register/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/pregnancy_register/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/pregnancy_register/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/pregnancy_register/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/pregnancy_register/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/pregnancy_register/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/pregnancy_register/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/pregnancy_register/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/pregnancy_register/patient_family_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/pregnancy_register/patient_family_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/pregnancy_register/visited_contact_uuid:label">
+            <value>Family Id</value>
+          </text>
+          <text id="/pregnancy_register/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/pregnancy_register/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/pregnancy_register/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/pregnancy_register/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/pregnancy_register/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/pregnancy_register/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/pregnancy_register/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/pregnancy_register/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy:label">
+            <value>Pregnancy registration</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done:label">
+            <value>Have you been to a healthcare facility for your CPN ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason:label">
+            <value>Why ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason/no_time:label">
+            <value>No time</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason/forget:label">
+            <value>Forget</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason/no_money:label">
+            <value>No money</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason/hc_too_far:label">
+            <value>Health center too far</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason/refusal:label">
+            <value>Refusal</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_done_reason_other:label">
+            <value>Write reason</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign:label">
+            <value>Does the woman have any danger signs?</value>
+            <value form="image">jr://images/-</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status:label">
+            <value>Select danger signs</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status/convulsion:label">
+            <value>Convulsion</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status/anemia:label">
+            <value>Anemia</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status/fever:label">
+            <value>Fever</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status/bleeding:label">
+            <value>Bleeding</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status/smelly_shedding:label">
+            <value>Smelly shedding</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status/headache:label">
+            <value>Headache</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_has_danger_sign_status_other:label">
+            <value>Enter the other danger sign</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_health_record:label">
+            <value>Where did the woman give birth?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_health_record/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_health_record/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_number:label">
+            <value>Number of CPN</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_number/1:label">
+            <value>1</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_number/2:label">
+            <value>2</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_number/3:label">
+            <value>3</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_number/4:label">
+            <value>4</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn1:jr:constraintMsg">
+            <value>date must be in the past</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn1:label">
+            <value>CPN1 Date</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn2:jr:constraintMsg">
+            <value>date must be in the past</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn2:label">
+            <value>CPN2 Date</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn3:jr:constraintMsg">
+            <value>date must be in the past</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn3:label">
+            <value>CPN3 Date</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn4:jr:constraintMsg">
+            <value>date must be in the past</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_date_cpn4:label">
+            <value>CPN4 Date</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1:label">
+            <value>Have you received Td 1?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1_reason:label">
+            <value>Why ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1_reason/breakup:label">
+            <value>breakup</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1_reason/refusal:label">
+            <value>Refusal</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1_reason/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td1_reason_other:label">
+            <value>Write reason</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2:label">
+            <value>Have you received Td 2?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2_reason:label">
+            <value>Why ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2_reason/breakup:label">
+            <value>breakup</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2_reason/refusal:label">
+            <value>Refusal</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2_reason/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_td2_reason_other:label">
+            <value>Write reason</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda:label">
+            <value>Have you received MILDA?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda_reason:label">
+            <value>Why ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda_reason/breakup:label">
+            <value>breakup</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda_reason/refusal:label">
+            <value>Refusal</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda_reason/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_milda_reason_other:label">
+            <value>Write reason</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_delivery_place_wanted:label">
+            <value>Where do you want to give birth?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_delivery_place_wanted/health_center:label">
+            <value>In Health Center</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_delivery_place_wanted/home:label">
+            <value>At home</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_home_delivery_wanted_note:label">
+            <value>**Please refer the woman to a health facility for her delivery**</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_hc_delivery_wanted_note:label">
+            <value>**Encourage the woman to continue like this**</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late:label">
+            <value>Is the woman behind on her CPN <output value=" /pregnancy_register/cpn_next_number "/></value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason:label">
+            <value>Why ?</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason/no_time:label">
+            <value>No time</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason/forget:label">
+            <value>Forget</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason/no_money:label">
+            <value>No money</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason/hc_too_far:label">
+            <value>Health center too far</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason/refusal:label">
+            <value>Refusal</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_cpn_late_reason_other:label">
+            <value>Write reason</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_discuss_cpn_date:label">
+            <value>**Find together with the woman a date close enough for her CPN <output value=" /pregnancy_register/cpn_next_number "/>**</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_next_cpn_date:jr:constraintMsg">
+            <value>Date must be in the future</value>
+          </text>
+          <text id="/pregnancy_register/c_pregnancy/c_next_cpn_date:label">
+            <value>Date of next CPN ( **CPN <output value=" /pregnancy_register/cpn_next_number "/>** )</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_summary:label">
+            <value>Patient Summary&lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /pregnancy_register/patient_name "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /pregnancy_register/patient_sex_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /pregnancy_register/patient_age_display_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_pregnancy_information:label">
+            <value>Pregnancy information</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_cpn_number:label">
+            <value>Number of CPNs performed: **<output value=" /pregnancy_register/cpn_number "/>**</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_cpn_prog_date:label">
+            <value>The woman must go to the Health training for her **CPN <output value=" /pregnancy_register/cpn_next_number "/>** on: **<output value=" /pregnancy_register/next_cpn_date "/>**</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_c_milda:label">
+            <value>The woman received MILDA</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_note_milda:label">
+            <value>Advise the woman to go to a health facility to receive MILDA</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_refer_USP:label">
+            <value>Referral to a health facility</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_has_danger_sign:label">
+            <value>Please refer the woman for the presence of danger signs</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_refer_FS_pregnancy_cpn:label">
+            <value>Please refer the woman to a health facility for **ANC <output value=" /pregnancy_register/cpn_next_number "/>**</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_refer_FS_td1:label">
+            <value>Please refer the woman to a health facility for **Td1 not done**.</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_refer_FS_td2:label">
+            <value>Please refer the woman to a health facility for **Td2 not done**.</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_referal_health_center:label">
+            <value>Select the reference health center</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_referal_health_center/health_center:label">
+            <value>Health center</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_referal_health_center/health_poste:label">
+            <value>Health poste</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_referal_health_center/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_other_referal_health_center:label">
+            <value>Enter the name of the reference health facility</value>
+          </text>
+          <text id="/pregnancy_register/group_review/followup:label">
+            <value>Follow up</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_next_visit_date_cpn:label">
+            <value>The next CPN follow-up visit **<output value=" /pregnancy_register/cpn_next_number "/>** is: **<output value=" /pregnancy_register/next_cpn_visit_date "/>**</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_referal_followup:label">
+            <value>The reference follow-up visit is in **3 days**</value>
+          </text>
+          <text id="/pregnancy_register/group_review/s_no_followup:label">
+            <value>**No Followup will be generated**</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pregnancy_register id="pregnancy_register" prefix="J1!pregnancy_register!" delimiter="#" version="2024-08-17  10-52">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+              <role/>
+              <external_id/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <sex/>
+              <date_of_birth/>
+              <external_id/>
+              <parent>
+                <_id/>
+                <name/>
+                <external_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                  <contact>
+                    <_id/>
+                    <name/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_name/>
+          <patient_external_id/>
+          <patient_sex/>
+          <patient_date_of_birth/>
+          <patient_age_in_years/>
+          <patient_age_in_months/>
+          <patient_age_in_days/>
+          <patient_age_display_fr/>
+          <patient_age_display_en/>
+          <patient_sex_en/>
+          <patient_sex_fr/>
+          <patient_family_name/>
+          <patient_family_external_id/>
+          <visited_contact_uuid/>
+          <household_id/>
+          <village_secteur_id/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <is_pregnant/>
+          <cpn_done/>
+          <cpn_number/>
+          <date_cpn1/>
+          <date_cpn2/>
+          <date_cpn3/>
+          <date_cpn4/>
+          <td1_done/>
+          <td2_done/>
+          <has_milda/>
+          <cpn_next_number/>
+          <next_cpn_date/>
+          <next_cpn_date_fr/>
+          <next_cpn_visit_date/>
+          <next_cpn_visit_date_fr/>
+          <is_cpn_late/>
+          <delivery_place_wanted/>
+          <is_home_delivery_wanted/>
+          <has_danger_sign/>
+          <is_referred/>
+          <c_pregnancy>
+            <c_cpn_done/>
+            <c_cpn_done_reason/>
+            <c_cpn_done_reason_other/>
+            <c_has_danger_sign/>
+            <c_has_danger_sign_status/>
+            <c_has_danger_sign_status_other/>
+            <c_health_record/>
+            <c_cpn_number/>
+            <c_date_cpn1/>
+            <c_date_cpn2/>
+            <c_date_cpn3/>
+            <c_date_cpn4/>
+            <c_td1/>
+            <c_td1_reason/>
+            <c_td1_reason_other/>
+            <c_td2/>
+            <c_td2_reason/>
+            <c_td2_reason_other/>
+            <c_milda/>
+            <c_milda_reason/>
+            <c_milda_reason_other/>
+            <c_delivery_place_wanted/>
+            <c_home_delivery_wanted_note/>
+            <c_hc_delivery_wanted_note/>
+            <c_cpn_late/>
+            <c_cpn_late_reason/>
+            <c_cpn_late_reason_other/>
+            <c_discuss_cpn_date/>
+            <c_next_cpn_date/>
+          </c_pregnancy>
+          <group_review>
+            <s_summary/>
+            <s_patient_info_name/>
+            <s_patient_info_sex/>
+            <s_patient_info_age/>
+            <s_pregnancy_information/>
+            <s_cpn_number/>
+            <s_cpn_prog_date/>
+            <s_c_milda/>
+            <s_note_milda/>
+            <s_refer_USP/>
+            <s_has_danger_sign/>
+            <s_refer_FS_pregnancy_cpn/>
+            <s_refer_FS_td1/>
+            <s_refer_FS_td2/>
+            <s_referal_health_center/>
+            <s_other_referal_health_center/>
+            <followup/>
+            <s_next_visit_date_cpn/>
+            <s_referal_followup/>
+            <s_no_followup/>
+          </group_review>
+          <meta>
+            <instanceID/>
+          </meta>
+        </pregnancy_register>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pregnancy_register/inputs/source" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/source_id" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/pregnancy_register/inputs/user/name" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/user/phone" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/user/role" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/user/external_id" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/_id" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/name" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/sex" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/external_id" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/parent/_id" type="db:person"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/parent/external_id" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/parent/parent/contact/_id" type="string"/>
+      <bind nodeset="/pregnancy_register/inputs/contact/parent/parent/contact/name" type="string"/>
+      <bind nodeset="/pregnancy_register/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/pregnancy_register/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/pregnancy_register/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pregnancy_register/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/pregnancy_register/patient_external_id" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/pregnancy_register/patient_sex" type="string" calculate="../inputs/contact/sex"/>
+      <bind nodeset="/pregnancy_register/patient_date_of_birth" type="string" calculate="../inputs/contact/date_of_birth"/>
+      <bind nodeset="/pregnancy_register/patient_age_in_years" type="string" calculate="if (  /pregnancy_register/inputs/contact/date_of_birth  = '', '', floor( difference-in-months(  /pregnancy_register/inputs/contact/date_of_birth , today() ) div 12 ) )"/>
+      <bind nodeset="/pregnancy_register/patient_age_in_months" type="string" calculate="difference-in-months(  /pregnancy_register/inputs/contact/date_of_birth , today() )"/>
+      <bind nodeset="/pregnancy_register/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time( /pregnancy_register/inputs/contact/date_of_birth ) )"/>
+      <bind nodeset="/pregnancy_register/patient_age_display_fr" type="string" calculate="concat(concat( /pregnancy_register/patient_age_in_years , if( /pregnancy_register/patient_age_in_years  =1,' an et ',' ans et ')),concat( /pregnancy_register/patient_age_in_months  mod 12, if(( /pregnancy_register/patient_age_in_months  mod 12)=1,' mois',' mois')))"/>
+      <bind nodeset="/pregnancy_register/patient_age_display_en" type="string" calculate="concat(concat( /pregnancy_register/patient_age_in_years , if( /pregnancy_register/patient_age_in_years  =1,' year and ',' years and ')),concat( /pregnancy_register/patient_age_in_months  mod 12, if(( /pregnancy_register/patient_age_in_months  mod 12)=1,' month old',' months old')))"/>
+      <bind nodeset="/pregnancy_register/patient_sex_en" type="string" calculate="if( /pregnancy_register/inputs/contact/sex  = 'male' or  /pregnancy_register/inputs/contact/sex  = 'homme' or  /pregnancy_register/inputs/contact/sex  = 'Homme', 'Male', if( /pregnancy_register/inputs/contact/sex  = 'female' or  /pregnancy_register/inputs/contact/sex  = 'femme' or  /pregnancy_register/inputs/contact/sex  = 'Femme', 'Female', ''))"/>
+      <bind nodeset="/pregnancy_register/patient_sex_fr" type="string" calculate="if( /pregnancy_register/inputs/contact/sex  = 'male' or  /pregnancy_register/inputs/contact/sex  = 'homme' or  /pregnancy_register/inputs/contact/sex  = 'Homme', 'Masculin', if( /pregnancy_register/inputs/contact/sex  = 'female' or  /pregnancy_register/inputs/contact/sex  = 'femme' or  /pregnancy_register/inputs/contact/sex  = 'Femme', 'Féminin', ''))"/>
+      <bind nodeset="/pregnancy_register/patient_family_name" type="string" calculate="../inputs/contact/parent/name"/>
+      <bind nodeset="/pregnancy_register/patient_family_external_id" type="string" calculate="../inputs/contact/parent/external_id"/>
+      <bind nodeset="/pregnancy_register/visited_contact_uuid" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/pregnancy_register/household_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/pregnancy_register/village_secteur_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/pregnancy_register/district_quartier_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/pregnancy_register/hospital_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/pregnancy_register/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/pregnancy_register/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/pregnancy_register/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/pregnancy_register/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/pregnancy_register/is_pregnant" type="string" calculate="&quot;true&quot;"/>
+      <bind nodeset="/pregnancy_register/cpn_done" type="string" calculate="if(../c_pregnancy/c_cpn_done= 'yes','true','false')"/>
+      <bind nodeset="/pregnancy_register/cpn_number" type="string" calculate="if(../is_pregnant = 'true' and ../c_pregnancy/c_cpn_number != '',../c_pregnancy/c_cpn_number,0)"/>
+      <bind nodeset="/pregnancy_register/date_cpn1" type="string" relevant="../cpn_done = 'true' and ../cpn_number &gt;= 1" calculate="if(../is_pregnant = 'true' and ../cpn_done = 'true' and ../cpn_number &gt;= 1 and ../c_pregnancy/c_date_cpn1 != '', ../c_pregnancy/c_date_cpn1,'')"/>
+      <bind nodeset="/pregnancy_register/date_cpn2" type="string" relevant="../cpn_done = 'true' and ../cpn_number &gt;= 2" calculate="If(../is_pregnant = 'true' and ../cpn_done = 'true' and ../cpn_number &gt;= 2 and ../c_pregnancy/c_date_cpn2 != '', ../c_pregnancy/c_date_cpn2,'')"/>
+      <bind nodeset="/pregnancy_register/date_cpn3" type="string" relevant="../cpn_done = 'true' and ../cpn_number &gt;= 3" calculate="If(../is_pregnant = 'true' and ../cpn_done = 'true' and ../cpn_number &gt;= 3 and ../c_pregnancy/c_date_cpn3 != '', ../c_pregnancy/c_date_cpn3,'')"/>
+      <bind nodeset="/pregnancy_register/date_cpn4" type="string" relevant="../cpn_done = 'true' and ../cpn_number &gt;= 4" calculate="If(../is_pregnant = 'true' and ../cpn_done = 'true' and ../cpn_number &gt;= 4 and ../c_pregnancy/c_date_cpn4 != '', ../c_pregnancy/c_date_cpn4,'')"/>
+      <bind nodeset="/pregnancy_register/td1_done" type="string" calculate="if(../c_pregnancy/c_td1 = 'yes','true','false')"/>
+      <bind nodeset="/pregnancy_register/td2_done" type="string" calculate="if(../c_pregnancy/c_td2 = 'yes','true','false')"/>
+      <bind nodeset="/pregnancy_register/has_milda" type="string" calculate="if(../c_pregnancy/c_milda = 'yes','true','false')"/>
+      <bind nodeset="/pregnancy_register/cpn_next_number" type="string" calculate="../cpn_number + 1"/>
+      <bind nodeset="/pregnancy_register/next_cpn_date" type="string" calculate="if(../is_pregnant = 'true' and ../c_pregnancy/c_next_cpn_date != '',../c_pregnancy/c_next_cpn_date,'')"/>
+      <bind nodeset="/pregnancy_register/next_cpn_date_fr" type="string" calculate="if(../next_cpn_date = '','',format-date-time( decimal-date-time(../next_cpn_date), &quot;%d/%m/%Y&quot; ))"/>
+      <bind nodeset="/pregnancy_register/next_cpn_visit_date" type="string" calculate="if(../next_cpn_date = '','',format-date-time( decimal-date-time(../next_cpn_date) + 7, &quot;%Y-%m-%d&quot; ))"/>
+      <bind nodeset="/pregnancy_register/next_cpn_visit_date_fr" type="string" calculate="if(../next_cpn_visit_date = '','',format-date-time( decimal-date-time(../next_cpn_visit_date), &quot;%d/%m/%Y&quot; ))"/>
+      <bind nodeset="/pregnancy_register/is_cpn_late" type="string" calculate="if(../c_pregnancy/c_cpn_late = '','',if(../is_pregnant = 'true' and ../cpn_done = 'true' and ../c_pregnancy/c_cpn_late = 'yes','true','false'))"/>
+      <bind nodeset="/pregnancy_register/delivery_place_wanted" type="string" calculate=" /pregnancy_register/c_pregnancy/c_delivery_place_wanted "/>
+      <bind nodeset="/pregnancy_register/is_home_delivery_wanted" type="string" calculate="if( /pregnancy_register/c_pregnancy/c_delivery_place_wanted  = '','',if( /pregnancy_register/c_pregnancy/c_delivery_place_wanted  = 'home','true','false'))"/>
+      <bind nodeset="/pregnancy_register/has_danger_sign" type="string" calculate="if( /pregnancy_register/c_pregnancy/c_has_danger_sign  = '','',if( /pregnancy_register/c_pregnancy/c_has_danger_sign  = 'yes','true','false'))"/>
+      <bind nodeset="/pregnancy_register/is_referred" type="string" calculate="if(../is_pregnant = 'true' and (../has_danger_sign = 'true' or ../cpn_done = 'false' or ../td1_done = 'false' or ../td1_done = 'true' and ../td2_done = 'false' or ../is_cpn_late = 'true'),'true','false')"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_cpn_done" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_cpn_done_reason" type="select1" relevant="../c_cpn_done = 'no'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_cpn_done_reason_other" type="string" relevant="../c_cpn_done = 'no' and ../c_cpn_done_reason = 'others'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_has_danger_sign" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_has_danger_sign_status" type="select" relevant="../c_has_danger_sign = 'yes'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_has_danger_sign_status_other" type="string" relevant="../c_has_danger_sign = 'yes' and selected(../c_has_danger_sign_status,'others')" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_health_record" type="select1" relevant="../c_cpn_done = 'yes'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_cpn_number" type="select1" relevant="../c_cpn_done = 'yes' and ../c_health_record = 'yes'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_date_cpn1" type="date" constraint=". &lt;= today()" relevant="../c_cpn_done = 'yes' and ../c_health_record = 'yes' and ../c_cpn_number &gt;= 1" jr:constraintMsg="jr:itext('/pregnancy_register/c_pregnancy/c_date_cpn1:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_date_cpn2" type="date" constraint=". &lt;= today()" relevant="../c_cpn_done = 'yes' and ../c_health_record = 'yes' and ../c_cpn_number &gt;= 2" jr:constraintMsg="jr:itext('/pregnancy_register/c_pregnancy/c_date_cpn2:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_date_cpn3" type="date" constraint=". &lt;= today()" relevant="../c_cpn_done = 'yes' and ../c_health_record = 'yes' and ../c_cpn_number &gt;= 3" jr:constraintMsg="jr:itext('/pregnancy_register/c_pregnancy/c_date_cpn3:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_date_cpn4" type="date" constraint=". &lt;= today()" relevant="../c_cpn_done = 'yes' and ../c_health_record = 'yes' and ../c_cpn_number &gt;= 4" jr:constraintMsg="jr:itext('/pregnancy_register/c_pregnancy/c_date_cpn4:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_td1" type="select1" relevant="../c_cpn_done = 'yes' and ../c_health_record = 'yes'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_td1_reason" type="select1" relevant="../c_cpn_done = 'yes' and ../c_health_record = 'yes' and  /pregnancy_register/c_pregnancy/c_td1  = 'no'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_td1_reason_other" type="string" relevant="../c_cpn_done = 'yes' and ../c_health_record = 'yes' and  /pregnancy_register/c_pregnancy/c_td1  = 'no' and  /pregnancy_register/c_pregnancy/c_td1_reason  = 'others'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_td2" type="select1" relevant="../c_cpn_done = 'yes' and ../c_health_record = 'yes' and ../c_td1 = 'yes'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_td2_reason" type="select1" relevant="../c_cpn_done = 'yes' and ../c_health_record = 'yes' and ../c_td1 = 'yes' and  /pregnancy_register/c_pregnancy/c_td2  = 'no'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_td2_reason_other" type="string" relevant="../c_cpn_done = 'yes' and ../c_health_record = 'yes' and ../c_td1 = 'yes' and  /pregnancy_register/c_pregnancy/c_td2  = 'no' and  /pregnancy_register/c_pregnancy/c_td2_reason  = 'others'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_milda" type="select1" relevant="../c_cpn_done = 'yes'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_milda_reason" type="select1" relevant="../c_cpn_done = 'yes' and  /pregnancy_register/c_pregnancy/c_milda  = 'no'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_milda_reason_other" type="string" relevant="../c_cpn_done = 'yes' and  /pregnancy_register/c_pregnancy/c_milda  = 'no' and  /pregnancy_register/c_pregnancy/c_milda_reason  = 'others'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_delivery_place_wanted" type="select1" relevant="../c_cpn_done = 'yes'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_home_delivery_wanted_note" readonly="true()" type="string" relevant="../c_cpn_done = 'yes' and ../c_delivery_place_wanted = 'home'"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_hc_delivery_wanted_note" readonly="true()" type="string" relevant="../c_cpn_done = 'yes' and ../c_delivery_place_wanted = 'health_center'"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_cpn_late" type="select1" relevant="../c_cpn_done = 'yes' and ../c_health_record = 'yes' and ../c_cpn_number &gt;= 1" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_cpn_late_reason" type="select1" relevant="../c_cpn_done = 'yes' and ../c_health_record = 'yes' and ../c_cpn_number &gt;= 1 and ../c_cpn_late = 'yes'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_cpn_late_reason_other" type="string" relevant="../c_cpn_done = 'yes' and ../c_health_record = 'yes' and ../c_cpn_number &gt;= 1 and ../c_cpn_late = 'yes' and ../c_cpn_late_reason = 'others'" required="true()"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_discuss_cpn_date" readonly="true()" type="string" relevant="../c_cpn_done = 'no' or ../c_cpn_late = 'yes'"/>
+      <bind nodeset="/pregnancy_register/c_pregnancy/c_next_cpn_date" type="date" constraint=". &gt;= today()" relevant="../c_cpn_done != ''" jr:constraintMsg="jr:itext('/pregnancy_register/c_pregnancy/c_next_cpn_date:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/pregnancy_register/group_review/s_summary" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_register/group_review/s_patient_info_name" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_register/group_review/s_patient_info_sex" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_register/group_review/s_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_register/group_review/s_pregnancy_information" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_register/group_review/s_cpn_number" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_register/group_review/s_cpn_prog_date" readonly="true()" type="string" relevant=" /pregnancy_register/next_cpn_date  != ''"/>
+      <bind nodeset="/pregnancy_register/group_review/s_c_milda" readonly="true()" type="string" relevant=" /pregnancy_register/has_milda  = 'true'"/>
+      <bind nodeset="/pregnancy_register/group_review/s_note_milda" readonly="true()" type="string" relevant=" /pregnancy_register/has_milda  = 'false'"/>
+      <bind nodeset="/pregnancy_register/group_review/s_refer_USP" readonly="true()" type="string" relevant=" /pregnancy_register/is_referred  = 'true'"/>
+      <bind nodeset="/pregnancy_register/group_review/s_has_danger_sign" readonly="true()" type="string" relevant=" /pregnancy_register/has_danger_sign  = 'true'"/>
+      <bind nodeset="/pregnancy_register/group_review/s_refer_FS_pregnancy_cpn" readonly="true()" type="string" relevant=" /pregnancy_register/is_referred  = 'true' and ( /pregnancy_register/cpn_done  = 'false' or  /pregnancy_register/is_cpn_late = 'true')"/>
+      <bind nodeset="/pregnancy_register/group_review/s_refer_FS_td1" readonly="true()" type="string" relevant=" /pregnancy_register/is_referred  = 'true' and  /pregnancy_register/td1_done  = 'false'"/>
+      <bind nodeset="/pregnancy_register/group_review/s_refer_FS_td2" readonly="true()" type="string" relevant=" /pregnancy_register/is_referred  = 'true' and  /pregnancy_register/td1_done  = 'true' and  /pregnancy_register/td2_done  = 'false'"/>
+      <bind nodeset="/pregnancy_register/group_review/s_referal_health_center" type="select1" relevant=" /pregnancy_register/is_referred  = 'true'"/>
+      <bind nodeset="/pregnancy_register/group_review/s_other_referal_health_center" type="string" relevant=" /pregnancy_register/is_referred  = 'true' and ../s_referal_health_center = 'others'"/>
+      <bind nodeset="/pregnancy_register/group_review/followup" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_register/group_review/s_next_visit_date_cpn" readonly="true()" type="string" relevant=" /pregnancy_register/next_cpn_visit_date  != ''"/>
+      <bind nodeset="/pregnancy_register/group_review/s_referal_followup" readonly="true()" type="string" relevant=" /pregnancy_register/is_referred  = 'true' and  /pregnancy_register/next_cpn_visit_date  = ''"/>
+      <bind nodeset="/pregnancy_register/group_review/s_no_followup" readonly="true()" type="string" relevant=" /pregnancy_register/is_referred  = 'false' and  /pregnancy_register/next_cpn_visit_date  = ''"/>
+      <bind nodeset="/pregnancy_register/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/pregnancy_register/inputs">
+      <label ref="jr:itext('/pregnancy_register/inputs:label')"/>
+      <input appearance="hidden" ref="/pregnancy_register/inputs/source">
+        <label ref="jr:itext('/pregnancy_register/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pregnancy_register/inputs/source_id">
+        <label ref="jr:itext('/pregnancy_register/inputs/source_id:label')"/>
+      </input>
+      <group ref="/pregnancy_register/inputs/user">
+        <label ref="jr:itext('/pregnancy_register/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/pregnancy_register/inputs/user/contact_id">
+          <label ref="jr:itext('/pregnancy_register/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/pregnancy_register/inputs/user/name">
+          <label ref="jr:itext('/pregnancy_register/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/pregnancy_register/inputs/user/phone">
+          <label ref="jr:itext('/pregnancy_register/inputs/user/phone:label')"/>
+        </input>
+        <input appearance="hidden" ref="/pregnancy_register/inputs/user/role">
+          <label ref="jr:itext('/pregnancy_register/inputs/user/role:label')"/>
+        </input>
+        <input appearance="hidden" ref="/pregnancy_register/inputs/user/external_id">
+          <label ref="jr:itext('/pregnancy_register/inputs/user/external_id:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/pregnancy_register/inputs/contact">
+        <label ref="jr:itext('/pregnancy_register/inputs/contact:label')"/>
+        <input appearance="select-contact type-person" ref="/pregnancy_register/inputs/contact/_id">
+          <label ref="jr:itext('/pregnancy_register/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/pregnancy_register/inputs/contact/name">
+          <label ref="jr:itext('/pregnancy_register/inputs/contact/name:label')"/>
+        </input>
+        <input ref="/pregnancy_register/inputs/contact/sex">
+          <label ref="jr:itext('/pregnancy_register/inputs/contact/sex:label')"/>
+        </input>
+        <input ref="/pregnancy_register/inputs/contact/date_of_birth">
+          <label ref="jr:itext('/pregnancy_register/inputs/contact/date_of_birth:label')"/>
+        </input>
+        <input ref="/pregnancy_register/inputs/contact/external_id">
+          <label ref="jr:itext('/pregnancy_register/inputs/contact/external_id:label')"/>
+        </input>
+        <group ref="/pregnancy_register/inputs/contact/parent">
+          <label ref="jr:itext('/pregnancy_register/inputs/contact/parent:label')"/>
+          <input appearance="db-object bind-id-only" ref="/pregnancy_register/inputs/contact/parent/_id">
+            <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/_id:label')"/>
+          </input>
+          <input ref="/pregnancy_register/inputs/contact/parent/name">
+            <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/name:label')"/>
+          </input>
+          <input ref="/pregnancy_register/inputs/contact/parent/external_id">
+            <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/external_id:label')"/>
+          </input>
+          <group ref="/pregnancy_register/inputs/contact/parent/parent">
+            <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent:label')"/>
+            <input appearance="select-contact type-person" ref="/pregnancy_register/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/pregnancy_register/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/pregnancy_register/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/pregnancy_register/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/pregnancy_register/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                    <group ref="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      <input ref="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id">
+                        <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                      </input>
+                      <group ref="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                        <input ref="/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id">
+                          <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                        </input>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+            <group ref="/pregnancy_register/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/contact:label')"/>
+              <input appearance="select-contact type-person" ref="/pregnancy_register/inputs/contact/parent/parent/contact/_id">
+                <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/contact/_id:label')"/>
+              </input>
+              <input ref="/pregnancy_register/inputs/contact/parent/parent/contact/name">
+                <label ref="jr:itext('/pregnancy_register/inputs/contact/parent/parent/contact/name:label')"/>
+              </input>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/pregnancy_register/c_pregnancy">
+      <label ref="jr:itext('/pregnancy_register/c_pregnancy:label')"/>
+      <select1 appearance="columns" ref="/pregnancy_register/c_pregnancy/c_cpn_done">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_done:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_done/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_done/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_register/c_pregnancy/c_cpn_done_reason">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_done_reason:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_done_reason/no_time:label')"/>
+          <value>no_time</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_done_reason/forget:label')"/>
+          <value>forget</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_done_reason/no_money:label')"/>
+          <value>no_money</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_done_reason/hc_too_far:label')"/>
+          <value>hc_too_far</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_done_reason/refusal:label')"/>
+          <value>refusal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_done_reason/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_register/c_pregnancy/c_cpn_done_reason_other">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_done_reason_other:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/pregnancy_register/c_pregnancy/c_has_danger_sign">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_has_danger_sign:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_has_danger_sign/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_has_danger_sign/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/pregnancy_register/c_pregnancy/c_has_danger_sign_status">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_has_danger_sign_status:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_has_danger_sign_status/convulsion:label')"/>
+          <value>convulsion</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_has_danger_sign_status/anemia:label')"/>
+          <value>anemia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_has_danger_sign_status/fever:label')"/>
+          <value>fever</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_has_danger_sign_status/bleeding:label')"/>
+          <value>bleeding</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_has_danger_sign_status/smelly_shedding:label')"/>
+          <value>smelly_shedding</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_has_danger_sign_status/headache:label')"/>
+          <value>headache</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_has_danger_sign_status/others:label')"/>
+          <value>others</value>
+        </item>
+      </select>
+      <input ref="/pregnancy_register/c_pregnancy/c_has_danger_sign_status_other">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_has_danger_sign_status_other:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/pregnancy_register/c_pregnancy/c_health_record">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_health_record:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_health_record/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_health_record/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_register/c_pregnancy/c_cpn_number">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_number:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_number/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_number/2:label')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_number/3:label')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_number/4:label')"/>
+          <value>4</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_register/c_pregnancy/c_date_cpn1">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_date_cpn1:label')"/>
+      </input>
+      <input ref="/pregnancy_register/c_pregnancy/c_date_cpn2">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_date_cpn2:label')"/>
+      </input>
+      <input ref="/pregnancy_register/c_pregnancy/c_date_cpn3">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_date_cpn3:label')"/>
+      </input>
+      <input ref="/pregnancy_register/c_pregnancy/c_date_cpn4">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_date_cpn4:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/pregnancy_register/c_pregnancy/c_td1">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td1:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td1/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td1/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_register/c_pregnancy/c_td1_reason">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td1_reason:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td1_reason/breakup:label')"/>
+          <value>breakup</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td1_reason/refusal:label')"/>
+          <value>refusal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td1_reason/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_register/c_pregnancy/c_td1_reason_other">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td1_reason_other:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/pregnancy_register/c_pregnancy/c_td2">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td2:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td2/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td2/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_register/c_pregnancy/c_td2_reason">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td2_reason:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td2_reason/breakup:label')"/>
+          <value>breakup</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td2_reason/refusal:label')"/>
+          <value>refusal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td2_reason/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_register/c_pregnancy/c_td2_reason_other">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_td2_reason_other:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/pregnancy_register/c_pregnancy/c_milda">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_milda:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_milda/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_milda/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_register/c_pregnancy/c_milda_reason">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_milda_reason:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_milda_reason/breakup:label')"/>
+          <value>breakup</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_milda_reason/refusal:label')"/>
+          <value>refusal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_milda_reason/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_register/c_pregnancy/c_milda_reason_other">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_milda_reason_other:label')"/>
+      </input>
+      <select1 ref="/pregnancy_register/c_pregnancy/c_delivery_place_wanted">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_delivery_place_wanted:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_delivery_place_wanted/health_center:label')"/>
+          <value>health_center</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_delivery_place_wanted/home:label')"/>
+          <value>home</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_register/c_pregnancy/c_home_delivery_wanted_note">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_home_delivery_wanted_note:label')"/>
+      </input>
+      <input ref="/pregnancy_register/c_pregnancy/c_hc_delivery_wanted_note">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_hc_delivery_wanted_note:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/pregnancy_register/c_pregnancy/c_cpn_late">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_late:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_late/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_late/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_register/c_pregnancy/c_cpn_late_reason">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_late_reason:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_late_reason/no_time:label')"/>
+          <value>no_time</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_late_reason/forget:label')"/>
+          <value>forget</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_late_reason/no_money:label')"/>
+          <value>no_money</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_late_reason/hc_too_far:label')"/>
+          <value>hc_too_far</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_late_reason/refusal:label')"/>
+          <value>refusal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_late_reason/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_register/c_pregnancy/c_cpn_late_reason_other">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_cpn_late_reason_other:label')"/>
+      </input>
+      <input ref="/pregnancy_register/c_pregnancy/c_discuss_cpn_date">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_discuss_cpn_date:label')"/>
+      </input>
+      <input ref="/pregnancy_register/c_pregnancy/c_next_cpn_date">
+        <label ref="jr:itext('/pregnancy_register/c_pregnancy/c_next_cpn_date:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/pregnancy_register/group_review">
+      <label ref="jr:itext('/pregnancy_register/group_review:label')"/>
+      <input appearance="h1 yellow" ref="/pregnancy_register/group_review/s_summary">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_summary:label')"/>
+      </input>
+      <input appearance="center" ref="/pregnancy_register/group_review/s_patient_info_name">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_patient_info_name:label')"/>
+      </input>
+      <input appearance="center" ref="/pregnancy_register/group_review/s_patient_info_sex">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_patient_info_sex:label')"/>
+      </input>
+      <input appearance="center" ref="/pregnancy_register/group_review/s_patient_info_age">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_patient_info_age:label')"/>
+      </input>
+      <input appearance="h1 blue" ref="/pregnancy_register/group_review/s_pregnancy_information">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_pregnancy_information:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_register/group_review/s_cpn_number">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_cpn_number:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_register/group_review/s_cpn_prog_date">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_cpn_prog_date:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_register/group_review/s_c_milda">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_c_milda:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_register/group_review/s_note_milda">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_note_milda:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/pregnancy_register/group_review/s_refer_USP">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_refer_USP:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_register/group_review/s_has_danger_sign">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_has_danger_sign:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_register/group_review/s_refer_FS_pregnancy_cpn">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_refer_FS_pregnancy_cpn:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_register/group_review/s_refer_FS_td1">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_refer_FS_td1:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_register/group_review/s_refer_FS_td2">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_refer_FS_td2:label')"/>
+      </input>
+      <select1 ref="/pregnancy_register/group_review/s_referal_health_center">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_referal_health_center:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/group_review/s_referal_health_center/health_center:label')"/>
+          <value>health_center</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/group_review/s_referal_health_center/health_poste:label')"/>
+          <value>health_poste</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_register/group_review/s_referal_health_center/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_register/group_review/s_other_referal_health_center">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_other_referal_health_center:label')"/>
+      </input>
+      <input appearance="h1 green" ref="/pregnancy_register/group_review/followup">
+        <label ref="jr:itext('/pregnancy_register/group_review/followup:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_register/group_review/s_next_visit_date_cpn">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_next_visit_date_cpn:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_register/group_review/s_referal_followup">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_referal_followup:label')"/>
+      </input>
+      <input appearance="li" ref="/pregnancy_register/group_review/s_no_followup">
+        <label ref="jr:itext('/pregnancy_register/group_review/s_no_followup:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

@@ -1,0 +1,993 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Suivi extrait de naissance</h:title>
+    <model>
+      <itext>
+        <translation lang="fr">
+          <text id="/referral_town_hall_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/user/contact_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/contact:label">
+            <value>Information du RECO</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/referral_town_hall_followup/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/referral_town_hall_followup/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_family_name:label">
+            <value>Nom du ménage</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_phone:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_phone_to_show:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_family_external_id:label">
+            <value>Numéro du ménage</value>
+          </text>
+          <text id="/referral_town_hall_followup/visited_contact_uuid:label">
+            <value>Identifiant de la famille</value>
+          </text>
+          <text id="/referral_town_hall_followup/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos:label">
+            <value>DÉTAILS DU PATIENT</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/i_patient_family_name:label">
+            <value>Nom du ménage : **<output value=" /referral_town_hall_followup/patient_family_name "/>**</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/i_patient_family_ext_id:label">
+            <value>Numéro du ménage : **<output value=" /referral_town_hall_followup/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/i_patient_name:label">
+            <value>Nom du patient : **<output value=" /referral_town_hall_followup/patient_name_to_show "/>**</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/i_patient_sexe:label">
+            <value>Sexe du patient: **<output value=" /referral_town_hall_followup/patient_sex_fr "/>**</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/i_code_patient:label">
+            <value>Code du patient : **<output value=" /referral_town_hall_followup/patient_external_id_to_show "/>**</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/i_patient_info_age:label">
+            <value>Âge : **<output value=" /referral_town_hall_followup/patient_age_display_fr "/>**</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_went_town_hall:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_went_town_hall:label">
+            <value>Le patient est-il allé à la mairie pour son extrait de naissance ?</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_went_town_hall/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_went_town_hall/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall:label">
+            <value>Pourquoi ?</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall/refusal:label">
+            <value>Refus</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall/no_time:label">
+            <value>Pas de temps</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall/no_money:label">
+            <value>Pas d'argent</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall/town_hall_too_far:label">
+            <value>Mairie trop loin</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall/others:label">
+            <value>Autre Motif</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall_other:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall_other:label">
+            <value>Ecrire l'autre raison</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status:label">
+            <value>Quel est le statut ?</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status/delivered:label">
+            <value>Délivré</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status/in_progress:label">
+            <value>En cours</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status/date_postponed:label">
+            <value>Report de date</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status/issue_refusal:label">
+            <value>Refus de délivrer</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status_other:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status_other:label">
+            <value>Ecrire l'autre status</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/s_refer_USP:label">
+            <value>Référence vers une formation sanitaire</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/s_refer_HC:label">
+            <value>Veuillez référer le patient pour **état de santé non amélioré **</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/s_referal_town_hall:label">
+            <value>Selectionner le centre de santé de référence</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/s_referal_town_hall/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/s_referal_town_hall/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/followup:label">
+            <value>Suivi</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/s_next_visit_date:label">
+            <value>**La prochaine visite de suivi est prévu pour: **</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/s_no_next_visit:label">
+            <value>**Aucun suivi ne sera créé**</value>
+          </text>
+        </translation>
+        <translation lang="en">
+          <text id="/referral_town_hall_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/referral_town_hall_followup/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/referral_town_hall_followup/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_family_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_phone_to_show:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_family_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/visited_contact_uuid:label">
+            <value>Family Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/referral_town_hall_followup/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos:label">
+            <value>PATIENT DETAILS</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/i_patient_family_name:label">
+            <value>Family name : **<output value=" /referral_town_hall_followup/patient_family_name "/>**</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/i_patient_family_ext_id:label">
+            <value>Family External ID : **<output value=" /referral_town_hall_followup/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/i_patient_name:label">
+            <value>Patient name : **<output value=" /referral_town_hall_followup/patient_name_to_show "/>**</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/i_patient_sexe:label">
+            <value>Patient sexe : **<output value=" /referral_town_hall_followup/patient_sex_fr "/>**</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/i_code_patient:label">
+            <value>Patient code : **<output value=" /referral_town_hall_followup/patient_external_id_to_show "/>**</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/i_patient_info_age:label">
+            <value>Age : **<output value=" /referral_town_hall_followup/patient_age_display_en "/>**</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_went_town_hall:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_went_town_hall:label">
+            <value>Did the patient go to the town hall for their birth certificate?</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_went_town_hall/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_went_town_hall/no:label">
+            <value>No</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall:label">
+            <value>Why ?</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall/refusal:label">
+            <value>Refusal</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall/no_time:label">
+            <value>No time</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall/no_money:label">
+            <value>No money</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall/town_hall_too_far:label">
+            <value>Town hall too far</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall/others:label">
+            <value>Another reason</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall_other:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_no_went_town_hall_other:label">
+            <value>Write reason</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status:label">
+            <value>What is the status?</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status/delivered:label">
+            <value>Delivered</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status/in_progress:label">
+            <value>In progress</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status/date_postponed:label">
+            <value>Date postponed</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status/issue_refusal:label">
+            <value>Refusal to issue</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status_other:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/c_birth_certificate_status_other:label">
+            <value>Write status</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/s_refer_USP:label">
+            <value>Referral to a health facility</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/s_refer_HC:label">
+            <value>**Please refer the patient to a health facility for non-improvement**</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/s_referal_town_hall:label">
+            <value>Select the reference health center</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/s_referal_town_hall/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/s_referal_town_hall/no:label">
+            <value>No</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/followup:label">
+            <value>Follow up</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/s_next_visit_date:label">
+            <value>**The next follow-up visit is scheduled for: **</value>
+          </text>
+          <text id="/referral_town_hall_followup/patient_infos/s_no_next_visit:label">
+            <value>No follow-up will be create</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <referral_town_hall_followup id="referral_town_hall_followup" prefix="J1!referral_town_hall_followup!" delimiter="#" version="2024-08-16  17-04">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <t_family_id/>
+            <t_family_name/>
+            <t_family_external_id/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <sex/>
+              <date_of_birth/>
+              <external_id/>
+              <phone/>
+              <parent>
+                <_id/>
+                <name/>
+                <external_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                  <contact>
+                    <_id/>
+                    <name/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_uuid/>
+          <patient_name/>
+          <patient_name_to_show/>
+          <patient_external_id/>
+          <patient_external_id_to_show/>
+          <patient_sex/>
+          <patient_date_of_birth/>
+          <patient_age_in_years/>
+          <patient_age_in_months/>
+          <patient_age_in_days/>
+          <patient_age_display_fr/>
+          <patient_age_display_en/>
+          <patient_sex_en/>
+          <patient_sex_fr/>
+          <patient_family_name/>
+          <patient_phone/>
+          <patient_phone_to_show/>
+          <patient_family_external_id/>
+          <visited_contact_uuid/>
+          <household_id/>
+          <village_secteur_id/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <patient_infos>
+            <i_patient_family_name/>
+            <i_patient_family_ext_id/>
+            <i_patient_name/>
+            <i_patient_sexe/>
+            <i_code_patient/>
+            <i_patient_info_age/>
+            <c_went_town_hall/>
+            <c_no_went_town_hall/>
+            <c_no_went_town_hall_other/>
+            <c_birth_certificate_status/>
+            <c_birth_certificate_status_other/>
+            <s_refer_USP/>
+            <s_refer_HC/>
+            <s_referal_town_hall/>
+            <followup/>
+            <s_next_visit_date/>
+            <s_no_next_visit/>
+          </patient_infos>
+          <meta>
+            <instanceID/>
+          </meta>
+        </referral_town_hall_followup>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/source" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/source_id" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/t_family_id" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/t_family_name" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/t_family_external_id" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/user/name" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/user/phone" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/_id" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/name" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/sex" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/external_id" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/phone" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/parent/_id" type="db:person"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/parent/external_id" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/parent/parent/contact/_id" type="db:person"/>
+      <bind nodeset="/referral_town_hall_followup/inputs/contact/parent/parent/contact/name" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/referral_town_hall_followup/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/referral_town_hall_followup/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/referral_town_hall_followup/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/referral_town_hall_followup/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/referral_town_hall_followup/patient_name_to_show" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/referral_town_hall_followup/patient_external_id" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/referral_town_hall_followup/patient_external_id_to_show" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/referral_town_hall_followup/patient_sex" type="string" calculate="../inputs/contact/sex"/>
+      <bind nodeset="/referral_town_hall_followup/patient_date_of_birth" type="string" calculate="../inputs/contact/date_of_birth"/>
+      <bind nodeset="/referral_town_hall_followup/patient_age_in_years" type="string" calculate="if (../patient_date_of_birth = '', '', floor( difference-in-months(../patient_date_of_birth, today() ) div 12 ) )"/>
+      <bind nodeset="/referral_town_hall_followup/patient_age_in_months" type="string" calculate="difference-in-months( ../patient_date_of_birth, today() )"/>
+      <bind nodeset="/referral_town_hall_followup/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time(../patient_date_of_birth) )"/>
+      <bind nodeset="/referral_town_hall_followup/patient_age_display_fr" type="string" calculate="concat(concat(../patient_age_in_years, if(../patient_age_in_years = 1,' an et ',' ans et ')),concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12) =1,' mois',' mois')))"/>
+      <bind nodeset="/referral_town_hall_followup/patient_age_display_en" type="string" calculate="concat(concat(../patient_age_in_years, if(../patient_age_in_years = 1,' year and ',' years and ')),concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12) =1,' month old',' months old')))"/>
+      <bind nodeset="/referral_town_hall_followup/patient_sex_en" type="string" calculate="if(../patient_sex = 'male' or ../patient_sex = 'homme' or ../patient_sex = 'Homme', 'Male', if(../patient_sex = 'female' or ../patient_sex = 'femme' or ../patient_sex = 'Femme', 'Female', ''))"/>
+      <bind nodeset="/referral_town_hall_followup/patient_sex_fr" type="string" calculate="if(../patient_sex = 'male' or ../patient_sex = 'homme' or ../patient_sex = 'Homme', 'Masculin', if(../patient_sex = 'female' or ../patient_sex = 'femme' or ../patient_sex = 'Femme', 'Féminin', ''))"/>
+      <bind nodeset="/referral_town_hall_followup/patient_family_name" type="string" calculate="coalesce(../inputs/contact/parent/name, /referral_town_hall_followup/inputs/t_family_name )"/>
+      <bind nodeset="/referral_town_hall_followup/patient_phone" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/referral_town_hall_followup/patient_phone_to_show" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/referral_town_hall_followup/patient_family_external_id" type="string" calculate="coalesce(../inputs/contact/parent/external_id, /referral_town_hall_followup/inputs/t_family_external_id )"/>
+      <bind nodeset="/referral_town_hall_followup/visited_contact_uuid" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/referral_town_hall_followup/household_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/referral_town_hall_followup/village_secteur_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/referral_town_hall_followup/district_quartier_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/referral_town_hall_followup/hospital_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/referral_town_hall_followup/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/referral_town_hall_followup/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/referral_town_hall_followup/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/referral_town_hall_followup/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/i_patient_family_name" readonly="true()" type="string" relevant=" /referral_town_hall_followup/patient_family_name  != ''"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/i_patient_family_ext_id" readonly="true()" type="string" relevant=" /referral_town_hall_followup/patient_family_external_id  != ''"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/i_patient_name" readonly="true()" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/i_patient_sexe" readonly="true()" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/i_code_patient" readonly="true()" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/i_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/c_went_town_hall" type="select1" jr:requiredMsg="jr:itext('/referral_town_hall_followup/patient_infos/c_went_town_hall:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/c_no_went_town_hall" type="select1" jr:requiredMsg="jr:itext('/referral_town_hall_followup/patient_infos/c_no_went_town_hall:jr:requiredMsg')" required="true()" relevant="../c_went_town_hall = 'no'"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/c_no_went_town_hall_other" type="string" jr:requiredMsg="jr:itext('/referral_town_hall_followup/patient_infos/c_no_went_town_hall_other:jr:requiredMsg')" required="true()" relevant="../c_went_town_hall = 'no' and ../c_no_went_town_hall = 'others'"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/c_birth_certificate_status" type="select1" jr:requiredMsg="jr:itext('/referral_town_hall_followup/patient_infos/c_birth_certificate_status:jr:requiredMsg')" required="true()" relevant="../c_went_town_hall = 'yes'"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/c_birth_certificate_status_other" type="string" jr:requiredMsg="jr:itext('/referral_town_hall_followup/patient_infos/c_birth_certificate_status_other:jr:requiredMsg')" required="true()" relevant="../c_went_town_hall = 'yes' and ../c_birth_certificate_status = 'others'"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/s_refer_USP" readonly="true()" type="string" relevant="1!=1"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/s_refer_HC" readonly="true()" type="string" relevant="1!=1"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/s_referal_town_hall" type="select1" relevant="1!=1"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/followup" readonly="true()" type="string" relevant="1!=1"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/s_next_visit_date" readonly="true()" type="string" relevant="1!=1"/>
+      <bind nodeset="/referral_town_hall_followup/patient_infos/s_no_next_visit" readonly="true()" type="string" relevant="1!=1"/>
+      <bind nodeset="/referral_town_hall_followup/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/referral_town_hall_followup/inputs">
+      <label ref="jr:itext('/referral_town_hall_followup/inputs:label')"/>
+      <input appearance="hidden" ref="/referral_town_hall_followup/inputs/source">
+        <label ref="jr:itext('/referral_town_hall_followup/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/referral_town_hall_followup/inputs/source_id">
+        <label ref="jr:itext('/referral_town_hall_followup/inputs/source_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/referral_town_hall_followup/inputs/t_family_id">
+        <label ref="jr:itext('/referral_town_hall_followup/inputs/t_family_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/referral_town_hall_followup/inputs/t_family_name">
+        <label ref="jr:itext('/referral_town_hall_followup/inputs/t_family_name:label')"/>
+      </input>
+      <input appearance="hidden" ref="/referral_town_hall_followup/inputs/t_family_external_id">
+        <label ref="jr:itext('/referral_town_hall_followup/inputs/t_family_external_id:label')"/>
+      </input>
+      <group ref="/referral_town_hall_followup/inputs/user">
+        <label ref="jr:itext('/referral_town_hall_followup/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/referral_town_hall_followup/inputs/user/contact_id">
+          <label ref="jr:itext('/referral_town_hall_followup/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/referral_town_hall_followup/inputs/user/name">
+          <label ref="jr:itext('/referral_town_hall_followup/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/referral_town_hall_followup/inputs/user/phone">
+          <label ref="jr:itext('/referral_town_hall_followup/inputs/user/phone:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/referral_town_hall_followup/inputs/contact">
+        <label ref="jr:itext('/referral_town_hall_followup/inputs/contact:label')"/>
+        <input appearance="db-object bind-id-only" ref="/referral_town_hall_followup/inputs/contact/_id">
+          <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/referral_town_hall_followup/inputs/contact/name">
+          <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/name:label')"/>
+        </input>
+        <input ref="/referral_town_hall_followup/inputs/contact/sex">
+          <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/sex:label')"/>
+        </input>
+        <input ref="/referral_town_hall_followup/inputs/contact/date_of_birth">
+          <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/date_of_birth:label')"/>
+        </input>
+        <input ref="/referral_town_hall_followup/inputs/contact/external_id">
+          <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/external_id:label')"/>
+        </input>
+        <input ref="/referral_town_hall_followup/inputs/contact/phone">
+          <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/phone:label')"/>
+        </input>
+        <group ref="/referral_town_hall_followup/inputs/contact/parent">
+          <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent:label')"/>
+          <input ref="/referral_town_hall_followup/inputs/contact/parent/_id">
+            <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/_id:label')"/>
+          </input>
+          <input ref="/referral_town_hall_followup/inputs/contact/parent/name">
+            <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/name:label')"/>
+          </input>
+          <input ref="/referral_town_hall_followup/inputs/contact/parent/external_id">
+            <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/external_id:label')"/>
+          </input>
+          <group ref="/referral_town_hall_followup/inputs/contact/parent/parent">
+            <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent:label')"/>
+            <input ref="/referral_town_hall_followup/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/referral_town_hall_followup/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/referral_town_hall_followup/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                    <group ref="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      <input ref="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id">
+                        <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                      </input>
+                      <group ref="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                        <input ref="/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id">
+                          <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                        </input>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+            <group ref="/referral_town_hall_followup/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/contact:label')"/>
+              <input appearance="db-object bind-id-only" ref="/referral_town_hall_followup/inputs/contact/parent/parent/contact/_id">
+                <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/contact/_id:label')"/>
+              </input>
+              <input ref="/referral_town_hall_followup/inputs/contact/parent/parent/contact/name">
+                <label ref="jr:itext('/referral_town_hall_followup/inputs/contact/parent/parent/contact/name:label')"/>
+              </input>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list summary" ref="/referral_town_hall_followup/patient_infos">
+      <label ref="jr:itext('/referral_town_hall_followup/patient_infos:label')"/>
+      <input appearance="li" ref="/referral_town_hall_followup/patient_infos/i_patient_family_name">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/i_patient_family_name:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_town_hall_followup/patient_infos/i_patient_family_ext_id">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/i_patient_family_ext_id:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_town_hall_followup/patient_infos/i_patient_name">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/i_patient_name:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_town_hall_followup/patient_infos/i_patient_sexe">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/i_patient_sexe:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_town_hall_followup/patient_infos/i_code_patient">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/i_code_patient:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_town_hall_followup/patient_infos/i_patient_info_age">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/i_patient_info_age:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/referral_town_hall_followup/patient_infos/c_went_town_hall">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_went_town_hall:label')"/>
+        <item>
+          <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_went_town_hall/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_went_town_hall/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/referral_town_hall_followup/patient_infos/c_no_went_town_hall">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_no_went_town_hall:label')"/>
+        <item>
+          <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_no_went_town_hall/refusal:label')"/>
+          <value>refusal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_no_went_town_hall/no_time:label')"/>
+          <value>no_time</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_no_went_town_hall/no_money:label')"/>
+          <value>no_money</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_no_went_town_hall/town_hall_too_far:label')"/>
+          <value>town_hall_too_far</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_no_went_town_hall/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/referral_town_hall_followup/patient_infos/c_no_went_town_hall_other">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_no_went_town_hall_other:label')"/>
+      </input>
+      <select1 ref="/referral_town_hall_followup/patient_infos/c_birth_certificate_status">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_birth_certificate_status:label')"/>
+        <item>
+          <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_birth_certificate_status/delivered:label')"/>
+          <value>delivered</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_birth_certificate_status/in_progress:label')"/>
+          <value>in_progress</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_birth_certificate_status/date_postponed:label')"/>
+          <value>date_postponed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_birth_certificate_status/issue_refusal:label')"/>
+          <value>issue_refusal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_birth_certificate_status/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/referral_town_hall_followup/patient_infos/c_birth_certificate_status_other">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/c_birth_certificate_status_other:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/referral_town_hall_followup/patient_infos/s_refer_USP">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/s_refer_USP:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_town_hall_followup/patient_infos/s_refer_HC">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/s_refer_HC:label')"/>
+      </input>
+      <select1 ref="/referral_town_hall_followup/patient_infos/s_referal_town_hall">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/s_referal_town_hall:label')"/>
+        <item>
+          <label ref="jr:itext('/referral_town_hall_followup/patient_infos/s_referal_town_hall/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_town_hall_followup/patient_infos/s_referal_town_hall/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input appearance="h1 green" ref="/referral_town_hall_followup/patient_infos/followup">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/followup:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_town_hall_followup/patient_infos/s_next_visit_date">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/s_next_visit_date:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_town_hall_followup/patient_infos/s_no_next_visit">
+        <label ref="jr:itext('/referral_town_hall_followup/patient_infos/s_no_next_visit:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

@@ -1,0 +1,2104 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>CONSULTATION ADULTE</h:title>
+    <model>
+      <itext>
+        <translation lang="fr">
+          <text id="/adult_consulation/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/adult_consulation/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/adult_consulation/inputs/user:label">
+            <value>User</value>
+          </text>
+          <text id="/adult_consulation/inputs/user/contact_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/adult_consulation/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/adult_consulation/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/adult_consulation/inputs/user/role:label">
+            <value>Role</value>
+          </text>
+          <text id="/adult_consulation/inputs/user/external_id:label">
+            <value>ID Externe</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/contact:label">
+            <value>Information du RECO</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/adult_consulation/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/adult_consulation/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/adult_consulation/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/adult_consulation/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/adult_consulation/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/adult_consulation/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/adult_consulation/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/adult_consulation/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/adult_consulation/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/adult_consulation/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/adult_consulation/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/adult_consulation/patient_family_name:label">
+            <value>Nom du ménage</value>
+          </text>
+          <text id="/adult_consulation/patient_family_external_id:label">
+            <value>Numéro du ménage</value>
+          </text>
+          <text id="/adult_consulation/visited_contact_uuid:label">
+            <value>Identifiant de la famille</value>
+          </text>
+          <text id="/adult_consulation/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/adult_consulation/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/adult_consulation/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/adult_consulation/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/adult_consulation/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/adult_consulation/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/adult_consulation/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/adult_consulation/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation:label">
+            <value>Moment de la consultation</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude:label">
+            <value>Evolution de la maladie</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/1:label">
+            <value>1 jour</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/2:label">
+            <value>2 jours</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/3:label">
+            <value>3 jours</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/4:label">
+            <value>4 jours</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/5:label">
+            <value>5 jours</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/6:label">
+            <value>6 jours</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/7:label">
+            <value>7 jours</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/8:label">
+            <value>8 jours</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/9:label">
+            <value>9 jours</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/10:label">
+            <value>10 jours</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/11:label">
+            <value>11 jours</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/12:label">
+            <value>12 jours</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/13:label">
+            <value>13 jours</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/14:label">
+            <value>14 jours</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/more_than_14:label">
+            <value>plus de 14 jours</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif:label">
+            <value>Motifs de consultation</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif:label">
+            <value>Choisir le Motif de la visite</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/fever:label">
+            <value>Fièvre (Corps chaud)</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/diarrhea:label">
+            <value>Diarrhées simples</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/bloody_diarrhea:label">
+            <value>Diarrhées sanglantes</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/cough_or_cold:label">
+            <value>Toux ou Rhume</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/suspected_tb:label">
+            <value>Cas suspects de TB</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/dermatosis:label">
+            <value>Dermatose</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/urethral_discharge:label">
+            <value>Ecoulement uretale</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/vaginal_discharge:label">
+            <value>Ecoulement vaginal</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/loss_of_urine:label">
+            <value>Perte urinaire</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/oral_and_dental_diseases:label">
+            <value>Maladies bucco-dentaires</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/measles:label">
+            <value>Rougeole</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/trauma:label">
+            <value>Traumatisme</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/gender_based_violence:label">
+            <value>Violence basées sur le genre (VBG)</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/others:label">
+            <value>Autre</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_other_motif:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_other_motif:label">
+            <value>Saisir l'autre motif</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation:label">
+            <value>Consultation Adulte</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature_taken:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature_taken:label">
+            <value>Avez-vous pris la température de l'enfant?</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature_taken/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature_taken/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_no_take_temperature:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_no_take_temperature:label">
+            <value>Pourquoi la température n'est pas prise?</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_no_take_temperature/no_thermo:label">
+            <value>Pas de thermomètre fonctionnel</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_no_take_temperature/not_necessary:label">
+            <value>Pas besoin vu la situation</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_no_take_temperature/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_no_take_temperature_other:label">
+            <value>Saisir l'autre raison</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature:jr:constraintMsg">
+            <value>La température doit être comprise entre 34 °C et 43 °C</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature:label">
+            <value>Quelle est la température du patient ?</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature_normal:label">
+            <value>&lt;b style="color: green;"&gt;Température normale&lt;/b&gt;</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature_low:label">
+            <value>&lt;b style="color: rgb(170, 170, 0);"&gt;Hypothermie détectée&lt;/b&gt;</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature_hight:label">
+            <value>&lt;b style="color: red;"&gt;Hyperthermie détectée&lt;/b&gt;</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_given:label">
+            <value>Avez-vous fait le TDR au patient?</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_given/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_given/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_not_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_not_given:label">
+            <value>Pourquoi le TDR n'a pas été effectué ?</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_not_given/breaking:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_not_given/personal_decision:label">
+            <value>Décision personnelle</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_not_given/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_not_given_other:label">
+            <value>Saisir l'autre raison</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_result:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_result:label">
+            <value>Résultat du TDR</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_result/positive:label">
+            <value>Positif</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_result/negative:label">
+            <value>Négatif</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_is_pregnant_woman:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_is_pregnant_woman:label">
+            <value>Est ce une femme enceinte ?</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_is_pregnant_woman/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_is_pregnant_woman/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_must_referral:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_must_referral:label">
+            <value>L'état du patient nécéssite t'il une référence ?</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_must_referral/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_must_referral/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/adult_consulation/c_drugs:label">
+            <value>Médicaments et Posologie</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_cta_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_cta_given:label">
+            <value>Quel type de CTA avez-vous donné?</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_cta_given/cta_nn:label">
+            <value>CTA:AL(NN)</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_cta_given/cta_pe:label">
+            <value>CTA:AL(PE)</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_cta_given/cta_ge:label">
+            <value>CTA:AL(GE)</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_cta_given/cta_ad:label">
+            <value>CTA:AL(AD)</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_cta_given/no:label">
+            <value>Non donné</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_cta:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_cta:label">
+            <value>Pourquoi CTA n'est pas donné?</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_cta/breaking:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_cta/contraindication:label">
+            <value>Contre-indication</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_cta_given:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_cta_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_cta_given:label">
+            <value>Quantité CTA donné &lt;b style="color:blue;"&gt;(Blister)&lt;/b&gt;</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_amoxicillin_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_amoxicillin_given:label">
+            <value>Quel type d'Amoxicilline avez-vous donné?</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_amoxicillin_given/250mg:label">
+            <value>250 mg</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_amoxicillin_given/500mg:label">
+            <value>500 mg</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_amoxicillin_given/no:label">
+            <value>Non donné</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_amoxicllin:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_amoxicllin:label">
+            <value>Pourquoi Amoxiciline n'est pas donné?</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_amoxicllin/breaking:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_amoxicllin/contraindication:label">
+            <value>Contre-indication</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_amoxicillin_given:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_amoxicillin_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_amoxicillin_given:label">
+            <value>Quantité Amoxicilline donnée &lt;b style="color:blue;"&gt;(comprimé)&lt;/b&gt;</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_paracetamol_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_paracetamol_given:label">
+            <value>Quel type de Paracetamol avez-vous donné ?</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_paracetamol_given/100mg:label">
+            <value>100 mg</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_paracetamol_given/250mg:label">
+            <value>250 mg</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_paracetamol_given/500mg:label">
+            <value>500 mg</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_paracetamol_given/no:label">
+            <value>Non donné</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_paracetamol:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_paracetamol:label">
+            <value>Pourquoi Paracetamol n'est pas donné?</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_paracetamol/breaking:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_paracetamol/contraindication:label">
+            <value>Contre-indication</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_paracetamol_given:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_paracetamol_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_paracetamol_given:label">
+            <value>Quantité Paracetamol donnée</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_ors_and_zinc_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_ors_and_zinc_given:label">
+            <value>Avez-vous donné SRO et Zinc ?</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_ors_and_zinc_given/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_ors_and_zinc_given/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_ors_zinc:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_ors_zinc:label">
+            <value>Pourquoi SRO / ZINC n'est pas donné?</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_ors_zinc/breaking:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_ors_zinc/contraindication:label">
+            <value>Contre-indication</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_ors_given:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_ors_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_ors_given:label">
+            <value>Quantité SRO donnée</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_zinc_given:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_zinc_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_zinc_given:label">
+            <value>Quantité Zinc donnée</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_mebendazole_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_mebendazole_given:label">
+            <value>Quel type de Mebendazole avez-vous donné ?</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_mebendazole_given/250mg:label">
+            <value>250 mg</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_mebendazole_given/500mg:label">
+            <value>500 mg</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_mebendazole_given/no:label">
+            <value>Non donné</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_mebendazole:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_mebendazole:label">
+            <value>Pourquoi Mebendazole n'est pas donné?</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_mebendazole/breaking:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_mebendazole/contraindication:label">
+            <value>Contre-indication</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_mebendazole_given:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_mebendazole_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_mebendazole_given:label">
+            <value>Quantité Mebendazole donnée</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_summary:label">
+            <value>Détails du Patient &lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /adult_consulation/patient_name "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /adult_consulation/patient_sex_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /adult_consulation/patient_age_display_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_refer_USP:label">
+            <value>Référence vers une formation sanitaire</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_refer_FS_danger_signs:label">
+            <value>Veuillez référer le patient pour **problème de santé**</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_referal_health_center:label">
+            <value>Selectionner le centre de santé de référence</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_referal_health_center/health_center:label">
+            <value>Centre de santé</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_referal_health_center/health_poste:label">
+            <value>Poste de santé</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_referal_health_center/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_other_referal_health_center:label">
+            <value>Saisir le nom de la formation sanitaire de référence</value>
+          </text>
+          <text id="/adult_consulation/group_review/followup:label">
+            <value>Suivi</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_referal_followup:label">
+            <value>La vérification de l'etat de santé du patient est dans **3 jours**</value>
+          </text>
+          <text id="/adult_consulation/patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/adult_consulation/patient_name:label">
+            <value>-</value>
+          </text>
+          <text id="/adult_consulation/patient_external_id:label">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation lang="en">
+          <text id="/adult_consulation/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/adult_consulation/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/adult_consulation/inputs/user:label">
+            <value>User</value>
+          </text>
+          <text id="/adult_consulation/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/adult_consulation/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/adult_consulation/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/adult_consulation/inputs/user/role:label">
+            <value>Role</value>
+          </text>
+          <text id="/adult_consulation/inputs/user/external_id:label">
+            <value>Externa Id</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/adult_consulation/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/adult_consulation/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/adult_consulation/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/adult_consulation/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/adult_consulation/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/adult_consulation/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/adult_consulation/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/adult_consulation/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/adult_consulation/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/adult_consulation/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/adult_consulation/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/adult_consulation/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/adult_consulation/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/adult_consulation/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/adult_consulation/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/adult_consulation/patient_family_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/adult_consulation/patient_family_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/adult_consulation/visited_contact_uuid:label">
+            <value>Family Id</value>
+          </text>
+          <text id="/adult_consulation/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/adult_consulation/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/adult_consulation/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/adult_consulation/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/adult_consulation/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/adult_consulation/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/adult_consulation/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/adult_consulation/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation:label">
+            <value>Time of consultation</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude:label">
+            <value>Disease Evolution</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/1:label">
+            <value>1 day</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/2:label">
+            <value>2 days</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/3:label">
+            <value>3 days</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/4:label">
+            <value>4 days</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/5:label">
+            <value>5 days</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/6:label">
+            <value>6 days</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/7:label">
+            <value>7 days</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/8:label">
+            <value>8 days</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/9:label">
+            <value>9 days</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/10:label">
+            <value>10 days</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/11:label">
+            <value>11 days</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/12:label">
+            <value>12 days</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/13:label">
+            <value>13 days</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/14:label">
+            <value>14 days</value>
+          </text>
+          <text id="/adult_consulation/c_time_of_consultation/c_promptitude/more_than_14:label">
+            <value>plus de 14 jours</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif:label">
+            <value>Adult consultation motif</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif:label">
+            <value>Visit Motif</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/fever:label">
+            <value>Fever</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/diarrhea:label">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/bloody_diarrhea:label">
+            <value>Bloody diarrhoea</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/cough_or_cold:label">
+            <value>Cough or cold</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/suspected_tb:label">
+            <value>Suspected TB</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/dermatosis:label">
+            <value>Dermatosis</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/urethral_discharge:label">
+            <value>Urethral discharge</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/vaginal_discharge:label">
+            <value>Vaginal discharge</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/loss_of_urine:label">
+            <value>Loss of urine</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/oral_and_dental_diseases:label">
+            <value>Oral and dental diseases</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/measles:label">
+            <value>Measles</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/trauma:label">
+            <value>Trauma</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/gender_based_violence:label">
+            <value>Gender-based violence (GBV)</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_visit_motif/others:label">
+            <value>Other</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_other_motif:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation_motif/c_other_motif:label">
+            <value>Other Motif</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation:label">
+            <value>Adult consultation</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature_taken:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature_taken:label">
+            <value>Have you taken the child's temperature?</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature_taken/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature_taken/no:label">
+            <value>No</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_no_take_temperature:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_no_take_temperature:label">
+            <value>Why ?</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_no_take_temperature/no_thermo:label">
+            <value>No working thermometer</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_no_take_temperature/not_necessary:label">
+            <value>No need given the situation</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_no_take_temperature/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_no_take_temperature_other:label">
+            <value>Write Other</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature:jr:constraintMsg">
+            <value>This must between 34 °C and 43 °C</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature:label">
+            <value>What is the patient's temperature?</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature_normal:label">
+            <value>&lt;b style="color: green;"&gt;Température normale&lt;/b&gt;</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature_low:label">
+            <value>&lt;b style="color: yellow;"&gt;Hypothermie détectée&lt;/b&gt;</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_temperature_hight:label">
+            <value>&lt;b style="color: red;"&gt;Hyperthermie détectée&lt;/b&gt;</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_given:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_given:label">
+            <value>Have you given the patient the RDT?</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_given/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_given/no:label">
+            <value>No</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_not_given:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_not_given:label">
+            <value>Why was the TDR not carried out?</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_not_given/breaking:label">
+            <value>Breaking</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_not_given/personal_decision:label">
+            <value>Personal decision</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_not_given/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_not_given_other:label">
+            <value>Write Other</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_result:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_result:label">
+            <value>TDR results</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_result/positive:label">
+            <value>Positive</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_rdt_result/negative:label">
+            <value>Negative</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_is_pregnant_woman:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_is_pregnant_woman:label">
+            <value>Is this a pregnant woman?</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_is_pregnant_woman/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_is_pregnant_woman/no:label">
+            <value>No</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_must_referral:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_must_referral:label">
+            <value>Does the patient's condition require a referral?</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_must_referral/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/adult_consulation/c_adt_consultation/c_must_referral/no:label">
+            <value>No</value>
+          </text>
+          <text id="/adult_consulation/c_drugs:label">
+            <value>Medications and Dosage</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_cta_given:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_cta_given:label">
+            <value>Did you give CTA?</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_cta_given/cta_nn:label">
+            <value>CTA:AL(NN)</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_cta_given/cta_pe:label">
+            <value>CTA:AL(PE)</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_cta_given/cta_ge:label">
+            <value>CTA:AL(GE)</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_cta_given/cta_ad:label">
+            <value>CTA:AL(AD)</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_cta_given/no:label">
+            <value>Not given</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_cta:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_cta:label">
+            <value>Reason</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_cta/breaking:label">
+            <value>Breaking</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_cta/contraindication:label">
+            <value>Contraindication</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_cta_given:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_cta_given:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_cta_given:label">
+            <value>Quantity CTA give</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_amoxicillin_given:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_amoxicillin_given:label">
+            <value>What type of Amoxicillin did you give?</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_amoxicillin_given/250mg:label">
+            <value>250 mg</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_amoxicillin_given/500mg:label">
+            <value>500 mg</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_amoxicillin_given/no:label">
+            <value>Not give</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_amoxicllin:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_amoxicllin:label">
+            <value>Reason</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_amoxicllin/breaking:label">
+            <value>Breaking</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_amoxicllin/contraindication:label">
+            <value>Contraindication</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_amoxicillin_given:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_amoxicillin_given:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_amoxicillin_given:label">
+            <value>Quantity Amoxicillin 250 mg given</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_paracetamol_given:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_paracetamol_given:label">
+            <value>What type of Paracetamol did you give?</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_paracetamol_given/100mg:label">
+            <value>100 mg</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_paracetamol_given/250mg:label">
+            <value>250 mg</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_paracetamol_given/500mg:label">
+            <value>500 mg</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_paracetamol_given/no:label">
+            <value>Not given</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_paracetamol:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_paracetamol:label">
+            <value>Reason</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_paracetamol/breaking:label">
+            <value>Breaking</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_paracetamol/contraindication:label">
+            <value>Contraindication</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_paracetamol_given:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_paracetamol_given:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_paracetamol_given:label">
+            <value>Quantity Paracetamol given</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_ors_and_zinc_given:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_ors_and_zinc_given:label">
+            <value>Did you give ORS and Zinc</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_ors_and_zinc_given/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_ors_and_zinc_given/no:label">
+            <value>No</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_ors_zinc:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_ors_zinc:label">
+            <value>Reason</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_ors_zinc/breaking:label">
+            <value>Breaking</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_ors_zinc/contraindication:label">
+            <value>Contraindication</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_ors_given:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_ors_given:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_ors_given:label">
+            <value>Quantity ORS given</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_zinc_given:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_zinc_given:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_zinc_given:label">
+            <value>Quantity Zinc given</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_mebendazole_given:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_mebendazole_given:label">
+            <value>Did you give Mebendazole?</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_mebendazole_given/250mg:label">
+            <value>250 mg</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_mebendazole_given/500mg:label">
+            <value>500 mg</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_mebendazole_given/no:label">
+            <value>Not give</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_mebendazole:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_mebendazole:label">
+            <value>Reason</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_mebendazole/breaking:label">
+            <value>Breaking</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_reason_mebendazole/contraindication:label">
+            <value>Contraindication</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_mebendazole_given:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_mebendazole_given:jr:requiredMsg">
+            <value>This field is requiered</value>
+          </text>
+          <text id="/adult_consulation/c_drugs/c_quantity_mebendazole_given:label">
+            <value>Quantity Mebendazole 250 mg given</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_summary:label">
+            <value>Patient Summary&lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /adult_consulation/patient_name "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /adult_consulation/patient_sex_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /adult_consulation/patient_age_display_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_refer_USP:label">
+            <value>Referral to a health facility</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_refer_FS_danger_signs:label">
+            <value>Please refer the patient for **presence of danger signs**</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_referal_health_center:label">
+            <value>Select the reference health center</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_referal_health_center/health_center:label">
+            <value>Health center</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_referal_health_center/health_poste:label">
+            <value>Health poste</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_referal_health_center/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_other_referal_health_center:label">
+            <value>Enter the name of the reference health facility</value>
+          </text>
+          <text id="/adult_consulation/group_review/followup:label">
+            <value>Follow up</value>
+          </text>
+          <text id="/adult_consulation/group_review/s_referal_followup:label">
+            <value>The reference follow-up visit is in **3 days**</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <adult_consulation id="adult_consulation" prefix="J1!adult_consulation!" delimiter="#" version="2024-08-17  11-37">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+              <role/>
+              <external_id/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <sex/>
+              <date_of_birth/>
+              <external_id/>
+              <parent>
+                <_id/>
+                <name/>
+                <external_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                  <contact>
+                    <_id/>
+                    <name/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_name/>
+          <patient_external_id/>
+          <patient_sex/>
+          <patient_date_of_birth/>
+          <patient_age_in_years/>
+          <patient_age_in_months/>
+          <patient_age_in_days/>
+          <patient_age_display_fr/>
+          <patient_age_display_en/>
+          <patient_sex_en/>
+          <patient_sex_fr/>
+          <patient_family_name/>
+          <patient_family_external_id/>
+          <visited_contact_uuid/>
+          <household_id/>
+          <village_secteur_id/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <promptitude/>
+          <visit_motif/>
+          <other_motif/>
+          <has_malaria/>
+          <has_fever/>
+          <has_diarrhea/>
+          <has_cough_cold/>
+          <rdt_given/>
+          <rdt_result/>
+          <cta_nn_quantity/>
+          <cta_pe_quantity/>
+          <cta_ge_quantity/>
+          <cta_ad_quantity/>
+          <cta_quantity/>
+          <cta_given/>
+          <amoxicillin_250mg_quantity/>
+          <amoxicillin_500mg_quantity/>
+          <paracetamol_100mg_quantity/>
+          <paracetamol_250mg_quantity/>
+          <paracetamol_500mg_quantity/>
+          <mebendazole_250mg_quantity/>
+          <mebendazole_500mg_quantity/>
+          <ors_quantity/>
+          <zinc_quantity/>
+          <is_pregnant/>
+          <is_referred/>
+          <c_time_of_consultation>
+            <c_promptitude/>
+          </c_time_of_consultation>
+          <c_adt_consultation_motif>
+            <c_visit_motif/>
+            <c_other_motif/>
+          </c_adt_consultation_motif>
+          <c_adt_consultation>
+            <c_temperature_taken/>
+            <c_no_take_temperature/>
+            <c_no_take_temperature_other/>
+            <c_temperature/>
+            <c_temperature_normal/>
+            <c_temperature_low/>
+            <c_temperature_hight/>
+            <c_rdt_given/>
+            <c_rdt_not_given/>
+            <c_rdt_not_given_other/>
+            <c_rdt_result/>
+            <c_is_pregnant_woman/>
+            <c_must_referral/>
+          </c_adt_consultation>
+          <c_drugs>
+            <c_cta_given/>
+            <c_reason_cta/>
+            <c_quantity_cta_given/>
+            <c_amoxicillin_given/>
+            <c_reason_amoxicllin/>
+            <c_quantity_amoxicillin_given/>
+            <c_paracetamol_given/>
+            <c_reason_paracetamol/>
+            <c_quantity_paracetamol_given/>
+            <c_ors_and_zinc_given/>
+            <c_reason_ors_zinc/>
+            <c_quantity_ors_given>0</c_quantity_ors_given>
+            <c_quantity_zinc_given>0</c_quantity_zinc_given>
+            <c_mebendazole_given/>
+            <c_reason_mebendazole/>
+            <c_quantity_mebendazole_given/>
+          </c_drugs>
+          <group_review>
+            <s_summary/>
+            <s_patient_info_name/>
+            <s_patient_info_sex/>
+            <s_patient_info_age/>
+            <s_refer_USP/>
+            <s_refer_FS_danger_signs/>
+            <s_referal_health_center/>
+            <s_other_referal_health_center/>
+            <followup/>
+            <s_referal_followup/>
+          </group_review>
+          <meta>
+            <instanceID/>
+          </meta>
+        </adult_consulation>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/adult_consulation/inputs/source" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/source_id" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/adult_consulation/inputs/user/name" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/user/phone" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/user/role" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/user/external_id" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/_id" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/name" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/sex" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/external_id" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/parent/_id" type="db:person"/>
+      <bind nodeset="/adult_consulation/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/parent/external_id" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/parent/parent/contact/_id" type="string"/>
+      <bind nodeset="/adult_consulation/inputs/contact/parent/parent/contact/name" type="string"/>
+      <bind nodeset="/adult_consulation/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/adult_consulation/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/adult_consulation/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/adult_consulation/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/adult_consulation/patient_external_id" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/adult_consulation/patient_sex" type="string" calculate="../inputs/contact/sex"/>
+      <bind nodeset="/adult_consulation/patient_date_of_birth" type="string" calculate="../inputs/contact/date_of_birth"/>
+      <bind nodeset="/adult_consulation/patient_age_in_years" type="string" calculate="if (  /adult_consulation/inputs/contact/date_of_birth  = '', '', floor( difference-in-months(  /adult_consulation/inputs/contact/date_of_birth , today() ) div 12 ) )"/>
+      <bind nodeset="/adult_consulation/patient_age_in_months" type="string" calculate="difference-in-months(  /adult_consulation/inputs/contact/date_of_birth , today() )"/>
+      <bind nodeset="/adult_consulation/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time( /adult_consulation/inputs/contact/date_of_birth ) )"/>
+      <bind nodeset="/adult_consulation/patient_age_display_fr" type="string" calculate="concat(concat( /adult_consulation/patient_age_in_years , if( /adult_consulation/patient_age_in_years  =1,' an et ',' ans et ')),concat( /adult_consulation/patient_age_in_months  mod 12, if(( /adult_consulation/patient_age_in_months  mod 12)=1,' mois',' mois')))"/>
+      <bind nodeset="/adult_consulation/patient_age_display_en" type="string" calculate="concat(concat( /adult_consulation/patient_age_in_years , if( /adult_consulation/patient_age_in_years  =1,' year and ',' years and ')),concat( /adult_consulation/patient_age_in_months  mod 12, if(( /adult_consulation/patient_age_in_months  mod 12)=1,' month old',' months old')))"/>
+      <bind nodeset="/adult_consulation/patient_sex_en" type="string" calculate="if( /adult_consulation/inputs/contact/sex  = 'male' or  /adult_consulation/inputs/contact/sex  = 'homme' or  /adult_consulation/inputs/contact/sex  = 'Homme', 'Male', if( /adult_consulation/inputs/contact/sex  = 'female' or  /adult_consulation/inputs/contact/sex  = 'femme' or  /adult_consulation/inputs/contact/sex  = 'Femme', 'Female', ''))"/>
+      <bind nodeset="/adult_consulation/patient_sex_fr" type="string" calculate="if( /adult_consulation/inputs/contact/sex  = 'male' or  /adult_consulation/inputs/contact/sex  = 'homme' or  /adult_consulation/inputs/contact/sex  = 'Homme', 'Masculin', if( /adult_consulation/inputs/contact/sex  = 'female' or  /adult_consulation/inputs/contact/sex  = 'femme' or  /adult_consulation/inputs/contact/sex  = 'Femme', 'Féminin', ''))"/>
+      <bind nodeset="/adult_consulation/patient_family_name" type="string" calculate="../inputs/contact/parent/name"/>
+      <bind nodeset="/adult_consulation/patient_family_external_id" type="string" calculate="../inputs/contact/parent/external_id"/>
+      <bind nodeset="/adult_consulation/visited_contact_uuid" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/adult_consulation/household_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/adult_consulation/village_secteur_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/adult_consulation/district_quartier_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/adult_consulation/hospital_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/adult_consulation/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/adult_consulation/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/adult_consulation/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/adult_consulation/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/adult_consulation/promptitude" type="string" calculate=" /adult_consulation/c_time_of_consultation/c_promptitude "/>
+      <bind nodeset="/adult_consulation/visit_motif" type="string" calculate=" /adult_consulation/c_adt_consultation_motif/c_visit_motif "/>
+      <bind nodeset="/adult_consulation/other_motif" type="string" calculate=" /adult_consulation/c_adt_consultation_motif/c_other_motif "/>
+      <bind nodeset="/adult_consulation/has_malaria" type="string" calculate="if(selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'fever') and  /adult_consulation/c_adt_consultation/c_rdt_result  = 'positive','true','false')"/>
+      <bind nodeset="/adult_consulation/has_fever" type="string" calculate="if(selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'fever'),'true','false')"/>
+      <bind nodeset="/adult_consulation/has_diarrhea" type="string" calculate="if(selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'diarrhea'),'true','false')"/>
+      <bind nodeset="/adult_consulation/has_cough_cold" type="string" calculate="if(selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'cough_or_cold'),'true','false')"/>
+      <bind nodeset="/adult_consulation/rdt_given" type="string" calculate=" /adult_consulation/c_adt_consultation/c_rdt_given "/>
+      <bind nodeset="/adult_consulation/rdt_result" type="string" calculate=" /adult_consulation/c_adt_consultation/c_rdt_result "/>
+      <bind nodeset="/adult_consulation/cta_nn_quantity" type="string" calculate="if( /adult_consulation/c_drugs/c_cta_given  = 'cta_nn', /adult_consulation/c_drugs/c_quantity_cta_given ,0)"/>
+      <bind nodeset="/adult_consulation/cta_pe_quantity" type="string" calculate="if( /adult_consulation/c_drugs/c_cta_given  = 'cta_pe', /adult_consulation/c_drugs/c_quantity_cta_given ,0)"/>
+      <bind nodeset="/adult_consulation/cta_ge_quantity" type="string" calculate="if( /adult_consulation/c_drugs/c_cta_given  = 'cta_ge', /adult_consulation/c_drugs/c_quantity_cta_given ,0)"/>
+      <bind nodeset="/adult_consulation/cta_ad_quantity" type="string" calculate="if( /adult_consulation/c_drugs/c_cta_given  = 'cta_ad', /adult_consulation/c_drugs/c_quantity_cta_given ,0)"/>
+      <bind nodeset="/adult_consulation/cta_quantity" type="string" calculate=" /adult_consulation/cta_nn_quantity  +  /adult_consulation/cta_pe_quantity  +  /adult_consulation/cta_ge_quantity  +  /adult_consulation/cta_ad_quantity "/>
+      <bind nodeset="/adult_consulation/cta_given" type="string" calculate="if( /adult_consulation/c_drugs/c_cta_given  = 'cta_nn' or  /adult_consulation/c_drugs/c_cta_given  = 'cta_pe' or  /adult_consulation/c_drugs/c_cta_given  = 'cta_ge' or  /adult_consulation/c_drugs/c_cta_given  = 'cta_ad', 'true', 'false')"/>
+      <bind nodeset="/adult_consulation/amoxicillin_250mg_quantity" type="string" calculate="if( /adult_consulation/c_drugs/c_amoxicillin_given  = '250mg', /adult_consulation/c_drugs/c_quantity_amoxicillin_given ,'')"/>
+      <bind nodeset="/adult_consulation/amoxicillin_500mg_quantity" type="string" calculate="if( /adult_consulation/c_drugs/c_amoxicillin_given  = '500mg', /adult_consulation/c_drugs/c_quantity_amoxicillin_given ,'')"/>
+      <bind nodeset="/adult_consulation/paracetamol_100mg_quantity" type="string" calculate="if( /adult_consulation/c_drugs/c_paracetamol_given  = '100mg', /adult_consulation/c_drugs/c_quantity_paracetamol_given ,'')"/>
+      <bind nodeset="/adult_consulation/paracetamol_250mg_quantity" type="string" calculate="if( /adult_consulation/c_drugs/c_paracetamol_given  = '250mg', /adult_consulation/c_drugs/c_quantity_paracetamol_given ,'')"/>
+      <bind nodeset="/adult_consulation/paracetamol_500mg_quantity" type="string" calculate="if( /adult_consulation/c_drugs/c_paracetamol_given  = '500mg', /adult_consulation/c_drugs/c_quantity_paracetamol_given ,'')"/>
+      <bind nodeset="/adult_consulation/mebendazole_250mg_quantity" type="string" calculate="if( /adult_consulation/c_drugs/c_mebendazole_given  = '250mg', /adult_consulation/c_drugs/c_quantity_mebendazole_given ,'')"/>
+      <bind nodeset="/adult_consulation/mebendazole_500mg_quantity" type="string" calculate="if( /adult_consulation/c_drugs/c_mebendazole_given  = '500mg', /adult_consulation/c_drugs/c_quantity_mebendazole_given ,'')"/>
+      <bind nodeset="/adult_consulation/ors_quantity" type="string" calculate=" /adult_consulation/c_drugs/c_quantity_ors_given "/>
+      <bind nodeset="/adult_consulation/zinc_quantity" type="string" calculate=" /adult_consulation/c_drugs/c_quantity_zinc_given "/>
+      <bind nodeset="/adult_consulation/is_pregnant" type="string" calculate="if( /adult_consulation/c_adt_consultation/c_is_pregnant_woman  = 'yes','true','false')"/>
+      <bind nodeset="/adult_consulation/is_referred" type="string" calculate="if( /adult_consulation/c_adt_consultation/c_must_referral  = 'yes','true','false')"/>
+      <bind nodeset="/adult_consulation/c_time_of_consultation/c_promptitude" type="select1" required="true()" jr:requiredMsg="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation_motif/c_visit_motif" type="select" required="true()" jr:requiredMsg="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation_motif/c_other_motif" type="string" required="true()" relevant="selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'others')" jr:requiredMsg="jr:itext('/adult_consulation/c_adt_consultation_motif/c_other_motif:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation/c_temperature_taken" type="select1" required="true()" relevant="selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'fever')" jr:requiredMsg="jr:itext('/adult_consulation/c_adt_consultation/c_temperature_taken:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation/c_no_take_temperature" type="select1" required="true()" relevant="selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'fever') and  /adult_consulation/c_adt_consultation/c_temperature_taken  = 'no'" jr:requiredMsg="jr:itext('/adult_consulation/c_adt_consultation/c_no_take_temperature:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation/c_no_take_temperature_other" type="string" relevant="selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'fever') and  /adult_consulation/c_adt_consultation/c_temperature_taken  = 'no' and  /adult_consulation/c_adt_consultation/c_no_take_temperature  = 'others'"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation/c_temperature" type="decimal" constraint=". &gt; 34 and . &lt; 43" jr:requiredMsg="jr:itext('/adult_consulation/c_adt_consultation/c_temperature:jr:requiredMsg')" jr:constraintMsg="jr:itext('/adult_consulation/c_adt_consultation/c_temperature:jr:constraintMsg')" required="true()" relevant="selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'fever') and  /adult_consulation/c_adt_consultation/c_temperature_taken  = 'yes'"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation/c_temperature_normal" readonly="true()" type="string" relevant="selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'fever') and  /adult_consulation/c_adt_consultation/c_temperature_taken  = 'yes' and ../c_temperature &gt;= 36.5 and ../c_temperature &lt;= 37.5"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation/c_temperature_low" readonly="true()" type="string" relevant="selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'fever') and  /adult_consulation/c_adt_consultation/c_temperature_taken  = 'yes' and ../c_temperature &lt; 36.5"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation/c_temperature_hight" readonly="true()" type="string" relevant="selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'fever') and  /adult_consulation/c_adt_consultation/c_temperature_taken  = 'yes' and ../c_temperature &gt; 37.5"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation/c_rdt_given" type="select1" required="true()" relevant="selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'fever') and  /adult_consulation/c_adt_consultation/c_temperature  &gt; 37.5" jr:requiredMsg="jr:itext('/adult_consulation/c_adt_consultation/c_rdt_given:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation/c_rdt_not_given" type="select1" required="true()" relevant="selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'fever') and  /adult_consulation/c_adt_consultation/c_temperature  &gt; 37.5 and ../c_rdt_given = 'no'" jr:requiredMsg="jr:itext('/adult_consulation/c_adt_consultation/c_rdt_not_given:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation/c_rdt_not_given_other" type="string" relevant="selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'fever') and  /adult_consulation/c_adt_consultation/c_temperature  &gt; 37.5 and ../c_rdt_given = 'no' and  /adult_consulation/c_adt_consultation/c_rdt_not_given  = 'others'"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation/c_rdt_result" type="select1" required="true()" relevant="selected( /adult_consulation/c_adt_consultation_motif/c_visit_motif , 'fever') and selected( /adult_consulation/c_adt_consultation/c_rdt_given ,'yes') and  /adult_consulation/c_adt_consultation/c_temperature  &gt; 37.5" jr:requiredMsg="jr:itext('/adult_consulation/c_adt_consultation/c_rdt_result:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation/c_is_pregnant_woman" type="select1" required="true()" relevant="( /adult_consulation/inputs/contact/sex  = 'female' or  /adult_consulation/inputs/contact/sex  = 'femme' or  /adult_consulation/inputs/contact/sex  = 'Femme') and  /adult_consulation/patient_age_in_years  &gt;= 12" jr:requiredMsg="jr:itext('/adult_consulation/c_adt_consultation/c_is_pregnant_woman:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_adt_consultation/c_must_referral" type="select1" required="true()" relevant=" /adult_consulation/c_adt_consultation_motif/c_visit_motif  != ''" jr:requiredMsg="jr:itext('/adult_consulation/c_adt_consultation/c_must_referral:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_cta_given" type="select1" required="true()" relevant=" /adult_consulation/has_malaria  = 'true'" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_cta_given:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_reason_cta" type="select1" required="true()" relevant=" /adult_consulation/c_drugs/c_cta_given  = 'no'" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_reason_cta:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_quantity_cta_given" type="int" constraint=". &gt;= 0" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_quantity_cta_given:jr:requiredMsg')" jr:constraintMsg="jr:itext('/adult_consulation/c_drugs/c_quantity_cta_given:jr:constraintMsg')" required="true()" relevant=" /adult_consulation/c_drugs/c_cta_given  = 'cta_nn' or  /adult_consulation/c_drugs/c_cta_given  = 'cta_pe' or  /adult_consulation/c_drugs/c_cta_given  = 'cta_ge' or  /adult_consulation/c_drugs/c_cta_given  = 'cta_ad'"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_amoxicillin_given" type="select1" required="true()" relevant=" /adult_consulation/has_cough_cold  = 'true'" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_amoxicillin_given:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_reason_amoxicllin" type="select1" required="true()" relevant=" /adult_consulation/c_drugs/c_amoxicillin_given  = 'no'" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_reason_amoxicllin:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_quantity_amoxicillin_given" type="int" constraint=". &gt;= 0" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_quantity_amoxicillin_given:jr:requiredMsg')" jr:constraintMsg="jr:itext('/adult_consulation/c_drugs/c_quantity_amoxicillin_given:jr:constraintMsg')" required="true()" relevant=" /adult_consulation/c_drugs/c_amoxicillin_given  = '250mg' or  /adult_consulation/c_drugs/c_amoxicillin_given  = '500mg'"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_paracetamol_given" type="select1" required="true()" relevant=" /adult_consulation/has_fever  = 'true'" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_paracetamol_given:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_reason_paracetamol" type="select1" required="true()" relevant=" /adult_consulation/c_drugs/c_paracetamol_given  = 'no'" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_reason_paracetamol:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_quantity_paracetamol_given" type="int" constraint=". &gt;= 0" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_quantity_paracetamol_given:jr:requiredMsg')" jr:constraintMsg="jr:itext('/adult_consulation/c_drugs/c_quantity_paracetamol_given:jr:constraintMsg')" required="true()" relevant=" /adult_consulation/c_drugs/c_paracetamol_given  = '100mg' or  /adult_consulation/c_drugs/c_paracetamol_given  = '250mg' or  /adult_consulation/c_drugs/c_paracetamol_given  = '500mg'"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_ors_and_zinc_given" type="select1" required="true()" relevant=" /adult_consulation/has_diarrhea  = 'true'" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_ors_and_zinc_given:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_reason_ors_zinc" type="select1" required="true()" relevant=" /adult_consulation/c_drugs/c_ors_and_zinc_given  = 'no'" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_reason_ors_zinc:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_quantity_ors_given" type="int" constraint=". &gt;= 0" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_quantity_ors_given:jr:requiredMsg')" jr:constraintMsg="jr:itext('/adult_consulation/c_drugs/c_quantity_ors_given:jr:constraintMsg')" required="true()" relevant=" /adult_consulation/c_drugs/c_ors_and_zinc_given  = 'yes'"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_quantity_zinc_given" type="int" constraint=". &gt;= 0" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_quantity_zinc_given:jr:requiredMsg')" jr:constraintMsg="jr:itext('/adult_consulation/c_drugs/c_quantity_zinc_given:jr:constraintMsg')" required="true()" relevant=" /adult_consulation/c_drugs/c_ors_and_zinc_given  = 'yes'"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_mebendazole_given" type="select1" required="true()" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_mebendazole_given:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_reason_mebendazole" type="select1" required="true()" relevant=" /adult_consulation/c_drugs/c_mebendazole_given  = 'no'" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_reason_mebendazole:jr:requiredMsg')"/>
+      <bind nodeset="/adult_consulation/c_drugs/c_quantity_mebendazole_given" type="int" constraint=". &gt;= 0" jr:requiredMsg="jr:itext('/adult_consulation/c_drugs/c_quantity_mebendazole_given:jr:requiredMsg')" jr:constraintMsg="jr:itext('/adult_consulation/c_drugs/c_quantity_mebendazole_given:jr:constraintMsg')" required="true()" relevant=" /adult_consulation/c_drugs/c_mebendazole_given  = '250mg' or  /adult_consulation/c_drugs/c_mebendazole_given  = '500mg'"/>
+      <bind nodeset="/adult_consulation/group_review/s_summary" readonly="true()" type="string"/>
+      <bind nodeset="/adult_consulation/group_review/s_patient_info_name" readonly="true()" type="string"/>
+      <bind nodeset="/adult_consulation/group_review/s_patient_info_sex" readonly="true()" type="string"/>
+      <bind nodeset="/adult_consulation/group_review/s_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/adult_consulation/group_review/s_refer_USP" readonly="true()" type="string" relevant=" /adult_consulation/is_referred  = 'true'"/>
+      <bind nodeset="/adult_consulation/group_review/s_refer_FS_danger_signs" readonly="true()" type="string" relevant=" /adult_consulation/is_referred  = 'true'"/>
+      <bind nodeset="/adult_consulation/group_review/s_referal_health_center" type="select1" relevant=" /adult_consulation/is_referred  = 'true'"/>
+      <bind nodeset="/adult_consulation/group_review/s_other_referal_health_center" type="string" relevant=" /adult_consulation/is_referred  = 'true' and  /adult_consulation/group_review/s_referal_health_center  = 'others'"/>
+      <bind nodeset="/adult_consulation/group_review/followup" readonly="true()" type="string" relevant=" /adult_consulation/is_referred  = 'true'"/>
+      <bind nodeset="/adult_consulation/group_review/s_referal_followup" readonly="true()" type="string" relevant=" /adult_consulation/is_referred  = 'true'"/>
+      <bind nodeset="/adult_consulation/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/adult_consulation/inputs">
+      <label ref="jr:itext('/adult_consulation/inputs:label')"/>
+      <input appearance="hidden" ref="/adult_consulation/inputs/source">
+        <label ref="jr:itext('/adult_consulation/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_consulation/inputs/source_id">
+        <label ref="jr:itext('/adult_consulation/inputs/source_id:label')"/>
+      </input>
+      <group ref="/adult_consulation/inputs/user">
+        <label ref="jr:itext('/adult_consulation/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/adult_consulation/inputs/user/contact_id">
+          <label ref="jr:itext('/adult_consulation/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/adult_consulation/inputs/user/name">
+          <label ref="jr:itext('/adult_consulation/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/adult_consulation/inputs/user/phone">
+          <label ref="jr:itext('/adult_consulation/inputs/user/phone:label')"/>
+        </input>
+        <input appearance="hidden" ref="/adult_consulation/inputs/user/role">
+          <label ref="jr:itext('/adult_consulation/inputs/user/role:label')"/>
+        </input>
+        <input appearance="hidden" ref="/adult_consulation/inputs/user/external_id">
+          <label ref="jr:itext('/adult_consulation/inputs/user/external_id:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/adult_consulation/inputs/contact">
+        <label ref="jr:itext('/adult_consulation/inputs/contact:label')"/>
+        <input appearance="select-contact type-person" ref="/adult_consulation/inputs/contact/_id">
+          <label ref="jr:itext('/adult_consulation/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/adult_consulation/inputs/contact/name">
+          <label ref="jr:itext('/adult_consulation/inputs/contact/name:label')"/>
+        </input>
+        <input ref="/adult_consulation/inputs/contact/sex">
+          <label ref="jr:itext('/adult_consulation/inputs/contact/sex:label')"/>
+        </input>
+        <input ref="/adult_consulation/inputs/contact/date_of_birth">
+          <label ref="jr:itext('/adult_consulation/inputs/contact/date_of_birth:label')"/>
+        </input>
+        <input ref="/adult_consulation/inputs/contact/external_id">
+          <label ref="jr:itext('/adult_consulation/inputs/contact/external_id:label')"/>
+        </input>
+        <group ref="/adult_consulation/inputs/contact/parent">
+          <label ref="jr:itext('/adult_consulation/inputs/contact/parent:label')"/>
+          <input appearance="db-object bind-id-only" ref="/adult_consulation/inputs/contact/parent/_id">
+            <label ref="jr:itext('/adult_consulation/inputs/contact/parent/_id:label')"/>
+          </input>
+          <input ref="/adult_consulation/inputs/contact/parent/name">
+            <label ref="jr:itext('/adult_consulation/inputs/contact/parent/name:label')"/>
+          </input>
+          <input ref="/adult_consulation/inputs/contact/parent/external_id">
+            <label ref="jr:itext('/adult_consulation/inputs/contact/parent/external_id:label')"/>
+          </input>
+          <group ref="/adult_consulation/inputs/contact/parent/parent">
+            <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent:label')"/>
+            <input appearance="select-contact type-person" ref="/adult_consulation/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/adult_consulation/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/adult_consulation/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/adult_consulation/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/adult_consulation/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                    <group ref="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      <input ref="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id">
+                        <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                      </input>
+                      <group ref="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                        <input ref="/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id">
+                          <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                        </input>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+            <group ref="/adult_consulation/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/contact:label')"/>
+              <input appearance="select-contact type-person" ref="/adult_consulation/inputs/contact/parent/parent/contact/_id">
+                <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/contact/_id:label')"/>
+              </input>
+              <input ref="/adult_consulation/inputs/contact/parent/parent/contact/name">
+                <label ref="jr:itext('/adult_consulation/inputs/contact/parent/parent/contact/name:label')"/>
+              </input>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/adult_consulation/c_time_of_consultation">
+      <label ref="jr:itext('/adult_consulation/c_time_of_consultation:label')"/>
+      <select1 ref="/adult_consulation/c_time_of_consultation/c_promptitude">
+        <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/2:label')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/3:label')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/4:label')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/5:label')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/6:label')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/7:label')"/>
+          <value>7</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/8:label')"/>
+          <value>8</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/9:label')"/>
+          <value>9</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/10:label')"/>
+          <value>10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/11:label')"/>
+          <value>11</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/12:label')"/>
+          <value>12</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/13:label')"/>
+          <value>13</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/14:label')"/>
+          <value>14</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_time_of_consultation/c_promptitude/more_than_14:label')"/>
+          <value>more_than_14</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/adult_consulation/c_adt_consultation_motif">
+      <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif:label')"/>
+      <select ref="/adult_consulation/c_adt_consultation_motif/c_visit_motif">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif/fever:label')"/>
+          <value>fever</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif/diarrhea:label')"/>
+          <value>diarrhea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif/bloody_diarrhea:label')"/>
+          <value>bloody_diarrhea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif/cough_or_cold:label')"/>
+          <value>cough_or_cold</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif/suspected_tb:label')"/>
+          <value>suspected_tb</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif/dermatosis:label')"/>
+          <value>dermatosis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif/urethral_discharge:label')"/>
+          <value>urethral_discharge</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif/vaginal_discharge:label')"/>
+          <value>vaginal_discharge</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif/loss_of_urine:label')"/>
+          <value>loss_of_urine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif/oral_and_dental_diseases:label')"/>
+          <value>oral_and_dental_diseases</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif/measles:label')"/>
+          <value>measles</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif/trauma:label')"/>
+          <value>trauma</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif/gender_based_violence:label')"/>
+          <value>gender_based_violence</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_visit_motif/others:label')"/>
+          <value>others</value>
+        </item>
+      </select>
+      <input ref="/adult_consulation/c_adt_consultation_motif/c_other_motif">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation_motif/c_other_motif:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/adult_consulation/c_adt_consultation">
+      <label ref="jr:itext('/adult_consulation/c_adt_consultation:label')"/>
+      <select1 appearance="columns" ref="/adult_consulation/c_adt_consultation/c_temperature_taken">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_temperature_taken:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_temperature_taken/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_temperature_taken/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/adult_consulation/c_adt_consultation/c_no_take_temperature">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_no_take_temperature:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_no_take_temperature/no_thermo:label')"/>
+          <value>no_thermo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_no_take_temperature/not_necessary:label')"/>
+          <value>not_necessary</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_no_take_temperature/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/adult_consulation/c_adt_consultation/c_no_take_temperature_other">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_no_take_temperature_other:label')"/>
+      </input>
+      <input ref="/adult_consulation/c_adt_consultation/c_temperature">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_temperature:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_consulation/c_adt_consultation/c_temperature_normal">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_temperature_normal:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_consulation/c_adt_consultation/c_temperature_low">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_temperature_low:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_consulation/c_adt_consultation/c_temperature_hight">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_temperature_hight:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/adult_consulation/c_adt_consultation/c_rdt_given">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_rdt_given:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_rdt_given/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_rdt_given/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/adult_consulation/c_adt_consultation/c_rdt_not_given">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_rdt_not_given:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_rdt_not_given/breaking:label')"/>
+          <value>breaking</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_rdt_not_given/personal_decision:label')"/>
+          <value>personal_decision</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_rdt_not_given/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/adult_consulation/c_adt_consultation/c_rdt_not_given_other">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_rdt_not_given_other:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/adult_consulation/c_adt_consultation/c_rdt_result">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_rdt_result:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_rdt_result/positive:label')"/>
+          <value>positive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_rdt_result/negative:label')"/>
+          <value>negative</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/adult_consulation/c_adt_consultation/c_is_pregnant_woman">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_is_pregnant_woman:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_is_pregnant_woman/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_is_pregnant_woman/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/adult_consulation/c_adt_consultation/c_must_referral">
+        <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_must_referral:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_must_referral/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_adt_consultation/c_must_referral/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/adult_consulation/c_drugs">
+      <label ref="jr:itext('/adult_consulation/c_drugs:label')"/>
+      <select1 appearance="columns" ref="/adult_consulation/c_drugs/c_cta_given">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_cta_given:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_cta_given/cta_nn:label')"/>
+          <value>cta_nn</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_cta_given/cta_pe:label')"/>
+          <value>cta_pe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_cta_given/cta_ge:label')"/>
+          <value>cta_ge</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_cta_given/cta_ad:label')"/>
+          <value>cta_ad</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_cta_given/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/adult_consulation/c_drugs/c_reason_cta">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_cta:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_cta/breaking:label')"/>
+          <value>breaking</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_cta/contraindication:label')"/>
+          <value>contraindication</value>
+        </item>
+      </select1>
+      <input ref="/adult_consulation/c_drugs/c_quantity_cta_given">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_quantity_cta_given:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/adult_consulation/c_drugs/c_amoxicillin_given">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_amoxicillin_given:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_amoxicillin_given/250mg:label')"/>
+          <value>250mg</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_amoxicillin_given/500mg:label')"/>
+          <value>500mg</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_amoxicillin_given/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/adult_consulation/c_drugs/c_reason_amoxicllin">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_amoxicllin:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_amoxicllin/breaking:label')"/>
+          <value>breaking</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_amoxicllin/contraindication:label')"/>
+          <value>contraindication</value>
+        </item>
+      </select1>
+      <input ref="/adult_consulation/c_drugs/c_quantity_amoxicillin_given">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_quantity_amoxicillin_given:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/adult_consulation/c_drugs/c_paracetamol_given">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_paracetamol_given:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_paracetamol_given/100mg:label')"/>
+          <value>100mg</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_paracetamol_given/250mg:label')"/>
+          <value>250mg</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_paracetamol_given/500mg:label')"/>
+          <value>500mg</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_paracetamol_given/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/adult_consulation/c_drugs/c_reason_paracetamol">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_paracetamol:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_paracetamol/breaking:label')"/>
+          <value>breaking</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_paracetamol/contraindication:label')"/>
+          <value>contraindication</value>
+        </item>
+      </select1>
+      <input ref="/adult_consulation/c_drugs/c_quantity_paracetamol_given">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_quantity_paracetamol_given:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/adult_consulation/c_drugs/c_ors_and_zinc_given">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_ors_and_zinc_given:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_ors_and_zinc_given/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_ors_and_zinc_given/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/adult_consulation/c_drugs/c_reason_ors_zinc">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_ors_zinc:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_ors_zinc/breaking:label')"/>
+          <value>breaking</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_ors_zinc/contraindication:label')"/>
+          <value>contraindication</value>
+        </item>
+      </select1>
+      <input ref="/adult_consulation/c_drugs/c_quantity_ors_given">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_quantity_ors_given:label')"/>
+      </input>
+      <input ref="/adult_consulation/c_drugs/c_quantity_zinc_given">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_quantity_zinc_given:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/adult_consulation/c_drugs/c_mebendazole_given">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_mebendazole_given:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_mebendazole_given/250mg:label')"/>
+          <value>250mg</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_mebendazole_given/500mg:label')"/>
+          <value>500mg</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_mebendazole_given/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/adult_consulation/c_drugs/c_reason_mebendazole">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_mebendazole:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_mebendazole/breaking:label')"/>
+          <value>breaking</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/c_drugs/c_reason_mebendazole/contraindication:label')"/>
+          <value>contraindication</value>
+        </item>
+      </select1>
+      <input ref="/adult_consulation/c_drugs/c_quantity_mebendazole_given">
+        <label ref="jr:itext('/adult_consulation/c_drugs/c_quantity_mebendazole_given:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/adult_consulation/group_review">
+      <label ref="jr:itext('/adult_consulation/group_review:label')"/>
+      <input appearance="h1 yellow" ref="/adult_consulation/group_review/s_summary">
+        <label ref="jr:itext('/adult_consulation/group_review/s_summary:label')"/>
+      </input>
+      <input appearance="center" ref="/adult_consulation/group_review/s_patient_info_name">
+        <label ref="jr:itext('/adult_consulation/group_review/s_patient_info_name:label')"/>
+      </input>
+      <input appearance="center" ref="/adult_consulation/group_review/s_patient_info_sex">
+        <label ref="jr:itext('/adult_consulation/group_review/s_patient_info_sex:label')"/>
+      </input>
+      <input appearance="center" ref="/adult_consulation/group_review/s_patient_info_age">
+        <label ref="jr:itext('/adult_consulation/group_review/s_patient_info_age:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/adult_consulation/group_review/s_refer_USP">
+        <label ref="jr:itext('/adult_consulation/group_review/s_refer_USP:label')"/>
+      </input>
+      <input appearance="h2 red" ref="/adult_consulation/group_review/s_refer_FS_danger_signs">
+        <label ref="jr:itext('/adult_consulation/group_review/s_refer_FS_danger_signs:label')"/>
+      </input>
+      <select1 ref="/adult_consulation/group_review/s_referal_health_center">
+        <label ref="jr:itext('/adult_consulation/group_review/s_referal_health_center:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_consulation/group_review/s_referal_health_center/health_center:label')"/>
+          <value>health_center</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/group_review/s_referal_health_center/health_poste:label')"/>
+          <value>health_poste</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_consulation/group_review/s_referal_health_center/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/adult_consulation/group_review/s_other_referal_health_center">
+        <label ref="jr:itext('/adult_consulation/group_review/s_other_referal_health_center:label')"/>
+      </input>
+      <input appearance="h1 green" ref="/adult_consulation/group_review/followup">
+        <label ref="jr:itext('/adult_consulation/group_review/followup:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_consulation/group_review/s_referal_followup">
+        <label ref="jr:itext('/adult_consulation/group_review/s_referal_followup:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

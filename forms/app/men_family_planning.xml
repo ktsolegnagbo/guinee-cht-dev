@@ -1,0 +1,735 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>PF Masculin</h:title>
+    <model>
+      <itext>
+        <translation lang="fr">
+          <text id="/men_family_planning/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/men_family_planning/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/men_family_planning/inputs/user:label">
+            <value>User</value>
+          </text>
+          <text id="/men_family_planning/inputs/user/contact_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/men_family_planning/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/men_family_planning/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/men_family_planning/inputs/user/role:label">
+            <value>Role</value>
+          </text>
+          <text id="/men_family_planning/inputs/user/external_id:label">
+            <value>ID Externe</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/contact:label">
+            <value>Information du RECO</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/men_family_planning/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/men_family_planning/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/men_family_planning/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/men_family_planning/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/men_family_planning/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/men_family_planning/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/men_family_planning/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/men_family_planning/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/men_family_planning/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/men_family_planning/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/men_family_planning/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/men_family_planning/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/men_family_planning/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/men_family_planning/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/men_family_planning/patient_family_name:label">
+            <value>Nom du ménage</value>
+          </text>
+          <text id="/men_family_planning/patient_family_external_id:label">
+            <value>Numéro du ménage</value>
+          </text>
+          <text id="/men_family_planning/visited_contact_uuid:label">
+            <value>Identifiant de la famille</value>
+          </text>
+          <text id="/men_family_planning/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/men_family_planning/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/men_family_planning/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/men_family_planning/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/men_family_planning/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/men_family_planning/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/men_family_planning/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/men_family_planning/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/men_family_planning/c_planning:label">
+            <value>PF Masculin</value>
+          </text>
+          <text id="/men_family_planning/c_planning/c_method_wanted:label">
+            <value>Quelle est la méthode ?</value>
+          </text>
+          <text id="/men_family_planning/c_planning/c_method_wanted/condoms:label">
+            <value>Condoms/Preservatif Masculin</value>
+          </text>
+          <text id="/men_family_planning/c_planning/c_condoms_quantity:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/men_family_planning/c_planning/c_condoms_quantity:label">
+            <value>Quel est la quantité donnée</value>
+          </text>
+          <text id="/men_family_planning/group_review/s_summary:label">
+            <value>Détails du Patient &lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/men_family_planning/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /men_family_planning/patient_name "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/men_family_planning/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /men_family_planning/patient_sex_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/men_family_planning/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /men_family_planning/patient_age_display_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/men_family_planning/group_review/s_information_on_pf:label">
+            <value>Informations sur le planning familiale</value>
+          </text>
+          <text id="/men_family_planning/group_review/s_condoms_given:label">
+            <value>Vous avez donné **<output value=" /men_family_planning/condoms_quantity "/>** condoms</value>
+          </text>
+          <text id="/men_family_planning/group_review/followup:label">
+            <value>Visite de Suivi</value>
+          </text>
+          <text id="/men_family_planning/group_review/s_no_followup:label">
+            <value>**Aucun suivi ne sera généré**</value>
+          </text>
+        </translation>
+        <translation lang="en">
+          <text id="/men_family_planning/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/men_family_planning/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/men_family_planning/inputs/user:label">
+            <value>User</value>
+          </text>
+          <text id="/men_family_planning/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/men_family_planning/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/men_family_planning/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/men_family_planning/inputs/user/role:label">
+            <value>Role</value>
+          </text>
+          <text id="/men_family_planning/inputs/user/external_id:label">
+            <value>Externa Id</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/men_family_planning/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/men_family_planning/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/men_family_planning/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/men_family_planning/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/men_family_planning/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/men_family_planning/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/men_family_planning/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/men_family_planning/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/men_family_planning/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/men_family_planning/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/men_family_planning/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/men_family_planning/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/men_family_planning/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/men_family_planning/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/men_family_planning/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/men_family_planning/patient_family_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/men_family_planning/patient_family_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/men_family_planning/visited_contact_uuid:label">
+            <value>Family Id</value>
+          </text>
+          <text id="/men_family_planning/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/men_family_planning/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/men_family_planning/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/men_family_planning/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/men_family_planning/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/men_family_planning/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/men_family_planning/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/men_family_planning/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/men_family_planning/c_planning:label">
+            <value>Man FP</value>
+          </text>
+          <text id="/men_family_planning/c_planning/c_method_wanted:label">
+            <value>Which method would you like to use?</value>
+          </text>
+          <text id="/men_family_planning/c_planning/c_method_wanted/condoms:label">
+            <value>Condoms</value>
+          </text>
+          <text id="/men_family_planning/c_planning/c_condoms_quantity:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/men_family_planning/c_planning/c_condoms_quantity:label">
+            <value>Quantity given</value>
+          </text>
+          <text id="/men_family_planning/group_review/s_summary:label">
+            <value>Patient Summary&lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/men_family_planning/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /men_family_planning/patient_name "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/men_family_planning/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /men_family_planning/patient_sex_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/men_family_planning/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /men_family_planning/patient_age_display_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/men_family_planning/group_review/s_information_on_pf:label">
+            <value>Information on PF</value>
+          </text>
+          <text id="/men_family_planning/group_review/s_condoms_given:label">
+            <value>You give **<output value=" /men_family_planning/condoms_quantity "/>** condoms</value>
+          </text>
+          <text id="/men_family_planning/group_review/followup:label">
+            <value>Follow up</value>
+          </text>
+          <text id="/men_family_planning/group_review/s_no_followup:label">
+            <value>**No Followup will be generated**</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <men_family_planning id="men_family_planning" prefix="J1!men_family_planning!" delimiter="#" version="2024-08-16  17-11">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+              <role/>
+              <external_id/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <sex/>
+              <date_of_birth/>
+              <external_id/>
+              <parent>
+                <_id/>
+                <name/>
+                <external_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                  <contact>
+                    <_id/>
+                    <name/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_name/>
+          <patient_external_id/>
+          <patient_sex/>
+          <patient_date_of_birth/>
+          <patient_age_in_years/>
+          <patient_age_in_months/>
+          <patient_age_in_days/>
+          <patient_age_display_fr/>
+          <patient_age_display_en/>
+          <patient_sex_en/>
+          <patient_sex_fr/>
+          <patient_family_name/>
+          <patient_family_external_id/>
+          <visited_contact_uuid/>
+          <household_id/>
+          <village_secteur_id/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <fp_method/>
+          <fp_method_name/>
+          <condoms_quantity/>
+          <c_planning>
+            <c_method_wanted/>
+            <c_condoms_quantity/>
+          </c_planning>
+          <group_review>
+            <s_summary/>
+            <s_patient_info_name/>
+            <s_patient_info_sex/>
+            <s_patient_info_age/>
+            <s_information_on_pf/>
+            <s_condoms_given/>
+            <followup/>
+            <s_no_followup/>
+          </group_review>
+          <meta>
+            <instanceID/>
+          </meta>
+        </men_family_planning>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/men_family_planning/inputs/source" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/source_id" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/men_family_planning/inputs/user/name" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/user/phone" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/user/role" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/user/external_id" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/_id" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/name" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/sex" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/external_id" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/parent/_id" type="db:person"/>
+      <bind nodeset="/men_family_planning/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/parent/external_id" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/parent/parent/contact/_id" type="string"/>
+      <bind nodeset="/men_family_planning/inputs/contact/parent/parent/contact/name" type="string"/>
+      <bind nodeset="/men_family_planning/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/men_family_planning/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/men_family_planning/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/men_family_planning/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/men_family_planning/patient_external_id" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/men_family_planning/patient_sex" type="string" calculate="../inputs/contact/sex"/>
+      <bind nodeset="/men_family_planning/patient_date_of_birth" type="string" calculate="../inputs/contact/date_of_birth"/>
+      <bind nodeset="/men_family_planning/patient_age_in_years" type="string" calculate="if (  /men_family_planning/inputs/contact/date_of_birth  = '', '', floor( difference-in-months(  /men_family_planning/inputs/contact/date_of_birth , today() ) div 12 ) )"/>
+      <bind nodeset="/men_family_planning/patient_age_in_months" type="string" calculate="difference-in-months(  /men_family_planning/inputs/contact/date_of_birth , today() )"/>
+      <bind nodeset="/men_family_planning/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time( /men_family_planning/inputs/contact/date_of_birth ) )"/>
+      <bind nodeset="/men_family_planning/patient_age_display_fr" type="string" calculate="concat(concat( /men_family_planning/patient_age_in_years , if( /men_family_planning/patient_age_in_years  =1,' an et ',' ans et ')),concat( /men_family_planning/patient_age_in_months  mod 12, if(( /men_family_planning/patient_age_in_months  mod 12)=1,' mois',' mois')))"/>
+      <bind nodeset="/men_family_planning/patient_age_display_en" type="string" calculate="concat(concat( /men_family_planning/patient_age_in_years , if( /men_family_planning/patient_age_in_years  =1,' year and ',' years and ')),concat( /men_family_planning/patient_age_in_months  mod 12, if(( /men_family_planning/patient_age_in_months  mod 12)=1,' month old',' months old')))"/>
+      <bind nodeset="/men_family_planning/patient_sex_en" type="string" calculate="if( /men_family_planning/inputs/contact/sex  = 'male' or  /men_family_planning/inputs/contact/sex  = 'homme' or  /men_family_planning/inputs/contact/sex  = 'Homme', 'Male', if( /men_family_planning/inputs/contact/sex  = 'female' or  /men_family_planning/inputs/contact/sex  = 'femme' or  /men_family_planning/inputs/contact/sex  = 'Femme', 'Female', ''))"/>
+      <bind nodeset="/men_family_planning/patient_sex_fr" type="string" calculate="if( /men_family_planning/inputs/contact/sex  = 'male' or  /men_family_planning/inputs/contact/sex  = 'homme' or  /men_family_planning/inputs/contact/sex  = 'Homme', 'Masculin', if( /men_family_planning/inputs/contact/sex  = 'female' or  /men_family_planning/inputs/contact/sex  = 'femme' or  /men_family_planning/inputs/contact/sex  = 'Femme', 'Féminin', ''))"/>
+      <bind nodeset="/men_family_planning/patient_family_name" type="string" calculate="../inputs/contact/parent/name"/>
+      <bind nodeset="/men_family_planning/patient_family_external_id" type="string" calculate="../inputs/contact/parent/external_id"/>
+      <bind nodeset="/men_family_planning/visited_contact_uuid" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/men_family_planning/household_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/men_family_planning/village_secteur_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/men_family_planning/district_quartier_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/men_family_planning/hospital_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/men_family_planning/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/men_family_planning/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/men_family_planning/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/men_family_planning/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/men_family_planning/fp_method" type="string" calculate=" /men_family_planning/c_planning/c_method_wanted "/>
+      <bind nodeset="/men_family_planning/fp_method_name" type="string" calculate="if( /men_family_planning/c_planning/c_method_wanted  = '','',jr:choice-name( /men_family_planning/c_planning/c_method_wanted ,' /men_family_planning/c_planning/c_method_wanted '))"/>
+      <bind nodeset="/men_family_planning/condoms_quantity" type="string" calculate=" /men_family_planning/condoms_quantity "/>
+      <bind nodeset="/men_family_planning/c_planning/c_method_wanted" type="select1" required="true()"/>
+      <bind nodeset="/men_family_planning/c_planning/c_condoms_quantity" type="int" constraint=". &gt;= 0" required="true()" relevant="selected( /men_family_planning/c_planning/c_method_wanted ,'condoms')" jr:constraintMsg="jr:itext('/men_family_planning/c_planning/c_condoms_quantity:jr:constraintMsg')"/>
+      <bind nodeset="/men_family_planning/group_review/s_summary" readonly="true()" type="string"/>
+      <bind nodeset="/men_family_planning/group_review/s_patient_info_name" readonly="true()" type="string"/>
+      <bind nodeset="/men_family_planning/group_review/s_patient_info_sex" readonly="true()" type="string"/>
+      <bind nodeset="/men_family_planning/group_review/s_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/men_family_planning/group_review/s_information_on_pf" readonly="true()" type="string"/>
+      <bind nodeset="/men_family_planning/group_review/s_condoms_given" readonly="true()" type="string"/>
+      <bind nodeset="/men_family_planning/group_review/followup" readonly="true()" type="string"/>
+      <bind nodeset="/men_family_planning/group_review/s_no_followup" readonly="true()" type="string"/>
+      <bind nodeset="/men_family_planning/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/men_family_planning/inputs">
+      <label ref="jr:itext('/men_family_planning/inputs:label')"/>
+      <input appearance="hidden" ref="/men_family_planning/inputs/source">
+        <label ref="jr:itext('/men_family_planning/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/men_family_planning/inputs/source_id">
+        <label ref="jr:itext('/men_family_planning/inputs/source_id:label')"/>
+      </input>
+      <group ref="/men_family_planning/inputs/user">
+        <label ref="jr:itext('/men_family_planning/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/men_family_planning/inputs/user/contact_id">
+          <label ref="jr:itext('/men_family_planning/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/men_family_planning/inputs/user/name">
+          <label ref="jr:itext('/men_family_planning/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/men_family_planning/inputs/user/phone">
+          <label ref="jr:itext('/men_family_planning/inputs/user/phone:label')"/>
+        </input>
+        <input appearance="hidden" ref="/men_family_planning/inputs/user/role">
+          <label ref="jr:itext('/men_family_planning/inputs/user/role:label')"/>
+        </input>
+        <input appearance="hidden" ref="/men_family_planning/inputs/user/external_id">
+          <label ref="jr:itext('/men_family_planning/inputs/user/external_id:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/men_family_planning/inputs/contact">
+        <label ref="jr:itext('/men_family_planning/inputs/contact:label')"/>
+        <input appearance="select-contact type-person" ref="/men_family_planning/inputs/contact/_id">
+          <label ref="jr:itext('/men_family_planning/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/men_family_planning/inputs/contact/name">
+          <label ref="jr:itext('/men_family_planning/inputs/contact/name:label')"/>
+        </input>
+        <input ref="/men_family_planning/inputs/contact/sex">
+          <label ref="jr:itext('/men_family_planning/inputs/contact/sex:label')"/>
+        </input>
+        <input ref="/men_family_planning/inputs/contact/date_of_birth">
+          <label ref="jr:itext('/men_family_planning/inputs/contact/date_of_birth:label')"/>
+        </input>
+        <input ref="/men_family_planning/inputs/contact/external_id">
+          <label ref="jr:itext('/men_family_planning/inputs/contact/external_id:label')"/>
+        </input>
+        <group ref="/men_family_planning/inputs/contact/parent">
+          <label ref="jr:itext('/men_family_planning/inputs/contact/parent:label')"/>
+          <input appearance="db-object bind-id-only" ref="/men_family_planning/inputs/contact/parent/_id">
+            <label ref="jr:itext('/men_family_planning/inputs/contact/parent/_id:label')"/>
+          </input>
+          <input ref="/men_family_planning/inputs/contact/parent/name">
+            <label ref="jr:itext('/men_family_planning/inputs/contact/parent/name:label')"/>
+          </input>
+          <input ref="/men_family_planning/inputs/contact/parent/external_id">
+            <label ref="jr:itext('/men_family_planning/inputs/contact/parent/external_id:label')"/>
+          </input>
+          <group ref="/men_family_planning/inputs/contact/parent/parent">
+            <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent:label')"/>
+            <input appearance="select-contact type-person" ref="/men_family_planning/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/men_family_planning/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/men_family_planning/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/men_family_planning/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/men_family_planning/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                    <group ref="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      <input ref="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id">
+                        <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                      </input>
+                      <group ref="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                        <input ref="/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id">
+                          <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                        </input>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+            <group ref="/men_family_planning/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/contact:label')"/>
+              <input appearance="select-contact type-person" ref="/men_family_planning/inputs/contact/parent/parent/contact/_id">
+                <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/contact/_id:label')"/>
+              </input>
+              <input ref="/men_family_planning/inputs/contact/parent/parent/contact/name">
+                <label ref="jr:itext('/men_family_planning/inputs/contact/parent/parent/contact/name:label')"/>
+              </input>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/men_family_planning/c_planning">
+      <label ref="jr:itext('/men_family_planning/c_planning:label')"/>
+      <select1 ref="/men_family_planning/c_planning/c_method_wanted">
+        <label ref="jr:itext('/men_family_planning/c_planning/c_method_wanted:label')"/>
+        <item>
+          <label ref="jr:itext('/men_family_planning/c_planning/c_method_wanted/condoms:label')"/>
+          <value>condoms</value>
+        </item>
+      </select1>
+      <input ref="/men_family_planning/c_planning/c_condoms_quantity">
+        <label ref="jr:itext('/men_family_planning/c_planning/c_condoms_quantity:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/men_family_planning/group_review">
+      <label ref="jr:itext('/men_family_planning/group_review:label')"/>
+      <input appearance="h1 yellow" ref="/men_family_planning/group_review/s_summary">
+        <label ref="jr:itext('/men_family_planning/group_review/s_summary:label')"/>
+      </input>
+      <input appearance="center" ref="/men_family_planning/group_review/s_patient_info_name">
+        <label ref="jr:itext('/men_family_planning/group_review/s_patient_info_name:label')"/>
+      </input>
+      <input appearance="center" ref="/men_family_planning/group_review/s_patient_info_sex">
+        <label ref="jr:itext('/men_family_planning/group_review/s_patient_info_sex:label')"/>
+      </input>
+      <input appearance="center" ref="/men_family_planning/group_review/s_patient_info_age">
+        <label ref="jr:itext('/men_family_planning/group_review/s_patient_info_age:label')"/>
+      </input>
+      <input appearance="h1 blue" ref="/men_family_planning/group_review/s_information_on_pf">
+        <label ref="jr:itext('/men_family_planning/group_review/s_information_on_pf:label')"/>
+      </input>
+      <input ref="/men_family_planning/group_review/s_condoms_given">
+        <label ref="jr:itext('/men_family_planning/group_review/s_condoms_given:label')"/>
+      </input>
+      <input appearance="h1 green" ref="/men_family_planning/group_review/followup">
+        <label ref="jr:itext('/men_family_planning/group_review/followup:label')"/>
+      </input>
+      <input appearance="li" ref="/men_family_planning/group_review/s_no_followup">
+        <label ref="jr:itext('/men_family_planning/group_review/s_no_followup:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

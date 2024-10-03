@@ -1,0 +1,18 @@
+{
+    "context": {
+        "expression": "user.role === 'reco' && contact.type === 'health_center'",
+        "person": false,
+        "place": true
+    },
+    "icon": "assesstment",
+    "title": [
+      {
+        "locale": "en",
+        "content": "Registre Event"
+      },
+      {
+        "locale": "fr",
+        "content": "Régistre Évènement"
+      }
+    ]
+}

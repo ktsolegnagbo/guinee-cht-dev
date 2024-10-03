@@ -1,0 +1,5 @@
+{
+    "context": {
+        "expression": "user.role !== 'chw' && user.role !== 'reco'"
+    }
+}

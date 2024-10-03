@@ -1,0 +1,1998 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Suivi nouveau né</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/newborn_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/newborn_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/newborn_followup/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/newborn_followup/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/newborn_followup/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/newborn_followup/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/newborn_followup/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/newborn_followup/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/newborn_followup/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/newborn_followup/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/newborn_followup/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/newborn_followup/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/newborn_followup/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/newborn_followup/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/newborn_followup/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/newborn_followup/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/newborn_followup/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/newborn_followup/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/newborn_followup/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/newborn_followup/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/newborn_followup/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/newborn_followup/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/newborn_followup/patient_family_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/newborn_followup/patient_phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/newborn_followup/patient_phone_to_show:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/newborn_followup/patient_family_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/newborn_followup/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/newborn_followup/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/newborn_followup/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/newborn_followup/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/newborn_followup/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/newborn_followup/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/newborn_followup/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/newborn_followup/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/newborn_followup/patient_infos:label">
+            <value>PATIENT DETAILS</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_patient_family_name:label">
+            <value>Family name : **<output value=" /newborn_followup/patient_family_name "/>**</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_patient_family_ext_id:label">
+            <value>Family External ID : **<output value=" /newborn_followup/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_patient_name:label">
+            <value>Patient name : **<output value=" /newborn_followup/patient_name_to_show "/>**</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_patient_sexe:label">
+            <value>Patient sexe : **<output value=" /newborn_followup/patient_sex_fr "/>**</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_code_patient:label">
+            <value>Patient code : **<output value=" /newborn_followup/patient_external_id_to_show "/>**</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_patient_info_age:label">
+            <value>Age : **<output value=" /newborn_followup/patient_age_display_en "/>**</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/last_consul_details:label">
+            <value>&lt;br&gt;&lt;strong style="color: rgb(1, 34, 118);"&gt;LAST CONSULTATION DETAILS&lt;/strong&gt;</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_unable_to_suckle:label">
+            <value>Unable to suckle</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_vomits_everything_consumes:label">
+            <value>Vomits everything he consumes</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_convulsion:label">
+            <value>Convulse</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_sleepy_unconscious:label">
+            <value>Sleepy or Unconscious</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_stiff_neck:label">
+            <value>Stiff neck</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_domed_fontanelle:label">
+            <value>Domed fontanelle</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_breathe_hard:label">
+            <value>Breathe hard</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_subcostal_indrawing:label">
+            <value>Subcostal indrawing</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_wheezing:label">
+            <value>Wheezing</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_diarrhea:label">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_malnutrition:label">
+            <value>Malnutrition</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_malaria:label">
+            <value>Malaria</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_pneumonia:label">
+            <value>Pneumonia</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_cough_cold:label">
+            <value>Cough or Cold</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_reference_pattern_other:label">
+            <value><output value=" /newborn_followup/inputs/t_reference_pattern_other "/></value>
+          </text>
+          <text id="/newborn_followup/patient_presence:label">
+            <value>PATIENT PRESENCE</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_is_present:label">
+            <value>Is the mother present with the child?</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_is_present/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_is_present/no:label">
+            <value>No</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_absence_reasons:label">
+            <value>Reason for absence</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_absence_reasons/observation:label">
+            <value>Observation</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_absence_reasons/hospitalized:label">
+            <value>Hospitalized</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_absence_reasons/patient_Absent:label">
+            <value>Patient Absent</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_absence_reasons/others:label">
+            <value>Other reason</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_other_absence_reasons:label">
+            <value>Enter other reason for absence</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_reference_health_facility:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_reference_health_facility:label">
+            <value>Did the patient go to a health facility after his last referral?</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_reference_health_facility/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_reference_health_facility/no:label">
+            <value>No</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_coupon_available:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_coupon_available:label">
+            <value>Is the counter-referral coupon available?</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_coupon_available/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_coupon_available/no:label">
+            <value>No</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_coupon_number:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_coupon_number:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_coupon_number:label">
+            <value>Counter-referral coupon number</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_child_state:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_child_state:label">
+            <value>How do you rate the patient's condition?</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_child_state/cured:label">
+            <value>Cured</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_child_state/improvement:label">
+            <value>Improvement</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_child_state/no_improvement:label">
+            <value>No improvement</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_child_state/getting_worse:label">
+            <value>Getting worse</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_child_state/new_complaint:label">
+            <value>New complaint</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation:label">
+            <value>Time of consultation</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude:label">
+            <value>Disease Evolution</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/1:label">
+            <value>1 day</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/2:label">
+            <value>2 days</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/3:label">
+            <value>3 days</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/4:label">
+            <value>4 days</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/5:label">
+            <value>5 days</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/6:label">
+            <value>6 days</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/7:label">
+            <value>7 days</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/8:label">
+            <value>8 days</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/9:label">
+            <value>9 days</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/10:label">
+            <value>10 days</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/11:label">
+            <value>11 days</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/12:label">
+            <value>12 days</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/13:label">
+            <value>13 days</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/14:label">
+            <value>14 days</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/more_than_14:label">
+            <value>plus de 14 jours</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control:label">
+            <value>danger sign control</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern:label">
+            <value>Reference pattern</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/unable_to_suckle:label">
+            <value>Unable to suckle</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/vomits_everything_consumes:label">
+            <value>Vomits everything he consumes</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/convulsion:label">
+            <value>Convulse</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/sleepy_unconscious:label">
+            <value>Sleepy or Unconscious</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/stiff_neck:label">
+            <value>Stiff neck</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/domed_fontanelle:label">
+            <value>Domed fontanelle</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/breathe_hard:label">
+            <value>Breathe hard</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/subcostal_indrawing:label">
+            <value>Subcostal indrawing</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/wheezing:label">
+            <value>Wheezing</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/diarrhea:label">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/malnutrition:label">
+            <value>Malnutrition</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/malaria:label">
+            <value>Malaria</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/pneumonia:label">
+            <value>Pneumonia</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/cough_cold:label">
+            <value>Cough or Cold</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/others:label">
+            <value>Other health problems</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern_other:label">
+            <value>Enter other reasons</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_summary:label">
+            <value>Patient Summary&lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /newborn_followup/patient_name_to_show "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /newborn_followup/patient_sex_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /newborn_followup/patient_age_display_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_informations:label">
+            <value>INFORMATIONS</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_cured:label">
+            <value>Cured</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_improvement:label">
+            <value>Improvement</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_new_complaint:label">
+            <value>New complaint</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_consultation_information:label">
+            <value>Reference pattern</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_danger_signs_detected:label">
+            <value>&lt;b&gt;Danger signs detected&lt;/b&gt;</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_unable_to_suckle:label">
+            <value>Unable to suckle</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_vomits_everything_consumes:label">
+            <value>Vomits everything consumes</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_convulsion:label">
+            <value>Convulsion</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_sleepy_unconscious:label">
+            <value>Sleepy or Unconscious</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_stiff_neck:label">
+            <value>Stiff neck</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_domed_fontanelle:label">
+            <value>Domed fontanelle</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_breathe_hard:label">
+            <value>Breathe hard</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_subcostal_indrawing:label">
+            <value>Subcostal indrawing</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_wheezing:label">
+            <value>Wheezing</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_diarrhea:label">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_others:label">
+            <value>Other health problems : <output value=" /newborn_followup/c_reference_pattern_control/c_reference_pattern_other "/></value>
+          </text>
+          <text id="/newborn_followup/group_review/no_improvement:label">
+            <value>No improvement</value>
+          </text>
+          <text id="/newborn_followup/group_review/getting_worse:label">
+            <value>Getting worse</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_refer_USP:label">
+            <value>Referral to a health facility</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_refer_FS_danger_signs:label">
+            <value>**Please refer the child for presence of danger signs**</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_refer_HC:label">
+            <value>**Please refer the patient to a health facility for non-improvement**</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_referal_health_center:label">
+            <value>Select the reference health center</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_referal_health_center/health_center:label">
+            <value>Health center</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_referal_health_center/health_poste:label">
+            <value>Health poste</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_referal_health_center/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_other_referal_health_center:label">
+            <value>Enter the name of the reference health facility</value>
+          </text>
+          <text id="/newborn_followup/group_review/followup:label">
+            <value>Follow up</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_next_visit_date:label">
+            <value>The next followup visit is for tomorrow</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_no_next_visit:label">
+            <value>The child is doing well, no follow-up will be created</value>
+          </text>
+        </translation>
+        <translation lang="fr">
+          <text id="/newborn_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/newborn_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/newborn_followup/inputs/user/contact_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/newborn_followup/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/newborn_followup/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/contact:label">
+            <value>Information du RECO</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/newborn_followup/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/newborn_followup/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/newborn_followup/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/newborn_followup/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/newborn_followup/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/newborn_followup/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/newborn_followup/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/newborn_followup/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/newborn_followup/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/newborn_followup/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/newborn_followup/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/newborn_followup/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/newborn_followup/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/newborn_followup/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/newborn_followup/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/newborn_followup/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/newborn_followup/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/newborn_followup/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/newborn_followup/patient_family_name:label">
+            <value>Nom du ménage</value>
+          </text>
+          <text id="/newborn_followup/patient_phone:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/newborn_followup/patient_phone_to_show:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/newborn_followup/patient_family_external_id:label">
+            <value>Numéro du ménage</value>
+          </text>
+          <text id="/newborn_followup/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/newborn_followup/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/newborn_followup/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/newborn_followup/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/newborn_followup/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/newborn_followup/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/newborn_followup/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/newborn_followup/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/newborn_followup/patient_infos:label">
+            <value>DÉTAILS DU PATIENT</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_patient_family_name:label">
+            <value>Nom du ménage : **<output value=" /newborn_followup/patient_family_name "/>**</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_patient_family_ext_id:label">
+            <value>Numéro du ménage : **<output value=" /newborn_followup/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_patient_name:label">
+            <value>Nom de l'enfant : **<output value=" /newborn_followup/patient_name_to_show "/>**</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_patient_sexe:label">
+            <value>Sexe de l'enfant : **<output value=" /newborn_followup/patient_sex_fr "/>**</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_code_patient:label">
+            <value>Code du patient : **<output value=" /newborn_followup/patient_external_id_to_show "/>**</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_patient_info_age:label">
+            <value>Âge : **<output value=" /newborn_followup/patient_age_display_fr "/>**</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/last_consul_details:label">
+            <value>&lt;br&gt;&lt;strong style="color: rgb(1, 34, 118);"&gt;RESUME DE LA DERNIÈRE CONSULTATION&lt;/strong&gt;</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_unable_to_suckle:label">
+            <value>Incapable de téter</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_vomits_everything_consumes:label">
+            <value>Vomit tout ce qu'il consomme</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_convulsion:label">
+            <value>Convulse</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_sleepy_unconscious:label">
+            <value>Somnolent ou Inconscient</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_stiff_neck:label">
+            <value>Nuque raide</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_domed_fontanelle:label">
+            <value>Fontanelle bombée</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_breathe_hard:label">
+            <value>Respire difficilement</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_subcostal_indrawing:label">
+            <value>Tirage sous-costal</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_wheezing:label">
+            <value>Respiration sifflante</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_diarrhea:label">
+            <value>Diarrhée</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_malnutrition:label">
+            <value>Malnutrition</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_malaria:label">
+            <value>Paludisme</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_pneumonia:label">
+            <value>Pneumonie</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_cough_cold:label">
+            <value>Toux ou Rhume</value>
+          </text>
+          <text id="/newborn_followup/patient_infos/i_reference_pattern_other:label">
+            <value><output value=" /newborn_followup/inputs/t_reference_pattern_other "/></value>
+          </text>
+          <text id="/newborn_followup/patient_presence:label">
+            <value>PRÉSENCE DU PATIENT</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_is_present:label">
+            <value>La maman est-elle présente avec l'enfant ?</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_is_present/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_is_present/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_absence_reasons:label">
+            <value>Motif d'absence</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_absence_reasons/observation:label">
+            <value>Observation</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_absence_reasons/hospitalized:label">
+            <value>Hospitalisé</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_absence_reasons/patient_Absent:label">
+            <value>Patient Absent</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_absence_reasons/others:label">
+            <value>Autre Motif</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_other_absence_reasons:label">
+            <value>Saisir l'autre motif d'absence</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_reference_health_facility:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_reference_health_facility:label">
+            <value>Le patient est-il allé dans une structure de santé après sa dernière référence ?</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_reference_health_facility/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_reference_health_facility/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_coupon_available:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_coupon_available:label">
+            <value>Le coupon de contre référence est-il disponible ?</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_coupon_available/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_coupon_available/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_coupon_number:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_coupon_number:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_coupon_number:label">
+            <value>Numéro du Coupon de contre référence</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_child_state:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_child_state:label">
+            <value>Comment trouvez-vous l'état de l'enfant?</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_child_state/cured:label">
+            <value>Guéri</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_child_state/improvement:label">
+            <value>Amélioration</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_child_state/no_improvement:label">
+            <value>Pas d'amélioration</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_child_state/getting_worse:label">
+            <value>S'aggrave</value>
+          </text>
+          <text id="/newborn_followup/patient_presence/c_child_state/new_complaint:label">
+            <value>Nouvelle plainte</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation:label">
+            <value>Moment de la consultation</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude:label">
+            <value>Evolution de la maladie</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/1:label">
+            <value>1 jour</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/2:label">
+            <value>2 jours</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/3:label">
+            <value>3 jours</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/4:label">
+            <value>4 jours</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/5:label">
+            <value>5 jours</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/6:label">
+            <value>6 jours</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/7:label">
+            <value>7 jours</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/8:label">
+            <value>8 jours</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/9:label">
+            <value>9 jours</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/10:label">
+            <value>10 jours</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/11:label">
+            <value>11 jours</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/12:label">
+            <value>12 jours</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/13:label">
+            <value>13 jours</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/14:label">
+            <value>14 jours</value>
+          </text>
+          <text id="/newborn_followup/c_time_of_consultation/c_promptitude/more_than_14:label">
+            <value>plus de 14 jours</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control:label">
+            <value>contrôle de signe de danger</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern:label">
+            <value>Motif de référence</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/unable_to_suckle:label">
+            <value>Incapable de téter</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/vomits_everything_consumes:label">
+            <value>Vomit tout ce qu'il consomme</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/convulsion:label">
+            <value>Convulse</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/sleepy_unconscious:label">
+            <value>Somnolent ou Inconscient</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/stiff_neck:label">
+            <value>Nuque raide</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/domed_fontanelle:label">
+            <value>Fontanelle bombée</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/breathe_hard:label">
+            <value>Respire difficilement</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/subcostal_indrawing:label">
+            <value>Tirage sous-costal</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/wheezing:label">
+            <value>Respiration sifflante</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/diarrhea:label">
+            <value>Diarrhée</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/malnutrition:label">
+            <value>Malnutrition</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/malaria:label">
+            <value>Paludisme</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/pneumonia:label">
+            <value>Pneumonie</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/cough_cold:label">
+            <value>Toux ou Rhume</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern/others:label">
+            <value>Autres problèmes de santé</value>
+          </text>
+          <text id="/newborn_followup/c_reference_pattern_control/c_reference_pattern_other:label">
+            <value>Saisir autres motifs</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_summary:label">
+            <value>Détails du Patient &lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /newborn_followup/patient_name_to_show "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /newborn_followup/patient_sex_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /newborn_followup/patient_age_display_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_informations:label">
+            <value>INFORMATIONS</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_cured:label">
+            <value>L'enfant est Guéri</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_improvement:label">
+            <value>L'etat de l'enfant s'Améliore</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_new_complaint:label">
+            <value>L'enafnt a une nouvelle plainte</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_consultation_information:label">
+            <value>Motif de référence</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_danger_signs_detected:label">
+            <value>&lt;b&gt;Signes de danger détectés&lt;/b&gt;</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_unable_to_suckle:label">
+            <value>Incapable de téter</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_vomits_everything_consumes:label">
+            <value>Vomit tout ce qu'il consomme</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_convulsion:label">
+            <value>Convulsion</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_sleepy_unconscious:label">
+            <value>Somnolent ou Inconscient</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_stiff_neck:label">
+            <value>Nuque raide</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_domed_fontanelle:label">
+            <value>Fontanelle bombée</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_breathe_hard:label">
+            <value>Respire difficilement</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_subcostal_indrawing:label">
+            <value>Tirage sous-costal</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_wheezing:label">
+            <value>Respiration sifflante</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_diarrhea:label">
+            <value>Diarrhée</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_others:label">
+            <value>Autres problèmes de santé: <output value=" /newborn_followup/c_reference_pattern_control/c_reference_pattern_other "/></value>
+          </text>
+          <text id="/newborn_followup/group_review/no_improvement:label">
+            <value>Pas d'amélioration</value>
+          </text>
+          <text id="/newborn_followup/group_review/getting_worse:label">
+            <value>S'aggrave</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_refer_USP:label">
+            <value>Référence vers une formation sanitaire</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_refer_FS_danger_signs:label">
+            <value>Veuillez référer l'enfant pour **présence de signe de danger**</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_refer_HC:label">
+            <value>Veuillez référer l'enfant pour **Etat de santé non amélioré **</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_referal_health_center:label">
+            <value>Selectionner le centre de santé de référence</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_referal_health_center/health_center:label">
+            <value>Centre de santé</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_referal_health_center/health_poste:label">
+            <value>Poste de santé</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_referal_health_center/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_other_referal_health_center:label">
+            <value>Saisir le nom de la formation sanitaire de référence</value>
+          </text>
+          <text id="/newborn_followup/group_review/followup:label">
+            <value>Suivi</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_next_visit_date:label">
+            <value>La visite de suivi de cet enfant est dans **24 Heures**</value>
+          </text>
+          <text id="/newborn_followup/group_review/s_no_next_visit:label">
+            <value>**Aucun suivi ne sera créé**</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <newborn_followup id="newborn_followup" prefix="J1!newborn_followup!" delimiter="#" version="2024-08-16  17-11">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <t_family_id/>
+            <t_family_name/>
+            <t_family_external_id/>
+            <t_unable_to_suckle/>
+            <t_vomits_everything_consumes/>
+            <t_convulsion/>
+            <t_sleepy_unconscious/>
+            <t_stiff_neck/>
+            <t_domed_fontanelle/>
+            <t_breathe_hard/>
+            <t_subcostal_indrawing/>
+            <t_wheezing/>
+            <t_diarrhea/>
+            <t_malnutrition/>
+            <t_reference_pattern_other/>
+            <t_malaria/>
+            <t_pneumonia/>
+            <t_cough_cold/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <sex/>
+              <date_of_birth/>
+              <external_id/>
+              <phone/>
+              <parent>
+                <_id/>
+                <name/>
+                <external_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                  <contact>
+                    <_id/>
+                    <name/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_uuid/>
+          <patient_name/>
+          <patient_name_to_show/>
+          <patient_sex/>
+          <patient_external_id/>
+          <patient_external_id_to_show/>
+          <patient_date_of_birth/>
+          <patient_age_in_years/>
+          <patient_age_in_months/>
+          <patient_age_in_days/>
+          <patient_age_display_fr/>
+          <patient_age_display_en/>
+          <patient_sex_en/>
+          <patient_sex_fr/>
+          <patient_family_name/>
+          <patient_phone/>
+          <patient_phone_to_show/>
+          <patient_family_external_id/>
+          <household_id/>
+          <village_secteur_id/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <promptitude/>
+          <referal_health_center/>
+          <has_unable_to_suckle/>
+          <has_vomits_everything_consumes/>
+          <has_convulsion/>
+          <has_sleepy_unconscious/>
+          <has_stiff_neck/>
+          <has_domed_fontanelle/>
+          <has_breathe_hard/>
+          <has_subcostal_indrawing/>
+          <has_wheezing/>
+          <has_diarrhea/>
+          <has_malnutrition/>
+          <has_malaria/>
+          <has_pneumonia/>
+          <has_cough_cold/>
+          <has_others_heath_problem/>
+          <reference_pattern_other/>
+          <coupon_available/>
+          <coupon_number/>
+          <is_health_referred/>
+          <has_danger_sign/>
+          <has_pre_reference_treatments/>
+          <is_referred/>
+          <has_new_complaint/>
+          <other_diseases/>
+          <patient_infos>
+            <i_patient_family_name/>
+            <i_patient_family_ext_id/>
+            <i_patient_name/>
+            <i_patient_sexe/>
+            <i_code_patient/>
+            <i_patient_info_age/>
+            <last_consul_details/>
+            <i_unable_to_suckle/>
+            <i_vomits_everything_consumes/>
+            <i_convulsion/>
+            <i_sleepy_unconscious/>
+            <i_stiff_neck/>
+            <i_domed_fontanelle/>
+            <i_breathe_hard/>
+            <i_subcostal_indrawing/>
+            <i_wheezing/>
+            <i_diarrhea/>
+            <i_malnutrition/>
+            <i_malaria/>
+            <i_pneumonia/>
+            <i_cough_cold/>
+            <i_reference_pattern_other/>
+          </patient_infos>
+          <patient_presence>
+            <c_is_present/>
+            <c_absence_reasons/>
+            <c_other_absence_reasons/>
+            <c_reference_health_facility/>
+            <c_coupon_available/>
+            <c_coupon_number/>
+            <c_child_state/>
+          </patient_presence>
+          <c_time_of_consultation>
+            <c_promptitude/>
+          </c_time_of_consultation>
+          <c_reference_pattern_control>
+            <c_reference_pattern/>
+            <c_reference_pattern_other/>
+          </c_reference_pattern_control>
+          <group_review>
+            <s_summary/>
+            <s_patient_info_name/>
+            <s_patient_info_sex/>
+            <s_patient_info_age/>
+            <s_informations/>
+            <s_cured/>
+            <s_improvement/>
+            <s_new_complaint/>
+            <s_consultation_information/>
+            <s_danger_signs_detected/>
+            <s_unable_to_suckle/>
+            <s_vomits_everything_consumes/>
+            <s_convulsion/>
+            <s_sleepy_unconscious/>
+            <s_stiff_neck/>
+            <s_domed_fontanelle/>
+            <s_breathe_hard/>
+            <s_subcostal_indrawing/>
+            <s_wheezing/>
+            <s_diarrhea/>
+            <s_others/>
+            <no_improvement/>
+            <getting_worse/>
+            <s_refer_USP/>
+            <s_refer_FS_danger_signs/>
+            <s_refer_HC/>
+            <s_referal_health_center/>
+            <s_other_referal_health_center/>
+            <followup/>
+            <s_next_visit_date/>
+            <s_no_next_visit/>
+          </group_review>
+          <meta>
+            <instanceID/>
+          </meta>
+        </newborn_followup>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/newborn_followup/inputs/source" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/source_id" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_family_id" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_family_name" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_family_external_id" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_unable_to_suckle" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_vomits_everything_consumes" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_convulsion" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_sleepy_unconscious" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_stiff_neck" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_domed_fontanelle" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_breathe_hard" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_subcostal_indrawing" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_wheezing" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_diarrhea" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_malnutrition" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_reference_pattern_other" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_malaria" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_pneumonia" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/t_cough_cold" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/newborn_followup/inputs/user/name" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/user/phone" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/_id" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/name" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/sex" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/external_id" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/phone" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/parent/_id" type="db:person"/>
+      <bind nodeset="/newborn_followup/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/parent/external_id" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/parent/parent/contact/_id" type="string"/>
+      <bind nodeset="/newborn_followup/inputs/contact/parent/parent/contact/name" type="string"/>
+      <bind nodeset="/newborn_followup/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/newborn_followup/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/newborn_followup/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/newborn_followup/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/newborn_followup/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/newborn_followup/patient_name_to_show" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/newborn_followup/patient_sex" type="string" calculate="../inputs/contact/sex"/>
+      <bind nodeset="/newborn_followup/patient_external_id" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/newborn_followup/patient_external_id_to_show" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/newborn_followup/patient_date_of_birth" type="string" calculate="../inputs/contact/date_of_birth"/>
+      <bind nodeset="/newborn_followup/patient_age_in_years" type="string" calculate="if (../patient_date_of_birth = '', '', floor( difference-in-months(../patient_date_of_birth, today() ) div 12 ) )"/>
+      <bind nodeset="/newborn_followup/patient_age_in_months" type="string" calculate="difference-in-months( ../patient_date_of_birth, today() )"/>
+      <bind nodeset="/newborn_followup/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time(../patient_date_of_birth) )"/>
+      <bind nodeset="/newborn_followup/patient_age_display_fr" type="string" calculate="concat(concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12) &lt;= 1,' mois et ',' mois et ')),concat(../patient_age_in_days mod 365, if((../patient_age_in_days mod 365) &lt;= 1,' jour',' jours')))"/>
+      <bind nodeset="/newborn_followup/patient_age_display_en" type="string" calculate="concat(concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12) &lt;= 1,' month and ',' months and ')),concat(../patient_age_in_days mod 365, if((../patient_age_in_days mod 365) &lt;= 1,' day',' days')))"/>
+      <bind nodeset="/newborn_followup/patient_sex_en" type="string" calculate="if(../patient_sex = 'male' or ../patient_sex = 'homme' or ../patient_sex = 'Homme', 'Male', if(../patient_sex = 'female' or ../patient_sex = 'femme' or ../patient_sex = 'Femme', 'Female', ''))"/>
+      <bind nodeset="/newborn_followup/patient_sex_fr" type="string" calculate="if(../patient_sex = 'male' or ../patient_sex = 'homme' or ../patient_sex = 'Homme', 'Masculin', if(../patient_sex = 'female' or ../patient_sex = 'femme' or ../patient_sex = 'Femme', 'Féminin', ''))"/>
+      <bind nodeset="/newborn_followup/patient_family_name" type="string" calculate="coalesce(../inputs/contact/parent/name, /newborn_followup/inputs/t_family_name )"/>
+      <bind nodeset="/newborn_followup/patient_phone" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/newborn_followup/patient_phone_to_show" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/newborn_followup/patient_family_external_id" type="string" calculate="coalesce(../inputs/contact/parent/external_id, /newborn_followup/inputs/t_family_external_id )"/>
+      <bind nodeset="/newborn_followup/household_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/newborn_followup/village_secteur_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/newborn_followup/district_quartier_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/newborn_followup/hospital_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/newborn_followup/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/newborn_followup/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/newborn_followup/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/newborn_followup/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/newborn_followup/promptitude" type="string" calculate=" /newborn_followup/c_time_of_consultation/c_promptitude "/>
+      <bind nodeset="/newborn_followup/referal_health_center" type="string" calculate="if( /newborn_followup/group_review/s_referal_health_center  = '','',if( /newborn_followup/group_review/s_referal_health_center  = 'others', /newborn_followup/group_review/s_other_referal_health_center ,jr:choice-name( /newborn_followup/group_review/s_referal_health_center ,' /newborn_followup/group_review/s_referal_health_center ')))"/>
+      <bind nodeset="/newborn_followup/has_unable_to_suckle" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'unable_to_suckle'),'true','false')"/>
+      <bind nodeset="/newborn_followup/has_vomits_everything_consumes" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'vomits_everything_consumes'),'true','false')"/>
+      <bind nodeset="/newborn_followup/has_convulsion" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'convulsion'),'true','false')"/>
+      <bind nodeset="/newborn_followup/has_sleepy_unconscious" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'sleepy_unconscious'),'true','false')"/>
+      <bind nodeset="/newborn_followup/has_stiff_neck" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'stiff_neck'),'true','false')"/>
+      <bind nodeset="/newborn_followup/has_domed_fontanelle" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'domed_fontanelle'),'true','false')"/>
+      <bind nodeset="/newborn_followup/has_breathe_hard" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'breathe_hard'),'true','false')"/>
+      <bind nodeset="/newborn_followup/has_subcostal_indrawing" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'subcostal_indrawing'),'true','false')"/>
+      <bind nodeset="/newborn_followup/has_wheezing" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'wheezing'),'true','false')"/>
+      <bind nodeset="/newborn_followup/has_diarrhea" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'diarrhea'),'true','false')"/>
+      <bind nodeset="/newborn_followup/has_malnutrition" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'malnutrition'),'true','false')"/>
+      <bind nodeset="/newborn_followup/has_malaria" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'malaria'),'true','false')"/>
+      <bind nodeset="/newborn_followup/has_pneumonia" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'pneumonia'),'true','false')"/>
+      <bind nodeset="/newborn_followup/has_cough_cold" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'cough_cold'),'true','false')"/>
+      <bind nodeset="/newborn_followup/has_others_heath_problem" type="string" calculate="if(selected( /newborn_followup/c_reference_pattern_control/c_reference_pattern ,'others'),'true','false')"/>
+      <bind nodeset="/newborn_followup/reference_pattern_other" type="string" calculate=" /newborn_followup/c_reference_pattern_control/c_reference_pattern_other "/>
+      <bind nodeset="/newborn_followup/coupon_available" type="string" calculate="if( /newborn_followup/patient_presence/c_coupon_available  = 'yes','true','false')"/>
+      <bind nodeset="/newborn_followup/coupon_number" type="string" calculate=" /newborn_followup/patient_presence/c_coupon_number "/>
+      <bind nodeset="/newborn_followup/is_health_referred" type="string" calculate="if( /newborn_followup/patient_presence/c_reference_health_facility  = 'no' or selected( /newborn_followup/patient_presence/c_child_state ,'no_improvement') or selected( /newborn_followup/patient_presence/c_child_state ,'getting_worse'),'true', 'false')"/>
+      <bind nodeset="/newborn_followup/has_danger_sign" type="string" calculate="if( /newborn_followup/c_reference_pattern_control/c_reference_pattern  != '','true', 'false')"/>
+      <bind nodeset="/newborn_followup/has_pre_reference_treatments" type="string" calculate="&quot;false&quot;"/>
+      <bind nodeset="/newborn_followup/is_referred" type="string" calculate="if(../is_health_referred = 'true' or ../has_danger_sign = 'true','true', 'false')"/>
+      <bind nodeset="/newborn_followup/has_new_complaint" type="string" calculate="if(selected( /newborn_followup/patient_presence/c_child_state ,'new_complaint'),'true','false')"/>
+      <bind nodeset="/newborn_followup/other_diseases" type="string" calculate="if( /newborn_followup/patient_presence/c_reference_health_facility  = 'no','Référence non effective',if(selected( /newborn_followup/patient_presence/c_child_state ,'no_improvement'),'Amélioration non constatée',if(selected( /newborn_followup/patient_presence/c_child_state ,'getting_worse'),'Aggravation de santé constaté',if(../has_danger_sign = 'true','Présence de signe de dangé',''))))"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_patient_family_name" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_patient_family_ext_id" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_patient_name" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_patient_sexe" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_code_patient" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_followup/patient_infos/last_consul_details" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_unable_to_suckle" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_unable_to_suckle  = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_vomits_everything_consumes" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_vomits_everything_consumes  = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_convulsion" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_convulsion  = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_sleepy_unconscious" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_sleepy_unconscious  = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_stiff_neck" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_stiff_neck  = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_domed_fontanelle" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_domed_fontanelle  = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_breathe_hard" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_breathe_hard  = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_subcostal_indrawing" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_subcostal_indrawing  = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_wheezing" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_wheezing  = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_diarrhea" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_diarrhea  = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_malnutrition" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_malnutrition  = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_malaria" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_malaria  = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_pneumonia" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_pneumonia  = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_cough_cold" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_cough_cold  = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_infos/i_reference_pattern_other" readonly="true()" type="string" relevant=" /newborn_followup/inputs/t_reference_pattern_other  != ''"/>
+      <bind nodeset="/newborn_followup/patient_presence/c_is_present" type="select1" required="true()"/>
+      <bind nodeset="/newborn_followup/patient_presence/c_absence_reasons" type="select" required="true()" relevant="../c_is_present = 'no'"/>
+      <bind nodeset="/newborn_followup/patient_presence/c_other_absence_reasons" type="string" relevant="../c_is_present = 'no' and ../c_absence_reasons = 'others'"/>
+      <bind nodeset="/newborn_followup/patient_presence/c_reference_health_facility" type="select1" jr:requiredMsg="jr:itext('/newborn_followup/patient_presence/c_reference_health_facility:jr:requiredMsg')" required="true()" relevant="../c_is_present = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_presence/c_coupon_available" type="select1" jr:requiredMsg="jr:itext('/newborn_followup/patient_presence/c_coupon_available:jr:requiredMsg')" required="true()" relevant="../c_is_present = 'yes' and ../c_reference_health_facility = 'yes'"/>
+      <bind nodeset="/newborn_followup/patient_presence/c_coupon_number" type="int" relevant="../c_is_present = 'yes' and ../c_reference_health_facility = 'yes' and ../c_coupon_available = 'yes'" jr:requiredMsg="jr:itext('/newborn_followup/patient_presence/c_coupon_number:jr:requiredMsg')" constraint=". &gt;= 0" required="true()" jr:constraintMsg="jr:itext('/newborn_followup/patient_presence/c_coupon_number:jr:constraintMsg')"/>
+      <bind nodeset="/newborn_followup/patient_presence/c_child_state" type="select1" jr:requiredMsg="jr:itext('/newborn_followup/patient_presence/c_child_state:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/newborn_followup/c_time_of_consultation" relevant="selected( /newborn_followup/patient_presence/c_child_state ,'new_complaint')"/>
+      <bind nodeset="/newborn_followup/c_time_of_consultation/c_promptitude" type="select1" required="true()"/>
+      <bind nodeset="/newborn_followup/c_reference_pattern_control" relevant="selected( /newborn_followup/patient_presence/c_child_state ,'new_complaint')"/>
+      <bind nodeset="/newborn_followup/c_reference_pattern_control/c_reference_pattern" type="select" required="true()"/>
+      <bind nodeset="/newborn_followup/c_reference_pattern_control/c_reference_pattern_other" type="string" required="true()" relevant=" /newborn_followup/c_reference_pattern_control/c_reference_pattern  = 'c_others'"/>
+      <bind nodeset="/newborn_followup/group_review/s_summary" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_followup/group_review/s_patient_info_name" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_followup/group_review/s_patient_info_sex" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_followup/group_review/s_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_followup/group_review/s_informations" readonly="true()" type="string" relevant="selected( /newborn_followup/patient_presence/c_child_state ,'cured') or selected( /newborn_followup/patient_presence/c_child_state ,'improvement') or selected( /newborn_followup/patient_presence/c_child_state ,'new_complaint')"/>
+      <bind nodeset="/newborn_followup/group_review/s_cured" readonly="true()" type="string" relevant="selected( /newborn_followup/patient_presence/c_child_state ,'cured')"/>
+      <bind nodeset="/newborn_followup/group_review/s_improvement" readonly="true()" type="string" relevant="selected( /newborn_followup/patient_presence/c_child_state ,'improvement')"/>
+      <bind nodeset="/newborn_followup/group_review/s_new_complaint" readonly="true()" type="string" relevant="selected( /newborn_followup/patient_presence/c_child_state ,'new_complaint')"/>
+      <bind nodeset="/newborn_followup/group_review/s_consultation_information" readonly="true()" type="string" relevant=" /newborn_followup/is_referred  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_danger_signs_detected" readonly="true()" type="string" relevant=" /newborn_followup/is_referred  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_unable_to_suckle" readonly="true()" type="string" relevant=" /newborn_followup/has_unable_to_suckle  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_vomits_everything_consumes" readonly="true()" type="string" relevant=" /newborn_followup/has_vomits_everything_consumes  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_convulsion" readonly="true()" type="string" relevant=" /newborn_followup/has_convulsion  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_sleepy_unconscious" readonly="true()" type="string" relevant=" /newborn_followup/has_sleepy_unconscious  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_stiff_neck" readonly="true()" type="string" relevant=" /newborn_followup/has_stiff_neck  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_domed_fontanelle" readonly="true()" type="string" relevant=" /newborn_followup/has_domed_fontanelle  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_breathe_hard" readonly="true()" type="string" relevant=" /newborn_followup/has_breathe_hard  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_subcostal_indrawing" readonly="true()" type="string" relevant=" /newborn_followup/has_subcostal_indrawing  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_wheezing" readonly="true()" type="string" relevant=" /newborn_followup/has_wheezing  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_diarrhea" readonly="true()" type="string" relevant=" /newborn_followup/has_diarrhea  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_others" readonly="true()" type="string" relevant=" /newborn_followup/has_others_heath_problem  = 'true' and  /newborn_followup/c_reference_pattern_control/c_reference_pattern_other !=''"/>
+      <bind nodeset="/newborn_followup/group_review/no_improvement" readonly="true()" type="string" relevant="selected( /newborn_followup/patient_presence/c_child_state ,'no_improvement')"/>
+      <bind nodeset="/newborn_followup/group_review/getting_worse" readonly="true()" type="string" relevant="selected( /newborn_followup/patient_presence/c_child_state ,'getting_worse')"/>
+      <bind nodeset="/newborn_followup/group_review/s_refer_USP" readonly="true()" type="string" relevant=" /newborn_followup/is_referred  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_refer_FS_danger_signs" readonly="true()" type="string" relevant=" /newborn_followup/is_referred  = 'true' and  /newborn_followup/has_danger_sign  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_refer_HC" readonly="true()" type="string" relevant=" /newborn_followup/is_referred  = 'true' and  /newborn_followup/is_health_referred  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_referal_health_center" type="select1" relevant=" /newborn_followup/is_referred  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_other_referal_health_center" type="string" relevant=" /newborn_followup/is_referred  = 'true' and  /newborn_followup/group_review/s_referal_health_center  = 'others'"/>
+      <bind nodeset="/newborn_followup/group_review/followup" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_followup/group_review/s_next_visit_date" readonly="true()" type="string" relevant=" /newborn_followup/is_referred  = 'true'"/>
+      <bind nodeset="/newborn_followup/group_review/s_no_next_visit" readonly="true()" type="string" relevant=" /newborn_followup/is_referred  != 'true'"/>
+      <bind nodeset="/newborn_followup/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/newborn_followup/inputs">
+      <label ref="jr:itext('/newborn_followup/inputs:label')"/>
+      <input appearance="hidden" ref="/newborn_followup/inputs/source">
+        <label ref="jr:itext('/newborn_followup/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/source_id">
+        <label ref="jr:itext('/newborn_followup/inputs/source_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_family_id">
+        <label ref="jr:itext('/newborn_followup/inputs/t_family_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_family_name">
+        <label ref="jr:itext('/newborn_followup/inputs/t_family_name:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_family_external_id">
+        <label ref="jr:itext('/newborn_followup/inputs/t_family_external_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_unable_to_suckle">
+        <label ref="jr:itext('/newborn_followup/inputs/t_unable_to_suckle:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_vomits_everything_consumes">
+        <label ref="jr:itext('/newborn_followup/inputs/t_vomits_everything_consumes:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_convulsion">
+        <label ref="jr:itext('/newborn_followup/inputs/t_convulsion:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_sleepy_unconscious">
+        <label ref="jr:itext('/newborn_followup/inputs/t_sleepy_unconscious:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_stiff_neck">
+        <label ref="jr:itext('/newborn_followup/inputs/t_stiff_neck:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_domed_fontanelle">
+        <label ref="jr:itext('/newborn_followup/inputs/t_domed_fontanelle:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_breathe_hard">
+        <label ref="jr:itext('/newborn_followup/inputs/t_breathe_hard:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_subcostal_indrawing">
+        <label ref="jr:itext('/newborn_followup/inputs/t_subcostal_indrawing:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_wheezing">
+        <label ref="jr:itext('/newborn_followup/inputs/t_wheezing:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_diarrhea">
+        <label ref="jr:itext('/newborn_followup/inputs/t_diarrhea:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_malnutrition">
+        <label ref="jr:itext('/newborn_followup/inputs/t_malnutrition:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_reference_pattern_other">
+        <label ref="jr:itext('/newborn_followup/inputs/t_reference_pattern_other:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_malaria">
+        <label ref="jr:itext('/newborn_followup/inputs/t_malaria:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_pneumonia">
+        <label ref="jr:itext('/newborn_followup/inputs/t_pneumonia:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_followup/inputs/t_cough_cold">
+        <label ref="jr:itext('/newborn_followup/inputs/t_cough_cold:label')"/>
+      </input>
+      <group ref="/newborn_followup/inputs/user">
+        <label ref="jr:itext('/newborn_followup/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/newborn_followup/inputs/user/contact_id">
+          <label ref="jr:itext('/newborn_followup/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/newborn_followup/inputs/user/name">
+          <label ref="jr:itext('/newborn_followup/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/newborn_followup/inputs/user/phone">
+          <label ref="jr:itext('/newborn_followup/inputs/user/phone:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/newborn_followup/inputs/contact">
+        <label ref="jr:itext('/newborn_followup/inputs/contact:label')"/>
+        <input appearance="select-contact type-person" ref="/newborn_followup/inputs/contact/_id">
+          <label ref="jr:itext('/newborn_followup/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/newborn_followup/inputs/contact/name">
+          <label ref="jr:itext('/newborn_followup/inputs/contact/name:label')"/>
+        </input>
+        <input ref="/newborn_followup/inputs/contact/sex">
+          <label ref="jr:itext('/newborn_followup/inputs/contact/sex:label')"/>
+        </input>
+        <input ref="/newborn_followup/inputs/contact/date_of_birth">
+          <label ref="jr:itext('/newborn_followup/inputs/contact/date_of_birth:label')"/>
+        </input>
+        <input ref="/newborn_followup/inputs/contact/external_id">
+          <label ref="jr:itext('/newborn_followup/inputs/contact/external_id:label')"/>
+        </input>
+        <input ref="/newborn_followup/inputs/contact/phone">
+          <label ref="jr:itext('/newborn_followup/inputs/contact/phone:label')"/>
+        </input>
+        <group ref="/newborn_followup/inputs/contact/parent">
+          <label ref="jr:itext('/newborn_followup/inputs/contact/parent:label')"/>
+          <input appearance="db-object bind-id-only" ref="/newborn_followup/inputs/contact/parent/_id">
+            <label ref="jr:itext('/newborn_followup/inputs/contact/parent/_id:label')"/>
+          </input>
+          <input ref="/newborn_followup/inputs/contact/parent/name">
+            <label ref="jr:itext('/newborn_followup/inputs/contact/parent/name:label')"/>
+          </input>
+          <input ref="/newborn_followup/inputs/contact/parent/external_id">
+            <label ref="jr:itext('/newborn_followup/inputs/contact/parent/external_id:label')"/>
+          </input>
+          <group ref="/newborn_followup/inputs/contact/parent/parent">
+            <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent:label')"/>
+            <input appearance="select-contact type-person" ref="/newborn_followup/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/newborn_followup/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/newborn_followup/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/newborn_followup/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/newborn_followup/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                    <group ref="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      <input ref="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id">
+                        <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                      </input>
+                      <group ref="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                        <input ref="/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id">
+                          <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                        </input>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+            <group ref="/newborn_followup/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/contact:label')"/>
+              <input appearance="select-contact type-person" ref="/newborn_followup/inputs/contact/parent/parent/contact/_id">
+                <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/contact/_id:label')"/>
+              </input>
+              <input ref="/newborn_followup/inputs/contact/parent/parent/contact/name">
+                <label ref="jr:itext('/newborn_followup/inputs/contact/parent/parent/contact/name:label')"/>
+              </input>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list summary" ref="/newborn_followup/patient_infos">
+      <label ref="jr:itext('/newborn_followup/patient_infos:label')"/>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_patient_family_name">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_patient_family_name:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_patient_family_ext_id">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_patient_family_ext_id:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_patient_name">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_patient_name:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_patient_sexe">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_patient_sexe:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_code_patient">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_code_patient:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_patient_info_age">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_patient_info_age:label')"/>
+      </input>
+      <input ref="/newborn_followup/patient_infos/last_consul_details">
+        <label ref="jr:itext('/newborn_followup/patient_infos/last_consul_details:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_unable_to_suckle">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_unable_to_suckle:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_vomits_everything_consumes">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_vomits_everything_consumes:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_convulsion">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_convulsion:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_sleepy_unconscious">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_sleepy_unconscious:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_stiff_neck">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_stiff_neck:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_domed_fontanelle">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_domed_fontanelle:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_breathe_hard">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_breathe_hard:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_subcostal_indrawing">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_subcostal_indrawing:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_wheezing">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_wheezing:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_diarrhea">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_diarrhea:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_malnutrition">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_malnutrition:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_malaria">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_malaria:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_pneumonia">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_pneumonia:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_cough_cold">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_cough_cold:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/patient_infos/i_reference_pattern_other">
+        <label ref="jr:itext('/newborn_followup/patient_infos/i_reference_pattern_other:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/newborn_followup/patient_presence">
+      <label ref="jr:itext('/newborn_followup/patient_presence:label')"/>
+      <select1 appearance="columns" ref="/newborn_followup/patient_presence/c_is_present">
+        <label ref="jr:itext('/newborn_followup/patient_presence/c_is_present:label')"/>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_is_present/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_is_present/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/newborn_followup/patient_presence/c_absence_reasons">
+        <label ref="jr:itext('/newborn_followup/patient_presence/c_absence_reasons:label')"/>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_absence_reasons/observation:label')"/>
+          <value>observation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_absence_reasons/hospitalized:label')"/>
+          <value>hospitalized</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_absence_reasons/patient_Absent:label')"/>
+          <value>patient_Absent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_absence_reasons/others:label')"/>
+          <value>others</value>
+        </item>
+      </select>
+      <input ref="/newborn_followup/patient_presence/c_other_absence_reasons">
+        <label ref="jr:itext('/newborn_followup/patient_presence/c_other_absence_reasons:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/newborn_followup/patient_presence/c_reference_health_facility">
+        <label ref="jr:itext('/newborn_followup/patient_presence/c_reference_health_facility:label')"/>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_reference_health_facility/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_reference_health_facility/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/newborn_followup/patient_presence/c_coupon_available">
+        <label ref="jr:itext('/newborn_followup/patient_presence/c_coupon_available:label')"/>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_coupon_available/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_coupon_available/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/newborn_followup/patient_presence/c_coupon_number">
+        <label ref="jr:itext('/newborn_followup/patient_presence/c_coupon_number:label')"/>
+      </input>
+      <select1 ref="/newborn_followup/patient_presence/c_child_state">
+        <label ref="jr:itext('/newborn_followup/patient_presence/c_child_state:label')"/>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_child_state/cured:label')"/>
+          <value>cured</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_child_state/improvement:label')"/>
+          <value>improvement</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_child_state/no_improvement:label')"/>
+          <value>no_improvement</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_child_state/getting_worse:label')"/>
+          <value>getting_worse</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/patient_presence/c_child_state/new_complaint:label')"/>
+          <value>new_complaint</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/newborn_followup/c_time_of_consultation">
+      <label ref="jr:itext('/newborn_followup/c_time_of_consultation:label')"/>
+      <select1 ref="/newborn_followup/c_time_of_consultation/c_promptitude">
+        <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude:label')"/>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/2:label')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/3:label')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/4:label')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/5:label')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/6:label')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/7:label')"/>
+          <value>7</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/8:label')"/>
+          <value>8</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/9:label')"/>
+          <value>9</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/10:label')"/>
+          <value>10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/11:label')"/>
+          <value>11</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/12:label')"/>
+          <value>12</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/13:label')"/>
+          <value>13</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/14:label')"/>
+          <value>14</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_time_of_consultation/c_promptitude/more_than_14:label')"/>
+          <value>more_than_14</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/newborn_followup/c_reference_pattern_control">
+      <label ref="jr:itext('/newborn_followup/c_reference_pattern_control:label')"/>
+      <select ref="/newborn_followup/c_reference_pattern_control/c_reference_pattern">
+        <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern:label')"/>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/unable_to_suckle:label')"/>
+          <value>unable_to_suckle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/vomits_everything_consumes:label')"/>
+          <value>vomits_everything_consumes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/convulsion:label')"/>
+          <value>convulsion</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/sleepy_unconscious:label')"/>
+          <value>sleepy_unconscious</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/stiff_neck:label')"/>
+          <value>stiff_neck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/domed_fontanelle:label')"/>
+          <value>domed_fontanelle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/breathe_hard:label')"/>
+          <value>breathe_hard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/subcostal_indrawing:label')"/>
+          <value>subcostal_indrawing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/wheezing:label')"/>
+          <value>wheezing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/diarrhea:label')"/>
+          <value>diarrhea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/malnutrition:label')"/>
+          <value>malnutrition</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/malaria:label')"/>
+          <value>malaria</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/pneumonia:label')"/>
+          <value>pneumonia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/cough_cold:label')"/>
+          <value>cough_cold</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern/others:label')"/>
+          <value>others</value>
+        </item>
+      </select>
+      <input ref="/newborn_followup/c_reference_pattern_control/c_reference_pattern_other">
+        <label ref="jr:itext('/newborn_followup/c_reference_pattern_control/c_reference_pattern_other:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/newborn_followup/group_review">
+      <label ref="jr:itext('/newborn_followup/group_review:label')"/>
+      <input appearance="h1 yellow" ref="/newborn_followup/group_review/s_summary">
+        <label ref="jr:itext('/newborn_followup/group_review/s_summary:label')"/>
+      </input>
+      <input appearance="center" ref="/newborn_followup/group_review/s_patient_info_name">
+        <label ref="jr:itext('/newborn_followup/group_review/s_patient_info_name:label')"/>
+      </input>
+      <input appearance="center" ref="/newborn_followup/group_review/s_patient_info_sex">
+        <label ref="jr:itext('/newborn_followup/group_review/s_patient_info_sex:label')"/>
+      </input>
+      <input appearance="center" ref="/newborn_followup/group_review/s_patient_info_age">
+        <label ref="jr:itext('/newborn_followup/group_review/s_patient_info_age:label')"/>
+      </input>
+      <input appearance="h1 blue" ref="/newborn_followup/group_review/s_informations">
+        <label ref="jr:itext('/newborn_followup/group_review/s_informations:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_cured">
+        <label ref="jr:itext('/newborn_followup/group_review/s_cured:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_improvement">
+        <label ref="jr:itext('/newborn_followup/group_review/s_improvement:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_new_complaint">
+        <label ref="jr:itext('/newborn_followup/group_review/s_new_complaint:label')"/>
+      </input>
+      <input appearance="h1 blue" ref="/newborn_followup/group_review/s_consultation_information">
+        <label ref="jr:itext('/newborn_followup/group_review/s_consultation_information:label')"/>
+      </input>
+      <input appearance="h2 blue" ref="/newborn_followup/group_review/s_danger_signs_detected">
+        <label ref="jr:itext('/newborn_followup/group_review/s_danger_signs_detected:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_unable_to_suckle">
+        <label ref="jr:itext('/newborn_followup/group_review/s_unable_to_suckle:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_vomits_everything_consumes">
+        <label ref="jr:itext('/newborn_followup/group_review/s_vomits_everything_consumes:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_convulsion">
+        <label ref="jr:itext('/newborn_followup/group_review/s_convulsion:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_sleepy_unconscious">
+        <label ref="jr:itext('/newborn_followup/group_review/s_sleepy_unconscious:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_stiff_neck">
+        <label ref="jr:itext('/newborn_followup/group_review/s_stiff_neck:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_domed_fontanelle">
+        <label ref="jr:itext('/newborn_followup/group_review/s_domed_fontanelle:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_breathe_hard">
+        <label ref="jr:itext('/newborn_followup/group_review/s_breathe_hard:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_subcostal_indrawing">
+        <label ref="jr:itext('/newborn_followup/group_review/s_subcostal_indrawing:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_wheezing">
+        <label ref="jr:itext('/newborn_followup/group_review/s_wheezing:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_diarrhea">
+        <label ref="jr:itext('/newborn_followup/group_review/s_diarrhea:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_others">
+        <label ref="jr:itext('/newborn_followup/group_review/s_others:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/no_improvement">
+        <label ref="jr:itext('/newborn_followup/group_review/no_improvement:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/getting_worse">
+        <label ref="jr:itext('/newborn_followup/group_review/getting_worse:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/newborn_followup/group_review/s_refer_USP">
+        <label ref="jr:itext('/newborn_followup/group_review/s_refer_USP:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_refer_FS_danger_signs">
+        <label ref="jr:itext('/newborn_followup/group_review/s_refer_FS_danger_signs:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_refer_HC">
+        <label ref="jr:itext('/newborn_followup/group_review/s_refer_HC:label')"/>
+      </input>
+      <select1 ref="/newborn_followup/group_review/s_referal_health_center">
+        <label ref="jr:itext('/newborn_followup/group_review/s_referal_health_center:label')"/>
+        <item>
+          <label ref="jr:itext('/newborn_followup/group_review/s_referal_health_center/health_center:label')"/>
+          <value>health_center</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/group_review/s_referal_health_center/health_poste:label')"/>
+          <value>health_poste</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_followup/group_review/s_referal_health_center/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/newborn_followup/group_review/s_other_referal_health_center">
+        <label ref="jr:itext('/newborn_followup/group_review/s_other_referal_health_center:label')"/>
+      </input>
+      <input appearance="h1 green" ref="/newborn_followup/group_review/followup">
+        <label ref="jr:itext('/newborn_followup/group_review/followup:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_next_visit_date">
+        <label ref="jr:itext('/newborn_followup/group_review/s_next_visit_date:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_followup/group_review/s_no_next_visit">
+        <label ref="jr:itext('/newborn_followup/group_review/s_no_next_visit:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

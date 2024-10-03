@@ -1,0 +1,18 @@
+{
+  "context": {
+    "expression": "user.role === 'reco' && user._id !== contact._id && !summary.isPregnant && summary.alive && summary.is_family_person && !summary.muted && contact.type === 'person' && ageInYears(contact) >= 10 && ageInYears(contact) <= 60 && contact.sex === 'female'",
+    "person": false,
+    "place": false
+  },
+  "icon": "people-family",
+  "title": [
+    {
+      "locale": "en",
+      "content": "FP danger sign check"
+    },
+    {
+      "locale": "fr",
+      "content": "Suivi signe de danger PF"
+    }
+  ]
+}

@@ -1,0 +1,1029 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Rapport de  décès</h:title>
+    <model>
+      <itext>
+        <translation lang="fr">
+          <text id="/death_report/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/death_report/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/death_report/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/death_report/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/death_report/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/death_report/inputs/user/role:label">
+            <value>Role</value>
+          </text>
+          <text id="/death_report/inputs/user/external_id:label">
+            <value>ID Externe</value>
+          </text>
+          <text id="/death_report/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/death_report/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/death_report/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/death_report/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/death_report/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/contact:label">
+            <value>Information du RECO</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/death_report/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/death_report/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/death_report/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/death_report/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/death_report/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/death_report/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/death_report/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/death_report/patient_sex:label">
+            <value>Sexe</value>
+          </text>
+          <text id="/death_report/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/death_report/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/death_report/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/death_report/visited_contact_uuid:label">
+            <value>Identifiant de la famille</value>
+          </text>
+          <text id="/death_report/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/death_report/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/death_report/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/death_report/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/death_report/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/death_report/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/death_report/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/death_report/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/death_report/date_of_death:label">
+            <value>Date du décès</value>
+          </text>
+          <text id="/death_report/date_of_death_fr:label">
+            <value>Date du décès</value>
+          </text>
+          <text id="/death_report/death_reason:label">
+            <value>raison du décès</value>
+          </text>
+          <text id="/death_report/death_place:label">
+            <value>Lieu de décès</value>
+          </text>
+          <text id="/death_report/death_place_label:label">
+            <value>Lieu de décès</value>
+          </text>
+          <text id="/death_report/death_reason_label:label">
+            <value>raison du décès</value>
+          </text>
+          <text id="/death_report/c_death/c_death_date:jr:constraintMsg">
+            <value>Donnez une date passée</value>
+          </text>
+          <text id="/death_report/c_death/c_death_date:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/death_report/c_death/c_death_date:label">
+            <value>Date de décès</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason:label">
+            <value>Quel est le Motif de décès</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/malaria:label">
+            <value>Paludisme</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/diarrhea:label">
+            <value>Diarrhée</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/malnutrition:label">
+            <value>Malnutrition</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/cough_cold:label">
+            <value>Toux / Rhume</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/pneumonia:label">
+            <value>pneumonie</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/maternal_death:label">
+            <value>Décès maternel</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/fever:label">
+            <value>Fièvre (Corps chaud)</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/yellow_fever:label">
+            <value>Fièvre jaune</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/tetanus:label">
+            <value>Tétanos</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/viral_diseases:label">
+            <value>Maladies virales</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/meningitis:label">
+            <value>Méningite</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/miscarriage:label">
+            <value>Fausse couche</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/traffic_accident:label">
+            <value>Accident de la circulation</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/burns:label">
+            <value>Brûlure</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/tuberculosis:label">
+            <value>Tuberulose</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/bloody_diarrhea:label">
+            <value>Diarrhées sanglantes</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/accidental_ingestion_caustic_products:label">
+            <value>Ingestion accidentelle de produits caustiques</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/food_poisoning:label">
+            <value>Intoxication alimentaire</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/dog_bites:label">
+            <value>Morsure de chien</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/snake_bite:label">
+            <value>Morsure de serpent</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/trauma:label">
+            <value>Traumatisme</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/domestic_violence:label">
+            <value>Violence conjugale</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/cholera:label">
+            <value>Choléra</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/other:label">
+            <value>Autre</value>
+          </text>
+          <text id="/death_report/c_death/c_death_other_reason:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/death_report/c_death/c_death_other_reason:label">
+            <value>Saisir l'autre motif</value>
+          </text>
+          <text id="/death_report/c_death/c_death_place:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/death_report/c_death/c_death_place:label">
+            <value>Lieu du décès</value>
+          </text>
+          <text id="/death_report/c_death/c_death_place/health_structure:label">
+            <value>Structure de santé</value>
+          </text>
+          <text id="/death_report/c_death/c_death_place/home:label">
+            <value>Domicile</value>
+          </text>
+          <text id="/death_report/c_death/c_death_place/other:label">
+            <value>Autre</value>
+          </text>
+          <text id="/death_report/c_death/c_death_other_place:label">
+            <value>Spécifier</value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_summary:label">
+            <value>Détails du Patient &lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_patient_name_info:label">
+            <value>&lt;strong style=&quot;text-align:center;&quot;&gt;<output value=" /death_report/patient_name "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_patient_sex_info:label">
+            <value>&lt;strong style=&quot;text-align:center;&quot;&gt;<output value=" /death_report/patient_sex_fr "/> &lt;/strong&gt;</value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_patient_age_info:label">
+            <value>&lt;strong style=&quot;text-align:center;&quot;&gt;<output value=" /death_report/patient_age_display_fr "/> &lt;/strong&gt;</value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_death_info:label">
+            <value>&lt;i class="fa fa-medkit"&gt;&lt;/i&gt; Information sur le déces</value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_death_date:label">
+            <value>Date de décès : <output value=" /death_report/c_death/c_death_date "/></value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_death_place:label">
+            <value>Lieu de décès : <output value=" /death_report/death_place_label "/></value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_death_reason:label">
+            <value>Raison du décès : <output value=" /death_report/death_reason_label "/></value>
+          </text>
+          <text id="/death_report/patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/patient_name:label">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation lang="en">
+          <text id="/death_report/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/death_report/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/death_report/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/death_report/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/death_report/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/death_report/inputs/user/role:label">
+            <value>Role</value>
+          </text>
+          <text id="/death_report/inputs/user/external_id:label">
+            <value>Externa Id</value>
+          </text>
+          <text id="/death_report/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/death_report/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/death_report/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/death_report/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/death_report/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/death_report/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/death_report/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/death_report/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/death_report/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/death_report/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/death_report/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/death_report/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/death_report/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/death_report/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/death_report/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/death_report/patient_sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/death_report/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/death_report/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/death_report/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/death_report/visited_contact_uuid:label">
+            <value>Family Id</value>
+          </text>
+          <text id="/death_report/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/death_report/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/death_report/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/death_report/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/death_report/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/death_report/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/death_report/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/death_report/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/death_report/date_of_death:label">
+            <value>Death date</value>
+          </text>
+          <text id="/death_report/date_of_death_fr:label">
+            <value>Death date</value>
+          </text>
+          <text id="/death_report/death_reason:label">
+            <value>Death reason</value>
+          </text>
+          <text id="/death_report/death_place:label">
+            <value>Death place</value>
+          </text>
+          <text id="/death_report/death_place_label:label">
+            <value>Death place</value>
+          </text>
+          <text id="/death_report/death_reason_label:label">
+            <value>Death reason</value>
+          </text>
+          <text id="/death_report/c_death/c_death_date:jr:constraintMsg">
+            <value>Only past date allowed</value>
+          </text>
+          <text id="/death_report/c_death/c_death_date:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/death_report/c_death/c_death_date:label">
+            <value>Date of reported death</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason:label">
+            <value>Reason death</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/malaria:label">
+            <value>Malaria</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/diarrhea:label">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/malnutrition:label">
+            <value>Malnutrition</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/cough_cold:label">
+            <value>Cough / Cold</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/pneumonia:label">
+            <value>pneumonia</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/maternal_death:label">
+            <value>Maternal death</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/fever:label">
+            <value>Fever</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/yellow_fever:label">
+            <value>Yellow fever</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/tetanus:label">
+            <value>Tetanus</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/viral_diseases:label">
+            <value>Viral diseases</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/meningitis:label">
+            <value>Meningitis</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/miscarriage:label">
+            <value>Miscarriage</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/traffic_accident:label">
+            <value>Traffic accident</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/burns:label">
+            <value>Burns</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/tuberculosis:label">
+            <value>Tuberculosis</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/bloody_diarrhea:label">
+            <value>Bloody diarrhoea</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/accidental_ingestion_caustic_products:label">
+            <value>Accidental ingestion of caustic products</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/food_poisoning:label">
+            <value>Food poisoning</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/dog_bites:label">
+            <value>Dog bites</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/snake_bite:label">
+            <value>Snake bite</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/trauma:label">
+            <value>Trauma</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/domestic_violence:label">
+            <value>Domestic violence</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/cholera:label">
+            <value>Cholera</value>
+          </text>
+          <text id="/death_report/c_death/c_death_reason/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/death_report/c_death/c_death_other_reason:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/death_report/c_death/c_death_other_reason:label">
+            <value>Enter the other reason</value>
+          </text>
+          <text id="/death_report/c_death/c_death_place:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/death_report/c_death/c_death_place:label">
+            <value>Place of death</value>
+          </text>
+          <text id="/death_report/c_death/c_death_place/health_structure:label">
+            <value>Health Facility</value>
+          </text>
+          <text id="/death_report/c_death/c_death_place/home:label">
+            <value>Home</value>
+          </text>
+          <text id="/death_report/c_death/c_death_place/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/death_report/c_death/c_death_other_place:label">
+            <value>Specify</value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_summary:label">
+            <value>Patient Summary&lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_patient_name_info:label">
+            <value>&lt;strong style=&quot;text-align:center;&quot;&gt;<output value=" /death_report/patient_name "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_patient_sex_info:label">
+            <value>&lt;strong style=&quot;text-align:center;&quot;&gt;<output value=" /death_report/patient_sex_en "/> &lt;/strong&gt;</value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_patient_age_info:label">
+            <value>&lt;strong style=&quot;text-align:center;&quot;&gt;<output value=" /death_report/patient_age_display_en "/> &lt;/strong&gt;</value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_death_info:label">
+            <value>&lt;i class="fa fa-medkit"&gt;&lt;/i&gt; Death Information</value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_death_date:label">
+            <value>Death Date : <output value=" /death_report/c_death/c_death_date "/></value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_death_place:label">
+            <value>Death Place : <output value=" /death_report/death_place_label "/></value>
+          </text>
+          <text id="/death_report/group_diagnosis/s_death_reason:label">
+            <value>Death Reason : <output value=" /death_report/death_reason_label "/></value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <death_report id="death_report" prefix="J1!death_report!" delimiter="#" version="2017-07-11">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+              <role/>
+              <external_id/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <sex/>
+              <date_of_birth/>
+              <parent>
+                <_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                  <contact>
+                    <_id/>
+                    <name/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_name/>
+          <patient_age_in_years/>
+          <patient_age_in_months/>
+          <patient_age_in_days/>
+          <patient_age_display_fr/>
+          <patient_age_display_en/>
+          <patient_sex/>
+          <patient_date_of_birth/>
+          <patient_sex_en/>
+          <patient_sex_fr/>
+          <visited_contact_uuid/>
+          <household_id/>
+          <village_secteur_id/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <date_of_death/>
+          <date_of_death_fr/>
+          <is_home_death/>
+          <is_maternal_death/>
+          <death_reason/>
+          <death_place/>
+          <death_place_label/>
+          <death_reason_label/>
+          <c_death>
+            <c_death_date/>
+            <c_death_reason/>
+            <c_death_other_reason/>
+            <c_death_place/>
+            <c_death_other_place/>
+          </c_death>
+          <group_diagnosis>
+            <s_summary/>
+            <s_patient_name_info/>
+            <s_patient_sex_info/>
+            <s_patient_age_info/>
+            <s_death_info/>
+            <s_death_date/>
+            <s_death_place/>
+            <s_death_reason/>
+          </group_diagnosis>
+          <meta>
+            <instanceID/>
+          </meta>
+        </death_report>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/death_report/inputs/source" type="string"/>
+      <bind nodeset="/death_report/inputs/source_id" type="string"/>
+      <bind nodeset="/death_report/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/death_report/inputs/user/name" type="string"/>
+      <bind nodeset="/death_report/inputs/user/phone" type="string"/>
+      <bind nodeset="/death_report/inputs/user/role" type="string"/>
+      <bind nodeset="/death_report/inputs/user/external_id" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/_id" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/name" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/sex" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/parent/_id" type="db:person"/>
+      <bind nodeset="/death_report/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/parent/parent/contact/_id" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/parent/parent/contact/name" type="string"/>
+      <bind nodeset="/death_report/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/death_report/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/death_report/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/death_report/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/death_report/patient_age_in_years" type="string" calculate="if (  /death_report/inputs/contact/date_of_birth ='', '', floor( difference-in-months(  /death_report/inputs/contact/date_of_birth , today() ) div 12 ) )"/>
+      <bind nodeset="/death_report/patient_age_in_months" type="string" calculate="difference-in-months(  /death_report/inputs/contact/date_of_birth , today() )"/>
+      <bind nodeset="/death_report/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time( /death_report/inputs/contact/date_of_birth ) )"/>
+      <bind nodeset="/death_report/patient_age_display_fr" type="string" calculate="concat(concat( /death_report/patient_age_in_years , if( /death_report/patient_age_in_years =1,' an et ',' ans et ')),concat( /death_report/patient_age_in_months  mod 12, if(( /death_report/patient_age_in_months  mod 12)=1,' mois',' mois')))"/>
+      <bind nodeset="/death_report/patient_age_display_en" type="string" calculate="concat(concat( /death_report/patient_age_in_years , if( /death_report/patient_age_in_years =1,' year and ',' years and ')),concat( /death_report/patient_age_in_months  mod 12, if(( /death_report/patient_age_in_months  mod 12)=1,' month old',' months old')))"/>
+      <bind nodeset="/death_report/patient_sex" type="string" calculate=" /death_report/inputs/contact/sex "/>
+      <bind nodeset="/death_report/patient_date_of_birth" type="string" calculate="../inputs/contact/date_of_birth"/>
+      <bind nodeset="/death_report/patient_sex_en" type="string" calculate="if( /death_report/inputs/contact/sex  = 'male' or  /death_report/inputs/contact/sex  = 'homme' or  /death_report/inputs/contact/sex  = 'Homme', 'Male', if( /death_report/inputs/contact/sex  = 'female' or  /death_report/inputs/contact/sex  = 'femme' or  /death_report/inputs/contact/sex  = 'Femme', 'Female', ''))"/>
+      <bind nodeset="/death_report/patient_sex_fr" type="string" calculate="if( /death_report/inputs/contact/sex  = 'male' or  /death_report/inputs/contact/sex  = 'homme' or  /death_report/inputs/contact/sex  = 'Homme', 'Masculin', if( /death_report/inputs/contact/sex  = 'female' or  /death_report/inputs/contact/sex  = 'femme' or  /death_report/inputs/contact/sex  = 'Femme', 'Féminin', ''))"/>
+      <bind nodeset="/death_report/visited_contact_uuid" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/death_report/household_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/death_report/village_secteur_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/death_report/district_quartier_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/death_report/hospital_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/death_report/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/death_report/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/death_report/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/death_report/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/death_report/date_of_death" type="string" calculate=" /death_report/c_death/c_death_date "/>
+      <bind nodeset="/death_report/date_of_death_fr" type="string" calculate="if(concat(../date_of_death,'')=&quot;&quot;,&quot;&quot;,format-date-time( ../date_of_death, &quot;%d/%m/%Y&quot; ))"/>
+      <bind nodeset="/death_report/is_home_death" type="string" calculate="if(selected( /death_report/c_death/c_death_place ,'home'),'true','false')"/>
+      <bind nodeset="/death_report/is_maternal_death" type="string" calculate="if(selected( /death_report/c_death/c_death_reason ,'maternal_death'),'true','false')"/>
+      <bind nodeset="/death_report/death_reason" type="string" calculate=" /death_report/c_death/c_death_reason "/>
+      <bind nodeset="/death_report/death_place" type="string" calculate=" /death_report/c_death/c_death_place "/>
+      <bind nodeset="/death_report/death_place_label" type="string" calculate="if( /death_report/c_death/c_death_place ='other', /death_report/c_death/c_death_other_place ,jr:choice-name( /death_report/c_death/c_death_place ,' /death_report/c_death/c_death_place '))"/>
+      <bind nodeset="/death_report/death_reason_label" type="string" calculate="if( /death_report/c_death/c_death_reason ='other', /death_report/c_death/c_death_other_reason ,jr:choice-name( /death_report/c_death/c_death_reason ,' /death_report/c_death/c_death_reason '))"/>
+      <bind nodeset="/death_report/c_death/c_death_date" type="date" required="true()" constraint=". &lt;= today()" jr:requiredMsg="jr:itext('/death_report/c_death/c_death_date:jr:requiredMsg')" jr:constraintMsg="jr:itext('/death_report/c_death/c_death_date:jr:constraintMsg')"/>
+      <bind nodeset="/death_report/c_death/c_death_reason" type="select" jr:requiredMsg="jr:itext('/death_report/c_death/c_death_reason:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/death_report/c_death/c_death_other_reason" type="string" relevant=" /death_report/c_death/c_death_reason ='other'" jr:requiredMsg="jr:itext('/death_report/c_death/c_death_other_reason:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/death_report/c_death/c_death_place" type="select1" jr:requiredMsg="jr:itext('/death_report/c_death/c_death_place:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/death_report/c_death/c_death_other_place" type="string" relevant=" /death_report/c_death/c_death_place ='other'"/>
+      <bind nodeset="/death_report/group_diagnosis/s_summary" readonly="true()" type="string"/>
+      <bind nodeset="/death_report/group_diagnosis/s_patient_name_info" readonly="true()" type="string"/>
+      <bind nodeset="/death_report/group_diagnosis/s_patient_sex_info" readonly="true()" type="string"/>
+      <bind nodeset="/death_report/group_diagnosis/s_patient_age_info" readonly="true()" type="string"/>
+      <bind nodeset="/death_report/group_diagnosis/s_death_info" readonly="true()" type="string"/>
+      <bind nodeset="/death_report/group_diagnosis/s_death_date" readonly="true()" type="string"/>
+      <bind nodeset="/death_report/group_diagnosis/s_death_place" readonly="true()" type="string" relevant=" /death_report/death_place  !=''"/>
+      <bind nodeset="/death_report/group_diagnosis/s_death_reason" readonly="true()" type="string" relevant=" /death_report/death_reason  !=''"/>
+      <bind nodeset="/death_report/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/death_report/inputs">
+      <label ref="jr:itext('/death_report/inputs:label')"/>
+      <input appearance="hidden" ref="/death_report/inputs/source">
+        <label ref="jr:itext('/death_report/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/death_report/inputs/source_id">
+        <label ref="jr:itext('/death_report/inputs/source_id:label')"/>
+      </input>
+      <group ref="/death_report/inputs/user">
+        <label ref="jr:itext('/death_report/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/death_report/inputs/user/contact_id">
+          <label ref="jr:itext('/death_report/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/death_report/inputs/user/name">
+          <label ref="jr:itext('/death_report/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/death_report/inputs/user/phone">
+          <label ref="jr:itext('/death_report/inputs/user/phone:label')"/>
+        </input>
+        <input appearance="hidden" ref="/death_report/inputs/user/role">
+          <label ref="jr:itext('/death_report/inputs/user/role:label')"/>
+        </input>
+        <input appearance="hidden" ref="/death_report/inputs/user/external_id">
+          <label ref="jr:itext('/death_report/inputs/user/external_id:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/death_report/inputs/contact">
+        <label ref="jr:itext('/death_report/inputs/contact:label')"/>
+        <input appearance="select-contact type-person" ref="/death_report/inputs/contact/_id">
+          <label ref="jr:itext('/death_report/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/death_report/inputs/contact/name">
+          <label ref="jr:itext('/death_report/inputs/contact/name:label')"/>
+        </input>
+        <input ref="/death_report/inputs/contact/sex">
+          <label ref="jr:itext('/death_report/inputs/contact/sex:label')"/>
+        </input>
+        <input ref="/death_report/inputs/contact/date_of_birth">
+          <label ref="jr:itext('/death_report/inputs/contact/date_of_birth:label')"/>
+        </input>
+        <group ref="/death_report/inputs/contact/parent">
+          <label ref="jr:itext('/death_report/inputs/contact/parent:label')"/>
+          <input appearance="db-object bind-id-only" ref="/death_report/inputs/contact/parent/_id">
+            <label ref="jr:itext('/death_report/inputs/contact/parent/_id:label')"/>
+          </input>
+          <group ref="/death_report/inputs/contact/parent/parent">
+            <label ref="jr:itext('/death_report/inputs/contact/parent/parent:label')"/>
+            <input appearance="select-contact type-person" ref="/death_report/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/death_report/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/death_report/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/death_report/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/death_report/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/death_report/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/death_report/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/death_report/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/death_report/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/death_report/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/death_report/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/death_report/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/death_report/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/death_report/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/death_report/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                    <group ref="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      <input ref="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id">
+                        <label ref="jr:itext('/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                      </input>
+                      <group ref="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                        <input ref="/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id">
+                          <label ref="jr:itext('/death_report/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                        </input>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+            <group ref="/death_report/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/death_report/inputs/contact/parent/parent/contact:label')"/>
+              <input appearance="select-contact type-person" ref="/death_report/inputs/contact/parent/parent/contact/_id">
+                <label ref="jr:itext('/death_report/inputs/contact/parent/parent/contact/_id:label')"/>
+              </input>
+              <input ref="/death_report/inputs/contact/parent/parent/contact/name">
+                <label ref="jr:itext('/death_report/inputs/contact/parent/parent/contact/name:label')"/>
+              </input>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/death_report/c_death">
+      <label ref="jr:itext('/death_report/c_death:label')"/>
+      <input ref="/death_report/c_death/c_death_date">
+        <label ref="jr:itext('/death_report/c_death/c_death_date:label')"/>
+      </input>
+      <select ref="/death_report/c_death/c_death_reason">
+        <label ref="jr:itext('/death_report/c_death/c_death_reason:label')"/>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/malaria:label')"/>
+          <value>malaria</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/diarrhea:label')"/>
+          <value>diarrhea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/malnutrition:label')"/>
+          <value>malnutrition</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/cough_cold:label')"/>
+          <value>cough_cold</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/pneumonia:label')"/>
+          <value>pneumonia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/maternal_death:label')"/>
+          <value>maternal_death</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/fever:label')"/>
+          <value>fever</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/yellow_fever:label')"/>
+          <value>yellow_fever</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/tetanus:label')"/>
+          <value>tetanus</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/viral_diseases:label')"/>
+          <value>viral_diseases</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/meningitis:label')"/>
+          <value>meningitis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/miscarriage:label')"/>
+          <value>miscarriage</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/traffic_accident:label')"/>
+          <value>traffic_accident</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/burns:label')"/>
+          <value>burns</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/tuberculosis:label')"/>
+          <value>tuberculosis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/bloody_diarrhea:label')"/>
+          <value>bloody_diarrhea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/accidental_ingestion_caustic_products:label')"/>
+          <value>accidental_ingestion_caustic_products</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/food_poisoning:label')"/>
+          <value>food_poisoning</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/dog_bites:label')"/>
+          <value>dog_bites</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/snake_bite:label')"/>
+          <value>snake_bite</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/trauma:label')"/>
+          <value>trauma</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/domestic_violence:label')"/>
+          <value>domestic_violence</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/cholera:label')"/>
+          <value>cholera</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_reason/other:label')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/death_report/c_death/c_death_other_reason">
+        <label ref="jr:itext('/death_report/c_death/c_death_other_reason:label')"/>
+      </input>
+      <select1 ref="/death_report/c_death/c_death_place">
+        <label ref="jr:itext('/death_report/c_death/c_death_place:label')"/>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_place/health_structure:label')"/>
+          <value>health_structure</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_place/home:label')"/>
+          <value>home</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/c_death/c_death_place/other:label')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/death_report/c_death/c_death_other_place">
+        <label ref="jr:itext('/death_report/c_death/c_death_other_place:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/death_report/group_diagnosis">
+      <label ref="jr:itext('/death_report/group_diagnosis:label')"/>
+      <input appearance="h1 yellow" ref="/death_report/group_diagnosis/s_summary">
+        <label ref="jr:itext('/death_report/group_diagnosis/s_summary:label')"/>
+      </input>
+      <input ref="/death_report/group_diagnosis/s_patient_name_info">
+        <label ref="jr:itext('/death_report/group_diagnosis/s_patient_name_info:label')"/>
+      </input>
+      <input ref="/death_report/group_diagnosis/s_patient_sex_info">
+        <label ref="jr:itext('/death_report/group_diagnosis/s_patient_sex_info:label')"/>
+      </input>
+      <input ref="/death_report/group_diagnosis/s_patient_age_info">
+        <label ref="jr:itext('/death_report/group_diagnosis/s_patient_age_info:label')"/>
+      </input>
+      <input appearance="h2 blue" ref="/death_report/group_diagnosis/s_death_info">
+        <label ref="jr:itext('/death_report/group_diagnosis/s_death_info:label')"/>
+      </input>
+      <input ref="/death_report/group_diagnosis/s_death_date">
+        <label ref="jr:itext('/death_report/group_diagnosis/s_death_date:label')"/>
+      </input>
+      <input ref="/death_report/group_diagnosis/s_death_place">
+        <label ref="jr:itext('/death_report/group_diagnosis/s_death_place:label')"/>
+      </input>
+      <input ref="/death_report/group_diagnosis/s_death_reason">
+        <label ref="jr:itext('/death_report/group_diagnosis/s_death_reason:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

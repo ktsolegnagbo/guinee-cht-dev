@@ -1,0 +1,18 @@
+{
+    "context": {
+      "expression": "user.role === 'mentor' && (contact.type === 'hospital' || contact.contact_type === 'hospital')",
+      "person": false,
+      "place": true
+    },
+    "icon": "drugs-50x",
+    "title": [
+      {
+        "locale": "en",
+        "content": "HC MEG SITUATION"
+      },
+      {
+        "locale": "fr",
+        "content": "SITUATION MEG FS"
+      }
+    ]
+}

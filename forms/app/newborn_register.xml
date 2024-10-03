@@ -1,0 +1,1953 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Registre nouveau né</h:title>
+    <model>
+      <itext>
+        <translation lang="fr">
+          <text id="/newborn_register/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/newborn_register/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/newborn_register/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/newborn_register/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/newborn_register/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/newborn_register/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/contact:label">
+            <value>Information du RECO</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/newborn_register/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/newborn_register/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/newborn_register/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/newborn_register/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/newborn_register/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/newborn_register/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/newborn_register/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/newborn_register/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/newborn_register/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/newborn_register/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/newborn_register/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/newborn_register/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/newborn_register/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/newborn_register/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/newborn_register/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/newborn_register/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/newborn_register/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/newborn_register/patient_family_name:label">
+            <value>Nom du ménage</value>
+          </text>
+          <text id="/newborn_register/patient_phone:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/newborn_register/patient_phone_to_show:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/newborn_register/patient_family_external_id:label">
+            <value>Numéro du ménage</value>
+          </text>
+          <text id="/newborn_register/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/newborn_register/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/newborn_register/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/newborn_register/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/newborn_register/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/newborn_register/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/newborn_register/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/newborn_register/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation:label">
+            <value>Moment de la consultation</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude:label">
+            <value>Evolution de la maladie</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/1:label">
+            <value>1 jour</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/2:label">
+            <value>2 jours</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/3:label">
+            <value>3 jours</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/4:label">
+            <value>4 jours</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/5:label">
+            <value>5 jours</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/6:label">
+            <value>6 jours</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/7:label">
+            <value>7 jours</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/8:label">
+            <value>8 jours</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/9:label">
+            <value>9 jours</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/10:label">
+            <value>10 jours</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/11:label">
+            <value>11 jours</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/12:label">
+            <value>12 jours</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/13:label">
+            <value>13 jours</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/14:label">
+            <value>14 jours</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/more_than_14:label">
+            <value>plus de 14 jours</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control:label">
+            <value>contrôle de signe de danger</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern:label">
+            <value>Motif de référence</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/unable_to_suckle:label">
+            <value>Incapable de téter</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/vomits_everything_consumes:label">
+            <value>Vomit tout ce qu'il consomme</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/convulsion:label">
+            <value>Convulse</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/sleepy_unconscious:label">
+            <value>Somnolent ou Inconscient</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/stiff_neck:label">
+            <value>Nuque raide</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/domed_fontanelle:label">
+            <value>Fontanelle bombée</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/breathe_hard:label">
+            <value>Respire difficilement</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/subcostal_indrawing:label">
+            <value>Tirage sous-costal</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/wheezing:label">
+            <value>Respiration sifflante</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/diarrhea:label">
+            <value>Diarrhée</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/malnutrition:label">
+            <value>Malnutrition</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/malaria:label">
+            <value>Paludisme</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/pneumonia:label">
+            <value>Pneumonie</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/cough_cold:label">
+            <value>Toux ou Rhume</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/others:label">
+            <value>Autres problèmes de santé</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern_other:label">
+            <value>Saisir autres motifs</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/c_has_health_record:label">
+            <value>L'enfant a t'il un carnet de santé ?</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/c_has_health_record/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/c_has_health_record/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/type:label">
+            <value>Type</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/user_id:label">
+            <value>User Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_id:label">
+            <value>patient_id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_name:label">
+            <value>patient_name</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_date_of_birth:label">
+            <value>patient_date_of_birth</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_age_in_years:label">
+            <value>patient_age_in_years</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_age_in_months:label">
+            <value>patient_age_in_months</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_age_in_days:label">
+            <value>patient_age_in_days</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_sex:label">
+            <value>patient_sex</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/visited_contact_uuid:label">
+            <value>visited_contact_uuid</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/__note:label">
+            <value>Etat vaccinal de l'enfant</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG:label">
+            <value>BCG</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason:label">
+            <value>Pourquoi le BCG n'est pas attribué ?</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason/shortage:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason/no_appointment_respect:label">
+            <value>Non respect du rendez-vous</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0:label">
+            <value>VPO 0</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason:label">
+            <value>Pourquoi le VPO 0 n'est pas attribué ?</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason/shortage:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason/no_appointment_respect:label">
+            <value>Non respect du rendez-vous</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks:label">
+            <value>6 semaines</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1:label">
+            <value>Penta 1</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason:label">
+            <value>Pourquoi le Penta 1 n'est pas attribué ?</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason/shortage:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason/no_appointment_respect:label">
+            <value>Non respect du rendez-vous</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1:label">
+            <value>VPO 1</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason:label">
+            <value>Pourquoi le VPO 1 n'est pas attribué ?</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason/shortage:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason/no_appointment_respect:label">
+            <value>Non respect du rendez-vous</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/created_by_doc:label">
+            <value>created_by_doc</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup_report_doc:label">
+            <value>vaccination_followup_report_doc</value>
+          </text>
+          <text id="/newborn_register/group_review/s_summary:label">
+            <value>Détails du Patient &lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/newborn_register/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /newborn_register/patient_name_to_show "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/newborn_register/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /newborn_register/patient_sex_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/newborn_register/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /newborn_register/patient_age_display_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/newborn_register/group_review/s_consultation_information:label">
+            <value>Motif de référence</value>
+          </text>
+          <text id="/newborn_register/group_review/s_danger_signs_detected:label">
+            <value>&lt;b&gt;Signes de danger détectés&lt;/b&gt;</value>
+          </text>
+          <text id="/newborn_register/group_review/s_unable_to_suckle:label">
+            <value>Incapable de téter</value>
+          </text>
+          <text id="/newborn_register/group_review/s_vomits_everything_consumes:label">
+            <value>Vomit tout ce qu'il consomme</value>
+          </text>
+          <text id="/newborn_register/group_review/s_convulsion:label">
+            <value>Convulsion</value>
+          </text>
+          <text id="/newborn_register/group_review/s_sleepy_unconscious:label">
+            <value>Somnolent ou Inconscient</value>
+          </text>
+          <text id="/newborn_register/group_review/s_stiff_neck:label">
+            <value>Nuque raide</value>
+          </text>
+          <text id="/newborn_register/group_review/s_domed_fontanelle:label">
+            <value>Fontanelle bombée</value>
+          </text>
+          <text id="/newborn_register/group_review/s_breathe_hard:label">
+            <value>Respire difficilement</value>
+          </text>
+          <text id="/newborn_register/group_review/s_subcostal_indrawing:label">
+            <value>Tirage sous-costal</value>
+          </text>
+          <text id="/newborn_register/group_review/s_wheezing:label">
+            <value>Respiration sifflante</value>
+          </text>
+          <text id="/newborn_register/group_review/s_diarrhea:label">
+            <value>Diarrhée</value>
+          </text>
+          <text id="/newborn_register/group_review/s_malnutrition:label">
+            <value>Malnutrition</value>
+          </text>
+          <text id="/newborn_register/group_review/s_others:label">
+            <value>Autres problèmes de santé: <output value=" /newborn_register/c_reference_pattern_control/c_reference_pattern_other "/></value>
+          </text>
+          <text id="/newborn_register/group_review/s_refer_USP:label">
+            <value>Référence vers une formation sanitaire</value>
+          </text>
+          <text id="/newborn_register/group_review/s_refer_FS_danger_signs:label">
+            <value>Veuillez référer l'enfant pour **présence de signe de danger**</value>
+          </text>
+          <text id="/newborn_register/group_review/s_refer_HC_vaccine:label">
+            <value>Veuillez référer l'enfant pour **Vaccins non à jour**</value>
+          </text>
+          <text id="/newborn_register/group_review/s_referal_health_center:label">
+            <value>Selectionner le centre de santé de référence</value>
+          </text>
+          <text id="/newborn_register/group_review/s_referal_health_center/health_center:label">
+            <value>Centre de santé</value>
+          </text>
+          <text id="/newborn_register/group_review/s_referal_health_center/health_poste:label">
+            <value>Poste de santé</value>
+          </text>
+          <text id="/newborn_register/group_review/s_referal_health_center/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/newborn_register/group_review/s_other_referal_health_center:label">
+            <value>Saisir le nom de la formation sanitaire de référence</value>
+          </text>
+          <text id="/newborn_register/group_review/followup:label">
+            <value>Suivi</value>
+          </text>
+          <text id="/newborn_register/group_review/s_next_visit_date:label">
+            <value>La visite de suivi de cet enfant est dans 24 Heure</value>
+          </text>
+          <text id="/newborn_register/group_review/s_vaccine_next_visit_date:label">
+            <value>La visite de suivi de cet enfant est dans 7 jours pour **Vaccins non à jour**</value>
+          </text>
+          <text id="/newborn_register/group_review/s_next_visit_no_access:jr:constraintMsg">
+            <value>Contactez votre administrateur pour avoir l'autorisation!</value>
+          </text>
+          <text id="/newborn_register/group_review/s_next_visit_no_access:label">
+            <value>**Vous ne pouvez soumettre ce formulaire que si l'enfant présente un problème de santé**</value>
+          </text>
+          <text id="/newborn_register/group_review/s_next_visit_no_access/ok:label">
+            <value>Compris</value>
+          </text>
+        </translation>
+        <translation lang="en">
+          <text id="/newborn_register/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/newborn_register/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/newborn_register/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/newborn_register/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/newborn_register/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/newborn_register/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/newborn_register/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/newborn_register/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/newborn_register/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/newborn_register/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/newborn_register/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/newborn_register/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/newborn_register/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/newborn_register/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/newborn_register/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/newborn_register/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/newborn_register/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/newborn_register/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/newborn_register/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/newborn_register/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/newborn_register/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/newborn_register/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/newborn_register/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/newborn_register/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/newborn_register/patient_family_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/newborn_register/patient_phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/newborn_register/patient_phone_to_show:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/newborn_register/patient_family_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/newborn_register/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/newborn_register/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/newborn_register/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/newborn_register/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/newborn_register/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/newborn_register/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/newborn_register/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/newborn_register/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation:label">
+            <value>Time of consultation</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude:label">
+            <value>Disease Evolution</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/1:label">
+            <value>1 day</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/2:label">
+            <value>2 days</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/3:label">
+            <value>3 days</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/4:label">
+            <value>4 days</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/5:label">
+            <value>5 days</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/6:label">
+            <value>6 days</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/7:label">
+            <value>7 days</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/8:label">
+            <value>8 days</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/9:label">
+            <value>9 days</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/10:label">
+            <value>10 days</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/11:label">
+            <value>11 days</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/12:label">
+            <value>12 days</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/13:label">
+            <value>13 days</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/14:label">
+            <value>14 days</value>
+          </text>
+          <text id="/newborn_register/c_time_of_consultation/c_promptitude/more_than_14:label">
+            <value>plus de 14 jours</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control:label">
+            <value>danger sign control</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern:label">
+            <value>Reference pattern</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/unable_to_suckle:label">
+            <value>Unable to suckle</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/vomits_everything_consumes:label">
+            <value>Vomits everything he consumes</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/convulsion:label">
+            <value>Convulse</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/sleepy_unconscious:label">
+            <value>Sleepy or Unconscious</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/stiff_neck:label">
+            <value>Stiff neck</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/domed_fontanelle:label">
+            <value>Domed fontanelle</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/breathe_hard:label">
+            <value>Breathe hard</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/subcostal_indrawing:label">
+            <value>Subcostal indrawing</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/wheezing:label">
+            <value>Wheezing</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/diarrhea:label">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/malnutrition:label">
+            <value>Malnutrition</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/malaria:label">
+            <value>Malaria</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/pneumonia:label">
+            <value>Pneumonia</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/cough_cold:label">
+            <value>Cough or Cold</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern/others:label">
+            <value>Other health problems</value>
+          </text>
+          <text id="/newborn_register/c_reference_pattern_control/c_reference_pattern_other:label">
+            <value>Enter other reasons</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/c_has_health_record:label">
+            <value>Does child have the health record?</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/c_has_health_record/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/c_has_health_record/no:label">
+            <value>No</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/type:label">
+            <value>Type</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/user_id:label">
+            <value>User Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_id:label">
+            <value>patient_id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_name:label">
+            <value>patient_name</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_date_of_birth:label">
+            <value>patient_date_of_birth</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_age_in_years:label">
+            <value>patient_age_in_years</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_age_in_months:label">
+            <value>patient_age_in_months</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_age_in_days:label">
+            <value>patient_age_in_days</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_sex:label">
+            <value>patient_sex</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/visited_contact_uuid:label">
+            <value>visited_contact_uuid</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/__note:label">
+            <value>Birth IMMUNIZATION STATUS</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG:label">
+            <value>BCG</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG/no:label">
+            <value>No</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason:label">
+            <value>Why BCG not given ?</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0:label">
+            <value>VPO 0</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0/no:label">
+            <value>No</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason:label">
+            <value>Why VPO 0 not given ?</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks:label">
+            <value>6 weeks</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1:label">
+            <value>Penta 1</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason:label">
+            <value>Why Penta 1 not given ?</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1:label">
+            <value>VPO 1</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason:label">
+            <value>Why VPO 1 not given ?</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason/shortage:label">
+            <value>Shortage</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason/no_appointment_respect:label">
+            <value>Failure to keep the appointment</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup/created_by_doc:label">
+            <value>created_by_doc</value>
+          </text>
+          <text id="/newborn_register/newborm_vaccination_group/vaccination_followup_report_doc:label">
+            <value>vaccination_followup_report_doc</value>
+          </text>
+          <text id="/newborn_register/group_review/s_summary:label">
+            <value>Patient Summary&lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/newborn_register/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /newborn_register/patient_name_to_show "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/newborn_register/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /newborn_register/patient_sex_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/newborn_register/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /newborn_register/patient_age_display_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/newborn_register/group_review/s_consultation_information:label">
+            <value>Reference pattern</value>
+          </text>
+          <text id="/newborn_register/group_review/s_danger_signs_detected:label">
+            <value>&lt;b&gt;Danger signs detected&lt;/b&gt;</value>
+          </text>
+          <text id="/newborn_register/group_review/s_unable_to_suckle:label">
+            <value>Unable to suckle</value>
+          </text>
+          <text id="/newborn_register/group_review/s_vomits_everything_consumes:label">
+            <value>Vomits everything consumes</value>
+          </text>
+          <text id="/newborn_register/group_review/s_convulsion:label">
+            <value>Convulsion</value>
+          </text>
+          <text id="/newborn_register/group_review/s_sleepy_unconscious:label">
+            <value>Sleepy or Unconscious</value>
+          </text>
+          <text id="/newborn_register/group_review/s_stiff_neck:label">
+            <value>Stiff neck</value>
+          </text>
+          <text id="/newborn_register/group_review/s_domed_fontanelle:label">
+            <value>Domed fontanelle</value>
+          </text>
+          <text id="/newborn_register/group_review/s_breathe_hard:label">
+            <value>Breathe hard</value>
+          </text>
+          <text id="/newborn_register/group_review/s_subcostal_indrawing:label">
+            <value>Subcostal indrawing</value>
+          </text>
+          <text id="/newborn_register/group_review/s_wheezing:label">
+            <value>Wheezing</value>
+          </text>
+          <text id="/newborn_register/group_review/s_diarrhea:label">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/newborn_register/group_review/s_malnutrition:label">
+            <value>Malnutrition</value>
+          </text>
+          <text id="/newborn_register/group_review/s_others:label">
+            <value>Other health problems : <output value=" /newborn_register/c_reference_pattern_control/c_reference_pattern_other "/></value>
+          </text>
+          <text id="/newborn_register/group_review/s_refer_USP:label">
+            <value>Referral to a health facility</value>
+          </text>
+          <text id="/newborn_register/group_review/s_refer_FS_danger_signs:label">
+            <value>**Please refer the child for presence of danger signs**</value>
+          </text>
+          <text id="/newborn_register/group_review/s_refer_HC_vaccine:label">
+            <value>**Please refer the patient to a health facility for sign danger**</value>
+          </text>
+          <text id="/newborn_register/group_review/s_referal_health_center:label">
+            <value>Select the reference health center</value>
+          </text>
+          <text id="/newborn_register/group_review/s_referal_health_center/health_center:label">
+            <value>Health center</value>
+          </text>
+          <text id="/newborn_register/group_review/s_referal_health_center/health_poste:label">
+            <value>Health poste</value>
+          </text>
+          <text id="/newborn_register/group_review/s_referal_health_center/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/newborn_register/group_review/s_other_referal_health_center:label">
+            <value>Enter the name of the reference health facility</value>
+          </text>
+          <text id="/newborn_register/group_review/followup:label">
+            <value>Follow up</value>
+          </text>
+          <text id="/newborn_register/group_review/s_next_visit_date:label">
+            <value>The next followup visit is for tomorrow</value>
+          </text>
+          <text id="/newborn_register/group_review/s_vaccine_next_visit_date:label">
+            <value>This child's follow-up visit is in 7 days for **Vaccines not up to date**</value>
+          </text>
+          <text id="/newborn_register/group_review/s_next_visit_no_access:jr:constraintMsg">
+            <value>Ask for permission</value>
+          </text>
+          <text id="/newborn_register/group_review/s_next_visit_no_access:label">
+            <value>**You can only submit this form if the child has a health problem**</value>
+          </text>
+          <text id="/newborn_register/group_review/s_next_visit_no_access/ok:label">
+            <value>Ok</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <newborn_register id="newborn_register" prefix="J1!newborn_register!" delimiter="#" version="2024-08-16  17-12">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <sex/>
+              <date_of_birth/>
+              <external_id/>
+              <phone/>
+              <parent>
+                <_id/>
+                <name/>
+                <external_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                  <contact>
+                    <_id/>
+                    <name/>
+                    <register_other/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_uuid/>
+          <patient_name/>
+          <patient_name_to_show/>
+          <patient_sex/>
+          <patient_external_id/>
+          <patient_external_id_to_show/>
+          <patient_date_of_birth/>
+          <patient_age_in_years/>
+          <patient_age_in_months/>
+          <patient_age_in_days/>
+          <patient_age_display_fr/>
+          <patient_age_display_en/>
+          <patient_sex_en/>
+          <patient_sex_fr/>
+          <patient_family_name/>
+          <patient_phone/>
+          <patient_phone_to_show/>
+          <patient_family_external_id/>
+          <household_id/>
+          <village_secteur_id/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <promptitude/>
+          <referal_health_center/>
+          <has_unable_to_suckle/>
+          <has_vomits_everything_consumes/>
+          <has_convulsion/>
+          <has_sleepy_unconscious/>
+          <has_stiff_neck/>
+          <has_domed_fontanelle/>
+          <has_breathe_hard/>
+          <has_subcostal_indrawing/>
+          <has_wheezing/>
+          <has_diarrhea/>
+          <has_malnutrition/>
+          <has_malaria/>
+          <has_pneumonia/>
+          <has_cough_cold/>
+          <has_others_heath_problem/>
+          <reference_pattern_other/>
+          <has_danger_sign/>
+          <has_pre_reference_treatments/>
+          <is_referred/>
+          <c_time_of_consultation>
+            <c_promptitude/>
+          </c_time_of_consultation>
+          <c_reference_pattern_control>
+            <c_reference_pattern/>
+            <c_reference_pattern_other/>
+          </c_reference_pattern_control>
+          <newborm_vaccination_group>
+            <c_has_health_record/>
+            <vaccination_followup db-doc="true">
+              <form/>
+              <type/>
+              <content_type/>
+              <from/>
+              <contact>
+                <_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                </parent>
+              </contact>
+              <fields>
+                <inputs>
+                  <source/>
+                  <source_id/>
+                  <contact>
+                    <_id/>
+                    <name/>
+                    <sex/>
+                    <date_of_birth/>
+                    <parent>
+                      <_id/>
+                    </parent>
+                  </contact>
+                </inputs>
+                <user_id/>
+                <patient_id/>
+                <patient_name/>
+                <patient_date_of_birth/>
+                <patient_age_in_years/>
+                <patient_age_in_months/>
+                <patient_age_in_days/>
+                <patient_sex/>
+                <visited_contact_uuid/>
+                <household_id/>
+                <village_secteur_id/>
+                <district_quartier_id/>
+                <hospital_id/>
+                <commune_id/>
+                <prefecture_id/>
+                <region_id/>
+                <country_id/>
+                <vaccine_BCG/>
+                <vaccine_VPO_0/>
+                <vaccine_PENTA_1/>
+                <vaccine_VPO_1/>
+                <no_BCG_reason/>
+                <no_VPO_0_reason/>
+                <no_PENTA_1_reason/>
+                <no_VPO_1_reason/>
+                <is_birth_vaccine_ok/>
+                <is_six_weeks_vaccine_ok/>
+                <is_vaccine_referal/>
+                <c_vaccine_status>
+                  <__note/>
+                  <c_birth>
+                    <c_vaccine_BCG/>
+                    <c_no_BCG_reason/>
+                    <c_vaccine_VPO_0/>
+                    <c_no_VPO_0_reason/>
+                  </c_birth>
+                  <c_six_weeks>
+                    <c_vaccine_PENTA_1/>
+                    <c_no_PENTA_1_reason/>
+                    <c_vaccine_VPO_1/>
+                    <c_no_VPO_1_reason/>
+                  </c_six_weeks>
+                </c_vaccine_status>
+              </fields>
+              <created_by_doc db-doc-ref="/newborn_register"/>
+            </vaccination_followup>
+            <vaccination_followup_report_doc db-doc-ref=" /newborn_register/newborm_vaccination_group/vaccination_followup "/>
+          </newborm_vaccination_group>
+          <group_review>
+            <s_summary/>
+            <s_patient_info_name/>
+            <s_patient_info_sex/>
+            <s_patient_info_age/>
+            <s_consultation_information/>
+            <s_danger_signs_detected/>
+            <s_unable_to_suckle/>
+            <s_vomits_everything_consumes/>
+            <s_convulsion/>
+            <s_sleepy_unconscious/>
+            <s_stiff_neck/>
+            <s_domed_fontanelle/>
+            <s_breathe_hard/>
+            <s_subcostal_indrawing/>
+            <s_wheezing/>
+            <s_diarrhea/>
+            <s_malnutrition/>
+            <s_others/>
+            <s_refer_USP/>
+            <s_refer_FS_danger_signs/>
+            <s_refer_HC_vaccine/>
+            <s_referal_health_center/>
+            <s_other_referal_health_center/>
+            <followup/>
+            <s_next_visit_date/>
+            <s_vaccine_next_visit_date/>
+            <s_next_visit_no_access/>
+          </group_review>
+          <meta>
+            <instanceID/>
+          </meta>
+        </newborn_register>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/newborn_register/inputs/source" type="string"/>
+      <bind nodeset="/newborn_register/inputs/source_id" type="string"/>
+      <bind nodeset="/newborn_register/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/newborn_register/inputs/user/name" type="string"/>
+      <bind nodeset="/newborn_register/inputs/user/phone" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/_id" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/name" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/sex" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/external_id" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/phone" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/parent/_id" type="db:person"/>
+      <bind nodeset="/newborn_register/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/parent/external_id" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/parent/parent/contact/_id" type="string"/>
+      <bind nodeset="/newborn_register/inputs/contact/parent/parent/contact/name" type="string"/>
+      <bind nodeset="/newborn_register/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/newborn_register/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/newborn_register/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/newborn_register/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/newborn_register/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/newborn_register/patient_name_to_show" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/newborn_register/patient_sex" type="string" calculate="../inputs/contact/sex"/>
+      <bind nodeset="/newborn_register/patient_external_id" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/newborn_register/patient_external_id_to_show" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/newborn_register/patient_date_of_birth" type="string" calculate="../inputs/contact/date_of_birth"/>
+      <bind nodeset="/newborn_register/patient_age_in_years" type="string" calculate="if (../patient_date_of_birth = '', '', floor( difference-in-months(../patient_date_of_birth, today() ) div 12 ) )"/>
+      <bind nodeset="/newborn_register/patient_age_in_months" type="string" calculate="difference-in-months( ../patient_date_of_birth, today() )"/>
+      <bind nodeset="/newborn_register/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time(../patient_date_of_birth) )"/>
+      <bind nodeset="/newborn_register/patient_age_display_fr" type="string" calculate="concat(concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12) &lt;= 1,' mois et ',' mois et ')),concat(../patient_age_in_days mod 365, if((../patient_age_in_days mod 365) &lt;= 1,' jour',' jours')))"/>
+      <bind nodeset="/newborn_register/patient_age_display_en" type="string" calculate="concat(concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12) &lt;= 1,' month and ',' months and ')),concat(../patient_age_in_days mod 365, if((../patient_age_in_days mod 365) &lt;= 1,' day',' days')))"/>
+      <bind nodeset="/newborn_register/patient_sex_en" type="string" calculate="if(../patient_sex = 'male' or ../patient_sex = 'homme' or ../patient_sex = 'Homme', 'Male', if(../patient_sex = 'female' or ../patient_sex = 'femme' or ../patient_sex = 'Femme', 'Female', ''))"/>
+      <bind nodeset="/newborn_register/patient_sex_fr" type="string" calculate="if(../patient_sex = 'male' or ../patient_sex = 'homme' or ../patient_sex = 'Homme', 'Masculin', if(../patient_sex = 'female' or ../patient_sex = 'femme' or ../patient_sex = 'Femme', 'Féminin', ''))"/>
+      <bind nodeset="/newborn_register/patient_family_name" type="string" calculate="../inputs/contact/parent/name"/>
+      <bind nodeset="/newborn_register/patient_phone" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/newborn_register/patient_phone_to_show" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/newborn_register/patient_family_external_id" type="string" calculate="../inputs/contact/parent/external_id"/>
+      <bind nodeset="/newborn_register/household_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/newborn_register/village_secteur_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/newborn_register/district_quartier_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/newborn_register/hospital_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/newborn_register/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/newborn_register/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/newborn_register/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/newborn_register/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/newborn_register/promptitude" type="string" calculate=" /newborn_register/c_time_of_consultation/c_promptitude "/>
+      <bind nodeset="/newborn_register/referal_health_center" type="string" calculate="if( /newborn_register/group_review/s_referal_health_center  = '','',if( /newborn_register/group_review/s_referal_health_center  = 'others', /newborn_register/group_review/s_other_referal_health_center ,jr:choice-name( /newborn_register/group_review/s_referal_health_center ,' /newborn_register/group_review/s_referal_health_center ')))"/>
+      <bind nodeset="/newborn_register/has_unable_to_suckle" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'unable_to_suckle'),'true','false')"/>
+      <bind nodeset="/newborn_register/has_vomits_everything_consumes" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'vomits_everything_consumes'),'true','false')"/>
+      <bind nodeset="/newborn_register/has_convulsion" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'convulsion'),'true','false')"/>
+      <bind nodeset="/newborn_register/has_sleepy_unconscious" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'sleepy_unconscious'),'true','false')"/>
+      <bind nodeset="/newborn_register/has_stiff_neck" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'stiff_neck'),'true','false')"/>
+      <bind nodeset="/newborn_register/has_domed_fontanelle" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'domed_fontanelle'),'true','false')"/>
+      <bind nodeset="/newborn_register/has_breathe_hard" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'breathe_hard'),'true','false')"/>
+      <bind nodeset="/newborn_register/has_subcostal_indrawing" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'subcostal_indrawing'),'true','false')"/>
+      <bind nodeset="/newborn_register/has_wheezing" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'wheezing'),'true','false')"/>
+      <bind nodeset="/newborn_register/has_diarrhea" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'diarrhea'),'true','false')"/>
+      <bind nodeset="/newborn_register/has_malnutrition" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'malnutrition'),'true','false')"/>
+      <bind nodeset="/newborn_register/has_malaria" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'malaria'),'true','false')"/>
+      <bind nodeset="/newborn_register/has_pneumonia" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'pneumonia'),'true','false')"/>
+      <bind nodeset="/newborn_register/has_cough_cold" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'cough_cold'),'true','false')"/>
+      <bind nodeset="/newborn_register/has_others_heath_problem" type="string" calculate="if(selected( /newborn_register/c_reference_pattern_control/c_reference_pattern ,'others'),'true','false')"/>
+      <bind nodeset="/newborn_register/reference_pattern_other" type="string" calculate=" /newborn_register/c_reference_pattern_control/c_reference_pattern_other "/>
+      <bind nodeset="/newborn_register/has_danger_sign" type="string" calculate="if( /newborn_register/c_reference_pattern_control/c_reference_pattern  != '','true', 'false')"/>
+      <bind nodeset="/newborn_register/has_pre_reference_treatments" type="string" calculate="&quot;false&quot;"/>
+      <bind nodeset="/newborn_register/is_referred" type="string" calculate="if( /newborn_register/c_reference_pattern_control/c_reference_pattern  != '','true', 'false')"/>
+      <bind nodeset="/newborn_register/c_time_of_consultation/c_promptitude" type="select1" required="true()"/>
+      <bind nodeset="/newborn_register/c_reference_pattern_control/c_reference_pattern" type="select" required="true()"/>
+      <bind nodeset="/newborn_register/c_reference_pattern_control/c_reference_pattern_other" type="string" relevant=" /newborn_register/c_reference_pattern_control/c_reference_pattern  = 'c_others'" required="true()"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/c_has_health_record" type="select1" required="true()"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup" relevant=" /newborn_register/newborm_vaccination_group/c_has_health_record  = 'yes'"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/form" type="string" calculate="&quot;vaccination_followup&quot;"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/type" type="string" calculate="&quot;data_record&quot;"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/content_type" type="string" calculate="&quot;xml&quot;"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/from" type="string" calculate=" /newborn_register/user_phone "/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/_id" type="string" calculate="../../../../user_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/_id" type="string" calculate="../../../../../village_secteur_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/_id" type="string" calculate="../../../../../../district_quartier_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent/_id" type="string" calculate="../../../../../../../hospital_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent/parent/_id" type="string" calculate="../../../../../../../../commune_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent/parent/parent/_id" type="string" calculate="../../../../../../../../../prefecture_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent/parent/parent/parent/_id" type="string" calculate="../../../../../../../../../../region_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string" calculate="../../../../../../../../../../../country_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/inputs/source" type="string" calculate="&quot;contact&quot;"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/inputs/source_id" type="string" calculate="&quot;&quot;"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/inputs/contact/_id" type="string" calculate="../../../../../../patient_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/inputs/contact/name" type="string" calculate="../../../../../../patient_name"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/inputs/contact/sex" type="string" calculate="../../../../../../patient_sex"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/inputs/contact/date_of_birth" type="string" calculate="../../../../../../patient_date_of_birth"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/inputs/contact/parent/_id" type="string" calculate="../../../../../../../household_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/user_id" type="string" calculate="../../../../user_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_id" type="string" calculate="../../../../patient_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_name" type="string" calculate="../../../../patient_name"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_date_of_birth" type="string" calculate="../../../../patient_date_of_birth"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_age_in_years" type="string" calculate="if (../patient_date_of_birth = '', '', floor( difference-in-months(../patient_date_of_birth, today() ) div 12 ) )"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_age_in_months" type="string" calculate="difference-in-months(../patient_date_of_birth, today() )"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time(../patient_date_of_birth) )"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/patient_sex" type="string" calculate="../../../../patient_sex"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/visited_contact_uuid" type="string" calculate="../../../../household_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/household_id" type="string" calculate="../../../../household_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/village_secteur_id" type="string" calculate="../../../../village_secteur_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/district_quartier_id" type="string" calculate="../../../../district_quartier_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/hospital_id" type="string" calculate="../../../../hospital_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/commune_id" type="string" calculate="../../../../commune_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/prefecture_id" type="string" calculate="../../../../prefecture_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/region_id" type="string" calculate="../../../../region_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/country_id" type="string" calculate="../../../../country_id"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/vaccine_BCG" type="string" calculate="../c_vaccine_status/c_birth/c_vaccine_BCG"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/vaccine_VPO_0" type="string" calculate="../c_vaccine_status/c_birth/c_vaccine_VPO_0"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/vaccine_PENTA_1" type="string" calculate="../c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/vaccine_VPO_1" type="string" calculate="../c_vaccine_status/c_six_weeks/c_vaccine_VPO_1"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/no_BCG_reason" type="string" calculate="../c_vaccine_status/c_birth/c_no_BCG_reason"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/no_VPO_0_reason" type="string" calculate="../c_vaccine_status/c_birth/c_no_VPO_0_reason"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/no_PENTA_1_reason" type="string" calculate="../c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/no_VPO_1_reason" type="string" calculate="../c_vaccine_status/c_six_weeks/c_no_VPO_1_reason"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/is_birth_vaccine_ok" type="string" calculate="if(../patient_age_in_days &gt;= 0 and ../vaccine_BCG = 'yes' and ../vaccine_VPO_0 = 'yes','true','false')"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/is_six_weeks_vaccine_ok" type="string" calculate="if(../patient_age_in_days &lt; 42 or ../patient_age_in_days &gt;= 42 and ../vaccine_PENTA_1 = 'yes' and ../vaccine_VPO_1 = 'yes','true','false')"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/is_vaccine_referal" type="string" calculate="if(../is_birth_vaccine_ok = 'true' and ../is_six_weeks_vaccine_ok = 'true','false','true')"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/__note" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth" relevant="../../patient_age_in_days &gt;= 0"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG" type="select1" calculate="coalesce( /newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG ,instance('contact-summary')/context/vaccine_BCG)" required="true()"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason" type="select1" calculate="coalesce( /newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason ,instance('contact-summary')/context/no_BCG_reason)" relevant="../c_vaccine_BCG = 'no'" required="true()"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0" type="select1" calculate="coalesce( /newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0 ,instance('contact-summary')/context/vaccine_VPO_0)" required="true()"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason" type="select1" calculate="coalesce( /newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason ,instance('contact-summary')/context/no_VPO_0_reason)" relevant="../c_vaccine_VPO_0 = 'no'" required="true()"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks" relevant="../../patient_age_in_days &gt;= 42"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1" type="select1" calculate="coalesce( /newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1 ,instance('contact-summary')/context/vaccine_PENTA_1)" required="true()"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason" type="select1" calculate="coalesce( /newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason ,instance('contact-summary')/context/no_PENTA_1_reason)" relevant="../c_vaccine_PENTA_1 = 'no'" required="true()"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1" type="select1" calculate="coalesce( /newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1 ,instance('contact-summary')/context/vaccine_VPO_1)" required="true()"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason" type="select1" calculate="coalesce( /newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason ,instance('contact-summary')/context/no_VPO_1_reason)" relevant="../c_vaccine_VPO_1 = 'no'" required="true()"/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup/created_by_doc" type="string" calculate="."/>
+      <bind nodeset="/newborn_register/newborm_vaccination_group/vaccination_followup_report_doc" type="string" calculate=" /newborn_register/newborm_vaccination_group/vaccination_followup " relevant=" /newborn_register/newborm_vaccination_group/c_has_health_record  = 'yes'"/>
+      <bind nodeset="/newborn_register/group_review/s_summary" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_register/group_review/s_patient_info_name" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_register/group_review/s_patient_info_sex" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_register/group_review/s_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_register/group_review/s_consultation_information" readonly="true()" type="string" relevant=" /newborn_register/is_referred  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_danger_signs_detected" readonly="true()" type="string" relevant=" /newborn_register/is_referred  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_unable_to_suckle" readonly="true()" type="string" relevant=" /newborn_register/has_unable_to_suckle  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_vomits_everything_consumes" readonly="true()" type="string" relevant=" /newborn_register/has_vomits_everything_consumes  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_convulsion" readonly="true()" type="string" relevant=" /newborn_register/has_convulsion  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_sleepy_unconscious" readonly="true()" type="string" relevant=" /newborn_register/has_sleepy_unconscious  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_stiff_neck" readonly="true()" type="string" relevant=" /newborn_register/has_stiff_neck  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_domed_fontanelle" readonly="true()" type="string" relevant=" /newborn_register/has_domed_fontanelle  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_breathe_hard" readonly="true()" type="string" relevant=" /newborn_register/has_breathe_hard  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_subcostal_indrawing" readonly="true()" type="string" relevant=" /newborn_register/has_subcostal_indrawing  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_wheezing" readonly="true()" type="string" relevant=" /newborn_register/has_wheezing  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_diarrhea" readonly="true()" type="string" relevant=" /newborn_register/has_diarrhea  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_malnutrition" readonly="true()" type="string" relevant=" /newborn_register/has_malnutrition  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_others" readonly="true()" type="string" relevant=" /newborn_register/has_others_heath_problem  = 'true' and  /newborn_register/c_reference_pattern_control/c_reference_pattern_other !=''"/>
+      <bind nodeset="/newborn_register/group_review/s_refer_USP" readonly="true()" type="string" relevant=" /newborn_register/is_referred  = 'true' or  /newborn_register/newborm_vaccination_group/vaccination_followup/fields/is_vaccine_referal  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_refer_FS_danger_signs" readonly="true()" type="string" relevant=" /newborn_register/is_referred  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_refer_HC_vaccine" readonly="true()" type="string" relevant=" /newborn_register/newborm_vaccination_group/vaccination_followup/fields/is_vaccine_referal  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_referal_health_center" type="select1" relevant=" /newborn_register/is_referred  = 'true' or  /newborn_register/newborm_vaccination_group/vaccination_followup/fields/is_vaccine_referal  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_other_referal_health_center" type="string" relevant="( /newborn_register/is_referred  = 'true' or  /newborn_register/newborm_vaccination_group/vaccination_followup/fields/is_vaccine_referal  = 'true') and  /newborn_register/group_review/s_referal_health_center  = 'others'"/>
+      <bind nodeset="/newborn_register/group_review/followup" readonly="true()" type="string"/>
+      <bind nodeset="/newborn_register/group_review/s_next_visit_date" readonly="true()" type="string" relevant=" /newborn_register/is_referred  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_vaccine_next_visit_date" readonly="true()" type="string" relevant=" /newborn_register/newborm_vaccination_group/vaccination_followup/fields/is_vaccine_referal  = 'true'"/>
+      <bind nodeset="/newborn_register/group_review/s_next_visit_no_access" type="select1" relevant=" /newborn_register/is_referred  != 'true' and  /newborn_register/newborm_vaccination_group/vaccination_followup/fields/is_vaccine_referal  != 'true'" required="true()" constraint=".='yesForAccess'" jr:constraintMsg="jr:itext('/newborn_register/group_review/s_next_visit_no_access:jr:constraintMsg')"/>
+      <bind nodeset="/newborn_register/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/newborn_register/inputs">
+      <label ref="jr:itext('/newborn_register/inputs:label')"/>
+      <input appearance="hidden" ref="/newborn_register/inputs/source">
+        <label ref="jr:itext('/newborn_register/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/newborn_register/inputs/source_id">
+        <label ref="jr:itext('/newborn_register/inputs/source_id:label')"/>
+      </input>
+      <group ref="/newborn_register/inputs/user">
+        <label ref="jr:itext('/newborn_register/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/newborn_register/inputs/user/contact_id">
+          <label ref="jr:itext('/newborn_register/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/newborn_register/inputs/user/name">
+          <label ref="jr:itext('/newborn_register/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/newborn_register/inputs/user/phone">
+          <label ref="jr:itext('/newborn_register/inputs/user/phone:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/newborn_register/inputs/contact">
+        <label ref="jr:itext('/newborn_register/inputs/contact:label')"/>
+        <input appearance="select-contact type-person" ref="/newborn_register/inputs/contact/_id">
+          <label ref="jr:itext('/newborn_register/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/newborn_register/inputs/contact/name">
+          <label ref="jr:itext('/newborn_register/inputs/contact/name:label')"/>
+        </input>
+        <input ref="/newborn_register/inputs/contact/sex">
+          <label ref="jr:itext('/newborn_register/inputs/contact/sex:label')"/>
+        </input>
+        <input ref="/newborn_register/inputs/contact/date_of_birth">
+          <label ref="jr:itext('/newborn_register/inputs/contact/date_of_birth:label')"/>
+        </input>
+        <input ref="/newborn_register/inputs/contact/external_id">
+          <label ref="jr:itext('/newborn_register/inputs/contact/external_id:label')"/>
+        </input>
+        <input ref="/newborn_register/inputs/contact/phone">
+          <label ref="jr:itext('/newborn_register/inputs/contact/phone:label')"/>
+        </input>
+        <group ref="/newborn_register/inputs/contact/parent">
+          <label ref="jr:itext('/newborn_register/inputs/contact/parent:label')"/>
+          <input appearance="db-object bind-id-only" ref="/newborn_register/inputs/contact/parent/_id">
+            <label ref="jr:itext('/newborn_register/inputs/contact/parent/_id:label')"/>
+          </input>
+          <input ref="/newborn_register/inputs/contact/parent/name">
+            <label ref="jr:itext('/newborn_register/inputs/contact/parent/name:label')"/>
+          </input>
+          <input ref="/newborn_register/inputs/contact/parent/external_id">
+            <label ref="jr:itext('/newborn_register/inputs/contact/parent/external_id:label')"/>
+          </input>
+          <group ref="/newborn_register/inputs/contact/parent/parent">
+            <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent:label')"/>
+            <input appearance="select-contact type-person" ref="/newborn_register/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/newborn_register/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/newborn_register/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/newborn_register/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/newborn_register/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/newborn_register/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                    <group ref="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      <input ref="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id">
+                        <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                      </input>
+                      <group ref="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                        <input ref="/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id">
+                          <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                        </input>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+            <group ref="/newborn_register/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/contact:label')"/>
+              <input appearance="select-contact type-person" ref="/newborn_register/inputs/contact/parent/parent/contact/_id">
+                <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/contact/_id:label')"/>
+              </input>
+              <input ref="/newborn_register/inputs/contact/parent/parent/contact/name">
+                <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/contact/name:label')"/>
+              </input>
+              <group ref="/newborn_register/inputs/contact/parent/parent/contact/register_other">
+                <label ref="jr:itext('/newborn_register/inputs/contact/parent/parent/contact/register_other:label')"/>
+              </group>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/newborn_register/c_time_of_consultation">
+      <label ref="jr:itext('/newborn_register/c_time_of_consultation:label')"/>
+      <select1 ref="/newborn_register/c_time_of_consultation/c_promptitude">
+        <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude:label')"/>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/2:label')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/3:label')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/4:label')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/5:label')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/6:label')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/7:label')"/>
+          <value>7</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/8:label')"/>
+          <value>8</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/9:label')"/>
+          <value>9</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/10:label')"/>
+          <value>10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/11:label')"/>
+          <value>11</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/12:label')"/>
+          <value>12</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/13:label')"/>
+          <value>13</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/14:label')"/>
+          <value>14</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_time_of_consultation/c_promptitude/more_than_14:label')"/>
+          <value>more_than_14</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/newborn_register/c_reference_pattern_control">
+      <label ref="jr:itext('/newborn_register/c_reference_pattern_control:label')"/>
+      <select ref="/newborn_register/c_reference_pattern_control/c_reference_pattern">
+        <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern:label')"/>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/unable_to_suckle:label')"/>
+          <value>unable_to_suckle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/vomits_everything_consumes:label')"/>
+          <value>vomits_everything_consumes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/convulsion:label')"/>
+          <value>convulsion</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/sleepy_unconscious:label')"/>
+          <value>sleepy_unconscious</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/stiff_neck:label')"/>
+          <value>stiff_neck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/domed_fontanelle:label')"/>
+          <value>domed_fontanelle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/breathe_hard:label')"/>
+          <value>breathe_hard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/subcostal_indrawing:label')"/>
+          <value>subcostal_indrawing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/wheezing:label')"/>
+          <value>wheezing</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/diarrhea:label')"/>
+          <value>diarrhea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/malnutrition:label')"/>
+          <value>malnutrition</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/malaria:label')"/>
+          <value>malaria</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/pneumonia:label')"/>
+          <value>pneumonia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/cough_cold:label')"/>
+          <value>cough_cold</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern/others:label')"/>
+          <value>others</value>
+        </item>
+      </select>
+      <input ref="/newborn_register/c_reference_pattern_control/c_reference_pattern_other">
+        <label ref="jr:itext('/newborn_register/c_reference_pattern_control/c_reference_pattern_other:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/newborn_register/newborm_vaccination_group">
+      <label ref="jr:itext('/newborn_register/newborm_vaccination_group:label')"/>
+      <select1 appearance="columns" ref="/newborn_register/newborm_vaccination_group/c_has_health_record">
+        <label ref="jr:itext('/newborn_register/newborm_vaccination_group/c_has_health_record:label')"/>
+        <item>
+          <label ref="jr:itext('/newborn_register/newborm_vaccination_group/c_has_health_record/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/newborm_vaccination_group/c_has_health_record/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <group ref="/newborn_register/newborm_vaccination_group/vaccination_followup">
+        <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup:label')"/>
+        <group appearance="hidden" ref="/newborn_register/newborm_vaccination_group/vaccination_followup/contact">
+          <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/contact:label')"/>
+          <group ref="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent">
+            <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent:label')"/>
+            <group ref="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent">
+              <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent:label')"/>
+              <group ref="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent">
+                <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent:label')"/>
+                <group ref="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent/parent">
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent/parent:label')"/>
+                  <group ref="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent/parent/parent:label')"/>
+                    <group ref="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                      <group ref="/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+          </group>
+        </group>
+        <group ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields">
+          <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields:label')"/>
+          <group appearance="hidden" ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/inputs">
+            <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/inputs:label')"/>
+            <group ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/inputs/contact">
+              <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/inputs/contact:label')"/>
+              <group ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/inputs/contact/parent">
+                <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/inputs/contact/parent:label')"/>
+              </group>
+            </group>
+          </group>
+          <group ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status">
+            <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status:label')"/>
+            <input ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/__note">
+              <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/__note:label')"/>
+            </input>
+            <group ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth">
+              <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth:label')"/>
+              <select1 appearance="columns" ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG">
+                <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG:label')"/>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG/yes:label')"/>
+                  <value>yes</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_BCG/no:label')"/>
+                  <value>no</value>
+                </item>
+              </select1>
+              <select1 ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason">
+                <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason:label')"/>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason/shortage:label')"/>
+                  <value>shortage</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_BCG_reason/no_appointment_respect:label')"/>
+                  <value>no_appointment_respect</value>
+                </item>
+              </select1>
+              <select1 appearance="columns" ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0">
+                <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0:label')"/>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0/yes:label')"/>
+                  <value>yes</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_vaccine_VPO_0/no:label')"/>
+                  <value>no</value>
+                </item>
+              </select1>
+              <select1 ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason">
+                <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason:label')"/>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason/shortage:label')"/>
+                  <value>shortage</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_birth/c_no_VPO_0_reason/no_appointment_respect:label')"/>
+                  <value>no_appointment_respect</value>
+                </item>
+              </select1>
+            </group>
+            <group ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks">
+              <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks:label')"/>
+              <select1 appearance="columns" ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1">
+                <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1:label')"/>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1/yes:label')"/>
+                  <value>yes</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_PENTA_1/no:label')"/>
+                  <value>no</value>
+                </item>
+              </select1>
+              <select1 ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason">
+                <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason:label')"/>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason/shortage:label')"/>
+                  <value>shortage</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_PENTA_1_reason/no_appointment_respect:label')"/>
+                  <value>no_appointment_respect</value>
+                </item>
+              </select1>
+              <select1 appearance="columns" ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1">
+                <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1:label')"/>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1/yes:label')"/>
+                  <value>yes</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_vaccine_VPO_1/no:label')"/>
+                  <value>no</value>
+                </item>
+              </select1>
+              <select1 ref="/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason">
+                <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason:label')"/>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason/shortage:label')"/>
+                  <value>shortage</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/newborn_register/newborm_vaccination_group/vaccination_followup/fields/c_vaccine_status/c_six_weeks/c_no_VPO_1_reason/no_appointment_respect:label')"/>
+                  <value>no_appointment_respect</value>
+                </item>
+              </select1>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list summary" ref="/newborn_register/group_review">
+      <label ref="jr:itext('/newborn_register/group_review:label')"/>
+      <input appearance="h1 yellow" ref="/newborn_register/group_review/s_summary">
+        <label ref="jr:itext('/newborn_register/group_review/s_summary:label')"/>
+      </input>
+      <input appearance="center" ref="/newborn_register/group_review/s_patient_info_name">
+        <label ref="jr:itext('/newborn_register/group_review/s_patient_info_name:label')"/>
+      </input>
+      <input appearance="center" ref="/newborn_register/group_review/s_patient_info_sex">
+        <label ref="jr:itext('/newborn_register/group_review/s_patient_info_sex:label')"/>
+      </input>
+      <input appearance="center" ref="/newborn_register/group_review/s_patient_info_age">
+        <label ref="jr:itext('/newborn_register/group_review/s_patient_info_age:label')"/>
+      </input>
+      <input appearance="h1 blue" ref="/newborn_register/group_review/s_consultation_information">
+        <label ref="jr:itext('/newborn_register/group_review/s_consultation_information:label')"/>
+      </input>
+      <input appearance="h2 blue" ref="/newborn_register/group_review/s_danger_signs_detected">
+        <label ref="jr:itext('/newborn_register/group_review/s_danger_signs_detected:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_unable_to_suckle">
+        <label ref="jr:itext('/newborn_register/group_review/s_unable_to_suckle:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_vomits_everything_consumes">
+        <label ref="jr:itext('/newborn_register/group_review/s_vomits_everything_consumes:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_convulsion">
+        <label ref="jr:itext('/newborn_register/group_review/s_convulsion:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_sleepy_unconscious">
+        <label ref="jr:itext('/newborn_register/group_review/s_sleepy_unconscious:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_stiff_neck">
+        <label ref="jr:itext('/newborn_register/group_review/s_stiff_neck:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_domed_fontanelle">
+        <label ref="jr:itext('/newborn_register/group_review/s_domed_fontanelle:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_breathe_hard">
+        <label ref="jr:itext('/newborn_register/group_review/s_breathe_hard:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_subcostal_indrawing">
+        <label ref="jr:itext('/newborn_register/group_review/s_subcostal_indrawing:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_wheezing">
+        <label ref="jr:itext('/newborn_register/group_review/s_wheezing:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_diarrhea">
+        <label ref="jr:itext('/newborn_register/group_review/s_diarrhea:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_malnutrition">
+        <label ref="jr:itext('/newborn_register/group_review/s_malnutrition:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_others">
+        <label ref="jr:itext('/newborn_register/group_review/s_others:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/newborn_register/group_review/s_refer_USP">
+        <label ref="jr:itext('/newborn_register/group_review/s_refer_USP:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_refer_FS_danger_signs">
+        <label ref="jr:itext('/newborn_register/group_review/s_refer_FS_danger_signs:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_refer_HC_vaccine">
+        <label ref="jr:itext('/newborn_register/group_review/s_refer_HC_vaccine:label')"/>
+      </input>
+      <select1 ref="/newborn_register/group_review/s_referal_health_center">
+        <label ref="jr:itext('/newborn_register/group_review/s_referal_health_center:label')"/>
+        <item>
+          <label ref="jr:itext('/newborn_register/group_review/s_referal_health_center/health_center:label')"/>
+          <value>health_center</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/group_review/s_referal_health_center/health_poste:label')"/>
+          <value>health_poste</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/newborn_register/group_review/s_referal_health_center/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/newborn_register/group_review/s_other_referal_health_center">
+        <label ref="jr:itext('/newborn_register/group_review/s_other_referal_health_center:label')"/>
+      </input>
+      <input appearance="h1 green" ref="/newborn_register/group_review/followup">
+        <label ref="jr:itext('/newborn_register/group_review/followup:label')"/>
+      </input>
+      <input appearance="h2 green" ref="/newborn_register/group_review/s_next_visit_date">
+        <label ref="jr:itext('/newborn_register/group_review/s_next_visit_date:label')"/>
+      </input>
+      <input appearance="li" ref="/newborn_register/group_review/s_vaccine_next_visit_date">
+        <label ref="jr:itext('/newborn_register/group_review/s_vaccine_next_visit_date:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/newborn_register/group_review/s_next_visit_no_access">
+        <label ref="jr:itext('/newborn_register/group_review/s_next_visit_no_access:label')"/>
+        <item>
+          <label ref="jr:itext('/newborn_register/group_review/s_next_visit_no_access/ok:label')"/>
+          <value>ok</value>
+        </item>
+      </select1>
+    </group>
+  </h:body>
+</h:html>

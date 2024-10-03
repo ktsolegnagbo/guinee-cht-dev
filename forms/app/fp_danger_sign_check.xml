@@ -1,0 +1,1323 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Suivi signe de danger PF</h:title>
+    <model>
+      <itext>
+        <translation lang="fr">
+          <text id="/fp_danger_sign_check/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/user/contact_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/contact:label">
+            <value>Information du RECO</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/fp_danger_sign_check/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/fp_danger_sign_check/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_family_name:label">
+            <value>Nom du ménage</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_phone:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_phone_to_show:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_family_external_id:label">
+            <value>Numéro du ménage</value>
+          </text>
+          <text id="/fp_danger_sign_check/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/visited_contact_uuid:label">
+            <value>Identifiant de la famille</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details:label">
+            <value>DÉTAILS DU PATIENT</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_patient_family_name:label">
+            <value>Nom du ménage : **<output value=" /fp_danger_sign_check/inputs/t_family_name "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_patient_family_ext_id:label">
+            <value>Numéro du ménage : **<output value=" /fp_danger_sign_check/inputs/t_family_external_id "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_patient_name:label">
+            <value>Nom du patient : **<output value=" /fp_danger_sign_check/patient_name "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_code_patient:label">
+            <value>Code du patient : **<output value=" /fp_danger_sign_check/patient_external_id "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_patient_phone:label">
+            <value>Numéro de téléphone : ** <output value=" /fp_danger_sign_check/patient_phone "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_patient_info_age:label">
+            <value>Âge : **<output value=" /fp_danger_sign_check/patient_age_display_fr "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_last_methode_pf:label">
+            <value>Méthode PF en cours d'utilisation : **<output value=" /fp_danger_sign_check/inputs/t_fp_method_name "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_method_start_date:label">
+            <value>Date de démmarage de la méthode PF : **<output value=" /fp_danger_sign_check/inputs/t_method_start_date "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_next_date_pf:label">
+            <value>Date de renouvellement de la méthode PF : **<output value=" /fp_danger_sign_check/inputs/t_next_fp_renew_date "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect:label">
+            <value>Effet secondaires de la femme sous PF</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_health_problem:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_health_problem:label">
+            <value>Avez-vous des problèmes de santé lié à l'administration de la méthode ?</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_health_problem/yes:label">
+            <value>oui</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_health_problem/no:label">
+            <value>non</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_fever:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_fever:label">
+            <value>Avez-vous la fièvre ?</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_fever/yes:label">
+            <value>oui</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_fever/no:label">
+            <value>non</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_vomit:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_vomit:label">
+            <value>Avez-vous vomit ?</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_vomit/yes:label">
+            <value>oui</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_vomit/no:label">
+            <value>non</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_headaches:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_headaches:label">
+            <value>Sentez-vous maux de tête ?</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_headaches/yes:label">
+            <value>oui</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_headaches/no:label">
+            <value>non</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_abdominal_pain:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_abdominal_pain:label">
+            <value>Avez-vous des douleurs abdominales ?</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_abdominal_pain/yes:label">
+            <value>oui</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_abdominal_pain/no:label">
+            <value>non</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_bleeding:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_bleeding:label">
+            <value>Avez-vous eu des saignements ?</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_bleeding/yes:label">
+            <value>oui</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_bleeding/no:label">
+            <value>non</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_pain_injection:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_pain_injection:label">
+            <value>Sentez-vous des douleurs au point d'injection ?</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_pain_injection/yes:label">
+            <value>oui</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_pain_injection/no:label">
+            <value>non</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_other_health_problem:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_other_health_problem:label">
+            <value>Ecrire le problème de santé de la femme</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_summary:label">
+            <value>Détails du Patient &lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /fp_danger_sign_check/patient_name "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /fp_danger_sign_check/patient_sex_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /fp_danger_sign_check/patient_age_display_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_pf_secondary_effect:label">
+            <value>Effet secondaires de la femme sous PF</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_doing_well:label">
+            <value>**La femme se porte bien apres sa planification**</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_fever:label">
+            <value>Fièvre</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_vomit:label">
+            <value>Vomissements</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_feel_headaches:label">
+            <value>Maux de tête</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_abdominal_pain:label">
+            <value>Douleurs abdominales</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_bleeding:label">
+            <value>Saignements</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_feel_pain_injection:label">
+            <value>Douleurs au point d'injection</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_other_health_problem:label">
+            <value><output value=" /fp_danger_sign_check/secondary_effect/c_other_health_problem "/></value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_refer_USP:label">
+            <value>Référence vers une formation sanitaire</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_refer_Fc_health_problem:label">
+            <value>Veuillez référer la femme pour **problème de santé**</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_referal_health_center:label">
+            <value>Selectionner le centre de santé de référence</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_referal_health_center/health_center:label">
+            <value>Centre de santé</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_referal_health_center/health_poste:label">
+            <value>Poste de santé</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_referal_health_center/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_other_referal_health_center:label">
+            <value>Saisir le nom de la formation sanitaire de référence</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_followup:label">
+            <value>Suivi</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_next_visit_date:label">
+            <value>Vous devez revenir voir l'état du patient dans **3 jours**</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_renew_next_visit_date:label">
+            <value>La date de renouvellement de la méthode est prévu sur : <output value=" /fp_danger_sign_check/inputs/t_next_fp_renew_date "/></value>
+          </text>
+        </translation>
+        <translation lang="en">
+          <text id="/fp_danger_sign_check/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/fp_danger_sign_check/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/fp_danger_sign_check/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_family_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_phone_to_show:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/fp_danger_sign_check/patient_family_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/fp_danger_sign_check/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/visited_contact_uuid:label">
+            <value>Family Id</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details:label">
+            <value>PATIENT DETAILS</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_patient_family_name:label">
+            <value>Family name : **<output value=" /fp_danger_sign_check/inputs/t_family_name "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_patient_family_ext_id:label">
+            <value>Family External ID : **<output value=" /fp_danger_sign_check/inputs/t_family_external_id "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_patient_name:label">
+            <value>Patient name : **<output value=" /fp_danger_sign_check/patient_name "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_code_patient:label">
+            <value>Patient code : **<output value=" /fp_danger_sign_check/patient_external_id "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_patient_phone:label">
+            <value>Patient phone : **<output value=" /fp_danger_sign_check/patient_phone "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_patient_info_age:label">
+            <value>Age : **<output value=" /fp_danger_sign_check/patient_age_display_en "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_last_methode_pf:label">
+            <value>Last method PF : **<output value=" /fp_danger_sign_check/inputs/t_fp_method_name "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_method_start_date:label">
+            <value>Method Start Date : **<output value=" /fp_danger_sign_check/inputs/t_method_start_date "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/i_patient_details/i_next_date_pf:label">
+            <value>Next PF Date : **<output value=" /fp_danger_sign_check/inputs/t_next_fp_renew_date "/>**</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect:label">
+            <value>Side effects of the woman on PF</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_health_problem:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_health_problem:label">
+            <value>Do you have any health problems after administration of the method?</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_health_problem/yes:label">
+            <value>yes</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_health_problem/no:label">
+            <value>no</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_fever:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_fever:label">
+            <value>Do you have a fever?</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_fever/yes:label">
+            <value>yes</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_fever/no:label">
+            <value>no</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_vomit:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_vomit:label">
+            <value>Did you vomit?</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_vomit/yes:label">
+            <value>yes</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_vomit/no:label">
+            <value>no</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_headaches:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_headaches:label">
+            <value>Do you feel headaches?</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_headaches/yes:label">
+            <value>yes</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_headaches/no:label">
+            <value>no</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_abdominal_pain:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_abdominal_pain:label">
+            <value>Do you have abdominal pain?</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_abdominal_pain/yes:label">
+            <value>yes</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_abdominal_pain/no:label">
+            <value>no</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_bleeding:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_bleeding:label">
+            <value>Have you had any bleeding?</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_bleeding/yes:label">
+            <value>yes</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_bleeding/no:label">
+            <value>no</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_pain_injection:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_pain_injection:label">
+            <value>Do you feel pain at the injection site?</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_pain_injection/yes:label">
+            <value>yes</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_feel_pain_injection/no:label">
+            <value>no</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_other_health_problem:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_danger_sign_check/secondary_effect/c_other_health_problem:label">
+            <value>Write down the woman's health problem</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_summary:label">
+            <value>Patient Summary&lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /fp_danger_sign_check/patient_name "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /fp_danger_sign_check/patient_sex_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /fp_danger_sign_check/patient_age_display_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_pf_secondary_effect:label">
+            <value>Side effects of the woman on PF</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_doing_well:label">
+            <value>**The woman is doing well after her planning**</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_fever:label">
+            <value>Fever</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_vomit:label">
+            <value>Vomiting</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_feel_headaches:label">
+            <value>Headache</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_abdominal_pain:label">
+            <value>Abdominal pain</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_bleeding:label">
+            <value>Bleeding</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_feel_pain_injection:label">
+            <value>Pain at the injection site</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_other_health_problem:label">
+            <value><output value=" /fp_danger_sign_check/secondary_effect/c_other_health_problem "/></value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_refer_USP:label">
+            <value>Referral to a health facility</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_refer_Fc_health_problem:label">
+            <value>**Please refer the woman to a health facility for ANC 1**</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_referal_health_center:label">
+            <value>Select the reference health center</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_referal_health_center/health_center:label">
+            <value>Health center</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_referal_health_center/health_poste:label">
+            <value>Health poste</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_referal_health_center/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_other_referal_health_center:label">
+            <value>Enter the name of the reference health facility</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_followup:label">
+            <value>Follow up</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_next_visit_date:label">
+            <value>You must return to see the patient's condition in: **3 days**</value>
+          </text>
+          <text id="/fp_danger_sign_check/s_group_review/s_renew_next_visit_date:label">
+            <value>The method renewal date is scheduled for: <output value=" /fp_danger_sign_check/inputs/t_next_fp_renew_date "/></value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <fp_danger_sign_check id="fp_danger_sign_check" prefix="J1!fp_danger_sign_check!" delimiter="#" version="2024-08-16  17-10">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <t_fp_method/>
+            <t_fp_method_name/>
+            <t_next_fp_renew_date/>
+            <t_method_start_date/>
+            <t_family_id/>
+            <t_family_name/>
+            <t_family_external_id/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <sex/>
+              <date_of_birth/>
+              <external_id/>
+              <phone/>
+              <parent>
+                <_id/>
+                <name/>
+                <external_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                  <contact>
+                    <_id/>
+                    <name/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_uuid/>
+          <patient_name/>
+          <patient_name_to_show/>
+          <patient_external_id/>
+          <patient_external_id_to_show/>
+          <patient_sex/>
+          <patient_date_of_birth/>
+          <patient_age_in_years/>
+          <patient_age_in_months/>
+          <patient_age_in_days/>
+          <patient_age_display_fr/>
+          <patient_age_display_en/>
+          <patient_sex_en/>
+          <patient_sex_fr/>
+          <patient_family_name/>
+          <patient_phone/>
+          <patient_phone_to_show/>
+          <patient_family_external_id/>
+          <household_id/>
+          <village_secteur_id/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <visited_contact_uuid/>
+          <today_decimal_date/>
+          <has_health_problem/>
+          <has_fever/>
+          <has_vomit/>
+          <has_headaches/>
+          <has_abdominal_pain/>
+          <has_bleeding/>
+          <has_feel_pain_injection/>
+          <other_health_problem_written/>
+          <fp_method/>
+          <fp_method_name/>
+          <has_secondary_effect/>
+          <is_referred/>
+          <i_patient_details>
+            <i_patient_family_name/>
+            <i_patient_family_ext_id/>
+            <i_patient_name/>
+            <i_code_patient/>
+            <i_patient_phone/>
+            <i_patient_info_age/>
+            <i_last_methode_pf/>
+            <i_method_start_date/>
+            <i_next_date_pf/>
+          </i_patient_details>
+          <secondary_effect>
+            <c_health_problem/>
+            <c_fever/>
+            <c_vomit/>
+            <c_feel_headaches/>
+            <c_abdominal_pain/>
+            <c_bleeding/>
+            <c_feel_pain_injection/>
+            <c_other_health_problem/>
+          </secondary_effect>
+          <s_group_review>
+            <s_summary/>
+            <s_patient_info_name/>
+            <s_patient_info_sex/>
+            <s_patient_info_age/>
+            <s_pf_secondary_effect/>
+            <s_doing_well/>
+            <s_fever/>
+            <s_vomit/>
+            <s_feel_headaches/>
+            <s_abdominal_pain/>
+            <s_bleeding/>
+            <s_feel_pain_injection/>
+            <s_other_health_problem/>
+            <s_refer_USP/>
+            <s_refer_Fc_health_problem/>
+            <s_referal_health_center/>
+            <s_other_referal_health_center/>
+            <s_followup/>
+            <s_next_visit_date/>
+            <s_renew_next_visit_date/>
+          </s_group_review>
+          <meta>
+            <instanceID/>
+          </meta>
+        </fp_danger_sign_check>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/source" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/source_id" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/t_fp_method" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/t_fp_method_name" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/t_next_fp_renew_date" type="date"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/t_method_start_date" type="date"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/t_family_id" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/t_family_name" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/t_family_external_id" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/user/name" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/user/phone" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/_id" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/name" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/sex" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/external_id" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/phone" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/parent/_id" type="db:person"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/parent/external_id" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/parent/parent/contact/_id" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/inputs/contact/parent/parent/contact/name" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/fp_danger_sign_check/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/fp_danger_sign_check/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/fp_danger_sign_check/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/fp_danger_sign_check/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/fp_danger_sign_check/patient_name_to_show" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/fp_danger_sign_check/patient_external_id" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/fp_danger_sign_check/patient_external_id_to_show" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/fp_danger_sign_check/patient_sex" type="string" calculate="../inputs/contact/sex"/>
+      <bind nodeset="/fp_danger_sign_check/patient_date_of_birth" type="string" calculate="../inputs/contact/date_of_birth"/>
+      <bind nodeset="/fp_danger_sign_check/patient_age_in_years" type="string" calculate="if (  /fp_danger_sign_check/inputs/contact/date_of_birth = '', '', floor( difference-in-months(  /fp_danger_sign_check/inputs/contact/date_of_birth , today() ) div 12 ) )"/>
+      <bind nodeset="/fp_danger_sign_check/patient_age_in_months" type="string" calculate="difference-in-months(  /fp_danger_sign_check/inputs/contact/date_of_birth , today() )"/>
+      <bind nodeset="/fp_danger_sign_check/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time( /fp_danger_sign_check/inputs/contact/date_of_birth ) )"/>
+      <bind nodeset="/fp_danger_sign_check/patient_age_display_fr" type="string" calculate="concat(concat(../patient_age_in_years, if(../patient_age_in_years = 1,' an et ',' ans et ')),concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12)=1,' mois',' mois')))"/>
+      <bind nodeset="/fp_danger_sign_check/patient_age_display_en" type="string" calculate="concat(concat(../patient_age_in_years, if(../patient_age_in_years = 1,' year and ',' years and ')),concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12)=1,' month old',' months old')))"/>
+      <bind nodeset="/fp_danger_sign_check/patient_sex_en" type="string" calculate="if( /fp_danger_sign_check/inputs/contact/sex  = 'male' or  /fp_danger_sign_check/inputs/contact/sex  = 'homme' or  /fp_danger_sign_check/inputs/contact/sex  = 'Homme', 'Male', if( /fp_danger_sign_check/inputs/contact/sex  = 'female' or  /fp_danger_sign_check/inputs/contact/sex  = 'femme' or  /fp_danger_sign_check/inputs/contact/sex  = 'Femme', 'Female', ''))"/>
+      <bind nodeset="/fp_danger_sign_check/patient_sex_fr" type="string" calculate="if( /fp_danger_sign_check/inputs/contact/sex  = 'male' or  /fp_danger_sign_check/inputs/contact/sex  = 'homme' or  /fp_danger_sign_check/inputs/contact/sex  = 'Homme', 'Masculin', if( /fp_danger_sign_check/inputs/contact/sex  = 'female' or  /fp_danger_sign_check/inputs/contact/sex  = 'femme' or  /fp_danger_sign_check/inputs/contact/sex  = 'Femme', 'Féminin', ''))"/>
+      <bind nodeset="/fp_danger_sign_check/patient_family_name" type="string" calculate="coalesce(../inputs/contact/parent/name, /fp_danger_sign_check/inputs/t_family_name )"/>
+      <bind nodeset="/fp_danger_sign_check/patient_phone" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/fp_danger_sign_check/patient_phone_to_show" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/fp_danger_sign_check/patient_family_external_id" type="string" calculate="coalesce(../inputs/contact/parent/external_id, /fp_danger_sign_check/inputs/t_family_external_id )"/>
+      <bind nodeset="/fp_danger_sign_check/household_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/fp_danger_sign_check/village_secteur_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/fp_danger_sign_check/district_quartier_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/fp_danger_sign_check/hospital_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/fp_danger_sign_check/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/fp_danger_sign_check/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/fp_danger_sign_check/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/fp_danger_sign_check/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/fp_danger_sign_check/visited_contact_uuid" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/fp_danger_sign_check/today_decimal_date" type="string" calculate="coalesce( /fp_danger_sign_check/today_decimal_date ,decimal-date-time(today()))"/>
+      <bind nodeset="/fp_danger_sign_check/has_health_problem" type="string" calculate="if(../secondary_effect/c_health_problem = '','',if(../secondary_effect/c_health_problem = 'yes','true','false'))"/>
+      <bind nodeset="/fp_danger_sign_check/has_fever" type="string" calculate="if(../secondary_effect/c_fever = '','',if(../secondary_effect/c_fever = 'yes' and ../has_health_problem = 'true','true','false'))"/>
+      <bind nodeset="/fp_danger_sign_check/has_vomit" type="string" calculate="if(../secondary_effect/c_vomit = '','',if(../secondary_effect/c_vomit = 'yes' and ../has_health_problem = 'true','true','false'))"/>
+      <bind nodeset="/fp_danger_sign_check/has_headaches" type="string" calculate="if(../secondary_effect/c_feel_headaches = '','',if(../secondary_effect/c_feel_headaches = 'yes' and ../has_health_problem = 'true','true','false'))"/>
+      <bind nodeset="/fp_danger_sign_check/has_abdominal_pain" type="string" calculate="if(../secondary_effect/c_abdominal_pain = '','',if(../secondary_effect/c_abdominal_pain = 'yes' and ../has_health_problem = 'true','true','false'))"/>
+      <bind nodeset="/fp_danger_sign_check/has_bleeding" type="string" calculate="if(../secondary_effect/c_bleeding = '','',if(../secondary_effect/c_bleeding = 'yes' and ../has_health_problem = 'true','true','false'))"/>
+      <bind nodeset="/fp_danger_sign_check/has_feel_pain_injection" type="string" calculate="if(../secondary_effect/c_feel_pain_injection = '','',if(../secondary_effect/c_feel_pain_injection = 'yes' and ../has_health_problem = 'true','true','false'))"/>
+      <bind nodeset="/fp_danger_sign_check/other_health_problem_written" type="string" calculate="../secondary_effect/c_other_health_problem"/>
+      <bind nodeset="/fp_danger_sign_check/fp_method" type="string" calculate=" /fp_danger_sign_check/inputs/t_fp_method "/>
+      <bind nodeset="/fp_danger_sign_check/fp_method_name" type="string" calculate=" /fp_danger_sign_check/inputs/t_fp_method_name "/>
+      <bind nodeset="/fp_danger_sign_check/has_secondary_effect" type="string" calculate="if(../has_fever = 'true' or ../has_vomit = 'true' or ../has_headaches = 'true' or ../has_abdominal_pain = 'true' or ../has_bleeding = 'true' or ../has_feel_pain_injection = 'true','true','false')"/>
+      <bind nodeset="/fp_danger_sign_check/is_referred" type="string" calculate="if(../has_health_problem = 'true','true','false')"/>
+      <bind nodeset="/fp_danger_sign_check/i_patient_details/i_patient_family_name" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/i_patient_details/i_patient_family_ext_id" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/i_patient_details/i_patient_name" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/i_patient_details/i_code_patient" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/i_patient_details/i_patient_phone" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/i_patient_details/i_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/i_patient_details/i_last_methode_pf" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/i_patient_details/i_method_start_date" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/i_patient_details/i_next_date_pf" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/secondary_effect/c_health_problem" type="select1" jr:requiredMsg="jr:itext('/fp_danger_sign_check/secondary_effect/c_health_problem:jr:requiredMsg')" required="true()"/>
+      <bind nodeset="/fp_danger_sign_check/secondary_effect/c_fever" type="select1" jr:requiredMsg="jr:itext('/fp_danger_sign_check/secondary_effect/c_fever:jr:requiredMsg')" required="true()" relevant="../c_health_problem = 'yes'"/>
+      <bind nodeset="/fp_danger_sign_check/secondary_effect/c_vomit" type="select1" jr:requiredMsg="jr:itext('/fp_danger_sign_check/secondary_effect/c_vomit:jr:requiredMsg')" required="true()" relevant="../c_health_problem = 'yes'"/>
+      <bind nodeset="/fp_danger_sign_check/secondary_effect/c_feel_headaches" type="select1" jr:requiredMsg="jr:itext('/fp_danger_sign_check/secondary_effect/c_feel_headaches:jr:requiredMsg')" required="true()" relevant="../c_health_problem = 'yes'"/>
+      <bind nodeset="/fp_danger_sign_check/secondary_effect/c_abdominal_pain" type="select1" jr:requiredMsg="jr:itext('/fp_danger_sign_check/secondary_effect/c_abdominal_pain:jr:requiredMsg')" required="true()" relevant="../c_health_problem = 'yes'"/>
+      <bind nodeset="/fp_danger_sign_check/secondary_effect/c_bleeding" type="select1" jr:requiredMsg="jr:itext('/fp_danger_sign_check/secondary_effect/c_bleeding:jr:requiredMsg')" required="true()" relevant="../c_health_problem = 'yes'"/>
+      <bind nodeset="/fp_danger_sign_check/secondary_effect/c_feel_pain_injection" type="select1" jr:requiredMsg="jr:itext('/fp_danger_sign_check/secondary_effect/c_feel_pain_injection:jr:requiredMsg')" required="true()" relevant="../c_health_problem = 'yes' and  /fp_danger_sign_check/inputs/t_fp_method  = 'dmpa_sc'"/>
+      <bind nodeset="/fp_danger_sign_check/secondary_effect/c_other_health_problem" type="string" jr:requiredMsg="jr:itext('/fp_danger_sign_check/secondary_effect/c_other_health_problem:jr:requiredMsg')" required="true()" relevant="../c_health_problem = 'yes' and  /fp_danger_sign_check/has_secondary_effect  = 'false'"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_summary" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_patient_info_name" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_patient_info_sex" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_pf_secondary_effect" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_doing_well" readonly="true()" type="string" relevant=" /fp_danger_sign_check/is_referred  != 'true'"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_fever" readonly="true()" type="string" relevant=" /fp_danger_sign_check/has_fever  = 'true'"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_vomit" readonly="true()" type="string" relevant=" /fp_danger_sign_check/has_vomit  = 'true'"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_feel_headaches" readonly="true()" type="string" relevant=" /fp_danger_sign_check/has_headaches  = 'true'"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_abdominal_pain" readonly="true()" type="string" relevant=" /fp_danger_sign_check/has_abdominal_pain  = 'true'"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_bleeding" readonly="true()" type="string" relevant=" /fp_danger_sign_check/has_bleeding  = 'true'"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_feel_pain_injection" readonly="true()" type="string" relevant=" /fp_danger_sign_check/has_feel_pain_injection  = 'true'"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_other_health_problem" readonly="true()" type="string" relevant=" /fp_danger_sign_check/secondary_effect/c_other_health_problem  != ''"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_refer_USP" readonly="true()" type="string" relevant=" /fp_danger_sign_check/is_referred  = 'true'"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_refer_Fc_health_problem" readonly="true()" type="string" relevant=" /fp_danger_sign_check/is_referred  = 'true'"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_referal_health_center" type="select1" relevant=" /fp_danger_sign_check/is_referred  = 'true'"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_other_referal_health_center" type="string" relevant=" /fp_danger_sign_check/is_referred  = 'true' and ../s_referal_health_center = 'others'"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_followup" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_next_visit_date" readonly="true()" type="string" relevant=" /fp_danger_sign_check/is_referred  = 'true'"/>
+      <bind nodeset="/fp_danger_sign_check/s_group_review/s_renew_next_visit_date" readonly="true()" type="string"/>
+      <bind nodeset="/fp_danger_sign_check/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/fp_danger_sign_check/inputs">
+      <label ref="jr:itext('/fp_danger_sign_check/inputs:label')"/>
+      <input appearance="hidden" ref="/fp_danger_sign_check/inputs/source">
+        <label ref="jr:itext('/fp_danger_sign_check/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_danger_sign_check/inputs/source_id">
+        <label ref="jr:itext('/fp_danger_sign_check/inputs/source_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_danger_sign_check/inputs/t_fp_method">
+        <label ref="jr:itext('/fp_danger_sign_check/inputs/t_fp_method:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_danger_sign_check/inputs/t_fp_method_name">
+        <label ref="jr:itext('/fp_danger_sign_check/inputs/t_fp_method_name:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_danger_sign_check/inputs/t_next_fp_renew_date">
+        <label ref="jr:itext('/fp_danger_sign_check/inputs/t_next_fp_renew_date:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_danger_sign_check/inputs/t_method_start_date">
+        <label ref="jr:itext('/fp_danger_sign_check/inputs/t_method_start_date:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_danger_sign_check/inputs/t_family_id">
+        <label ref="jr:itext('/fp_danger_sign_check/inputs/t_family_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_danger_sign_check/inputs/t_family_name">
+        <label ref="jr:itext('/fp_danger_sign_check/inputs/t_family_name:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_danger_sign_check/inputs/t_family_external_id">
+        <label ref="jr:itext('/fp_danger_sign_check/inputs/t_family_external_id:label')"/>
+      </input>
+      <group ref="/fp_danger_sign_check/inputs/user">
+        <label ref="jr:itext('/fp_danger_sign_check/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/fp_danger_sign_check/inputs/user/contact_id">
+          <label ref="jr:itext('/fp_danger_sign_check/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/fp_danger_sign_check/inputs/user/name">
+          <label ref="jr:itext('/fp_danger_sign_check/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/fp_danger_sign_check/inputs/user/phone">
+          <label ref="jr:itext('/fp_danger_sign_check/inputs/user/phone:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/fp_danger_sign_check/inputs/contact">
+        <label ref="jr:itext('/fp_danger_sign_check/inputs/contact:label')"/>
+        <input appearance="db-object bind-id-only" ref="/fp_danger_sign_check/inputs/contact/_id">
+          <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/fp_danger_sign_check/inputs/contact/name">
+          <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/name:label')"/>
+        </input>
+        <input ref="/fp_danger_sign_check/inputs/contact/sex">
+          <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/sex:label')"/>
+        </input>
+        <input ref="/fp_danger_sign_check/inputs/contact/date_of_birth">
+          <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/date_of_birth:label')"/>
+        </input>
+        <input ref="/fp_danger_sign_check/inputs/contact/external_id">
+          <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/external_id:label')"/>
+        </input>
+        <input ref="/fp_danger_sign_check/inputs/contact/phone">
+          <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/phone:label')"/>
+        </input>
+        <group ref="/fp_danger_sign_check/inputs/contact/parent">
+          <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent:label')"/>
+          <input ref="/fp_danger_sign_check/inputs/contact/parent/_id">
+            <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/_id:label')"/>
+          </input>
+          <input ref="/fp_danger_sign_check/inputs/contact/parent/name">
+            <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/name:label')"/>
+          </input>
+          <input ref="/fp_danger_sign_check/inputs/contact/parent/external_id">
+            <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/external_id:label')"/>
+          </input>
+          <group ref="/fp_danger_sign_check/inputs/contact/parent/parent">
+            <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent:label')"/>
+            <input ref="/fp_danger_sign_check/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/fp_danger_sign_check/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/fp_danger_sign_check/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                    <group ref="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      <input ref="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id">
+                        <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                      </input>
+                      <group ref="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                        <input ref="/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id">
+                          <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                        </input>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+            <group ref="/fp_danger_sign_check/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/contact:label')"/>
+              <input appearance="db-object bind-id-only" ref="/fp_danger_sign_check/inputs/contact/parent/parent/contact/_id">
+                <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/contact/_id:label')"/>
+              </input>
+              <input ref="/fp_danger_sign_check/inputs/contact/parent/parent/contact/name">
+                <label ref="jr:itext('/fp_danger_sign_check/inputs/contact/parent/parent/contact/name:label')"/>
+              </input>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="Field-list" ref="/fp_danger_sign_check/i_patient_details">
+      <label ref="jr:itext('/fp_danger_sign_check/i_patient_details:label')"/>
+      <input appearance="li" ref="/fp_danger_sign_check/i_patient_details/i_patient_family_name">
+        <label ref="jr:itext('/fp_danger_sign_check/i_patient_details/i_patient_family_name:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/i_patient_details/i_patient_family_ext_id">
+        <label ref="jr:itext('/fp_danger_sign_check/i_patient_details/i_patient_family_ext_id:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/i_patient_details/i_patient_name">
+        <label ref="jr:itext('/fp_danger_sign_check/i_patient_details/i_patient_name:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/i_patient_details/i_code_patient">
+        <label ref="jr:itext('/fp_danger_sign_check/i_patient_details/i_code_patient:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/i_patient_details/i_patient_phone">
+        <label ref="jr:itext('/fp_danger_sign_check/i_patient_details/i_patient_phone:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/i_patient_details/i_patient_info_age">
+        <label ref="jr:itext('/fp_danger_sign_check/i_patient_details/i_patient_info_age:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/i_patient_details/i_last_methode_pf">
+        <label ref="jr:itext('/fp_danger_sign_check/i_patient_details/i_last_methode_pf:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/i_patient_details/i_method_start_date">
+        <label ref="jr:itext('/fp_danger_sign_check/i_patient_details/i_method_start_date:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/i_patient_details/i_next_date_pf">
+        <label ref="jr:itext('/fp_danger_sign_check/i_patient_details/i_next_date_pf:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/fp_danger_sign_check/secondary_effect">
+      <label ref="jr:itext('/fp_danger_sign_check/secondary_effect:label')"/>
+      <select1 appearance="columns" ref="/fp_danger_sign_check/secondary_effect/c_health_problem">
+        <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_health_problem:label')"/>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_health_problem/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_health_problem/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/fp_danger_sign_check/secondary_effect/c_fever">
+        <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_fever:label')"/>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_fever/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_fever/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/fp_danger_sign_check/secondary_effect/c_vomit">
+        <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_vomit:label')"/>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_vomit/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_vomit/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/fp_danger_sign_check/secondary_effect/c_feel_headaches">
+        <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_feel_headaches:label')"/>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_feel_headaches/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_feel_headaches/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/fp_danger_sign_check/secondary_effect/c_abdominal_pain">
+        <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_abdominal_pain:label')"/>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_abdominal_pain/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_abdominal_pain/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/fp_danger_sign_check/secondary_effect/c_bleeding">
+        <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_bleeding:label')"/>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_bleeding/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_bleeding/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/fp_danger_sign_check/secondary_effect/c_feel_pain_injection">
+        <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_feel_pain_injection:label')"/>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_feel_pain_injection/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_feel_pain_injection/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/fp_danger_sign_check/secondary_effect/c_other_health_problem">
+        <label ref="jr:itext('/fp_danger_sign_check/secondary_effect/c_other_health_problem:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/fp_danger_sign_check/s_group_review">
+      <label ref="jr:itext('/fp_danger_sign_check/s_group_review:label')"/>
+      <input appearance="h1 yellow" ref="/fp_danger_sign_check/s_group_review/s_summary">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_summary:label')"/>
+      </input>
+      <input appearance="center" ref="/fp_danger_sign_check/s_group_review/s_patient_info_name">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_patient_info_name:label')"/>
+      </input>
+      <input appearance="center" ref="/fp_danger_sign_check/s_group_review/s_patient_info_sex">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_patient_info_sex:label')"/>
+      </input>
+      <input appearance="center" ref="/fp_danger_sign_check/s_group_review/s_patient_info_age">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_patient_info_age:label')"/>
+      </input>
+      <input appearance="h1 blue" ref="/fp_danger_sign_check/s_group_review/s_pf_secondary_effect">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_pf_secondary_effect:label')"/>
+      </input>
+      <input ref="/fp_danger_sign_check/s_group_review/s_doing_well">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_doing_well:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/s_group_review/s_fever">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_fever:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/s_group_review/s_vomit">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_vomit:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/s_group_review/s_feel_headaches">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_feel_headaches:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/s_group_review/s_abdominal_pain">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_abdominal_pain:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/s_group_review/s_bleeding">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_bleeding:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/s_group_review/s_feel_pain_injection">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_feel_pain_injection:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/s_group_review/s_other_health_problem">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_other_health_problem:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/fp_danger_sign_check/s_group_review/s_refer_USP">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_refer_USP:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/s_group_review/s_refer_Fc_health_problem">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_refer_Fc_health_problem:label')"/>
+      </input>
+      <select1 ref="/fp_danger_sign_check/s_group_review/s_referal_health_center">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_referal_health_center:label')"/>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_referal_health_center/health_center:label')"/>
+          <value>health_center</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_referal_health_center/health_poste:label')"/>
+          <value>health_poste</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_referal_health_center/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/fp_danger_sign_check/s_group_review/s_other_referal_health_center">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_other_referal_health_center:label')"/>
+      </input>
+      <input appearance="h1 green" ref="/fp_danger_sign_check/s_group_review/s_followup">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_followup:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/s_group_review/s_next_visit_date">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_next_visit_date:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_danger_sign_check/s_group_review/s_renew_next_visit_date">
+        <label ref="jr:itext('/fp_danger_sign_check/s_group_review/s_renew_next_visit_date:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

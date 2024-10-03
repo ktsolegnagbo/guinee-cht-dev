@@ -1,0 +1,18 @@
+{
+    "context": {
+        "expression": "contact.type === 'clinic' && user.role === 'reco' && user._id !== contact._id",
+        "person": false,
+        "place": true
+    },
+    "icon": "reschedule",
+    "title": [
+      {
+        "locale": "en",
+        "content": "Home visit"
+      },
+      {
+        "locale": "fr",
+        "content": "VAD: Visite à domicile"
+      }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "context": {
+    "expression": "user.role === 'chw' && user._id !== contact._id && contact.role === 'reco' && summary.alive && !summary.muted && contact.type === 'person'",
+    "person": true,
+    "place": false
+  },
+  "icon": "drugs-50x",
+    "title": [
+      {
+        "locale": "en",
+        "content": "Supervision Grid"
+      },
+      {
+        "locale": "fr",
+        "content": "Grille de Supervision"
+      }
+    ]
+}

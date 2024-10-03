@@ -1,0 +1,2887 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>SUIVI PRENATAL</h:title>
+    <model>
+      <itext>
+        <translation lang="fr">
+          <text id="/prenatal_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/prenatal_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/prenatal_followup/inputs/user/contact_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/prenatal_followup/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/prenatal_followup/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/contact:label">
+            <value>Information du RECO</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/prenatal_followup/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/prenatal_followup/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/prenatal_followup/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/prenatal_followup/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/prenatal_followup/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/prenatal_followup/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/prenatal_followup/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/prenatal_followup/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/prenatal_followup/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/prenatal_followup/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/prenatal_followup/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/prenatal_followup/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/prenatal_followup/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/prenatal_followup/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/prenatal_followup/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/prenatal_followup/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/prenatal_followup/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/prenatal_followup/patient_family_name:label">
+            <value>Nom du ménage</value>
+          </text>
+          <text id="/prenatal_followup/patient_phone:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/prenatal_followup/patient_phone_to_show:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/prenatal_followup/patient_family_external_id:label">
+            <value>Numéro du ménage</value>
+          </text>
+          <text id="/prenatal_followup/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/prenatal_followup/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/prenatal_followup/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/prenatal_followup/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/prenatal_followup/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/prenatal_followup/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/prenatal_followup/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/prenatal_followup/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/prenatal_followup/visited_contact_uuid:label">
+            <value>Identifiant de la famille</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos:label">
+            <value>DÉTAILS DU PATIENT</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/busy:label">
+            <value>Occupée</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/forget:label">
+            <value>Oublie</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/refused:label">
+            <value>Refus</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/no_money:label">
+            <value>Pas d'argent</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/miscarriage:label">
+            <value>Fausse couche</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/deceased:label">
+            <value>Femme décédé</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/hospitalized:label">
+            <value>Hospitalisé</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/absent:label">
+            <value>Patient Absent</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_patient_family_name:label">
+            <value>Nom du ménage : **<output value=" /prenatal_followup/patient_family_name "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_patient_family_ext_id:label">
+            <value>Numéro du ménage : **<output value=" /prenatal_followup/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_patient_name:label">
+            <value>Nom du patient : **<output value=" /prenatal_followup/patient_name_to_show "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_code_patient:label">
+            <value>Code du patient : **<output value=" /prenatal_followup/patient_external_id_to_show "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_patient_info_age:label">
+            <value>Âge : **<output value=" /prenatal_followup/patient_age_display_fr "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_patient_phone:label">
+            <value>Numéro de téléphone : **<output value=" /prenatal_followup/patient_phone "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_cpn_next_number:label">
+            <value>Nombre de CPN effectuée : **<output value=" /prenatal_followup/cpn_already_count "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_was_cpn_referred:label">
+            <value>La femme avait été référé pour **CPN <output value=" /prenatal_followup/inputs/t_cpn_next_number "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_date_cpn1:label">
+            <value>Date **CPN 1** : **<output value=" /prenatal_followup/inputs/t_date_cpn1 "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_date_cpn2:label">
+            <value>Date **CPN 2** : **<output value=" /prenatal_followup/inputs/t_date_cpn2 "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_date_cpn3:label">
+            <value>Date **CPN 3** : **<output value=" /prenatal_followup/inputs/t_date_cpn3 "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_date_cpn4:label">
+            <value>Date **CPN 4** : **<output value=" /prenatal_followup/inputs/t_date_cpn4 "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_td1:label">
+            <value>La femme a fait **TD 1**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_td2:label">
+            <value>La femme a fait **TD 2**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_milda:label">
+            <value>La femme a recu **MILDA**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_next_cpn_date:label">
+            <value>Date de la prochaine (**CPN <output value=" /prenatal_followup/inputs/t_cpn_next_number "/>**) : **<output value=" /prenatal_followup/inputs/t_next_cpn_date "/>**</value>
+          </text>
+          <text id="/prenatal_followup/informations:label">
+            <value>INFORMATIONS INITIALES</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_task_to_perform:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_task_to_perform:label">
+            <value>Quel tâche souhaitez-vous effectuer ?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_task_to_perform/followup:label">
+            <value>Suivi</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_task_to_perform/close:label">
+            <value>Clôture</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_closing_reason:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_closing_reason:label">
+            <value>Raison de la clôture</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_other_closing_reason:label">
+            <value>Saisir l'autre raison</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_health_facility_for_miscarriage:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_health_facility_for_miscarriage:label">
+            <value>Avez-vous été dans une structure de santé après votre fausse couche ?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_health_facility_for_miscarriage/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_health_facility_for_miscarriage/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_record_death_informations:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_record_death_informations:label">
+            <value>Souhaitez-vous enrégistrer les informations du décès ?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_record_death_informations/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_record_death_informations/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_woman_available:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_woman_available:label">
+            <value>Le patient est-il présent?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_woman_available/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_woman_available/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_absent_motif:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_absent_motif:label">
+            <value>Motif de l'absence</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reschedule_task:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reschedule_task:label">
+            <value>Souhaitez-vous reprogrammer la tâche ?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reschedule_task/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reschedule_task/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reschedule_date:jr:constraintMsg">
+            <value>La date doit être au futur</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reschedule_date:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reschedule_date:label">
+            <value>Date de reprogrammer du suivi ?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_cpn_done:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_cpn_done:label">
+            <value>Avez-vous été dans une structure de santé pour votre votre **CPN <output value=" /prenatal_followup/cpn_number "/>** ?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_cpn_done/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_cpn_done/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done:label">
+            <value>Pourquoi n'avez-vous pas été pour votre **CPN <output value=" /prenatal_followup/cpn_number "/>** ?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/busy:label">
+            <value>Occupée</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/forget:label">
+            <value>Oublie</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/refused:label">
+            <value>Refus</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/no_money:label">
+            <value>Pas d'argent</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/miscarriage:label">
+            <value>Fausse couche</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/deceased:label">
+            <value>Femme décédé</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/hospitalized:label">
+            <value>Hospitalisé</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/absent:label">
+            <value>Patient Absent</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report:label">
+            <value>Rapport de décès</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/patient_sex:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/visited_contact_uuid:label">
+            <value>Identifiant de la famille</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/date_of_death:label">
+            <value>Date du décès</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/death_place:label">
+            <value>Lieu de décès</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/death_reason:label">
+            <value>raison du décès</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/death_place_label:label">
+            <value>Lieu de décès</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/death_reason_label:label">
+            <value>raison du décès</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date:jr:constraintMsg">
+            <value>Donnez une date passée</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date:label">
+            <value>Date de décès</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason:label">
+            <value>Quel est le Motif de décès</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/malaria:label">
+            <value>Paludisme</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/diarrhea:label">
+            <value>Diarrhée</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/malnutrition:label">
+            <value>Malnutrition</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/cough_cold:label">
+            <value>Toux / Rhume</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/pneumonia:label">
+            <value>pneumonie</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/maternal_death:label">
+            <value>Décès maternel</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/miscarriage:label">
+            <value>Fausse couche</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/other:label">
+            <value>Autre</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_reason:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_reason:label">
+            <value>Saisir l'autre motif</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place:label">
+            <value>Lieu du décès</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place/health_structure:label">
+            <value>Structure de santé</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place/home:label">
+            <value>Domicile</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place/other:label">
+            <value>Autre</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_place:label">
+            <value>Spécifier</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs:label">
+            <value>SIGNES DE DANGER</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_health_problem:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_health_problem:label">
+            <value>La femme a-t-elle un problème de santé ?</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_health_problem/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_health_problem/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_health_description:label">
+            <value>Écrire le problème si possible</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_continu_follow_up:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_continu_follow_up:label">
+            <value>Est-il possible de poursuivre le suivi ?</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_continu_follow_up/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_continu_follow_up/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy:label">
+            <value>Enregistrement de la grossesse</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn1:jr:constraintMsg">
+            <value>La date doit être au passé</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn1:label">
+            <value>Date CPN 1</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn2:jr:constraintMsg">
+            <value>La date doit être au passé</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn2:label">
+            <value>Date CPN 2</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn3:jr:constraintMsg">
+            <value>La date doit être au passé</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn3:label">
+            <value>Date CPN 3</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn4:jr:constraintMsg">
+            <value>La date doit être au passé</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn4:label">
+            <value>Date CPN 4</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_td1:label">
+            <value>Avez-vous reçu Td 1 ?</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_td1/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_td1/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_td2:label">
+            <value>Avez-vous reçu Td 2 ?</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_td2/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_td2/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_milda:label">
+            <value>Avez-vous reçu MILDA ?</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_milda/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_milda/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_milda_reason:label">
+            <value>Pourquoi ?</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_milda_reason/breakup:label">
+            <value>rupture</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_milda_reason/refusal:label">
+            <value>refus</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_cpn_late:label">
+            <value>La femme est-elle en retard sur sa CPN <output value=" /prenatal_followup/cpn_next_number "/></value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_cpn_late/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_cpn_late/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_discuss_cpn_date:label">
+            <value>**Trouvez ensemble avec la femme Une date assez proche pour sa CPN <output value=" /prenatal_followup/cpn_next_number "/>**</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_next_cpn_date:jr:constraintMsg">
+            <value>La date doit être au futur</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_next_cpn_date:label">
+            <value>Date de la prochaine consulation prénatal ( **CPN <output value=" /prenatal_followup/cpn_next_number "/>** )</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_summary:label">
+            <value>Détails du Patient &lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /prenatal_followup/patient_name_to_show "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /prenatal_followup/patient_sex_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /prenatal_followup/patient_age_display_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_pregnancy_information:label">
+            <value>Informations sur la grossesse</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_is_closed:label">
+            <value>Raison de la cloture du suivi : **<output value=" /prenatal_followup/close_reason_name "/>**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_cpn_number:label">
+            <value>Nombre de CPN effectuée : **<output value=" /prenatal_followup/cpn_number "/>**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_cpn_prog_date:label">
+            <value>La femme doit se rendre à la formation Sanitaire pour sa **CPN <output value=" /prenatal_followup/cpn_next_number "/>** le : **<output value=" /prenatal_followup/next_cpn_date_fr "/>**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_c_milda:label">
+            <value>La femme à reçu **MILDA**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_note_milda:label">
+            <value>Conseiller la femme de se rendre dans une structure de santé pour recevoir **MILDA**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_refer_USP:label">
+            <value>Référence vers une formation sanitaire</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_refer_FS_health_problem:label">
+            <value>Veuillez référer la femme pour **problème de santé**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_refer_FS_pregnancy_cpn:label">
+            <value>Veuillez référer la femme pour la **CPN <output value=" /prenatal_followup/cpn_next_number "/>**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_refer_FS_td1:label">
+            <value>Veuillez référer la femme pour **Td1 non fait**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_refer_FS_td2:label">
+            <value>Veuillez référer la femme pour **Td2 non fait**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_refer_FS_miscarriage:label">
+            <value>Veuillez référer la femme pour **Fausse couche**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_referal_health_center:label">
+            <value>Selectionner le centre de santé de référence</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_referal_health_center/health_center:label">
+            <value>Centre de santé</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_referal_health_center/health_poste:label">
+            <value>Poste de santé</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_referal_health_center/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_other_referal_health_center:label">
+            <value>Saisir le nom de la formation sanitaire de référence</value>
+          </text>
+          <text id="/prenatal_followup/group_review/followup:label">
+            <value>Visite de Suivi</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_next_visit_date_cpn:label">
+            <value>La prochaine visite de suivi **CPN <output value=" /prenatal_followup/cpn_next_number "/>** est : **<output value=" /prenatal_followup/next_cpn_visit_date_fr "/>**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_referal_followup:label">
+            <value>La visite de suivi référence est dans **3 jours**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_no_followup:label">
+            <value>**Aucun suivi ne sera généré**</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>Oui</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>Non</value>
+          </text>
+          <text id="static_instance-positive_negative-0">
+            <value>Positif</value>
+          </text>
+          <text id="static_instance-positive_negative-1">
+            <value>Négatif</value>
+          </text>
+          <text id="static_instance-c_task_to_perform-0">
+            <value>Suivi</value>
+          </text>
+          <text id="static_instance-c_task_to_perform-1">
+            <value>Clôture</value>
+          </text>
+          <text id="static_instance-health_center_near-0">
+            <value>Centre de santé</value>
+          </text>
+          <text id="static_instance-health_center_near-1">
+            <value>Poste de santé</value>
+          </text>
+          <text id="static_instance-health_center_near-2">
+            <value>Autres</value>
+          </text>
+          <text id="static_instance-milda_reasons-0">
+            <value>rupture</value>
+          </text>
+          <text id="static_instance-milda_reasons-1">
+            <value>refus</value>
+          </text>
+          <text id="static_instance-list_cpn-0">
+            <value>0</value>
+          </text>
+          <text id="static_instance-list_cpn-1">
+            <value>1</value>
+          </text>
+          <text id="static_instance-list_cpn-2">
+            <value>2</value>
+          </text>
+          <text id="static_instance-list_cpn-3">
+            <value>3</value>
+          </text>
+          <text id="static_instance-list_cpn-4">
+            <value>4</value>
+          </text>
+          <text id="static_instance-reason_anc-0">
+            <value>Occupée</value>
+          </text>
+          <text id="static_instance-reason_anc-1">
+            <value>Oublie</value>
+          </text>
+          <text id="static_instance-reason_anc-2">
+            <value>Refus</value>
+          </text>
+          <text id="static_instance-reason_anc-3">
+            <value>Pas d'argent</value>
+          </text>
+          <text id="static_instance-reason_anc-4">
+            <value>Fausse couche</value>
+          </text>
+          <text id="static_instance-reason_anc-5">
+            <value>Femme décédé</value>
+          </text>
+          <text id="static_instance-reason_anc-6">
+            <value>Hospitalisé</value>
+          </text>
+          <text id="static_instance-reason_anc-7">
+            <value>Patient Absent</value>
+          </text>
+          <text id="static_instance-reason_anc-8">
+            <value>Autres</value>
+          </text>
+          <text id="static_instance-death_reason_list-0">
+            <value>Paludisme</value>
+          </text>
+          <text id="static_instance-death_reason_list-1">
+            <value>Diarrhée</value>
+          </text>
+          <text id="static_instance-death_reason_list-2">
+            <value>Malnutrition</value>
+          </text>
+          <text id="static_instance-death_reason_list-3">
+            <value>Toux / Rhume</value>
+          </text>
+          <text id="static_instance-death_reason_list-4">
+            <value>pneumonie</value>
+          </text>
+          <text id="static_instance-death_reason_list-5">
+            <value>Décès maternel</value>
+          </text>
+          <text id="static_instance-death_reason_list-6">
+            <value>Fausse couche</value>
+          </text>
+          <text id="static_instance-death_reason_list-7">
+            <value>Autre</value>
+          </text>
+          <text id="static_instance-death_place-0">
+            <value>Structure de santé</value>
+          </text>
+          <text id="static_instance-death_place-1">
+            <value>Domicile</value>
+          </text>
+          <text id="static_instance-death_place-2">
+            <value>Autre</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/created_by_doc:label">
+            <value>-</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/woman_death_report_doc:label">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation lang="en">
+          <text id="/prenatal_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/prenatal_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/prenatal_followup/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/prenatal_followup/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/prenatal_followup/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/prenatal_followup/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/prenatal_followup/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/prenatal_followup/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/prenatal_followup/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/prenatal_followup/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/prenatal_followup/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/prenatal_followup/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/prenatal_followup/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/prenatal_followup/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/prenatal_followup/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/prenatal_followup/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/prenatal_followup/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/prenatal_followup/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/prenatal_followup/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/prenatal_followup/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/prenatal_followup/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/prenatal_followup/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/prenatal_followup/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/prenatal_followup/patient_family_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/prenatal_followup/patient_phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/prenatal_followup/patient_phone_to_show:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/prenatal_followup/patient_family_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/prenatal_followup/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/prenatal_followup/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/prenatal_followup/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/prenatal_followup/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/prenatal_followup/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/prenatal_followup/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/prenatal_followup/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/prenatal_followup/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/prenatal_followup/visited_contact_uuid:label">
+            <value>Family Id</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos:label">
+            <value>PATIENT DETAILS</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/busy:label">
+            <value>Busy</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/forget:label">
+            <value>Forget</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/refused:label">
+            <value>Refused</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/no_money:label">
+            <value>No money</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/miscarriage:label">
+            <value>Miscarriage</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/deceased:label">
+            <value>Deceased woman</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/hospitalized:label">
+            <value>Hospitalized</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/absent:label">
+            <value>Patient Absent</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/close_reason_selected/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_patient_family_name:label">
+            <value>Family name : **<output value=" /prenatal_followup/patient_family_name "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_patient_family_ext_id:label">
+            <value>Family External ID : **<output value=" /prenatal_followup/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_patient_name:label">
+            <value>Patient name : **<output value=" /prenatal_followup/patient_name_to_show "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_code_patient:label">
+            <value>Patient code : **<output value=" /prenatal_followup/patient_external_id_to_show "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_patient_info_age:label">
+            <value>Age : **<output value=" /prenatal_followup/patient_age_display_en "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_patient_phone:label">
+            <value>Patient phone : **<output value=" /prenatal_followup/patient_phone "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_cpn_next_number:label">
+            <value>CPN Count : **<output value=" /prenatal_followup/cpn_already_count "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_was_cpn_referred:label">
+            <value>The woman had been referred for **CPN <output value=" /prenatal_followup/inputs/t_cpn_next_number "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_date_cpn1:label">
+            <value>**CPN 1** Date : **<output value=" /prenatal_followup/inputs/t_date_cpn1 "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_date_cpn2:label">
+            <value>**CPN 2** Date : **<output value=" /prenatal_followup/inputs/t_date_cpn2 "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_date_cpn3:label">
+            <value>**CPN 3** Date : **<output value=" /prenatal_followup/inputs/t_date_cpn3 "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_date_cpn4:label">
+            <value>**CPN 4** Date : **<output value=" /prenatal_followup/inputs/t_date_cpn4 "/>**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_td1:label">
+            <value>The patient did **TD 1**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_td2:label">
+            <value>The patient did **TD 2**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_milda:label">
+            <value>The patient took **MILDA**</value>
+          </text>
+          <text id="/prenatal_followup/patient_infos/i_next_cpn_date:label">
+            <value>Next cpn date (**CPN <output value=" /prenatal_followup/inputs/t_cpn_next_number "/>**) : **<output value=" /prenatal_followup/inputs/t_next_cpn_date "/>**</value>
+          </text>
+          <text id="/prenatal_followup/informations:label">
+            <value>INITIAL INFORMATION</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_task_to_perform:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_task_to_perform:label">
+            <value>What task do you want to complete?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_task_to_perform/followup:label">
+            <value>Followup</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_task_to_perform/close:label">
+            <value>Close out</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_closing_reason:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_closing_reason:label">
+            <value>Reason for closing</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_other_closing_reason:label">
+            <value>Write the reason</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_health_facility_for_miscarriage:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_health_facility_for_miscarriage:label">
+            <value>Did you go to a health facility after your miscarriage?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_health_facility_for_miscarriage/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_health_facility_for_miscarriage/no:label">
+            <value>No</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_record_death_informations:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_record_death_informations:label">
+            <value>Would you like to record the death information?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_record_death_informations/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_record_death_informations/no:label">
+            <value>No</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_woman_available:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_woman_available:label">
+            <value>Is the woman available?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_woman_available/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_woman_available/no:label">
+            <value>No</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_absent_motif:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_absent_motif:label">
+            <value>Reason for absence</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reschedule_task:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reschedule_task:label">
+            <value>Would you like to reprogram the task?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reschedule_task/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reschedule_task/no:label">
+            <value>No</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reschedule_date:jr:constraintMsg">
+            <value>Date must be in future</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reschedule_date:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reschedule_date:label">
+            <value>For what day do you want to reprogram the task?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_cpn_done:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_cpn_done:label">
+            <value>Have you been to a healthcare facility for your **CPN <output value=" /prenatal_followup/cpn_number "/>** ?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_cpn_done/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_cpn_done/no:label">
+            <value>No</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done:label">
+            <value>Why didn't you go for your **CPN <output value=" /prenatal_followup/cpn_number "/>** ?</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/busy:label">
+            <value>Busy</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/forget:label">
+            <value>Forget</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/refused:label">
+            <value>Refused</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/no_money:label">
+            <value>No money</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/miscarriage:label">
+            <value>Miscarriage</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/deceased:label">
+            <value>Deceased woman</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/hospitalized:label">
+            <value>Hospitalized</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/absent:label">
+            <value>Patient Absent</value>
+          </text>
+          <text id="/prenatal_followup/informations/c_reason_cpn_not_done/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report:label">
+            <value>Death Report</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/patient_id:label">
+            <value>patient_id</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/patient_sex:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/visited_contact_uuid:label">
+            <value>Family Id</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/date_of_death:label">
+            <value>Death date</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/death_place:label">
+            <value>Death place</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/death_reason:label">
+            <value>Death reason</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/death_place_label:label">
+            <value>Death place</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/death_reason_label:label">
+            <value>Death reason</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date:jr:constraintMsg">
+            <value>Only past date allowed</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date:label">
+            <value>Date of reported death</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason:label">
+            <value>Reason death</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/malaria:label">
+            <value>Malaria</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/diarrhea:label">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/malnutrition:label">
+            <value>Malnutrition</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/cough_cold:label">
+            <value>Cough / Cold</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/pneumonia:label">
+            <value>pneumonia</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/maternal_death:label">
+            <value>Maternal death</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/miscarriage:label">
+            <value>Miscarriage</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_reason:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_reason:label">
+            <value>Enter the other reason</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place:label">
+            <value>Place of death</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place/health_structure:label">
+            <value>Health Facility</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place/home:label">
+            <value>Home</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_place:label">
+            <value>Specify</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/death_report/created_by_doc:label">
+            <value>created_by_doc</value>
+          </text>
+          <text id="/prenatal_followup/woman_death_info/woman_death_report_doc:label">
+            <value>woman_death_report_doc</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs:label">
+            <value>DANGER SIGNS</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_health_problem:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_health_problem:label">
+            <value>Does the woman have a health problem?</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_health_problem/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_health_problem/no:label">
+            <value>No</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_health_description:label">
+            <value>Write down the problem if possible</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_continu_follow_up:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_continu_follow_up:label">
+            <value>Is it possible to continue the follow-up?</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_continu_follow_up/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/prenatal_followup/c_danger_signs/c_continu_follow_up/no:label">
+            <value>No</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy:label">
+            <value>Pregnancy registration</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn1:jr:constraintMsg">
+            <value>date must be in the past</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn1:label">
+            <value>CPN1 Date</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn2:jr:constraintMsg">
+            <value>date must be in the past</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn2:label">
+            <value>CPN2 Date</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn3:jr:constraintMsg">
+            <value>date must be in the past</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn3:label">
+            <value>CPN3 Date</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn4:jr:constraintMsg">
+            <value>date must be in the past</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_date_cpn4:label">
+            <value>CPN4 Date</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_td1:label">
+            <value>Have you received Td 1?</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_td1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_td1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_td2:label">
+            <value>Have you received Td 2?</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_td2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_td2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_milda:label">
+            <value>Have you received MILDA?</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_milda/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_milda/no:label">
+            <value>No</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_milda_reason:label">
+            <value>Why ?</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_milda_reason/breakup:label">
+            <value>breakup</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_milda_reason/refusal:label">
+            <value>refus</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_cpn_late:label">
+            <value>Is the woman behind on her CPN <output value=" /prenatal_followup/cpn_next_number "/></value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_cpn_late/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_cpn_late/no:label">
+            <value>No</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_discuss_cpn_date:label">
+            <value>**Find together with the woman a date close enough for her CPN <output value=" /prenatal_followup/cpn_next_number "/>**</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_next_cpn_date:jr:constraintMsg">
+            <value>Date must be in the future</value>
+          </text>
+          <text id="/prenatal_followup/c_pregnancy/c_next_cpn_date:label">
+            <value>Date of next CPN ( **CPN <output value=" /prenatal_followup/cpn_next_number "/>** )</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_summary:label">
+            <value>Patient Summary&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /prenatal_followup/patient_name_to_show "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /prenatal_followup/patient_sex_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /prenatal_followup/patient_age_display_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_pregnancy_information:label">
+            <value>Pregnancy information</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_is_closed:label">
+            <value>Reason for closing tracking: **<output value=" /prenatal_followup/close_reason_name "/>**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_cpn_number:label">
+            <value>Number of CPNs performed: **<output value=" /prenatal_followup/cpn_number "/>**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_cpn_prog_date:label">
+            <value>The woman must go to the Health training for her **CPN <output value=" /prenatal_followup/cpn_next_number "/>** on: **<output value=" /prenatal_followup/next_cpn_date "/>**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_c_milda:label">
+            <value>The woman received MILDA</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_note_milda:label">
+            <value>Advise the woman to go to a health facility to receive MILDA</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_refer_USP:label">
+            <value>Referral to a health facility</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_refer_FS_health_problem:label">
+            <value>**Please refer the woman to a health facility for ANC 1**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_refer_FS_pregnancy_cpn:label">
+            <value>Please refer the woman to a health facility for **ANC <output value=" /prenatal_followup/cpn_next_number "/>**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_refer_FS_td1:label">
+            <value>Please refer the woman to a health facility for **Td1 not done**.</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_refer_FS_td2:label">
+            <value>Please refer the woman to a health facility for **Td2 not done**.</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_refer_FS_miscarriage:label">
+            <value>**Please refer the woman to a health facility for FP method not available**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_referal_health_center:label">
+            <value>Select the reference health center</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_referal_health_center/health_center:label">
+            <value>Health center</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_referal_health_center/health_poste:label">
+            <value>Health poste</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_referal_health_center/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_other_referal_health_center:label">
+            <value>Enter the name of the reference health facility</value>
+          </text>
+          <text id="/prenatal_followup/group_review/followup:label">
+            <value>Follow up</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_next_visit_date_cpn:label">
+            <value>The next CPN follow-up visit **<output value=" /prenatal_followup/cpn_next_number "/>** is: **<output value=" /prenatal_followup/next_cpn_visit_date "/>**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_referal_followup:label">
+            <value>The reference follow-up visit is in **3 days**</value>
+          </text>
+          <text id="/prenatal_followup/group_review/s_no_followup:label">
+            <value>**No Followup will be generated**</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-positive_negative-0">
+            <value>Positive</value>
+          </text>
+          <text id="static_instance-positive_negative-1">
+            <value>Negative</value>
+          </text>
+          <text id="static_instance-c_task_to_perform-0">
+            <value>Followup</value>
+          </text>
+          <text id="static_instance-c_task_to_perform-1">
+            <value>Close out</value>
+          </text>
+          <text id="static_instance-health_center_near-0">
+            <value>Health center</value>
+          </text>
+          <text id="static_instance-health_center_near-1">
+            <value>Health poste</value>
+          </text>
+          <text id="static_instance-health_center_near-2">
+            <value>Others</value>
+          </text>
+          <text id="static_instance-milda_reasons-0">
+            <value>breakup</value>
+          </text>
+          <text id="static_instance-milda_reasons-1">
+            <value>refus</value>
+          </text>
+          <text id="static_instance-list_cpn-0">
+            <value>0</value>
+          </text>
+          <text id="static_instance-list_cpn-1">
+            <value>1</value>
+          </text>
+          <text id="static_instance-list_cpn-2">
+            <value>2</value>
+          </text>
+          <text id="static_instance-list_cpn-3">
+            <value>3</value>
+          </text>
+          <text id="static_instance-list_cpn-4">
+            <value>4</value>
+          </text>
+          <text id="static_instance-reason_anc-0">
+            <value>Busy</value>
+          </text>
+          <text id="static_instance-reason_anc-1">
+            <value>Forget</value>
+          </text>
+          <text id="static_instance-reason_anc-2">
+            <value>Refused</value>
+          </text>
+          <text id="static_instance-reason_anc-3">
+            <value>No money</value>
+          </text>
+          <text id="static_instance-reason_anc-4">
+            <value>Miscarriage</value>
+          </text>
+          <text id="static_instance-reason_anc-5">
+            <value>Deceased woman</value>
+          </text>
+          <text id="static_instance-reason_anc-6">
+            <value>Hospitalized</value>
+          </text>
+          <text id="static_instance-reason_anc-7">
+            <value>Patient Absent</value>
+          </text>
+          <text id="static_instance-reason_anc-8">
+            <value>Others</value>
+          </text>
+          <text id="static_instance-death_reason_list-0">
+            <value>Malaria</value>
+          </text>
+          <text id="static_instance-death_reason_list-1">
+            <value>Diarrhea</value>
+          </text>
+          <text id="static_instance-death_reason_list-2">
+            <value>Malnutrition</value>
+          </text>
+          <text id="static_instance-death_reason_list-3">
+            <value>Cough / Cold</value>
+          </text>
+          <text id="static_instance-death_reason_list-4">
+            <value>pneumonia</value>
+          </text>
+          <text id="static_instance-death_reason_list-5">
+            <value>Maternal death</value>
+          </text>
+          <text id="static_instance-death_reason_list-6">
+            <value>Miscarriage</value>
+          </text>
+          <text id="static_instance-death_reason_list-7">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-death_place-0">
+            <value>Health Facility</value>
+          </text>
+          <text id="static_instance-death_place-1">
+            <value>Home</value>
+          </text>
+          <text id="static_instance-death_place-2">
+            <value>Other</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <prenatal_followup id="prenatal_followup" prefix="J1!prenatal_followup!" delimiter="#" version="2024-08-16  17-03">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <t_cpn_next_number/>
+            <t_date_cpn1/>
+            <t_date_cpn2/>
+            <t_date_cpn3/>
+            <t_date_cpn4/>
+            <t_td1/>
+            <t_td2/>
+            <t_milda/>
+            <t_next_cpn_date/>
+            <t_cpn_done/>
+            <t_was_cpn_referred/>
+            <t_family_id/>
+            <t_family_name/>
+            <t_family_external_id/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <sex/>
+              <date_of_birth/>
+              <external_id/>
+              <phone/>
+              <parent>
+                <_id/>
+                <name/>
+                <external_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                  <contact>
+                    <_id/>
+                    <name/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_uuid/>
+          <patient_name/>
+          <patient_name_to_show/>
+          <patient_external_id/>
+          <patient_external_id_to_show/>
+          <patient_sex/>
+          <patient_date_of_birth/>
+          <patient_age_in_years/>
+          <patient_age_in_months/>
+          <patient_age_in_days/>
+          <patient_age_display_fr/>
+          <patient_age_display_en/>
+          <patient_sex_en/>
+          <patient_sex_fr/>
+          <patient_family_name/>
+          <patient_phone/>
+          <patient_phone_to_show/>
+          <patient_family_external_id/>
+          <household_id/>
+          <village_secteur_id/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <visited_contact_uuid/>
+          <today_decimal_date/>
+          <is_pregnant/>
+          <cpn_already_count/>
+          <cpn_done/>
+          <cpn_number/>
+          <date_cpn1/>
+          <date_cpn2/>
+          <date_cpn3/>
+          <date_cpn4/>
+          <td1_done/>
+          <td2_done/>
+          <has_milda/>
+          <cpn_next_number/>
+          <next_cpn_date/>
+          <next_cpn_date_fr/>
+          <next_cpn_visit_date/>
+          <next_cpn_visit_date_fr/>
+          <is_cpn_late/>
+          <is_closed/>
+          <close_reason/>
+          <close_reason_name/>
+          <has_danger_sign/>
+          <is_miscarriage_referred/>
+          <is_referred/>
+          <patient_infos>
+            <close_reason_selected/>
+            <i_patient_family_name/>
+            <i_patient_family_ext_id/>
+            <i_patient_name/>
+            <i_code_patient/>
+            <i_patient_info_age/>
+            <i_patient_phone/>
+            <i_cpn_next_number/>
+            <i_was_cpn_referred/>
+            <i_date_cpn1/>
+            <i_date_cpn2/>
+            <i_date_cpn3/>
+            <i_date_cpn4/>
+            <i_td1/>
+            <i_td2/>
+            <i_milda/>
+            <i_next_cpn_date/>
+          </patient_infos>
+          <informations>
+            <c_task_to_perform/>
+            <c_closing_reason/>
+            <c_other_closing_reason/>
+            <c_health_facility_for_miscarriage/>
+            <c_record_death_informations/>
+            <c_woman_available/>
+            <c_absent_motif/>
+            <c_reschedule_task/>
+            <c_reschedule_date/>
+            <c_cpn_done/>
+            <c_reason_cpn_not_done/>
+          </informations>
+          <woman_death_info>
+            <death_report db-doc="true">
+              <_id/>
+              <form/>
+              <type/>
+              <content_type/>
+              <from/>
+              <contact>
+                <_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                </parent>
+              </contact>
+              <fields>
+                <patient_id/>
+                <patient_name/>
+                <patient_age_in_years/>
+                <patient_age_in_months/>
+                <patient_age_in_days/>
+                <patient_sex/>
+                <visited_contact_uuid/>
+                <patient_date_of_birth/>
+                <date_of_death/>
+                <death_place/>
+                <is_maternal_death/>
+                <is_home_death/>
+                <death_reason/>
+                <death_place_label/>
+                <death_reason_label/>
+                <c_death>
+                  <c_death_date/>
+                  <c_death_reason/>
+                  <c_death_other_reason/>
+                  <c_death_place/>
+                  <c_death_other_place/>
+                </c_death>
+              </fields>
+              <created_by_doc db-doc-ref="/prenatal_followup"/>
+            </death_report>
+            <woman_death_report_doc db-doc-ref=" /prenatal_followup/woman_death_info/death_report "/>
+          </woman_death_info>
+          <c_danger_signs>
+            <c_health_problem/>
+            <c_health_description/>
+            <c_continu_follow_up/>
+          </c_danger_signs>
+          <c_pregnancy>
+            <c_date_cpn1/>
+            <c_date_cpn2/>
+            <c_date_cpn3/>
+            <c_date_cpn4/>
+            <c_td1/>
+            <c_td2/>
+            <c_milda/>
+            <c_milda_reason/>
+            <c_cpn_late/>
+            <c_discuss_cpn_date/>
+            <c_next_cpn_date/>
+          </c_pregnancy>
+          <group_review>
+            <s_summary/>
+            <s_patient_info_name/>
+            <s_patient_info_sex/>
+            <s_patient_info_age/>
+            <s_pregnancy_information/>
+            <s_is_closed/>
+            <s_cpn_number/>
+            <s_cpn_prog_date/>
+            <s_c_milda/>
+            <s_note_milda/>
+            <s_refer_USP/>
+            <s_refer_FS_health_problem/>
+            <s_refer_FS_pregnancy_cpn/>
+            <s_refer_FS_td1/>
+            <s_refer_FS_td2/>
+            <s_refer_FS_miscarriage/>
+            <s_referal_health_center/>
+            <s_other_referal_health_center/>
+            <followup/>
+            <s_next_visit_date_cpn/>
+            <s_referal_followup/>
+            <s_no_followup/>
+          </group_review>
+          <meta>
+            <instanceID/>
+          </meta>
+        </prenatal_followup>
+      </instance>
+      <instance id="contact-summary"/>
+      <instance id="yes_no">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="positive_negative">
+        <root>
+          <item>
+            <itextId>static_instance-positive_negative-0</itextId>
+            <name>positive</name>
+          </item>
+          <item>
+            <itextId>static_instance-positive_negative-1</itextId>
+            <name>negative</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="c_task_to_perform">
+        <root>
+          <item>
+            <itextId>static_instance-c_task_to_perform-0</itextId>
+            <name>followup</name>
+          </item>
+          <item>
+            <itextId>static_instance-c_task_to_perform-1</itextId>
+            <name>close</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="health_center_near">
+        <root>
+          <item>
+            <itextId>static_instance-health_center_near-0</itextId>
+            <name>health_center</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_center_near-1</itextId>
+            <name>health_poste</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_center_near-2</itextId>
+            <name>others</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="milda_reasons">
+        <root>
+          <item>
+            <itextId>static_instance-milda_reasons-0</itextId>
+            <name>breakup</name>
+          </item>
+          <item>
+            <itextId>static_instance-milda_reasons-1</itextId>
+            <name>refusal</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="list_cpn">
+        <root>
+          <item>
+            <itextId>static_instance-list_cpn-0</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-list_cpn-1</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-list_cpn-2</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-list_cpn-3</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-list_cpn-4</itextId>
+            <name>4</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="reason_anc">
+        <root>
+          <item>
+            <itextId>static_instance-reason_anc-0</itextId>
+            <name>busy</name>
+            <filter>1</filter>
+          </item>
+          <item>
+            <itextId>static_instance-reason_anc-1</itextId>
+            <name>forget</name>
+            <filter>2</filter>
+          </item>
+          <item>
+            <itextId>static_instance-reason_anc-2</itextId>
+            <name>refused</name>
+            <filter>3</filter>
+          </item>
+          <item>
+            <itextId>static_instance-reason_anc-3</itextId>
+            <name>no_money</name>
+            <filter>4</filter>
+          </item>
+          <item>
+            <itextId>static_instance-reason_anc-4</itextId>
+            <name>miscarriage</name>
+            <filter>5</filter>
+          </item>
+          <item>
+            <itextId>static_instance-reason_anc-5</itextId>
+            <name>deceased</name>
+            <filter>6</filter>
+          </item>
+          <item>
+            <itextId>static_instance-reason_anc-6</itextId>
+            <name>hospitalized</name>
+            <filter>7</filter>
+          </item>
+          <item>
+            <itextId>static_instance-reason_anc-7</itextId>
+            <name>absent</name>
+            <filter>8</filter>
+          </item>
+          <item>
+            <itextId>static_instance-reason_anc-8</itextId>
+            <name>others</name>
+            <filter>9</filter>
+          </item>
+        </root>
+      </instance>
+      <instance id="death_reason_list">
+        <root>
+          <item>
+            <itextId>static_instance-death_reason_list-0</itextId>
+            <name>malaria</name>
+          </item>
+          <item>
+            <itextId>static_instance-death_reason_list-1</itextId>
+            <name>diarrhea</name>
+          </item>
+          <item>
+            <itextId>static_instance-death_reason_list-2</itextId>
+            <name>malnutrition</name>
+          </item>
+          <item>
+            <itextId>static_instance-death_reason_list-3</itextId>
+            <name>cough_cold</name>
+          </item>
+          <item>
+            <itextId>static_instance-death_reason_list-4</itextId>
+            <name>pneumonia</name>
+          </item>
+          <item>
+            <itextId>static_instance-death_reason_list-5</itextId>
+            <name>maternal_death</name>
+          </item>
+          <item>
+            <itextId>static_instance-death_reason_list-6</itextId>
+            <name>miscarriage</name>
+            <filter>5</filter>
+          </item>
+          <item>
+            <itextId>static_instance-death_reason_list-7</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="death_place">
+        <root>
+          <item>
+            <itextId>static_instance-death_place-0</itextId>
+            <name>health_structure</name>
+          </item>
+          <item>
+            <itextId>static_instance-death_place-1</itextId>
+            <name>home</name>
+          </item>
+          <item>
+            <itextId>static_instance-death_place-2</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/prenatal_followup/inputs/source" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/source_id" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/t_cpn_next_number" type="int"/>
+      <bind nodeset="/prenatal_followup/inputs/t_date_cpn1" type="date"/>
+      <bind nodeset="/prenatal_followup/inputs/t_date_cpn2" type="date"/>
+      <bind nodeset="/prenatal_followup/inputs/t_date_cpn3" type="date"/>
+      <bind nodeset="/prenatal_followup/inputs/t_date_cpn4" type="date"/>
+      <bind nodeset="/prenatal_followup/inputs/t_td1" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/t_td2" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/t_milda" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/t_next_cpn_date" type="date"/>
+      <bind nodeset="/prenatal_followup/inputs/t_cpn_done" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/t_was_cpn_referred" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/t_family_id" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/t_family_name" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/t_family_external_id" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/prenatal_followup/inputs/user/name" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/user/phone" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/_id" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/name" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/sex" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/external_id" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/phone" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/parent/_id" type="db:person"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/parent/external_id" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/parent/parent/contact/_id" type="string"/>
+      <bind nodeset="/prenatal_followup/inputs/contact/parent/parent/contact/name" type="string"/>
+      <bind nodeset="/prenatal_followup/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/prenatal_followup/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/prenatal_followup/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/prenatal_followup/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/prenatal_followup/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/prenatal_followup/patient_name_to_show" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/prenatal_followup/patient_external_id" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/prenatal_followup/patient_external_id_to_show" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/prenatal_followup/patient_sex" type="string" calculate="../inputs/contact/sex"/>
+      <bind nodeset="/prenatal_followup/patient_date_of_birth" type="string" calculate="../inputs/contact/date_of_birth"/>
+      <bind nodeset="/prenatal_followup/patient_age_in_years" type="string" calculate="if (  /prenatal_followup/inputs/contact/date_of_birth = '', '', floor( difference-in-months(  /prenatal_followup/inputs/contact/date_of_birth , today() ) div 12 ) )"/>
+      <bind nodeset="/prenatal_followup/patient_age_in_months" type="string" calculate="difference-in-months(  /prenatal_followup/inputs/contact/date_of_birth , today() )"/>
+      <bind nodeset="/prenatal_followup/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time( /prenatal_followup/inputs/contact/date_of_birth ) )"/>
+      <bind nodeset="/prenatal_followup/patient_age_display_fr" type="string" calculate="concat(concat(../patient_age_in_years, if(../patient_age_in_years = 1,' an et ',' ans et ')),concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12)=1,' mois',' mois')))"/>
+      <bind nodeset="/prenatal_followup/patient_age_display_en" type="string" calculate="concat(concat(../patient_age_in_years, if(../patient_age_in_years = 1,' year and ',' years and ')),concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12)=1,' month old',' months old')))"/>
+      <bind nodeset="/prenatal_followup/patient_sex_en" type="string" calculate="if( /prenatal_followup/inputs/contact/sex  = 'male' or  /prenatal_followup/inputs/contact/sex  = 'homme' or  /prenatal_followup/inputs/contact/sex  = 'Homme', 'Male', if( /prenatal_followup/inputs/contact/sex  = 'female' or  /prenatal_followup/inputs/contact/sex  = 'femme' or  /prenatal_followup/inputs/contact/sex  = 'Femme', 'Female', ''))"/>
+      <bind nodeset="/prenatal_followup/patient_sex_fr" type="string" calculate="if( /prenatal_followup/inputs/contact/sex  = 'male' or  /prenatal_followup/inputs/contact/sex  = 'homme' or  /prenatal_followup/inputs/contact/sex  = 'Homme', 'Masculin', if( /prenatal_followup/inputs/contact/sex  = 'female' or  /prenatal_followup/inputs/contact/sex  = 'femme' or  /prenatal_followup/inputs/contact/sex  = 'Femme', 'Féminin', ''))"/>
+      <bind nodeset="/prenatal_followup/patient_family_name" type="string" calculate="coalesce(../inputs/contact/parent/name, /prenatal_followup/inputs/t_family_name )"/>
+      <bind nodeset="/prenatal_followup/patient_phone" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/prenatal_followup/patient_phone_to_show" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/prenatal_followup/patient_family_external_id" type="string" calculate="coalesce(../inputs/contact/parent/external_id, /prenatal_followup/inputs/t_family_external_id )"/>
+      <bind nodeset="/prenatal_followup/household_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/prenatal_followup/village_secteur_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/prenatal_followup/district_quartier_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/prenatal_followup/hospital_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/prenatal_followup/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/prenatal_followup/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/prenatal_followup/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/prenatal_followup/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/prenatal_followup/visited_contact_uuid" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/prenatal_followup/today_decimal_date" type="string" calculate="coalesce( /prenatal_followup/today_decimal_date ,decimal-date-time(today()))"/>
+      <bind nodeset="/prenatal_followup/is_pregnant" type="string" calculate="if(../informations/c_task_to_perform = 'close' and (../informations/c_closing_reason = 'miscarriage' or ../informations/c_closing_reason = 'deceased'),'false','true')"/>
+      <bind nodeset="/prenatal_followup/cpn_already_count" type="string" calculate=" /prenatal_followup/inputs/t_cpn_next_number  - 1"/>
+      <bind nodeset="/prenatal_followup/cpn_done" type="string" calculate="if(../informations/c_cpn_done = '','',if(../informations/c_cpn_done = 'yes','true','false'))"/>
+      <bind nodeset="/prenatal_followup/cpn_number" type="string" calculate="if( /prenatal_followup/inputs/t_cpn_next_number  = '' or  /prenatal_followup/inputs/t_cpn_next_number  + 0 &lt;= 0,0, /prenatal_followup/inputs/t_cpn_next_number )"/>
+      <bind nodeset="/prenatal_followup/date_cpn1" type="string" calculate="coalesce(if(../cpn_done = 'true' and ../cpn_number &gt;= 1 and ../c_pregnancy/c_date_cpn1 != '', ../c_pregnancy/c_date_cpn1,''), /prenatal_followup/inputs/t_date_cpn1 )"/>
+      <bind nodeset="/prenatal_followup/date_cpn2" type="string" calculate="coalesce(if(../cpn_done = 'true' and ../cpn_number &gt;= 2 and ../c_pregnancy/c_date_cpn2 != '', ../c_pregnancy/c_date_cpn2,''), /prenatal_followup/inputs/t_date_cpn2 )"/>
+      <bind nodeset="/prenatal_followup/date_cpn3" type="string" calculate="coalesce(if(../cpn_done = 'true' and ../cpn_number &gt;= 3 and ../c_pregnancy/c_date_cpn3 != '', ../c_pregnancy/c_date_cpn3,''), /prenatal_followup/inputs/t_date_cpn3 )"/>
+      <bind nodeset="/prenatal_followup/date_cpn4" type="string" calculate="coalesce(if(../cpn_done = 'true' and ../cpn_number &gt;= 4 and ../c_pregnancy/c_date_cpn4 != '', ../c_pregnancy/c_date_cpn4,''), /prenatal_followup/inputs/t_date_cpn4 )"/>
+      <bind nodeset="/prenatal_followup/td1_done" type="string" calculate="if(coalesce(../c_pregnancy/c_td1, /prenatal_followup/inputs/t_td1 ) = '','',if(coalesce(../c_pregnancy/c_td1, /prenatal_followup/inputs/t_td1 ) = 'yes','true','false'))"/>
+      <bind nodeset="/prenatal_followup/td2_done" type="string" calculate="if(coalesce(../c_pregnancy/c_td2, /prenatal_followup/inputs/t_td2 ) = '','',if(coalesce(../c_pregnancy/c_td2, /prenatal_followup/inputs/t_td2 ) = 'yes','true','false'))"/>
+      <bind nodeset="/prenatal_followup/has_milda" type="string" calculate="if(coalesce(../c_pregnancy/c_milda, /prenatal_followup/inputs/t_milda ) = '','',if(coalesce(../c_pregnancy/c_milda, /prenatal_followup/inputs/t_milda ) = 'yes','true','false'))"/>
+      <bind nodeset="/prenatal_followup/cpn_next_number" type="string" calculate="../cpn_number + 1"/>
+      <bind nodeset="/prenatal_followup/next_cpn_date" type="string" calculate="if(../c_pregnancy/c_next_cpn_date != '',../c_pregnancy/c_next_cpn_date,'')"/>
+      <bind nodeset="/prenatal_followup/next_cpn_date_fr" type="string" calculate="if(../next_cpn_date = '','',format-date-time( decimal-date-time(../next_cpn_date), &quot;%d/%m/%Y&quot; ))"/>
+      <bind nodeset="/prenatal_followup/next_cpn_visit_date" type="string" calculate="if(../next_cpn_date = '','',format-date-time( decimal-date-time(../next_cpn_date) + 7, &quot;%Y-%m-%d&quot; ))"/>
+      <bind nodeset="/prenatal_followup/next_cpn_visit_date_fr" type="string" calculate="if(../next_cpn_visit_date = '','',format-date-time( decimal-date-time(../next_cpn_visit_date), &quot;%d/%m/%Y&quot; ))"/>
+      <bind nodeset="/prenatal_followup/is_cpn_late" type="string" calculate="if(../c_pregnancy/c_cpn_late = '','',if(../cpn_done = 'true' and ../c_pregnancy/c_cpn_late = 'yes','true','false'))"/>
+      <bind nodeset="/prenatal_followup/is_closed" type="string" calculate="if(../informations/c_task_to_perform = 'close' or ../informations/c_task_to_perform = 'followup' and ../informations/c_reschedule_task = 'no','true','false')"/>
+      <bind nodeset="/prenatal_followup/close_reason" type="string" calculate="../informations/c_closing_reason"/>
+      <bind nodeset="/prenatal_followup/close_reason_name" type="string" calculate="if( /prenatal_followup/patient_infos/close_reason_selected  = '','',jr:choice-name( /prenatal_followup/patient_infos/close_reason_selected ,' /prenatal_followup/patient_infos/close_reason_selected '))"/>
+      <bind nodeset="/prenatal_followup/has_danger_sign" type="string" calculate="if(../c_danger_signs/c_health_problem = '','',if(../c_danger_signs/c_health_problem = 'yes','true','false'))"/>
+      <bind nodeset="/prenatal_followup/is_miscarriage_referred" type="string" calculate="if(../informations/c_task_to_perform = 'close' and ../informations/c_closing_reason = 'miscarriage' and ../informations/c_health_facility_for_miscarriage = 'no','true','false')"/>
+      <bind nodeset="/prenatal_followup/is_referred" type="string" calculate="if(../is_closed = 'true' and ../is_miscarriage_referred != 'true','false',if(../cpn_done = 'false' or ../td1_done = 'false' or ../td1_done = 'true' and ../td2_done = 'false' or ../is_cpn_late = 'true' or ../is_miscarriage_referred = 'true' or ../has_danger_sign = 'true','true','false'))"/>
+      <bind nodeset="/prenatal_followup/patient_infos/close_reason_selected" type="select1" calculate="../../informations/c_closing_reason"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_patient_family_name" readonly="true()" type="string"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_patient_family_ext_id" readonly="true()" type="string"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_patient_name" readonly="true()" type="string"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_code_patient" readonly="true()" type="string"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_patient_phone" readonly="true()" type="string" relevant=" /prenatal_followup/patient_phone  != ''"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_cpn_next_number" readonly="true()" type="string" relevant=" /prenatal_followup/cpn_already_count  != ''"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_was_cpn_referred" readonly="true()" type="string" relevant=" /prenatal_followup/inputs/t_cpn_done  != '' and  /prenatal_followup/inputs/t_cpn_done  = 'no' and  /prenatal_followup/inputs/t_cpn_next_number  != '' or  /prenatal_followup/inputs/t_was_cpn_referred  != '' and  /prenatal_followup/inputs/t_was_cpn_referred  = 'yes'"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_date_cpn1" readonly="true()" type="string" relevant=" /prenatal_followup/inputs/t_date_cpn1  != ''"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_date_cpn2" readonly="true()" type="string" relevant=" /prenatal_followup/inputs/t_date_cpn2  != ''"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_date_cpn3" readonly="true()" type="string" relevant=" /prenatal_followup/inputs/t_date_cpn3  != ''"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_date_cpn4" readonly="true()" type="string" relevant=" /prenatal_followup/inputs/t_date_cpn4  != ''"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_td1" readonly="true()" type="string" relevant=" /prenatal_followup/inputs/t_td1  != '' and  /prenatal_followup/inputs/t_td1  = 'yes'"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_td2" readonly="true()" type="string" relevant=" /prenatal_followup/inputs/t_td2  != '' and  /prenatal_followup/inputs/t_td2  = 'yes'"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_milda" readonly="true()" type="string" relevant=" /prenatal_followup/inputs/t_milda  != '' and  /prenatal_followup/inputs/t_milda  = 'yes'"/>
+      <bind nodeset="/prenatal_followup/patient_infos/i_next_cpn_date" readonly="true()" type="string" relevant=" /prenatal_followup/inputs/t_cpn_next_number  != '' and  /prenatal_followup/inputs/t_next_cpn_date  != ''"/>
+      <bind nodeset="/prenatal_followup/informations/c_task_to_perform" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_task_to_perform:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/informations/c_closing_reason" type="select1" required="true()" relevant="../c_task_to_perform = 'close'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_closing_reason:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/informations/c_other_closing_reason" type="string" relevant="../c_task_to_perform = 'close' and ../c_closing_reason = 'others'"/>
+      <bind nodeset="/prenatal_followup/informations/c_health_facility_for_miscarriage" type="select1" required="true()" relevant="../c_task_to_perform = 'close' and ../c_closing_reason = 'miscarriage'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_health_facility_for_miscarriage:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/informations/c_record_death_informations" type="select1" required="true()" relevant="../c_task_to_perform = 'close' and ../c_closing_reason = 'deceased'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_record_death_informations:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/informations/c_woman_available" type="select1" required="true()" relevant="../c_task_to_perform = 'followup'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_woman_available:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/informations/c_absent_motif" type="select1" required="true()" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'no'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_absent_motif:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/informations/c_reschedule_task" type="select1" required="true()" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'no'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_reschedule_task:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/informations/c_reschedule_date" type="date" jr:constraintMsg="jr:itext('/prenatal_followup/informations/c_reschedule_date:jr:constraintMsg')" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_reschedule_date:jr:requiredMsg')" required="true()" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'no' and ../c_reschedule_task = 'yes'" constraint=". &gt; today()"/>
+      <bind nodeset="/prenatal_followup/informations/c_cpn_done" type="select1" required="true()" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'yes'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_cpn_done:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/informations/c_reason_cpn_not_done" type="select1" required="true()" relevant="../c_task_to_perform = 'followup' and ../c_woman_available = 'yes' and ../c_cpn_done = 'no'" jr:requiredMsg="jr:itext('/prenatal_followup/informations/c_reason_cpn_not_done:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/woman_death_info" relevant="../informations/c_task_to_perform = 'close' and ../informations/c_closing_reason = 'deceased' and ../informations/c_record_death_informations = 'yes'"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/_id" type="string" calculate="concat( /prenatal_followup/patient_uuid ,&quot;-&quot;, /prenatal_followup/today_decimal_date ,&quot;d1&quot;)"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/form" type="string" calculate="&quot;death_report&quot;"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/type" type="string" calculate="&quot;data_record&quot;"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/content_type" type="string" calculate="&quot;xml&quot;"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/from" type="string" calculate=" /prenatal_followup/user_phone "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/contact/_id" type="string" calculate=" /prenatal_followup/user_id "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/contact/parent/_id" type="string" calculate=" /prenatal_followup/village_secteur_id "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/contact/parent/parent/_id" type="string" calculate=" /prenatal_followup/district_quartier_id "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent/_id" type="string" calculate=" /prenatal_followup/hospital_id "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent/parent/_id" type="string" calculate=" /prenatal_followup/commune_id "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent/parent/parent/_id" type="string" calculate=" /prenatal_followup/prefecture_id "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent/parent/parent/parent/_id" type="string" calculate=" /prenatal_followup/region_id "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string" calculate=" /prenatal_followup/country_id "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/patient_id" type="string" calculate="../../../../patient_id"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/patient_name" type="string" calculate="../../../../patient_name"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/patient_age_in_years" type="string" calculate="if (  /prenatal_followup/inputs/contact/date_of_birth ='', '', floor( difference-in-months(  /prenatal_followup/inputs/contact/date_of_birth , today() ) div 12 ) )"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/patient_age_in_months" type="string" calculate="difference-in-months(  /prenatal_followup/inputs/contact/date_of_birth , today() )"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time( /prenatal_followup/inputs/contact/date_of_birth ) )"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/patient_sex" type="string" calculate=" /prenatal_followup/inputs/contact/sex "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/visited_contact_uuid" type="string" calculate=" /prenatal_followup/household_id "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/patient_date_of_birth" type="string" calculate=" /prenatal_followup/inputs/contact/date_of_birth "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/date_of_death" type="string" calculate=" /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/death_place" type="string" calculate=" /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/is_maternal_death" type="string" calculate="if(selected( /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason ,'maternal_death'),'true','false')"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/is_home_death" type="string" calculate="if(selected( /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place ,'home'),'true','false')"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/death_reason" type="string" calculate=" /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason "/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/death_place_label" type="string" calculate="if( /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place ='other', /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_place ,jr:choice-name( /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place ,' /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place '))"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/death_reason_label" type="string" calculate="if( /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason ='other', /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_reason ,jr:choice-name( /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason ,' /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason '))"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date" type="date" jr:constraintMsg="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date:jr:constraintMsg')" jr:requiredMsg="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date:jr:requiredMsg')" required="true()" constraint=". &lt;= today()"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason" type="select" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_reason" type="string" required="true()" relevant=" /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason ='other'" jr:requiredMsg="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_reason:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_place" type="string" relevant=" /prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place ='other'"/>
+      <bind nodeset="/prenatal_followup/woman_death_info/death_report/created_by_doc" type="string" calculate="."/>
+      <bind nodeset="/prenatal_followup/woman_death_info/woman_death_report_doc" type="string" calculate=" /prenatal_followup/woman_death_info/death_report "/>
+      <bind nodeset="/prenatal_followup/c_danger_signs" relevant="../informations/c_task_to_perform = 'followup' and ../informations/c_woman_available = 'yes' and ../informations/c_cpn_done = 'yes'"/>
+      <bind nodeset="/prenatal_followup/c_danger_signs/c_health_problem" type="select1" required="true()" jr:requiredMsg="jr:itext('/prenatal_followup/c_danger_signs/c_health_problem:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/c_danger_signs/c_health_description" type="string" relevant="../c_health_problem = 'yes'"/>
+      <bind nodeset="/prenatal_followup/c_danger_signs/c_continu_follow_up" type="select1" required="true()" relevant="../c_health_problem = 'yes'" jr:requiredMsg="jr:itext('/prenatal_followup/c_danger_signs/c_continu_follow_up:jr:requiredMsg')"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy" relevant="../informations/c_task_to_perform = 'followup' and ../informations/c_woman_available = 'yes' and ../informations/c_cpn_done = 'yes' and (../c_danger_signs/c_health_problem = 'no' or ../c_danger_signs/c_health_problem = 'yes' and ../c_danger_signs/c_continu_follow_up = 'yes')"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_date_cpn1" type="date" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn1:jr:constraintMsg')" required="true()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/cpn_number  = 1" constraint=". &lt;= today()"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_date_cpn2" type="date" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn2:jr:constraintMsg')" required="true()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/cpn_number  = 2" constraint=". &lt;= today()"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_date_cpn3" type="date" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn3:jr:constraintMsg')" required="true()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/cpn_number  = 3" constraint=". &lt;= today()"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_date_cpn4" type="date" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn4:jr:constraintMsg')" required="true()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/cpn_number  = 4" constraint=". &lt;= today()"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_td1" type="select1" required="true()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/inputs/t_td1  != 'yes'"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_td2" type="select1" required="true()" relevant="../../informations/c_cpn_done = 'yes' and (../c_td1 = 'yes' or  /prenatal_followup/inputs/t_td1  = 'yes') and  /prenatal_followup/inputs/t_td2  != 'yes'"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_milda" type="select1" required="true()" relevant=" /prenatal_followup/inputs/t_milda  != 'yes'"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_milda_reason" type="select1" required="true()" relevant=" /prenatal_followup/c_pregnancy/c_milda  = 'no'"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_cpn_late" type="select1" required="true()" relevant="../../informations/c_cpn_done = 'yes' and  /prenatal_followup/cpn_number  &gt;= 1"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_discuss_cpn_date" readonly="true()" type="string" relevant="../../informations/c_cpn_done = 'no' or ../c_cpn_late = 'yes'"/>
+      <bind nodeset="/prenatal_followup/c_pregnancy/c_next_cpn_date" type="date" jr:constraintMsg="jr:itext('/prenatal_followup/c_pregnancy/c_next_cpn_date:jr:constraintMsg')" required="true()" relevant="../../informations/c_cpn_done != '' and  /prenatal_followup/cpn_number  &lt; 4" constraint=". &gt;= today()"/>
+      <bind nodeset="/prenatal_followup/group_review/s_summary" readonly="true()" type="string"/>
+      <bind nodeset="/prenatal_followup/group_review/s_patient_info_name" readonly="true()" type="string"/>
+      <bind nodeset="/prenatal_followup/group_review/s_patient_info_sex" readonly="true()" type="string"/>
+      <bind nodeset="/prenatal_followup/group_review/s_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/prenatal_followup/group_review/s_pregnancy_information" readonly="true()" type="string"/>
+      <bind nodeset="/prenatal_followup/group_review/s_is_closed" readonly="true()" type="string" relevant=" /prenatal_followup/is_closed  = 'true' and  /prenatal_followup/close_reason_name  != ''"/>
+      <bind nodeset="/prenatal_followup/group_review/s_cpn_number" readonly="true()" type="string" relevant=" /prenatal_followup/is_closed  != 'true'"/>
+      <bind nodeset="/prenatal_followup/group_review/s_cpn_prog_date" readonly="true()" type="string" relevant=" /prenatal_followup/is_closed  != 'true' and  /prenatal_followup/next_cpn_date  != ''"/>
+      <bind nodeset="/prenatal_followup/group_review/s_c_milda" readonly="true()" type="string" relevant=" /prenatal_followup/is_closed  != 'true' and  /prenatal_followup/has_milda  = 'true'"/>
+      <bind nodeset="/prenatal_followup/group_review/s_note_milda" readonly="true()" type="string" relevant=" /prenatal_followup/is_closed  != 'true' and  /prenatal_followup/has_milda  = 'false'"/>
+      <bind nodeset="/prenatal_followup/group_review/s_refer_USP" readonly="true()" type="string" relevant=" /prenatal_followup/is_referred  = 'true' and ( /prenatal_followup/is_closed  = 'false' or  /prenatal_followup/is_miscarriage_referred  = 'true')"/>
+      <bind nodeset="/prenatal_followup/group_review/s_refer_FS_health_problem" readonly="true()" type="string" relevant=" /prenatal_followup/is_closed  = 'false' and  /prenatal_followup/is_referred  = 'true' and  /prenatal_followup/has_danger_sign  = 'true'"/>
+      <bind nodeset="/prenatal_followup/group_review/s_refer_FS_pregnancy_cpn" readonly="true()" type="string" relevant=" /prenatal_followup/is_closed  = 'false' and  /prenatal_followup/is_referred  = 'true' and ( /prenatal_followup/cpn_done  = 'false' or  /prenatal_followup/is_cpn_late = 'true')"/>
+      <bind nodeset="/prenatal_followup/group_review/s_refer_FS_td1" readonly="true()" type="string" relevant=" /prenatal_followup/is_closed  = 'false' and  /prenatal_followup/is_referred  = 'true' and  /prenatal_followup/td1_done  = 'false'"/>
+      <bind nodeset="/prenatal_followup/group_review/s_refer_FS_td2" readonly="true()" type="string" relevant=" /prenatal_followup/is_closed  = 'false' and  /prenatal_followup/is_referred  = 'true' and  /prenatal_followup/td1_done  = 'true' and  /prenatal_followup/td2_done  = 'false'"/>
+      <bind nodeset="/prenatal_followup/group_review/s_refer_FS_miscarriage" readonly="true()" type="string" relevant=" /prenatal_followup/is_referred  = 'true' and  /prenatal_followup/is_miscarriage_referred  = 'true'"/>
+      <bind nodeset="/prenatal_followup/group_review/s_referal_health_center" type="select1" relevant=" /prenatal_followup/is_referred  = 'true' and ( /prenatal_followup/is_closed  = 'false' or  /prenatal_followup/is_miscarriage_referred  = 'true')"/>
+      <bind nodeset="/prenatal_followup/group_review/s_other_referal_health_center" type="string" relevant=" /prenatal_followup/is_referred  = 'true' and ( /prenatal_followup/is_closed  = 'false' or  /prenatal_followup/is_miscarriage_referred  = 'true') and ../s_referal_health_center = 'others'"/>
+      <bind nodeset="/prenatal_followup/group_review/followup" readonly="true()" type="string"/>
+      <bind nodeset="/prenatal_followup/group_review/s_next_visit_date_cpn" readonly="true()" type="string" relevant=" /prenatal_followup/is_referred  != 'true' and  /prenatal_followup/next_cpn_visit_date  != ''"/>
+      <bind nodeset="/prenatal_followup/group_review/s_referal_followup" readonly="true()" type="string" relevant=" /prenatal_followup/is_referred  = 'true' and  /prenatal_followup/next_cpn_visit_date  = ''"/>
+      <bind nodeset="/prenatal_followup/group_review/s_no_followup" readonly="true()" type="string" relevant=" /prenatal_followup/is_referred  = 'false' and  /prenatal_followup/next_cpn_visit_date  = ''"/>
+      <bind nodeset="/prenatal_followup/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/prenatal_followup/inputs">
+      <label ref="jr:itext('/prenatal_followup/inputs:label')"/>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/source">
+        <label ref="jr:itext('/prenatal_followup/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/source_id">
+        <label ref="jr:itext('/prenatal_followup/inputs/source_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/t_cpn_next_number">
+        <label ref="jr:itext('/prenatal_followup/inputs/t_cpn_next_number:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/t_date_cpn1">
+        <label ref="jr:itext('/prenatal_followup/inputs/t_date_cpn1:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/t_date_cpn2">
+        <label ref="jr:itext('/prenatal_followup/inputs/t_date_cpn2:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/t_date_cpn3">
+        <label ref="jr:itext('/prenatal_followup/inputs/t_date_cpn3:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/t_date_cpn4">
+        <label ref="jr:itext('/prenatal_followup/inputs/t_date_cpn4:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/t_td1">
+        <label ref="jr:itext('/prenatal_followup/inputs/t_td1:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/t_td2">
+        <label ref="jr:itext('/prenatal_followup/inputs/t_td2:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/t_milda">
+        <label ref="jr:itext('/prenatal_followup/inputs/t_milda:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/t_next_cpn_date">
+        <label ref="jr:itext('/prenatal_followup/inputs/t_next_cpn_date:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/t_cpn_done">
+        <label ref="jr:itext('/prenatal_followup/inputs/t_cpn_done:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/t_was_cpn_referred">
+        <label ref="jr:itext('/prenatal_followup/inputs/t_was_cpn_referred:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/t_family_id">
+        <label ref="jr:itext('/prenatal_followup/inputs/t_family_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/t_family_name">
+        <label ref="jr:itext('/prenatal_followup/inputs/t_family_name:label')"/>
+      </input>
+      <input appearance="hidden" ref="/prenatal_followup/inputs/t_family_external_id">
+        <label ref="jr:itext('/prenatal_followup/inputs/t_family_external_id:label')"/>
+      </input>
+      <group ref="/prenatal_followup/inputs/user">
+        <label ref="jr:itext('/prenatal_followup/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/prenatal_followup/inputs/user/contact_id">
+          <label ref="jr:itext('/prenatal_followup/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/prenatal_followup/inputs/user/name">
+          <label ref="jr:itext('/prenatal_followup/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/prenatal_followup/inputs/user/phone">
+          <label ref="jr:itext('/prenatal_followup/inputs/user/phone:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/prenatal_followup/inputs/contact">
+        <label ref="jr:itext('/prenatal_followup/inputs/contact:label')"/>
+        <input appearance="db-object bind-id-only" ref="/prenatal_followup/inputs/contact/_id">
+          <label ref="jr:itext('/prenatal_followup/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/prenatal_followup/inputs/contact/name">
+          <label ref="jr:itext('/prenatal_followup/inputs/contact/name:label')"/>
+        </input>
+        <input ref="/prenatal_followup/inputs/contact/sex">
+          <label ref="jr:itext('/prenatal_followup/inputs/contact/sex:label')"/>
+        </input>
+        <input ref="/prenatal_followup/inputs/contact/date_of_birth">
+          <label ref="jr:itext('/prenatal_followup/inputs/contact/date_of_birth:label')"/>
+        </input>
+        <input ref="/prenatal_followup/inputs/contact/external_id">
+          <label ref="jr:itext('/prenatal_followup/inputs/contact/external_id:label')"/>
+        </input>
+        <input ref="/prenatal_followup/inputs/contact/phone">
+          <label ref="jr:itext('/prenatal_followup/inputs/contact/phone:label')"/>
+        </input>
+        <group ref="/prenatal_followup/inputs/contact/parent">
+          <label ref="jr:itext('/prenatal_followup/inputs/contact/parent:label')"/>
+          <input ref="/prenatal_followup/inputs/contact/parent/_id">
+            <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/_id:label')"/>
+          </input>
+          <input ref="/prenatal_followup/inputs/contact/parent/name">
+            <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/name:label')"/>
+          </input>
+          <input ref="/prenatal_followup/inputs/contact/parent/external_id">
+            <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/external_id:label')"/>
+          </input>
+          <group ref="/prenatal_followup/inputs/contact/parent/parent">
+            <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent:label')"/>
+            <input ref="/prenatal_followup/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/prenatal_followup/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/prenatal_followup/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/prenatal_followup/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/prenatal_followup/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                    <group ref="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      <input ref="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id">
+                        <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                      </input>
+                      <group ref="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                        <input ref="/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id">
+                          <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                        </input>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+            <group ref="/prenatal_followup/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/contact:label')"/>
+              <input appearance="db-object bind-id-only" ref="/prenatal_followup/inputs/contact/parent/parent/contact/_id">
+                <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/contact/_id:label')"/>
+              </input>
+              <input ref="/prenatal_followup/inputs/contact/parent/parent/contact/name">
+                <label ref="jr:itext('/prenatal_followup/inputs/contact/parent/parent/contact/name:label')"/>
+              </input>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/prenatal_followup/patient_infos">
+      <label ref="jr:itext('/prenatal_followup/patient_infos:label')"/>
+      <select1 appearance="hidden" ref="/prenatal_followup/patient_infos/close_reason_selected">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/close_reason_selected:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/patient_infos/close_reason_selected/busy:label')"/>
+          <value>busy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/patient_infos/close_reason_selected/forget:label')"/>
+          <value>forget</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/patient_infos/close_reason_selected/refused:label')"/>
+          <value>refused</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/patient_infos/close_reason_selected/no_money:label')"/>
+          <value>no_money</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/patient_infos/close_reason_selected/miscarriage:label')"/>
+          <value>miscarriage</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/patient_infos/close_reason_selected/deceased:label')"/>
+          <value>deceased</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/patient_infos/close_reason_selected/hospitalized:label')"/>
+          <value>hospitalized</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/patient_infos/close_reason_selected/absent:label')"/>
+          <value>absent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/patient_infos/close_reason_selected/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_patient_family_name">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_patient_family_name:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_patient_family_ext_id">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_patient_family_ext_id:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_patient_name">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_patient_name:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_code_patient">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_code_patient:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_patient_info_age">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_patient_info_age:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_patient_phone">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_patient_phone:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_cpn_next_number">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_cpn_next_number:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_was_cpn_referred">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_was_cpn_referred:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_date_cpn1">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_date_cpn1:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_date_cpn2">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_date_cpn2:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_date_cpn3">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_date_cpn3:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_date_cpn4">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_date_cpn4:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_td1">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_td1:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_td2">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_td2:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_milda">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_milda:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/patient_infos/i_next_cpn_date">
+        <label ref="jr:itext('/prenatal_followup/patient_infos/i_next_cpn_date:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/prenatal_followup/informations">
+      <label ref="jr:itext('/prenatal_followup/informations:label')"/>
+      <select1 appearance="columns" ref="/prenatal_followup/informations/c_task_to_perform">
+        <label ref="jr:itext('/prenatal_followup/informations/c_task_to_perform:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_task_to_perform/followup:label')"/>
+          <value>followup</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_task_to_perform/close:label')"/>
+          <value>close</value>
+        </item>
+      </select1>
+      <select1 ref="/prenatal_followup/informations/c_closing_reason">
+        <label ref="jr:itext('/prenatal_followup/informations/c_closing_reason:label')"/>
+        <itemset nodeset="instance('reason_anc')/root/item[filter = 3 or filter = 5 or filter = 6 or filter = 9]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+      <input ref="/prenatal_followup/informations/c_other_closing_reason">
+        <label ref="jr:itext('/prenatal_followup/informations/c_other_closing_reason:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/prenatal_followup/informations/c_health_facility_for_miscarriage">
+        <label ref="jr:itext('/prenatal_followup/informations/c_health_facility_for_miscarriage:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_health_facility_for_miscarriage/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_health_facility_for_miscarriage/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/prenatal_followup/informations/c_record_death_informations">
+        <label ref="jr:itext('/prenatal_followup/informations/c_record_death_informations:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_record_death_informations/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_record_death_informations/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/prenatal_followup/informations/c_woman_available">
+        <label ref="jr:itext('/prenatal_followup/informations/c_woman_available:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_woman_available/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_woman_available/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/prenatal_followup/informations/c_absent_motif">
+        <label ref="jr:itext('/prenatal_followup/informations/c_absent_motif:label')"/>
+        <itemset nodeset="instance('reason_anc')/root/item[filter = 7 or filter = 8 or filter = 9]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+      <select1 appearance="columns" ref="/prenatal_followup/informations/c_reschedule_task">
+        <label ref="jr:itext('/prenatal_followup/informations/c_reschedule_task:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_reschedule_task/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_reschedule_task/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/prenatal_followup/informations/c_reschedule_date">
+        <label ref="jr:itext('/prenatal_followup/informations/c_reschedule_date:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/prenatal_followup/informations/c_cpn_done">
+        <label ref="jr:itext('/prenatal_followup/informations/c_cpn_done:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_cpn_done/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_cpn_done/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/prenatal_followup/informations/c_reason_cpn_not_done">
+        <label ref="jr:itext('/prenatal_followup/informations/c_reason_cpn_not_done:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_reason_cpn_not_done/busy:label')"/>
+          <value>busy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_reason_cpn_not_done/forget:label')"/>
+          <value>forget</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_reason_cpn_not_done/refused:label')"/>
+          <value>refused</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_reason_cpn_not_done/no_money:label')"/>
+          <value>no_money</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_reason_cpn_not_done/miscarriage:label')"/>
+          <value>miscarriage</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_reason_cpn_not_done/deceased:label')"/>
+          <value>deceased</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_reason_cpn_not_done/hospitalized:label')"/>
+          <value>hospitalized</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_reason_cpn_not_done/absent:label')"/>
+          <value>absent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/informations/c_reason_cpn_not_done/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/prenatal_followup/woman_death_info">
+      <label ref="jr:itext('/prenatal_followup/woman_death_info:label')"/>
+      <group ref="/prenatal_followup/woman_death_info/death_report">
+        <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report:label')"/>
+        <group appearance="hidden" ref="/prenatal_followup/woman_death_info/death_report/contact">
+          <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/contact:label')"/>
+          <group ref="/prenatal_followup/woman_death_info/death_report/contact/parent">
+            <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/contact/parent:label')"/>
+            <group ref="/prenatal_followup/woman_death_info/death_report/contact/parent/parent">
+              <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/contact/parent/parent:label')"/>
+              <group ref="/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent">
+                <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent:label')"/>
+                <group ref="/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent/parent">
+                  <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent/parent:label')"/>
+                  <group ref="/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent/parent/parent:label')"/>
+                    <group ref="/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                      <group ref="/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+          </group>
+        </group>
+        <group ref="/prenatal_followup/woman_death_info/death_report/fields">
+          <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields:label')"/>
+          <group ref="/prenatal_followup/woman_death_info/death_report/fields/c_death">
+            <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death:label')"/>
+            <input ref="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date">
+              <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_date:label')"/>
+            </input>
+            <select ref="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason">
+              <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason:label')"/>
+              <item>
+                <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/malaria:label')"/>
+                <value>malaria</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/diarrhea:label')"/>
+                <value>diarrhea</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/malnutrition:label')"/>
+                <value>malnutrition</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/cough_cold:label')"/>
+                <value>cough_cold</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/pneumonia:label')"/>
+                <value>pneumonia</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/maternal_death:label')"/>
+                <value>maternal_death</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/miscarriage:label')"/>
+                <value>miscarriage</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_reason/other:label')"/>
+                <value>other</value>
+              </item>
+            </select>
+            <input ref="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_reason">
+              <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_reason:label')"/>
+            </input>
+            <select1 ref="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place">
+              <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place:label')"/>
+              <item>
+                <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place/health_structure:label')"/>
+                <value>health_structure</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place/home:label')"/>
+                <value>home</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_place/other:label')"/>
+                <value>other</value>
+              </item>
+            </select1>
+            <input ref="/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_place">
+              <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/fields/c_death/c_death_other_place:label')"/>
+            </input>
+          </group>
+        </group>
+        <input appearance="hidden" ref="/prenatal_followup/woman_death_info/death_report/created_by_doc">
+          <label ref="jr:itext('/prenatal_followup/woman_death_info/death_report/created_by_doc:label')"/>
+        </input>
+      </group>
+      <input appearance="hidden" ref="/prenatal_followup/woman_death_info/woman_death_report_doc">
+        <label ref="jr:itext('/prenatal_followup/woman_death_info/woman_death_report_doc:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/prenatal_followup/c_danger_signs">
+      <label ref="jr:itext('/prenatal_followup/c_danger_signs:label')"/>
+      <select1 appearance="columns" ref="/prenatal_followup/c_danger_signs/c_health_problem">
+        <label ref="jr:itext('/prenatal_followup/c_danger_signs/c_health_problem:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/c_danger_signs/c_health_problem/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/c_danger_signs/c_health_problem/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/prenatal_followup/c_danger_signs/c_health_description">
+        <label ref="jr:itext('/prenatal_followup/c_danger_signs/c_health_description:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/prenatal_followup/c_danger_signs/c_continu_follow_up">
+        <label ref="jr:itext('/prenatal_followup/c_danger_signs/c_continu_follow_up:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/c_danger_signs/c_continu_follow_up/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/c_danger_signs/c_continu_follow_up/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/prenatal_followup/c_pregnancy">
+      <label ref="jr:itext('/prenatal_followup/c_pregnancy:label')"/>
+      <input ref="/prenatal_followup/c_pregnancy/c_date_cpn1">
+        <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn1:label')"/>
+      </input>
+      <input ref="/prenatal_followup/c_pregnancy/c_date_cpn2">
+        <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn2:label')"/>
+      </input>
+      <input ref="/prenatal_followup/c_pregnancy/c_date_cpn3">
+        <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn3:label')"/>
+      </input>
+      <input ref="/prenatal_followup/c_pregnancy/c_date_cpn4">
+        <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_date_cpn4:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/prenatal_followup/c_pregnancy/c_td1">
+        <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_td1:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_td1/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_td1/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/prenatal_followup/c_pregnancy/c_td2">
+        <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_td2:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_td2/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_td2/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/prenatal_followup/c_pregnancy/c_milda">
+        <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_milda:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_milda/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_milda/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/prenatal_followup/c_pregnancy/c_milda_reason">
+        <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_milda_reason:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_milda_reason/breakup:label')"/>
+          <value>breakup</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_milda_reason/refusal:label')"/>
+          <value>refusal</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/prenatal_followup/c_pregnancy/c_cpn_late">
+        <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_cpn_late:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_cpn_late/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_cpn_late/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/prenatal_followup/c_pregnancy/c_discuss_cpn_date">
+        <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_discuss_cpn_date:label')"/>
+      </input>
+      <input ref="/prenatal_followup/c_pregnancy/c_next_cpn_date">
+        <label ref="jr:itext('/prenatal_followup/c_pregnancy/c_next_cpn_date:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/prenatal_followup/group_review">
+      <label ref="jr:itext('/prenatal_followup/group_review:label')"/>
+      <input appearance="h1 yellow" ref="/prenatal_followup/group_review/s_summary">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_summary:label')"/>
+      </input>
+      <input appearance="center" ref="/prenatal_followup/group_review/s_patient_info_name">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_patient_info_name:label')"/>
+      </input>
+      <input appearance="center" ref="/prenatal_followup/group_review/s_patient_info_sex">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_patient_info_sex:label')"/>
+      </input>
+      <input appearance="center" ref="/prenatal_followup/group_review/s_patient_info_age">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_patient_info_age:label')"/>
+      </input>
+      <input appearance="h1 blue" ref="/prenatal_followup/group_review/s_pregnancy_information">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_pregnancy_information:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/group_review/s_is_closed">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_is_closed:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/group_review/s_cpn_number">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_cpn_number:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/group_review/s_cpn_prog_date">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_cpn_prog_date:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/group_review/s_c_milda">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_c_milda:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/group_review/s_note_milda">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_note_milda:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/prenatal_followup/group_review/s_refer_USP">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_refer_USP:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/group_review/s_refer_FS_health_problem">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_refer_FS_health_problem:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/group_review/s_refer_FS_pregnancy_cpn">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_refer_FS_pregnancy_cpn:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/group_review/s_refer_FS_td1">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_refer_FS_td1:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/group_review/s_refer_FS_td2">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_refer_FS_td2:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/group_review/s_refer_FS_miscarriage">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_refer_FS_miscarriage:label')"/>
+      </input>
+      <select1 ref="/prenatal_followup/group_review/s_referal_health_center">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_referal_health_center:label')"/>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/group_review/s_referal_health_center/health_center:label')"/>
+          <value>health_center</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/group_review/s_referal_health_center/health_poste:label')"/>
+          <value>health_poste</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/prenatal_followup/group_review/s_referal_health_center/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/prenatal_followup/group_review/s_other_referal_health_center">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_other_referal_health_center:label')"/>
+      </input>
+      <input appearance="h1 green" ref="/prenatal_followup/group_review/followup">
+        <label ref="jr:itext('/prenatal_followup/group_review/followup:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/group_review/s_next_visit_date_cpn">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_next_visit_date_cpn:label')"/>
+      </input>
+      <input appearance="li" ref="/prenatal_followup/group_review/s_referal_followup">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_referal_followup:label')"/>
+      </input>
+      <input ref="/prenatal_followup/group_review/s_no_followup">
+        <label ref="jr:itext('/prenatal_followup/group_review/s_no_followup:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

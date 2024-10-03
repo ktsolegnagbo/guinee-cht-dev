@@ -1,0 +1,18 @@
+{
+    "context": {
+        "expression": "user.role === 'reco' && user._id !== contact._id && summary.alive && summary.is_family_person && !summary.muted && contact.type === 'person' && ageInDays(contact) < 60",
+        "person": true,
+        "place": false
+    },
+    "icon": "infant",
+    "title": [
+      {
+        "locale": "en",
+        "content": "New born register"
+      },
+      {
+        "locale": "fr",
+        "content": "Registre nouveau né"
+      }
+    ]
+}

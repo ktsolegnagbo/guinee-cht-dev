@@ -1,0 +1,1337 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Suivi référence</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/referral_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/referral_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/referral_followup/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/referral_followup/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/referral_followup/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/referral_followup/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/referral_followup/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/referral_followup/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/referral_followup/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/referral_followup/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/referral_followup/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/referral_followup/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/referral_followup/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/referral_followup/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/referral_followup/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/referral_followup/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/referral_followup/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/referral_followup/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/referral_followup/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/referral_followup/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/referral_followup/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/referral_followup/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/referral_followup/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/referral_followup/patient_family_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/referral_followup/patient_phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/referral_followup/patient_phone_to_show:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/referral_followup/patient_family_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/referral_followup/visited_contact_uuid:label">
+            <value>Family Id</value>
+          </text>
+          <text id="/referral_followup/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/referral_followup/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/referral_followup/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/referral_followup/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/referral_followup/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/referral_followup/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/referral_followup/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/referral_followup/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/referral_followup/patient_infos:label">
+            <value>PATIENT DETAILS</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_patient_family_name:label">
+            <value>Family name : **<output value=" /referral_followup/patient_family_name "/>**</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_patient_family_ext_id:label">
+            <value>Family External ID : **<output value=" /referral_followup/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_patient_name:label">
+            <value>Patient name : **<output value=" /referral_followup/patient_name_to_show "/>**</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_patient_sexe:label">
+            <value>Patient sexe : **<output value=" /referral_followup/patient_sex_fr "/>**</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_code_patient:label">
+            <value>Patient code : **<output value=" /referral_followup/patient_external_id_to_show "/>**</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_patient_info_age:label">
+            <value>Age : **<output value=" /referral_followup/patient_age_display_en "/>**</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_last_consul_details:label">
+            <value>&lt;br&gt;&lt;strong style="color: rgb(1, 34, 118);"&gt;LAST CONSULTATION DETAILS&lt;/strong&gt;</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_referal_info:label">
+            <value>Referral for persistent health problem</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_other_diseases:label">
+            <value><output value=" /referral_followup/inputs/t_other_diseases "/></value>
+          </text>
+          <text id="/referral_followup/patient_presence:label">
+            <value>PATIENT PRESENCE</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_is_present:label">
+            <value>Is the patient present?</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_is_present/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_is_present/no:label">
+            <value>No</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_absence_reasons:label">
+            <value>Reason for absence</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_absence_reasons/observation:label">
+            <value>Observation</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_absence_reasons/hospitalized:label">
+            <value>Hospitalized</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_absence_reasons/patient_Absent:label">
+            <value>Patient Absent</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_absence_reasons/others:label">
+            <value>Other reason</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_other_absence_reasons:label">
+            <value>Enter other reason for absence</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_reference_health_facility:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_reference_health_facility:label">
+            <value>Did the patient go to a health facility after his last referral?</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_reference_health_facility/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_reference_health_facility/no:label">
+            <value>No</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_coupon_available:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_coupon_available:label">
+            <value>Is the counter-referral coupon available?</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_coupon_available/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_coupon_available/no:label">
+            <value>No</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_coupon_number:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_coupon_number:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_coupon_number:label">
+            <value>Counter-referral coupon number</value>
+          </text>
+          <text id="/referral_followup/patient_status:label">
+            <value>PATIENT STATUS</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_state:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_state:label">
+            <value>How do you rate the patient's condition?</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_state/cured:label">
+            <value>Cured</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_state/improvement:label">
+            <value>Improvement</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_state/no_improvement:label">
+            <value>No improvement</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_state/getting_worse:label">
+            <value>Getting worse</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_state/new_complaint:label">
+            <value>New complaint</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_new_form:label">
+            <value>**Please do another consultation to take new complaints into account**</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_taking_meg:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_taking_meg:label">
+            <value>Is the patient taking his medication properly?</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_taking_meg/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_taking_meg/no:label">
+            <value>No</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_advise_note:label">
+            <value>Advise and show the mother the importance of taking her medication correctly.</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_congratulate_note:label">
+            <value>Congratulate and encourage the mother.</value>
+          </text>
+          <text id="/referral_followup/group_review/s_summary:label">
+            <value>Patient Summary&lt;i class ="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/referral_followup/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /referral_followup/patient_name_to_show "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/referral_followup/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /referral_followup/patient_sex_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/referral_followup/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /referral_followup/patient_age_display_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/referral_followup/group_review/s_informations:label">
+            <value>FOLLOWUP INFORMATIONS</value>
+          </text>
+          <text id="/referral_followup/group_review/s_cured:label">
+            <value>Cured</value>
+          </text>
+          <text id="/referral_followup/group_review/s_improvement:label">
+            <value>Improvement</value>
+          </text>
+          <text id="/referral_followup/group_review/s_new_complaint:label">
+            <value>New complaint</value>
+          </text>
+          <text id="/referral_followup/group_review/no_improvement:label">
+            <value>No improvement</value>
+          </text>
+          <text id="/referral_followup/group_review/getting_worse:label">
+            <value>Getting worse</value>
+          </text>
+          <text id="/referral_followup/group_review/s_refer_USP:label">
+            <value>Referral to a health facility</value>
+          </text>
+          <text id="/referral_followup/group_review/s_refer_HC:label">
+            <value>**Please refer the patient to a health facility for non-improvement**</value>
+          </text>
+          <text id="/referral_followup/group_review/s_referal_health_center:label">
+            <value>Select the reference health center</value>
+          </text>
+          <text id="/referral_followup/group_review/s_referal_health_center/health_center:label">
+            <value>Health center</value>
+          </text>
+          <text id="/referral_followup/group_review/s_referal_health_center/health_poste:label">
+            <value>Health poste</value>
+          </text>
+          <text id="/referral_followup/group_review/s_referal_health_center/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/referral_followup/group_review/s_other_referal_health_center:label">
+            <value>Enter the name of the reference health facility</value>
+          </text>
+          <text id="/referral_followup/group_review/followup:label">
+            <value>Follow up</value>
+          </text>
+          <text id="/referral_followup/group_review/s_next_visit_date:label">
+            <value>The next followup visit is for tomorrow</value>
+          </text>
+          <text id="/referral_followup/group_review/s_no_next_visit:label">
+            <value>No follow-up will be create</value>
+          </text>
+        </translation>
+        <translation lang="fr">
+          <text id="/referral_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/referral_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/referral_followup/inputs/user/contact_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/referral_followup/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/referral_followup/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/referral_followup/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/contact:label">
+            <value>Information du RECO</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/referral_followup/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/referral_followup/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/referral_followup/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/referral_followup/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/referral_followup/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/referral_followup/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/referral_followup/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/referral_followup/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/referral_followup/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/referral_followup/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/referral_followup/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/referral_followup/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/referral_followup/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/referral_followup/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/referral_followup/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/referral_followup/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/referral_followup/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/referral_followup/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/referral_followup/patient_family_name:label">
+            <value>Nom du ménage</value>
+          </text>
+          <text id="/referral_followup/patient_phone:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/referral_followup/patient_phone_to_show:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/referral_followup/patient_family_external_id:label">
+            <value>Numéro du ménage</value>
+          </text>
+          <text id="/referral_followup/visited_contact_uuid:label">
+            <value>Identifiant de la famille</value>
+          </text>
+          <text id="/referral_followup/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/referral_followup/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/referral_followup/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/referral_followup/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/referral_followup/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/referral_followup/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/referral_followup/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/referral_followup/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/referral_followup/patient_infos:label">
+            <value>DÉTAILS DU PATIENT</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_patient_family_name:label">
+            <value>Nom du ménage : **<output value=" /referral_followup/patient_family_name "/>**</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_patient_family_ext_id:label">
+            <value>Numéro du ménage : **<output value=" /referral_followup/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_patient_name:label">
+            <value>Nom du patient : **<output value=" /referral_followup/patient_name_to_show "/>**</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_patient_sexe:label">
+            <value>Sexe du patient: **<output value=" /referral_followup/patient_sex_fr "/>**</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_code_patient:label">
+            <value>Code du patient : **<output value=" /referral_followup/patient_external_id_to_show "/>**</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_patient_info_age:label">
+            <value>Âge : **<output value=" /referral_followup/patient_age_display_fr "/>**</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_last_consul_details:label">
+            <value>&lt;br&gt;&lt;strong style="color: rgb(1, 34, 118);"&gt;RESUME DE LA DERNIÈRE CONSULTATION&lt;/strong&gt;</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_referal_info:label">
+            <value>Référence pour problème de santé persistant</value>
+          </text>
+          <text id="/referral_followup/patient_infos/i_other_diseases:label">
+            <value><output value=" /referral_followup/inputs/t_other_diseases "/></value>
+          </text>
+          <text id="/referral_followup/patient_presence:label">
+            <value>PRÉSENCE DU PATIENT</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_is_present:label">
+            <value>Le patient est-il présent ?</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_is_present/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_is_present/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_absence_reasons:label">
+            <value>Motif d'absence</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_absence_reasons/observation:label">
+            <value>Observation</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_absence_reasons/hospitalized:label">
+            <value>Hospitalisé</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_absence_reasons/patient_Absent:label">
+            <value>Patient Absent</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_absence_reasons/others:label">
+            <value>Autre Motif</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_other_absence_reasons:label">
+            <value>Saisir l'autre motif d'absence</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_reference_health_facility:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_reference_health_facility:label">
+            <value>Le patient est-il allé dans une structure de santé après sa dernière référence ?</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_reference_health_facility/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_reference_health_facility/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_coupon_available:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_coupon_available:label">
+            <value>Coupon de contre référence est-il disponible ?</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_coupon_available/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_coupon_available/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_coupon_number:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_coupon_number:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/referral_followup/patient_presence/c_coupon_number:label">
+            <value>Numéro du Coupon de contre référence</value>
+          </text>
+          <text id="/referral_followup/patient_status:label">
+            <value>ÉTAT DU PATIENT</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_state:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_state:label">
+            <value>Comment trouvez-vous l'état du patient?</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_state/cured:label">
+            <value>Guéri</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_state/improvement:label">
+            <value>Amélioration</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_state/no_improvement:label">
+            <value>Pas d'amélioration</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_state/getting_worse:label">
+            <value>S'aggrave</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_state/new_complaint:label">
+            <value>Nouvelle plainte</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_new_form:label">
+            <value>**Veuillez refaire une nouvelle consultation pour prendre en compte les nouvelles plaintes**</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_taking_meg:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_taking_meg:label">
+            <value>Est-ce que le patient prends bien ses médicaments ?</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_taking_meg/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_patient_taking_meg/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_advise_note:label">
+            <value>Conseiller et montrer à la maman l'importance de la bonne prise de médicament.</value>
+          </text>
+          <text id="/referral_followup/patient_status/c_congratulate_note:label">
+            <value>Féliciter et encourager la maman.</value>
+          </text>
+          <text id="/referral_followup/group_review/s_summary:label">
+            <value>Détails du Patient &lt;i class ="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/referral_followup/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /referral_followup/patient_name_to_show "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/referral_followup/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /referral_followup/patient_sex_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/referral_followup/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /referral_followup/patient_age_display_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/referral_followup/group_review/s_informations:label">
+            <value>INFORMATIONS DUI SUIVI</value>
+          </text>
+          <text id="/referral_followup/group_review/s_cured:label">
+            <value>Le patient est Guéri</value>
+          </text>
+          <text id="/referral_followup/group_review/s_improvement:label">
+            <value>L'etat du patient s'améliore</value>
+          </text>
+          <text id="/referral_followup/group_review/s_new_complaint:label">
+            <value>L'enafnt a une nouvelle plainte</value>
+          </text>
+          <text id="/referral_followup/group_review/no_improvement:label">
+            <value>Pas d'amélioration</value>
+          </text>
+          <text id="/referral_followup/group_review/getting_worse:label">
+            <value>S'aggrave</value>
+          </text>
+          <text id="/referral_followup/group_review/s_refer_USP:label">
+            <value>Référence vers une formation sanitaire</value>
+          </text>
+          <text id="/referral_followup/group_review/s_refer_HC:label">
+            <value>Veuillez référer le patient pour **état de santé non amélioré **</value>
+          </text>
+          <text id="/referral_followup/group_review/s_referal_health_center:label">
+            <value>Selectionner le centre de santé de référence</value>
+          </text>
+          <text id="/referral_followup/group_review/s_referal_health_center/health_center:label">
+            <value>Centre de santé</value>
+          </text>
+          <text id="/referral_followup/group_review/s_referal_health_center/health_poste:label">
+            <value>Poste de santé</value>
+          </text>
+          <text id="/referral_followup/group_review/s_referal_health_center/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/referral_followup/group_review/s_other_referal_health_center:label">
+            <value>Saisir le nom de la formation sanitaire de référence</value>
+          </text>
+          <text id="/referral_followup/group_review/followup:label">
+            <value>Suivi</value>
+          </text>
+          <text id="/referral_followup/group_review/s_next_visit_date:label">
+            <value>**L'etat du patient ne s'ameliore toujours pas, veuillez le référé pour une hospitalisation**</value>
+          </text>
+          <text id="/referral_followup/group_review/s_no_next_visit:label">
+            <value>**Aucun suivi ne sera créé**</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <referral_followup id="referral_followup" prefix="J1!referral_followup!" delimiter="#" version="2024-08-16  17-04">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <t_family_id/>
+            <t_family_name/>
+            <t_family_external_id/>
+            <t_other_diseases/>
+            <t_is_referred/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <sex/>
+              <date_of_birth/>
+              <external_id/>
+              <phone/>
+              <parent>
+                <_id/>
+                <name/>
+                <external_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                  <contact>
+                    <_id/>
+                    <name/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_uuid/>
+          <patient_name/>
+          <patient_name_to_show/>
+          <patient_external_id/>
+          <patient_external_id_to_show/>
+          <patient_sex/>
+          <patient_date_of_birth/>
+          <patient_age_in_years/>
+          <patient_age_in_months/>
+          <patient_age_in_days/>
+          <patient_age_display_fr/>
+          <patient_age_display_en/>
+          <patient_sex_en/>
+          <patient_sex_fr/>
+          <patient_family_name/>
+          <patient_phone/>
+          <patient_phone_to_show/>
+          <patient_family_external_id/>
+          <visited_contact_uuid/>
+          <today_decimal_date/>
+          <household_id/>
+          <village_secteur_id/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <other_diseases/>
+          <is_present/>
+          <absence_reasons/>
+          <went_to_health_center/>
+          <coupon_available/>
+          <coupon_number/>
+          <has_no_improvement/>
+          <has_getting_worse/>
+          <is_referred/>
+          <patient_infos>
+            <i_patient_family_name/>
+            <i_patient_family_ext_id/>
+            <i_patient_name/>
+            <i_patient_sexe/>
+            <i_code_patient/>
+            <i_patient_info_age/>
+            <i_last_consul_details/>
+            <i_referal_info/>
+            <i_other_diseases/>
+          </patient_infos>
+          <patient_presence>
+            <c_is_present/>
+            <c_absence_reasons/>
+            <c_other_absence_reasons/>
+            <c_reference_health_facility/>
+            <c_coupon_available/>
+            <c_coupon_number/>
+          </patient_presence>
+          <patient_status>
+            <c_patient_state/>
+            <c_new_form/>
+            <c_patient_taking_meg/>
+            <c_advise_note/>
+            <c_congratulate_note/>
+          </patient_status>
+          <group_review>
+            <s_summary/>
+            <s_patient_info_name/>
+            <s_patient_info_sex/>
+            <s_patient_info_age/>
+            <s_informations/>
+            <s_cured/>
+            <s_improvement/>
+            <s_new_complaint/>
+            <no_improvement/>
+            <getting_worse/>
+            <s_refer_USP/>
+            <s_refer_HC/>
+            <s_referal_health_center/>
+            <s_other_referal_health_center/>
+            <followup/>
+            <s_next_visit_date/>
+            <s_no_next_visit/>
+          </group_review>
+          <meta>
+            <instanceID/>
+          </meta>
+        </referral_followup>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/referral_followup/inputs/source" type="string"/>
+      <bind nodeset="/referral_followup/inputs/source_id" type="string"/>
+      <bind nodeset="/referral_followup/inputs/t_family_id" type="string"/>
+      <bind nodeset="/referral_followup/inputs/t_family_name" type="string"/>
+      <bind nodeset="/referral_followup/inputs/t_family_external_id" type="string"/>
+      <bind nodeset="/referral_followup/inputs/t_other_diseases" type="string"/>
+      <bind nodeset="/referral_followup/inputs/t_is_referred" type="string"/>
+      <bind nodeset="/referral_followup/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/referral_followup/inputs/user/name" type="string"/>
+      <bind nodeset="/referral_followup/inputs/user/phone" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/_id" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/name" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/sex" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/external_id" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/phone" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/parent/_id" type="db:person"/>
+      <bind nodeset="/referral_followup/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/parent/external_id" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/referral_followup/inputs/contact/parent/parent/contact/_id" type="db:person"/>
+      <bind nodeset="/referral_followup/inputs/contact/parent/parent/contact/name" type="string"/>
+      <bind nodeset="/referral_followup/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/referral_followup/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/referral_followup/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/referral_followup/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/referral_followup/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/referral_followup/patient_name_to_show" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/referral_followup/patient_external_id" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/referral_followup/patient_external_id_to_show" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/referral_followup/patient_sex" type="string" calculate="../inputs/contact/sex"/>
+      <bind nodeset="/referral_followup/patient_date_of_birth" type="string" calculate="../inputs/contact/date_of_birth"/>
+      <bind nodeset="/referral_followup/patient_age_in_years" type="string" calculate="if (../patient_date_of_birth = '', '', floor( difference-in-months(../patient_date_of_birth, today() ) div 12 ) )"/>
+      <bind nodeset="/referral_followup/patient_age_in_months" type="string" calculate="difference-in-months( ../patient_date_of_birth, today() )"/>
+      <bind nodeset="/referral_followup/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time(../patient_date_of_birth) )"/>
+      <bind nodeset="/referral_followup/patient_age_display_fr" type="string" calculate="concat(concat(../patient_age_in_years, if(../patient_age_in_years = 1,' an et ',' ans et ')),concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12) =1,' mois',' mois')))"/>
+      <bind nodeset="/referral_followup/patient_age_display_en" type="string" calculate="concat(concat(../patient_age_in_years, if(../patient_age_in_years = 1,' year and ',' years and ')),concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12) =1,' month old',' months old')))"/>
+      <bind nodeset="/referral_followup/patient_sex_en" type="string" calculate="if(../patient_sex = 'male' or ../patient_sex = 'homme' or ../patient_sex = 'Homme', 'Male', if(../patient_sex = 'female' or ../patient_sex = 'femme' or ../patient_sex = 'Femme', 'Female', ''))"/>
+      <bind nodeset="/referral_followup/patient_sex_fr" type="string" calculate="if(../patient_sex = 'male' or ../patient_sex = 'homme' or ../patient_sex = 'Homme', 'Masculin', if(../patient_sex = 'female' or ../patient_sex = 'femme' or ../patient_sex = 'Femme', 'Féminin', ''))"/>
+      <bind nodeset="/referral_followup/patient_family_name" type="string" calculate="coalesce(../inputs/contact/parent/name, /referral_followup/inputs/t_family_name )"/>
+      <bind nodeset="/referral_followup/patient_phone" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/referral_followup/patient_phone_to_show" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/referral_followup/patient_family_external_id" type="string" calculate="coalesce(../inputs/contact/parent/external_id, /referral_followup/inputs/t_family_external_id )"/>
+      <bind nodeset="/referral_followup/visited_contact_uuid" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/referral_followup/today_decimal_date" type="string" calculate="coalesce( /referral_followup/today_decimal_date ,decimal-date-time(today()))"/>
+      <bind nodeset="/referral_followup/household_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/referral_followup/village_secteur_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/referral_followup/district_quartier_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/referral_followup/hospital_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/referral_followup/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/referral_followup/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/referral_followup/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/referral_followup/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/referral_followup/other_diseases" type="string" calculate="if( /referral_followup/patient_presence/c_reference_health_facility  = 'no','Référence non effective',if(selected( /referral_followup/patient_status/c_patient_state ,'no_improvement'),'Amélioration non constatée',if(selected( /referral_followup/patient_status/c_patient_state ,'getting_worse'),'Aggravation de santé constaté','')))"/>
+      <bind nodeset="/referral_followup/is_present" type="string" calculate="if( /referral_followup/patient_presence/c_is_present  = 'yes','true','false')"/>
+      <bind nodeset="/referral_followup/absence_reasons" type="string" calculate=" /referral_followup/patient_presence/c_absence_reasons "/>
+      <bind nodeset="/referral_followup/went_to_health_center" type="string" calculate="if( /referral_followup/patient_presence/c_reference_health_facility  = '','',if( /referral_followup/patient_presence/c_reference_health_facility  = 'yes','true','false'))"/>
+      <bind nodeset="/referral_followup/coupon_available" type="string" calculate="if( /referral_followup/patient_presence/c_coupon_available  = 'yes','true','false')"/>
+      <bind nodeset="/referral_followup/coupon_number" type="string" calculate=" /referral_followup/patient_presence/c_coupon_number "/>
+      <bind nodeset="/referral_followup/has_no_improvement" type="string" calculate="if(selected( /referral_followup/patient_status/c_patient_state ,'no_improvement'),'true', 'false')"/>
+      <bind nodeset="/referral_followup/has_getting_worse" type="string" calculate="if(selected( /referral_followup/patient_status/c_patient_state ,'getting_worse'),'true', 'false')"/>
+      <bind nodeset="/referral_followup/is_referred" type="string" calculate="if(../patient_presence/c_reference_health_facility = 'no' or selected(../patient_status/c_patient_state,'no_improvement') or selected(../patient_status/c_patient_state,'getting_worse'),'true', 'false')"/>
+      <bind nodeset="/referral_followup/patient_infos/i_patient_family_name" readonly="true()" type="string" relevant=" /referral_followup/patient_family_name  != ''"/>
+      <bind nodeset="/referral_followup/patient_infos/i_patient_family_ext_id" readonly="true()" type="string" relevant=" /referral_followup/patient_family_external_id  != ''"/>
+      <bind nodeset="/referral_followup/patient_infos/i_patient_name" readonly="true()" type="string"/>
+      <bind nodeset="/referral_followup/patient_infos/i_patient_sexe" readonly="true()" type="string"/>
+      <bind nodeset="/referral_followup/patient_infos/i_code_patient" readonly="true()" type="string"/>
+      <bind nodeset="/referral_followup/patient_infos/i_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/referral_followup/patient_infos/i_last_consul_details" readonly="true()" type="string"/>
+      <bind nodeset="/referral_followup/patient_infos/i_referal_info" readonly="true()" type="string"/>
+      <bind nodeset="/referral_followup/patient_infos/i_other_diseases" readonly="true()" type="string" relevant=" /referral_followup/inputs/t_other_diseases  != ''"/>
+      <bind nodeset="/referral_followup/patient_presence/c_is_present" type="select1" required="true()"/>
+      <bind nodeset="/referral_followup/patient_presence/c_absence_reasons" type="select" required="true()" relevant="../c_is_present = 'no'"/>
+      <bind nodeset="/referral_followup/patient_presence/c_other_absence_reasons" type="string" relevant="../c_is_present = 'no' and ../c_absence_reasons = 'others'"/>
+      <bind nodeset="/referral_followup/patient_presence/c_reference_health_facility" type="select1" required="true()" jr:requiredMsg="jr:itext('/referral_followup/patient_presence/c_reference_health_facility:jr:requiredMsg')" relevant="../c_is_present = 'yes'"/>
+      <bind nodeset="/referral_followup/patient_presence/c_coupon_available" type="select1" required="true()" jr:requiredMsg="jr:itext('/referral_followup/patient_presence/c_coupon_available:jr:requiredMsg')" relevant="../c_is_present = 'yes' and ../c_reference_health_facility = 'yes'"/>
+      <bind nodeset="/referral_followup/patient_presence/c_coupon_number" type="int" jr:requiredMsg="jr:itext('/referral_followup/patient_presence/c_coupon_number:jr:requiredMsg')" constraint=". &gt;= 0" relevant="../c_is_present = 'yes' and ../c_reference_health_facility = 'yes' and ../c_coupon_available = 'yes'" required="true()" jr:constraintMsg="jr:itext('/referral_followup/patient_presence/c_coupon_number:jr:constraintMsg')"/>
+      <bind nodeset="/referral_followup/patient_status" relevant="../patient_presence/c_is_present = 'yes'"/>
+      <bind nodeset="/referral_followup/patient_status/c_patient_state" type="select1" required="true()" jr:requiredMsg="jr:itext('/referral_followup/patient_status/c_patient_state:jr:requiredMsg')"/>
+      <bind nodeset="/referral_followup/patient_status/c_new_form" readonly="true()" type="string" relevant="selected(../c_patient_state,'new_complaint')"/>
+      <bind nodeset="/referral_followup/patient_status/c_patient_taking_meg" type="select1" required="true()" jr:requiredMsg="jr:itext('/referral_followup/patient_status/c_patient_taking_meg:jr:requiredMsg')"/>
+      <bind nodeset="/referral_followup/patient_status/c_advise_note" readonly="true()" type="string" relevant="../c_patient_taking_meg = 'no'"/>
+      <bind nodeset="/referral_followup/patient_status/c_congratulate_note" readonly="true()" type="string" relevant="../c_patient_taking_meg = 'yes'"/>
+      <bind nodeset="/referral_followup/group_review/s_summary" readonly="true()" type="string"/>
+      <bind nodeset="/referral_followup/group_review/s_patient_info_name" readonly="true()" type="string"/>
+      <bind nodeset="/referral_followup/group_review/s_patient_info_sex" readonly="true()" type="string"/>
+      <bind nodeset="/referral_followup/group_review/s_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/referral_followup/group_review/s_informations" readonly="true()" type="string" relevant="selected( /referral_followup/patient_status/c_patient_state ,'cured') or selected( /referral_followup/patient_status/c_patient_state ,'improvement') or selected( /referral_followup/patient_status/c_patient_state ,'new_complaint') or selected( /referral_followup/patient_status/c_patient_state ,'no_improvement') or selected( /referral_followup/patient_status/c_patient_state ,'getting_worse')"/>
+      <bind nodeset="/referral_followup/group_review/s_cured" readonly="true()" type="string" relevant="selected( /referral_followup/patient_status/c_patient_state ,'cured')"/>
+      <bind nodeset="/referral_followup/group_review/s_improvement" readonly="true()" type="string" relevant="selected( /referral_followup/patient_status/c_patient_state ,'improvement')"/>
+      <bind nodeset="/referral_followup/group_review/s_new_complaint" readonly="true()" type="string" relevant="selected( /referral_followup/patient_status/c_patient_state ,'new_complaint')"/>
+      <bind nodeset="/referral_followup/group_review/no_improvement" readonly="true()" type="string" relevant="selected( /referral_followup/patient_status/c_patient_state ,'no_improvement')"/>
+      <bind nodeset="/referral_followup/group_review/getting_worse" readonly="true()" type="string" relevant="selected( /referral_followup/patient_status/c_patient_state ,'getting_worse')"/>
+      <bind nodeset="/referral_followup/group_review/s_refer_USP" readonly="true()" type="string" relevant=" /referral_followup/is_referred  = 'true'"/>
+      <bind nodeset="/referral_followup/group_review/s_refer_HC" readonly="true()" type="string" relevant=" /referral_followup/is_referred  = 'true'"/>
+      <bind nodeset="/referral_followup/group_review/s_referal_health_center" type="select1" relevant=" /referral_followup/is_referred  = 'true'"/>
+      <bind nodeset="/referral_followup/group_review/s_other_referal_health_center" type="string" relevant=" /referral_followup/is_referred  = 'true' and  /referral_followup/group_review/s_referal_health_center  = 'others'"/>
+      <bind nodeset="/referral_followup/group_review/followup" readonly="true()" type="string"/>
+      <bind nodeset="/referral_followup/group_review/s_next_visit_date" readonly="true()" type="string" relevant=" /referral_followup/is_referred  = 'true'"/>
+      <bind nodeset="/referral_followup/group_review/s_no_next_visit" readonly="true()" type="string" relevant=" /referral_followup/is_referred  != 'true'"/>
+      <bind nodeset="/referral_followup/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/referral_followup/inputs">
+      <label ref="jr:itext('/referral_followup/inputs:label')"/>
+      <input appearance="hidden" ref="/referral_followup/inputs/source">
+        <label ref="jr:itext('/referral_followup/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/referral_followup/inputs/source_id">
+        <label ref="jr:itext('/referral_followup/inputs/source_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/referral_followup/inputs/t_family_id">
+        <label ref="jr:itext('/referral_followup/inputs/t_family_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/referral_followup/inputs/t_family_name">
+        <label ref="jr:itext('/referral_followup/inputs/t_family_name:label')"/>
+      </input>
+      <input appearance="hidden" ref="/referral_followup/inputs/t_family_external_id">
+        <label ref="jr:itext('/referral_followup/inputs/t_family_external_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/referral_followup/inputs/t_other_diseases">
+        <label ref="jr:itext('/referral_followup/inputs/t_other_diseases:label')"/>
+      </input>
+      <input appearance="hidden" ref="/referral_followup/inputs/t_is_referred">
+        <label ref="jr:itext('/referral_followup/inputs/t_is_referred:label')"/>
+      </input>
+      <group ref="/referral_followup/inputs/user">
+        <label ref="jr:itext('/referral_followup/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/referral_followup/inputs/user/contact_id">
+          <label ref="jr:itext('/referral_followup/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/referral_followup/inputs/user/name">
+          <label ref="jr:itext('/referral_followup/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/referral_followup/inputs/user/phone">
+          <label ref="jr:itext('/referral_followup/inputs/user/phone:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/referral_followup/inputs/contact">
+        <label ref="jr:itext('/referral_followup/inputs/contact:label')"/>
+        <input appearance="db-object bind-id-only" ref="/referral_followup/inputs/contact/_id">
+          <label ref="jr:itext('/referral_followup/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/referral_followup/inputs/contact/name">
+          <label ref="jr:itext('/referral_followup/inputs/contact/name:label')"/>
+        </input>
+        <input ref="/referral_followup/inputs/contact/sex">
+          <label ref="jr:itext('/referral_followup/inputs/contact/sex:label')"/>
+        </input>
+        <input ref="/referral_followup/inputs/contact/date_of_birth">
+          <label ref="jr:itext('/referral_followup/inputs/contact/date_of_birth:label')"/>
+        </input>
+        <input ref="/referral_followup/inputs/contact/external_id">
+          <label ref="jr:itext('/referral_followup/inputs/contact/external_id:label')"/>
+        </input>
+        <input ref="/referral_followup/inputs/contact/phone">
+          <label ref="jr:itext('/referral_followup/inputs/contact/phone:label')"/>
+        </input>
+        <group ref="/referral_followup/inputs/contact/parent">
+          <label ref="jr:itext('/referral_followup/inputs/contact/parent:label')"/>
+          <input ref="/referral_followup/inputs/contact/parent/_id">
+            <label ref="jr:itext('/referral_followup/inputs/contact/parent/_id:label')"/>
+          </input>
+          <input ref="/referral_followup/inputs/contact/parent/name">
+            <label ref="jr:itext('/referral_followup/inputs/contact/parent/name:label')"/>
+          </input>
+          <input ref="/referral_followup/inputs/contact/parent/external_id">
+            <label ref="jr:itext('/referral_followup/inputs/contact/parent/external_id:label')"/>
+          </input>
+          <group ref="/referral_followup/inputs/contact/parent/parent">
+            <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent:label')"/>
+            <input ref="/referral_followup/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/referral_followup/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/referral_followup/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/referral_followup/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/referral_followup/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/referral_followup/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                    <group ref="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      <input ref="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id">
+                        <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                      </input>
+                      <group ref="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                        <input ref="/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id">
+                          <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                        </input>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+            <group ref="/referral_followup/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/contact:label')"/>
+              <input appearance="db-object bind-id-only" ref="/referral_followup/inputs/contact/parent/parent/contact/_id">
+                <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/contact/_id:label')"/>
+              </input>
+              <input ref="/referral_followup/inputs/contact/parent/parent/contact/name">
+                <label ref="jr:itext('/referral_followup/inputs/contact/parent/parent/contact/name:label')"/>
+              </input>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list summary" ref="/referral_followup/patient_infos">
+      <label ref="jr:itext('/referral_followup/patient_infos:label')"/>
+      <input appearance="li" ref="/referral_followup/patient_infos/i_patient_family_name">
+        <label ref="jr:itext('/referral_followup/patient_infos/i_patient_family_name:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/patient_infos/i_patient_family_ext_id">
+        <label ref="jr:itext('/referral_followup/patient_infos/i_patient_family_ext_id:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/patient_infos/i_patient_name">
+        <label ref="jr:itext('/referral_followup/patient_infos/i_patient_name:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/patient_infos/i_patient_sexe">
+        <label ref="jr:itext('/referral_followup/patient_infos/i_patient_sexe:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/patient_infos/i_code_patient">
+        <label ref="jr:itext('/referral_followup/patient_infos/i_code_patient:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/patient_infos/i_patient_info_age">
+        <label ref="jr:itext('/referral_followup/patient_infos/i_patient_info_age:label')"/>
+      </input>
+      <input ref="/referral_followup/patient_infos/i_last_consul_details">
+        <label ref="jr:itext('/referral_followup/patient_infos/i_last_consul_details:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/patient_infos/i_referal_info">
+        <label ref="jr:itext('/referral_followup/patient_infos/i_referal_info:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/patient_infos/i_other_diseases">
+        <label ref="jr:itext('/referral_followup/patient_infos/i_other_diseases:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/referral_followup/patient_presence">
+      <label ref="jr:itext('/referral_followup/patient_presence:label')"/>
+      <select1 appearance="columns" ref="/referral_followup/patient_presence/c_is_present">
+        <label ref="jr:itext('/referral_followup/patient_presence/c_is_present:label')"/>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_presence/c_is_present/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_presence/c_is_present/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/referral_followup/patient_presence/c_absence_reasons">
+        <label ref="jr:itext('/referral_followup/patient_presence/c_absence_reasons:label')"/>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_presence/c_absence_reasons/observation:label')"/>
+          <value>observation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_presence/c_absence_reasons/hospitalized:label')"/>
+          <value>hospitalized</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_presence/c_absence_reasons/patient_Absent:label')"/>
+          <value>patient_Absent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_presence/c_absence_reasons/others:label')"/>
+          <value>others</value>
+        </item>
+      </select>
+      <input ref="/referral_followup/patient_presence/c_other_absence_reasons">
+        <label ref="jr:itext('/referral_followup/patient_presence/c_other_absence_reasons:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/referral_followup/patient_presence/c_reference_health_facility">
+        <label ref="jr:itext('/referral_followup/patient_presence/c_reference_health_facility:label')"/>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_presence/c_reference_health_facility/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_presence/c_reference_health_facility/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/referral_followup/patient_presence/c_coupon_available">
+        <label ref="jr:itext('/referral_followup/patient_presence/c_coupon_available:label')"/>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_presence/c_coupon_available/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_presence/c_coupon_available/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/referral_followup/patient_presence/c_coupon_number">
+        <label ref="jr:itext('/referral_followup/patient_presence/c_coupon_number:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/referral_followup/patient_status">
+      <label ref="jr:itext('/referral_followup/patient_status:label')"/>
+      <select1 ref="/referral_followup/patient_status/c_patient_state">
+        <label ref="jr:itext('/referral_followup/patient_status/c_patient_state:label')"/>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_status/c_patient_state/cured:label')"/>
+          <value>cured</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_status/c_patient_state/improvement:label')"/>
+          <value>improvement</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_status/c_patient_state/no_improvement:label')"/>
+          <value>no_improvement</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_status/c_patient_state/getting_worse:label')"/>
+          <value>getting_worse</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_status/c_patient_state/new_complaint:label')"/>
+          <value>new_complaint</value>
+        </item>
+      </select1>
+      <input ref="/referral_followup/patient_status/c_new_form">
+        <label ref="jr:itext('/referral_followup/patient_status/c_new_form:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/referral_followup/patient_status/c_patient_taking_meg">
+        <label ref="jr:itext('/referral_followup/patient_status/c_patient_taking_meg:label')"/>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_status/c_patient_taking_meg/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_followup/patient_status/c_patient_taking_meg/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/referral_followup/patient_status/c_advise_note">
+        <label ref="jr:itext('/referral_followup/patient_status/c_advise_note:label')"/>
+      </input>
+      <input ref="/referral_followup/patient_status/c_congratulate_note">
+        <label ref="jr:itext('/referral_followup/patient_status/c_congratulate_note:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/referral_followup/group_review">
+      <label ref="jr:itext('/referral_followup/group_review:label')"/>
+      <input appearance="h1 yellow" ref="/referral_followup/group_review/s_summary">
+        <label ref="jr:itext('/referral_followup/group_review/s_summary:label')"/>
+      </input>
+      <input appearance="center" ref="/referral_followup/group_review/s_patient_info_name">
+        <label ref="jr:itext('/referral_followup/group_review/s_patient_info_name:label')"/>
+      </input>
+      <input appearance="center" ref="/referral_followup/group_review/s_patient_info_sex">
+        <label ref="jr:itext('/referral_followup/group_review/s_patient_info_sex:label')"/>
+      </input>
+      <input appearance="center" ref="/referral_followup/group_review/s_patient_info_age">
+        <label ref="jr:itext('/referral_followup/group_review/s_patient_info_age:label')"/>
+      </input>
+      <input appearance="h1 blue" ref="/referral_followup/group_review/s_informations">
+        <label ref="jr:itext('/referral_followup/group_review/s_informations:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/group_review/s_cured">
+        <label ref="jr:itext('/referral_followup/group_review/s_cured:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/group_review/s_improvement">
+        <label ref="jr:itext('/referral_followup/group_review/s_improvement:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/group_review/s_new_complaint">
+        <label ref="jr:itext('/referral_followup/group_review/s_new_complaint:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/group_review/no_improvement">
+        <label ref="jr:itext('/referral_followup/group_review/no_improvement:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/group_review/getting_worse">
+        <label ref="jr:itext('/referral_followup/group_review/getting_worse:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/referral_followup/group_review/s_refer_USP">
+        <label ref="jr:itext('/referral_followup/group_review/s_refer_USP:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/group_review/s_refer_HC">
+        <label ref="jr:itext('/referral_followup/group_review/s_refer_HC:label')"/>
+      </input>
+      <select1 ref="/referral_followup/group_review/s_referal_health_center">
+        <label ref="jr:itext('/referral_followup/group_review/s_referal_health_center:label')"/>
+        <item>
+          <label ref="jr:itext('/referral_followup/group_review/s_referal_health_center/health_center:label')"/>
+          <value>health_center</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_followup/group_review/s_referal_health_center/health_poste:label')"/>
+          <value>health_poste</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/referral_followup/group_review/s_referal_health_center/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/referral_followup/group_review/s_other_referal_health_center">
+        <label ref="jr:itext('/referral_followup/group_review/s_other_referal_health_center:label')"/>
+      </input>
+      <input appearance="h1 green" ref="/referral_followup/group_review/followup">
+        <label ref="jr:itext('/referral_followup/group_review/followup:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/group_review/s_next_visit_date">
+        <label ref="jr:itext('/referral_followup/group_review/s_next_visit_date:label')"/>
+      </input>
+      <input appearance="li" ref="/referral_followup/group_review/s_no_next_visit">
+        <label ref="jr:itext('/referral_followup/group_review/s_no_next_visit:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

@@ -1,0 +1,1640 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Renouvellement PF</h:title>
+    <model>
+      <itext>
+        <translation lang="fr">
+          <text id="/fp_renewal/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/fp_renewal/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/fp_renewal/inputs/user/contact_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/fp_renewal/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/fp_renewal/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/contact:label">
+            <value>Information du RECO</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/fp_renewal/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/fp_renewal/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/fp_renewal/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/fp_renewal/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/fp_renewal/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/fp_renewal/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/fp_renewal/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/fp_renewal/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/fp_renewal/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/fp_renewal/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/fp_renewal/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/fp_renewal/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/fp_renewal/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/fp_renewal/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/fp_renewal/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/fp_renewal/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/fp_renewal/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/fp_renewal/patient_family_name:label">
+            <value>Nom du ménage</value>
+          </text>
+          <text id="/fp_renewal/patient_phone:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/fp_renewal/patient_phone_to_show:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/fp_renewal/patient_family_external_id:label">
+            <value>Numéro du ménage</value>
+          </text>
+          <text id="/fp_renewal/visited_contact_uuid:label">
+            <value>Identifiant de la famille</value>
+          </text>
+          <text id="/fp_renewal/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/fp_renewal/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/fp_renewal/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/fp_renewal/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/fp_renewal/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/fp_renewal/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/fp_renewal/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/fp_renewal/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details:label">
+            <value>DÉTAILS DU PATIENT</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_patient_family_name:label">
+            <value>Nom du ménage : **<output value=" /fp_renewal/patient_family_name "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_patient_family_ext_id:label">
+            <value>Numéro du ménage : **<output value=" /fp_renewal/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_patient_name:label">
+            <value>Nom du patient : **<output value=" /fp_renewal/patient_name "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_code_patient:label">
+            <value>Code du patient : **<output value=" /fp_renewal/patient_external_id "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_patient_phone:label">
+            <value>Numéro de téléphone : ** <output value=" /fp_renewal/patient_phone "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_patient_info_age:label">
+            <value>Âge : **<output value=" /fp_renewal/patient_age_display_fr "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_last_methode_pf:label">
+            <value>Dernière Méthode PF utilisée: **<output value=" /fp_renewal/inputs/t_fp_method_name "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_method_start_date:label">
+            <value>Date de démmarage de la méthode PF : **<output value=" /fp_renewal/begin_method_start_date_fr "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_next_date_pf:label">
+            <value>Date de renouvellement de la méthode PF : **<output value=" /fp_renewal/last_fp_renew_date_fr "/>**</value>
+          </text>
+          <text id="/fp_renewal/renew_fp:label">
+            <value>Renouvellement de la méthode PF</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_change_method:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_change_method:label">
+            <value>Souhaitez-vous changer de méthode ?</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_change_method/yes:label">
+            <value>oui</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_change_method/no:label">
+            <value>non</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_new_method_note:label">
+            <value>**Veuillez utiliser le formulaire Grossesse et PF pour changer de methode**</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_was_renew:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_was_renew:label">
+            <value>La méthode est-elle renouvelée ?</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_was_renew/yes:label">
+            <value>oui</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_was_renew/no:label">
+            <value>non</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason:label">
+            <value>Pourquoi la méthode n'a pas été administrée ?</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/side_effect:label">
+            <value>Effet secondaire</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/health_problem:label">
+            <value>Problème de santé</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/refusal:label">
+            <value>Refus</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/think_about_it:label">
+            <value>Veux réfléchir</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/want_babies:label">
+            <value>Veux avoir d'enfants</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/postponed:label">
+            <value>Report à une date ultérieure</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/no_answer:label">
+            <value>Sans réponse</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/on_break:label">
+            <value>En rupture</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_health_problem_reason:label">
+            <value>Veuillez ecrire le probleme si possible</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_1:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_1:label">
+            <value>Quel est la Durée de la méthode ?</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_2:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_2:label">
+            <value>Quel est la Durée de la méthode ?</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_2/0:label">
+            <value>En Jours</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_2/1:label">
+            <value>1 Mois</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_2/2:label">
+            <value>2 Mois</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_2/3:label">
+            <value>3 Mois</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_days_count:jr:constraintMsg">
+            <value>La valeurdoit être comprise entre 1 et 29</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_days_count:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_days_count:label">
+            <value>Saisie le nombre de jours</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_days_count:hint">
+            <value>Entre 1 et 29 jours</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_condoms_quantity_given:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_condoms_quantity_given:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_condoms_quantity_given:label">
+            <value>Quel est la quantité de condoms donnée</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_start_today:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_start_today:label">
+            <value>La méthode administrée démarre t'il aujourd'hui?</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_start_today/yes:label">
+            <value>oui</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_start_today/no:label">
+            <value>non</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_start_date:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_start_date:label">
+            <value>Quelle est la date de démarrage de la méthode ?</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_summary:label">
+            <value>Détails du Patient &lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /fp_renewal/patient_name "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /fp_renewal/patient_sex_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /fp_renewal/patient_age_display_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_refer_USP:label">
+            <value>Référence vers une formation sanitaire</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_refer_FS_FP_renew:label">
+            <value>Veuillez référer la femme dans une structure sanitaire pour **renouvellement de la méthode PF**</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_refer_FS_health_problem:label">
+            <value>Veuillez référer la femme dans une structure sanitaire pour **problème de santé**</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_referal_health_center:label">
+            <value>Selectionner le centre de santé de référence</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_referal_health_center/health_center:label">
+            <value>Centre de santé</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_referal_health_center/health_poste:label">
+            <value>Poste de santé</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_referal_health_center/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_other_referal_health_center:label">
+            <value>Saisir le nom de la formation sanitaire de référence</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_followup:label">
+            <value>Suivi</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_next_visit_date_renew_pf:label">
+            <value>Vous devez renouveler cette méthode le : **<output value=" /fp_renewal/next_fp_renew_date_fr "/>**</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_referal_followup:label">
+            <value>La visite de suivi référence est dans **3 jours**</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_no_followup:label">
+            <value>**Aucun suivi ne sera généré**</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>oui</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>non</value>
+          </text>
+          <text id="static_instance-health_center_near-0">
+            <value>Centre de santé</value>
+          </text>
+          <text id="static_instance-health_center_near-1">
+            <value>Poste de santé</value>
+          </text>
+          <text id="static_instance-health_center_near-2">
+            <value>Autres</value>
+          </text>
+          <text id="static_instance-method_pf_list-0">
+            <value>Pilule - COC</value>
+          </text>
+          <text id="static_instance-method_pf_list-1">
+            <value>Pilule - COP</value>
+          </text>
+          <text id="static_instance-method_pf_list-2">
+            <value>Condoms/Preservatif Fémidon</value>
+          </text>
+          <text id="static_instance-method_pf_list-3">
+            <value>DMPA-SC (Sayana Press)</value>
+          </text>
+          <text id="static_instance-method_pf_list-4">
+            <value>Dépo provera -IM</value>
+          </text>
+          <text id="static_instance-method_pf_list-5">
+            <value>DIU</value>
+          </text>
+          <text id="static_instance-method_pf_list-6">
+            <value>Implant</value>
+          </text>
+          <text id="static_instance-method_pf_list-7">
+            <value>Ligature des trompes</value>
+          </text>
+          <text id="static_instance-pf_reason_list-0">
+            <value>Effet secondaire</value>
+          </text>
+          <text id="static_instance-pf_reason_list-1">
+            <value>Problème de santé</value>
+          </text>
+          <text id="static_instance-pf_reason_list-2">
+            <value>Refus</value>
+          </text>
+          <text id="static_instance-pf_reason_list-3">
+            <value>Veux réfléchir</value>
+          </text>
+          <text id="static_instance-pf_reason_list-4">
+            <value>Veux avoir d'enfants</value>
+          </text>
+          <text id="static_instance-pf_reason_list-5">
+            <value>Report à une date ultérieure</value>
+          </text>
+          <text id="static_instance-pf_reason_list-6">
+            <value>Sans réponse</value>
+          </text>
+          <text id="static_instance-pf_reason_list-7">
+            <value>En rupture</value>
+          </text>
+          <text id="static_instance-method_month_count_list-0">
+            <value>En Jours</value>
+          </text>
+          <text id="static_instance-method_month_count_list-1">
+            <value>1 Mois</value>
+          </text>
+          <text id="static_instance-method_month_count_list-2">
+            <value>2 Mois</value>
+          </text>
+          <text id="static_instance-method_month_count_list-3">
+            <value>3 Mois</value>
+          </text>
+        </translation>
+        <translation lang="en">
+          <text id="/fp_renewal/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/fp_renewal/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/fp_renewal/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/fp_renewal/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/fp_renewal/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/fp_renewal/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/fp_renewal/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/fp_renewal/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/fp_renewal/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/fp_renewal/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/fp_renewal/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/fp_renewal/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/fp_renewal/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/fp_renewal/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/fp_renewal/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/fp_renewal/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/fp_renewal/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/fp_renewal/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/fp_renewal/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/fp_renewal/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/fp_renewal/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/fp_renewal/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/fp_renewal/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/fp_renewal/patient_family_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/fp_renewal/patient_phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/fp_renewal/patient_phone_to_show:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/fp_renewal/patient_family_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/fp_renewal/visited_contact_uuid:label">
+            <value>Family Id</value>
+          </text>
+          <text id="/fp_renewal/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/fp_renewal/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/fp_renewal/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/fp_renewal/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/fp_renewal/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/fp_renewal/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/fp_renewal/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/fp_renewal/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details:label">
+            <value>PATIENT DETAILS</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_patient_family_name:label">
+            <value>Family name : **<output value=" /fp_renewal/patient_family_name "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_patient_family_ext_id:label">
+            <value>Family External ID : **<output value=" /fp_renewal/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_patient_name:label">
+            <value>Patient name : **<output value=" /fp_renewal/patient_name "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_code_patient:label">
+            <value>Patient code : **<output value=" /fp_renewal/patient_external_id "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_patient_phone:label">
+            <value>Patient phone : **<output value=" /fp_renewal/patient_phone "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_patient_info_age:label">
+            <value>Age : **<output value=" /fp_renewal/patient_age_display_en "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_last_methode_pf:label">
+            <value>Last PF method used : **<output value=" /fp_renewal/inputs/t_fp_method_name "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_method_start_date:label">
+            <value>Method Start Date : **<output value=" /fp_renewal/begin_method_start_date_fr "/>**</value>
+          </text>
+          <text id="/fp_renewal/i_patient_details/i_next_date_pf:label">
+            <value>Next PF Date : **<output value=" /fp_renewal/last_fp_renew_date_fr "/>**</value>
+          </text>
+          <text id="/fp_renewal/renew_fp:label">
+            <value>Renew method PF</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_change_method:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_change_method:label">
+            <value>Would you like to change your method?</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_change_method/yes:label">
+            <value>yes</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_change_method/no:label">
+            <value>no</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_new_method_note:label">
+            <value>**Please use the Pregnancy and FP form to change method**</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_was_renew:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_was_renew:label">
+            <value>Is the method renewed?</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_was_renew/yes:label">
+            <value>yes</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_was_renew/no:label">
+            <value>no</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason:label">
+            <value>Why was the method not administered?</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/side_effect:label">
+            <value>Side Effect</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/health_problem:label">
+            <value>Health problem</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/refusal:label">
+            <value>Refusal</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/think_about_it:label">
+            <value>Think about it</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/want_babies:label">
+            <value>Want Babies</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/postponed:label">
+            <value>Postpone to a later date</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/no_answer:label">
+            <value>No answer</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_reason/on_break:label">
+            <value>On break</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_not_given_health_problem_reason:label">
+            <value>Please write down the problem if possible</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_1:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_1:label">
+            <value>How long does the method last?</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_2:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_2:label">
+            <value>How long does the method last?</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_2/0:label">
+            <value>In Days</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_2/1:label">
+            <value>1 Month</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_2/2:label">
+            <value>2 Months</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_months_count_2/3:label">
+            <value>3 Months</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_days_count:jr:constraintMsg">
+            <value>The value must be between 1 and 29</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_days_count:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_days_count:label">
+            <value>Enter the number of days</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_days_count:hint">
+            <value>Between 1 and 29 days</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_condoms_quantity_given:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_condoms_quantity_given:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_condoms_quantity_given:label">
+            <value>How many condoms are given?</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_start_today:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_start_today:label">
+            <value>Does the administered method start today?</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_start_today/yes:label">
+            <value>yes</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_start_today/no:label">
+            <value>no</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_start_date:jr:requiredMsg">
+            <value>This field is mandatory</value>
+          </text>
+          <text id="/fp_renewal/renew_fp/c_method_start_date:label">
+            <value>What is the start date of the method?</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_summary:label">
+            <value>Patient Summary&lt;I class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /fp_renewal/patient_name "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /fp_renewal/patient_sex_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /fp_renewal/patient_age_display_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_refer_USP:label">
+            <value>Referral to a health facility</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_refer_FS_FP_renew:label">
+            <value>Please refer the woman to a health facility for **FP renewal**</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_refer_FS_health_problem:label">
+            <value>Please refer the woman to a health facility for **health problem**</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_referal_health_center:label">
+            <value>Select the reference health center</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_referal_health_center/health_center:label">
+            <value>Health center</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_referal_health_center/health_poste:label">
+            <value>Health poste</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_referal_health_center/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_other_referal_health_center:label">
+            <value>Enter the name of the reference health facility</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_followup:label">
+            <value>Follow up</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_next_visit_date_renew_pf:label">
+            <value>You must renew this method on: **<output value=" /fp_renewal/next_fp_renew_date "/>**</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_referal_followup:label">
+            <value>The reference follow-up visit is in **3 days**</value>
+          </text>
+          <text id="/fp_renewal/s_group_review/s_no_followup:label">
+            <value>**No Followup will be generated**</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>yes</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>no</value>
+          </text>
+          <text id="static_instance-health_center_near-0">
+            <value>Health center</value>
+          </text>
+          <text id="static_instance-health_center_near-1">
+            <value>Health poste</value>
+          </text>
+          <text id="static_instance-health_center_near-2">
+            <value>Others</value>
+          </text>
+          <text id="static_instance-method_pf_list-0">
+            <value>Pill - COC</value>
+          </text>
+          <text id="static_instance-method_pf_list-1">
+            <value>Pill - COP</value>
+          </text>
+          <text id="static_instance-method_pf_list-2">
+            <value>Condoms</value>
+          </text>
+          <text id="static_instance-method_pf_list-3">
+            <value>DMPA-SC (Sayana Press)</value>
+          </text>
+          <text id="static_instance-method_pf_list-4">
+            <value>Depo provera -IM</value>
+          </text>
+          <text id="static_instance-method_pf_list-5">
+            <value>DIU</value>
+          </text>
+          <text id="static_instance-method_pf_list-6">
+            <value>Implant</value>
+          </text>
+          <text id="static_instance-method_pf_list-7">
+            <value>Tubal ligation</value>
+          </text>
+          <text id="static_instance-pf_reason_list-0">
+            <value>Side Effect</value>
+          </text>
+          <text id="static_instance-pf_reason_list-1">
+            <value>Health problem</value>
+          </text>
+          <text id="static_instance-pf_reason_list-2">
+            <value>Refusal</value>
+          </text>
+          <text id="static_instance-pf_reason_list-3">
+            <value>Think about it</value>
+          </text>
+          <text id="static_instance-pf_reason_list-4">
+            <value>Want Babies</value>
+          </text>
+          <text id="static_instance-pf_reason_list-5">
+            <value>Postpone to a later date</value>
+          </text>
+          <text id="static_instance-pf_reason_list-6">
+            <value>No answer</value>
+          </text>
+          <text id="static_instance-pf_reason_list-7">
+            <value>On break</value>
+          </text>
+          <text id="static_instance-method_month_count_list-0">
+            <value>In Days</value>
+          </text>
+          <text id="static_instance-method_month_count_list-1">
+            <value>1 Month</value>
+          </text>
+          <text id="static_instance-method_month_count_list-2">
+            <value>2 Months</value>
+          </text>
+          <text id="static_instance-method_month_count_list-3">
+            <value>3 Months</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <fp_renewal id="fp_renewal" prefix="J1!fp_renewal!" delimiter="#" version="2024-08-16  17-10">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <t_fp_method/>
+            <t_fp_method_name/>
+            <t_next_fp_renew_date/>
+            <t_method_start_date/>
+            <t_family_id/>
+            <t_family_name/>
+            <t_family_external_id/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <sex/>
+              <date_of_birth/>
+              <external_id/>
+              <phone/>
+              <parent>
+                <_id/>
+                <name/>
+                <external_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                  <contact>
+                    <_id/>
+                    <name/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_uuid/>
+          <patient_name/>
+          <patient_name_to_show/>
+          <patient_external_id/>
+          <patient_external_id_to_show/>
+          <patient_sex/>
+          <patient_date_of_birth/>
+          <patient_age_in_years/>
+          <patient_age_in_months/>
+          <patient_age_in_days/>
+          <patient_age_display_fr/>
+          <patient_age_display_en/>
+          <patient_sex_en/>
+          <patient_sex_fr/>
+          <patient_family_name/>
+          <patient_phone/>
+          <patient_phone_to_show/>
+          <patient_family_external_id/>
+          <visited_contact_uuid/>
+          <today_decimal_date/>
+          <household_id/>
+          <village_secteur_id/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <last_fp_renew_date/>
+          <last_fp_renew_date_fr/>
+          <begin_method_start_date/>
+          <begin_method_start_date_fr/>
+          <method_was_given/>
+          <method_start_date/>
+          <method_not_given_reason/>
+          <method_not_given_reason_name/>
+          <fp_method/>
+          <fp_method_name/>
+          <fp_method_duration/>
+          <next_fp_renew_date/>
+          <next_fp_renew_date_fr/>
+          <has_fp_side_effect/>
+          <is_fp_referal/>
+          <is_health_problem_referal/>
+          <method_months_count_1/>
+          <method_months_count_2/>
+          <condoms_quantity_given/>
+          <is_referred/>
+          <i_patient_details>
+            <i_patient_family_name/>
+            <i_patient_family_ext_id/>
+            <i_patient_name/>
+            <i_code_patient/>
+            <i_patient_phone/>
+            <i_patient_info_age/>
+            <i_last_methode_pf/>
+            <i_method_start_date/>
+            <i_next_date_pf/>
+          </i_patient_details>
+          <renew_fp>
+            <c_change_method/>
+            <c_new_method_note/>
+            <c_method_was_renew/>
+            <c_method_not_given_reason/>
+            <c_method_not_given_health_problem_reason/>
+            <c_method_months_count_1/>
+            <c_method_months_count_2/>
+            <c_method_months_count/>
+            <c_method_days_count/>
+            <c_condoms_quantity_given/>
+            <c_method_start_today/>
+            <c_method_start_date/>
+          </renew_fp>
+          <s_group_review>
+            <s_summary/>
+            <s_patient_info_name/>
+            <s_patient_info_sex/>
+            <s_patient_info_age/>
+            <s_refer_USP/>
+            <s_refer_FS_FP_renew/>
+            <s_refer_FS_health_problem/>
+            <s_referal_health_center/>
+            <s_other_referal_health_center/>
+            <s_followup/>
+            <s_next_visit_date_renew_pf/>
+            <s_referal_followup/>
+            <s_no_followup/>
+          </s_group_review>
+          <meta>
+            <instanceID/>
+          </meta>
+        </fp_renewal>
+      </instance>
+      <instance id="contact-summary"/>
+      <instance id="yes_no">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="health_center_near">
+        <root>
+          <item>
+            <itextId>static_instance-health_center_near-0</itextId>
+            <name>health_center</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_center_near-1</itextId>
+            <name>health_poste</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_center_near-2</itextId>
+            <name>others</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="method_pf_list">
+        <root>
+          <item>
+            <itextId>static_instance-method_pf_list-0</itextId>
+            <name>pill_coc</name>
+          </item>
+          <item>
+            <itextId>static_instance-method_pf_list-1</itextId>
+            <name>pill_cop</name>
+          </item>
+          <item>
+            <itextId>static_instance-method_pf_list-2</itextId>
+            <name>condoms</name>
+          </item>
+          <item>
+            <itextId>static_instance-method_pf_list-3</itextId>
+            <name>dmpa_sc</name>
+          </item>
+          <item>
+            <itextId>static_instance-method_pf_list-4</itextId>
+            <name>depo_provera_im</name>
+          </item>
+          <item>
+            <itextId>static_instance-method_pf_list-5</itextId>
+            <name>diu</name>
+          </item>
+          <item>
+            <itextId>static_instance-method_pf_list-6</itextId>
+            <name>implant</name>
+          </item>
+          <item>
+            <itextId>static_instance-method_pf_list-7</itextId>
+            <name>tubal_ligation</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="pf_reason_list">
+        <root>
+          <item>
+            <itextId>static_instance-pf_reason_list-0</itextId>
+            <name>side_effect</name>
+          </item>
+          <item>
+            <itextId>static_instance-pf_reason_list-1</itextId>
+            <name>health_problem</name>
+          </item>
+          <item>
+            <itextId>static_instance-pf_reason_list-2</itextId>
+            <name>refusal</name>
+          </item>
+          <item>
+            <itextId>static_instance-pf_reason_list-3</itextId>
+            <name>think_about_it</name>
+          </item>
+          <item>
+            <itextId>static_instance-pf_reason_list-4</itextId>
+            <name>want_babies</name>
+          </item>
+          <item>
+            <itextId>static_instance-pf_reason_list-5</itextId>
+            <name>postponed</name>
+          </item>
+          <item>
+            <itextId>static_instance-pf_reason_list-6</itextId>
+            <name>no_answer</name>
+          </item>
+          <item>
+            <itextId>static_instance-pf_reason_list-7</itextId>
+            <name>on_break</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="method_month_count_list">
+        <root>
+          <item>
+            <itextId>static_instance-method_month_count_list-0</itextId>
+            <name>0</name>
+            <filter>0</filter>
+          </item>
+          <item>
+            <itextId>static_instance-method_month_count_list-1</itextId>
+            <name>1</name>
+            <filter>1</filter>
+          </item>
+          <item>
+            <itextId>static_instance-method_month_count_list-2</itextId>
+            <name>2</name>
+            <filter>2</filter>
+          </item>
+          <item>
+            <itextId>static_instance-method_month_count_list-3</itextId>
+            <name>3</name>
+            <filter>3</filter>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/fp_renewal/inputs/source" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/source_id" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/t_fp_method" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/t_fp_method_name" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/t_next_fp_renew_date" type="date"/>
+      <bind nodeset="/fp_renewal/inputs/t_method_start_date" type="date"/>
+      <bind nodeset="/fp_renewal/inputs/t_family_id" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/t_family_name" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/t_family_external_id" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/fp_renewal/inputs/user/name" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/user/phone" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/_id" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/name" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/sex" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/external_id" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/phone" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/parent/_id" type="db:person"/>
+      <bind nodeset="/fp_renewal/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/parent/external_id" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/parent/parent/contact/_id" type="string"/>
+      <bind nodeset="/fp_renewal/inputs/contact/parent/parent/contact/name" type="string"/>
+      <bind nodeset="/fp_renewal/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/fp_renewal/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/fp_renewal/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/fp_renewal/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/fp_renewal/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/fp_renewal/patient_name_to_show" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/fp_renewal/patient_external_id" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/fp_renewal/patient_external_id_to_show" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/fp_renewal/patient_sex" type="string" calculate="../inputs/contact/sex"/>
+      <bind nodeset="/fp_renewal/patient_date_of_birth" type="string" calculate="../inputs/contact/date_of_birth"/>
+      <bind nodeset="/fp_renewal/patient_age_in_years" type="string" calculate="if (  /fp_renewal/inputs/contact/date_of_birth = '', '', floor( difference-in-months(  /fp_renewal/inputs/contact/date_of_birth , today() ) div 12 ) )"/>
+      <bind nodeset="/fp_renewal/patient_age_in_months" type="string" calculate="difference-in-months(  /fp_renewal/inputs/contact/date_of_birth , today() )"/>
+      <bind nodeset="/fp_renewal/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time( /fp_renewal/inputs/contact/date_of_birth ) )"/>
+      <bind nodeset="/fp_renewal/patient_age_display_fr" type="string" calculate="concat(concat(../patient_age_in_years, if(../patient_age_in_years = 1,' an et ',' ans et ')),concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12)=1,' mois',' mois')))"/>
+      <bind nodeset="/fp_renewal/patient_age_display_en" type="string" calculate="concat(concat(../patient_age_in_years, if(../patient_age_in_years = 1,' year and ',' years and ')),concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12)=1,' month old',' months old')))"/>
+      <bind nodeset="/fp_renewal/patient_sex_en" type="string" calculate="if( /fp_renewal/inputs/contact/sex  = 'male' or  /fp_renewal/inputs/contact/sex  = 'homme' or  /fp_renewal/inputs/contact/sex  = 'Homme', 'Male', if( /fp_renewal/inputs/contact/sex  = 'female' or  /fp_renewal/inputs/contact/sex  = 'femme' or  /fp_renewal/inputs/contact/sex  = 'Femme', 'Female', ''))"/>
+      <bind nodeset="/fp_renewal/patient_sex_fr" type="string" calculate="if( /fp_renewal/inputs/contact/sex  = 'male' or  /fp_renewal/inputs/contact/sex  = 'homme' or  /fp_renewal/inputs/contact/sex  = 'Homme', 'Masculin', if( /fp_renewal/inputs/contact/sex  = 'female' or  /fp_renewal/inputs/contact/sex  = 'femme' or  /fp_renewal/inputs/contact/sex  = 'Femme', 'Féminin', ''))"/>
+      <bind nodeset="/fp_renewal/patient_family_name" type="string" calculate="coalesce(../inputs/contact/parent/name, /fp_renewal/inputs/t_family_name )"/>
+      <bind nodeset="/fp_renewal/patient_phone" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/fp_renewal/patient_phone_to_show" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/fp_renewal/patient_family_external_id" type="string" calculate="coalesce(../inputs/contact/parent/external_id, /fp_renewal/inputs/t_family_external_id )"/>
+      <bind nodeset="/fp_renewal/visited_contact_uuid" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/fp_renewal/today_decimal_date" type="string" calculate="coalesce( /fp_renewal/today_decimal_date ,decimal-date-time(today()))"/>
+      <bind nodeset="/fp_renewal/household_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/fp_renewal/village_secteur_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/fp_renewal/district_quartier_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/fp_renewal/hospital_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/fp_renewal/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/fp_renewal/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/fp_renewal/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/fp_renewal/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/fp_renewal/last_fp_renew_date" type="string" calculate=" /fp_renewal/inputs/t_next_fp_renew_date "/>
+      <bind nodeset="/fp_renewal/last_fp_renew_date_fr" type="string" calculate="if(../last_fp_renew_date = '','',format-date-time( decimal-date-time(../last_fp_renew_date), &quot;%d/%m/%Y&quot; ))"/>
+      <bind nodeset="/fp_renewal/begin_method_start_date" type="string" calculate=" /fp_renewal/inputs/t_method_start_date "/>
+      <bind nodeset="/fp_renewal/begin_method_start_date_fr" type="string" calculate="if(../begin_method_start_date = '','',format-date-time( decimal-date-time(../begin_method_start_date), &quot;%d/%m/%Y&quot; ))"/>
+      <bind nodeset="/fp_renewal/method_was_given" type="string" calculate="if(../renew_fp/c_method_was_renew = '' or ../renew_fp/c_method_was_renew = '','',if(../renew_fp/c_method_was_renew = 'yes','true','false'))"/>
+      <bind nodeset="/fp_renewal/method_start_date" type="string" calculate="if(../method_was_given != 'true','',if(../renew_fp/c_method_start_today = 'yes',format-date-time( decimal-date-time( today() ), &quot;%Y-%m-%d&quot; ),../renew_fp/c_method_start_date))"/>
+      <bind nodeset="/fp_renewal/method_not_given_reason" type="string" calculate="../renew_fp/c_method_not_given_reason"/>
+      <bind nodeset="/fp_renewal/method_not_given_reason_name" type="string" calculate="if( /fp_renewal/method_not_given_reason  = '','',jr:choice-name(../renew_fp/c_method_not_given_reason,' /fp_renewal/method_not_given_reason '))"/>
+      <bind nodeset="/fp_renewal/fp_method" type="string" calculate=" /fp_renewal/inputs/t_fp_method "/>
+      <bind nodeset="/fp_renewal/fp_method_name" type="string" calculate=" /fp_renewal/inputs/t_fp_method_name "/>
+      <bind nodeset="/fp_renewal/fp_method_duration" type="string" calculate="if(../fp_method = '',0,if(../fp_method = 'dmpa_sc',90,if(../renew_fp/c_method_months_count = 0,if(../renew_fp/c_method_days_count = '',0,../renew_fp/c_method_days_count),../renew_fp/c_method_months_count * 30)))"/>
+      <bind nodeset="/fp_renewal/next_fp_renew_date" type="string" calculate="if(../method_start_date = '','',format-date-time( decimal-date-time(../method_start_date) + ../fp_method_duration, &quot;%Y-%m-%d&quot; ))"/>
+      <bind nodeset="/fp_renewal/next_fp_renew_date_fr" type="string" calculate="if(../next_fp_renew_date = '','',format-date-time( decimal-date-time(../next_fp_renew_date), &quot;%d/%m/%Y&quot; ))"/>
+      <bind nodeset="/fp_renewal/has_fp_side_effect" type="string" calculate="if(selected( /fp_renewal/renew_fp/c_method_not_given_reason ,'side_effect'),'true','false')"/>
+      <bind nodeset="/fp_renewal/is_fp_referal" type="string" calculate="if(../renew_fp/c_change_method = 'no' and ../renew_fp/c_method_was_renew = 'no' and (selected(../renew_fp/c_method_not_given_reason,'on_break') or selected(../renew_fp/c_method_not_given_reason,'side_effect')),'true','false')"/>
+      <bind nodeset="/fp_renewal/is_health_problem_referal" type="string" calculate="if(../renew_fp/c_change_method = 'no' and ../renew_fp/c_method_was_renew = 'no' and selected(../renew_fp/c_method_not_given_reason,'health_problem'),'true','false')"/>
+      <bind nodeset="/fp_renewal/method_months_count_1" type="string" calculate=" /fp_renewal/renew_fp/c_method_months_count_1 "/>
+      <bind nodeset="/fp_renewal/method_months_count_2" type="string" calculate=" /fp_renewal/renew_fp/c_method_months_count_2 "/>
+      <bind nodeset="/fp_renewal/condoms_quantity_given" type="string" calculate=" /fp_renewal/renew_fp/c_condoms_quantity_given "/>
+      <bind nodeset="/fp_renewal/is_referred" type="string" calculate="if(../is_fp_referal = 'true' or ../is_health_problem_referal = 'true','true','false')"/>
+      <bind nodeset="/fp_renewal/i_patient_details/i_patient_family_name" readonly="true()" type="string"/>
+      <bind nodeset="/fp_renewal/i_patient_details/i_patient_family_ext_id" readonly="true()" type="string"/>
+      <bind nodeset="/fp_renewal/i_patient_details/i_patient_name" readonly="true()" type="string"/>
+      <bind nodeset="/fp_renewal/i_patient_details/i_code_patient" readonly="true()" type="string"/>
+      <bind nodeset="/fp_renewal/i_patient_details/i_patient_phone" readonly="true()" type="string"/>
+      <bind nodeset="/fp_renewal/i_patient_details/i_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/fp_renewal/i_patient_details/i_last_methode_pf" readonly="true()" type="string"/>
+      <bind nodeset="/fp_renewal/i_patient_details/i_method_start_date" readonly="true()" type="string"/>
+      <bind nodeset="/fp_renewal/i_patient_details/i_next_date_pf" readonly="true()" type="string"/>
+      <bind nodeset="/fp_renewal/renew_fp/c_change_method" type="select1" required="true()" jr:requiredMsg="jr:itext('/fp_renewal/renew_fp/c_change_method:jr:requiredMsg')"/>
+      <bind nodeset="/fp_renewal/renew_fp/c_new_method_note" readonly="true()" type="string" relevant="../c_change_method = 'yes'"/>
+      <bind nodeset="/fp_renewal/renew_fp/c_method_was_renew" type="select1" jr:requiredMsg="jr:itext('/fp_renewal/renew_fp/c_method_was_renew:jr:requiredMsg')" required="true()" relevant="../c_change_method = 'no'"/>
+      <bind nodeset="/fp_renewal/renew_fp/c_method_not_given_reason" type="select1" jr:requiredMsg="jr:itext('/fp_renewal/renew_fp/c_method_not_given_reason:jr:requiredMsg')" required="true()" relevant="../c_change_method = 'no' and ../c_method_was_renew = 'no'"/>
+      <bind nodeset="/fp_renewal/renew_fp/c_method_not_given_health_problem_reason" type="string" relevant="../c_change_method = 'no' and ../c_method_was_renew = 'no' and selected(../c_method_not_given_reason,'health_problem')"/>
+      <bind nodeset="/fp_renewal/renew_fp/c_method_months_count_1" type="select1" jr:requiredMsg="jr:itext('/fp_renewal/renew_fp/c_method_months_count_1:jr:requiredMsg')" required="true()" relevant="../c_change_method = 'no' and ../c_method_was_renew = 'yes' and  /fp_renewal/fp_method  != 'dmpa_sc' and  /fp_renewal/fp_method  != 'condoms'"/>
+      <bind nodeset="/fp_renewal/renew_fp/c_method_months_count_2" type="select1" jr:requiredMsg="jr:itext('/fp_renewal/renew_fp/c_method_months_count_2:jr:requiredMsg')" required="true()" relevant="../c_change_method = 'no' and ../c_method_was_renew = 'yes' and  /fp_renewal/fp_method  != 'dmpa_sc' and  /fp_renewal/fp_method  = 'condoms'"/>
+      <bind nodeset="/fp_renewal/renew_fp/c_method_months_count" type="string" calculate="if( /fp_renewal/fp_method  != 'condoms', /fp_renewal/renew_fp/c_method_months_count_1 , /fp_renewal/renew_fp/c_method_months_count_2 )" required="true()"/>
+      <bind nodeset="/fp_renewal/renew_fp/c_method_days_count" type="int" relevant="../c_change_method = 'no' and ../c_method_was_renew = 'yes' and  /fp_renewal/fp_method  != 'dmpa_sc' and ../c_method_months_count = 0" required="true()" jr:constraintMsg="jr:itext('/fp_renewal/renew_fp/c_method_days_count:jr:constraintMsg')" jr:requiredMsg="jr:itext('/fp_renewal/renew_fp/c_method_days_count:jr:requiredMsg')" constraint=". &gt;= 1 and . &lt; 30"/>
+      <bind nodeset="/fp_renewal/renew_fp/c_condoms_quantity_given" type="int" relevant="../c_change_method = 'no' and ../c_method_was_renew = 'yes' and  /fp_renewal/fp_method  != 'dmpa_sc' and  /fp_renewal/fp_method  = 'condoms'" required="true()" jr:constraintMsg="jr:itext('/fp_renewal/renew_fp/c_condoms_quantity_given:jr:constraintMsg')" jr:requiredMsg="jr:itext('/fp_renewal/renew_fp/c_condoms_quantity_given:jr:requiredMsg')" constraint=". &gt;= 0"/>
+      <bind nodeset="/fp_renewal/renew_fp/c_method_start_today" type="select1" jr:requiredMsg="jr:itext('/fp_renewal/renew_fp/c_method_start_today:jr:requiredMsg')" required="true()" relevant="../c_change_method = 'no' and ../c_method_was_renew = 'yes'"/>
+      <bind nodeset="/fp_renewal/renew_fp/c_method_start_date" type="date" jr:requiredMsg="jr:itext('/fp_renewal/renew_fp/c_method_start_date:jr:requiredMsg')" required="true()" relevant="../c_change_method = 'no' and ../c_method_was_renew = 'yes' and ../c_method_start_today = 'no'"/>
+      <bind nodeset="/fp_renewal/s_group_review/s_summary" readonly="true()" type="string"/>
+      <bind nodeset="/fp_renewal/s_group_review/s_patient_info_name" readonly="true()" type="string"/>
+      <bind nodeset="/fp_renewal/s_group_review/s_patient_info_sex" readonly="true()" type="string"/>
+      <bind nodeset="/fp_renewal/s_group_review/s_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/fp_renewal/s_group_review/s_refer_USP" readonly="true()" type="string" relevant=" /fp_renewal/is_referred  = 'true'"/>
+      <bind nodeset="/fp_renewal/s_group_review/s_refer_FS_FP_renew" readonly="true()" type="string" relevant=" /fp_renewal/is_referred  = 'true' and selected( /fp_renewal/renew_fp/c_method_not_given_reason ,'on_break')"/>
+      <bind nodeset="/fp_renewal/s_group_review/s_refer_FS_health_problem" readonly="true()" type="string" relevant=" /fp_renewal/is_referred  = 'true' and selected( /fp_renewal/renew_fp/c_method_not_given_reason ,'health_problem')"/>
+      <bind nodeset="/fp_renewal/s_group_review/s_referal_health_center" type="select1" relevant=" /fp_renewal/is_referred  = 'true'"/>
+      <bind nodeset="/fp_renewal/s_group_review/s_other_referal_health_center" type="string" relevant=" /fp_renewal/is_referred  = 'true' and ../s_referal_health_center = 'others'"/>
+      <bind nodeset="/fp_renewal/s_group_review/s_followup" readonly="true()" type="string"/>
+      <bind nodeset="/fp_renewal/s_group_review/s_next_visit_date_renew_pf" readonly="true()" type="string" relevant=" /fp_renewal/is_referred  != 'true' and  /fp_renewal/next_fp_renew_date  != ''"/>
+      <bind nodeset="/fp_renewal/s_group_review/s_referal_followup" readonly="true()" type="string" relevant=" /fp_renewal/is_referred  = 'true'"/>
+      <bind nodeset="/fp_renewal/s_group_review/s_no_followup" readonly="true()" type="string" relevant=" /fp_renewal/is_referred  = 'false' and  /fp_renewal/next_fp_renew_date  = ''"/>
+      <bind nodeset="/fp_renewal/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/fp_renewal/inputs">
+      <label ref="jr:itext('/fp_renewal/inputs:label')"/>
+      <input appearance="hidden" ref="/fp_renewal/inputs/source">
+        <label ref="jr:itext('/fp_renewal/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_renewal/inputs/source_id">
+        <label ref="jr:itext('/fp_renewal/inputs/source_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_renewal/inputs/t_fp_method">
+        <label ref="jr:itext('/fp_renewal/inputs/t_fp_method:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_renewal/inputs/t_fp_method_name">
+        <label ref="jr:itext('/fp_renewal/inputs/t_fp_method_name:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_renewal/inputs/t_next_fp_renew_date">
+        <label ref="jr:itext('/fp_renewal/inputs/t_next_fp_renew_date:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_renewal/inputs/t_method_start_date">
+        <label ref="jr:itext('/fp_renewal/inputs/t_method_start_date:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_renewal/inputs/t_family_id">
+        <label ref="jr:itext('/fp_renewal/inputs/t_family_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_renewal/inputs/t_family_name">
+        <label ref="jr:itext('/fp_renewal/inputs/t_family_name:label')"/>
+      </input>
+      <input appearance="hidden" ref="/fp_renewal/inputs/t_family_external_id">
+        <label ref="jr:itext('/fp_renewal/inputs/t_family_external_id:label')"/>
+      </input>
+      <group ref="/fp_renewal/inputs/user">
+        <label ref="jr:itext('/fp_renewal/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/fp_renewal/inputs/user/contact_id">
+          <label ref="jr:itext('/fp_renewal/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/fp_renewal/inputs/user/name">
+          <label ref="jr:itext('/fp_renewal/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/fp_renewal/inputs/user/phone">
+          <label ref="jr:itext('/fp_renewal/inputs/user/phone:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/fp_renewal/inputs/contact">
+        <label ref="jr:itext('/fp_renewal/inputs/contact:label')"/>
+        <input appearance="db-object bind-id-only" ref="/fp_renewal/inputs/contact/_id">
+          <label ref="jr:itext('/fp_renewal/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/fp_renewal/inputs/contact/name">
+          <label ref="jr:itext('/fp_renewal/inputs/contact/name:label')"/>
+        </input>
+        <input ref="/fp_renewal/inputs/contact/sex">
+          <label ref="jr:itext('/fp_renewal/inputs/contact/sex:label')"/>
+        </input>
+        <input ref="/fp_renewal/inputs/contact/date_of_birth">
+          <label ref="jr:itext('/fp_renewal/inputs/contact/date_of_birth:label')"/>
+        </input>
+        <input ref="/fp_renewal/inputs/contact/external_id">
+          <label ref="jr:itext('/fp_renewal/inputs/contact/external_id:label')"/>
+        </input>
+        <input ref="/fp_renewal/inputs/contact/phone">
+          <label ref="jr:itext('/fp_renewal/inputs/contact/phone:label')"/>
+        </input>
+        <group ref="/fp_renewal/inputs/contact/parent">
+          <label ref="jr:itext('/fp_renewal/inputs/contact/parent:label')"/>
+          <input ref="/fp_renewal/inputs/contact/parent/_id">
+            <label ref="jr:itext('/fp_renewal/inputs/contact/parent/_id:label')"/>
+          </input>
+          <input ref="/fp_renewal/inputs/contact/parent/name">
+            <label ref="jr:itext('/fp_renewal/inputs/contact/parent/name:label')"/>
+          </input>
+          <input ref="/fp_renewal/inputs/contact/parent/external_id">
+            <label ref="jr:itext('/fp_renewal/inputs/contact/parent/external_id:label')"/>
+          </input>
+          <group ref="/fp_renewal/inputs/contact/parent/parent">
+            <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent:label')"/>
+            <input ref="/fp_renewal/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/fp_renewal/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/fp_renewal/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/fp_renewal/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/fp_renewal/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                    <group ref="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      <input ref="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id">
+                        <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                      </input>
+                      <group ref="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                        <input ref="/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id">
+                          <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                        </input>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+            <group ref="/fp_renewal/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/contact:label')"/>
+              <input appearance="db-object bind-id-only" ref="/fp_renewal/inputs/contact/parent/parent/contact/_id">
+                <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/contact/_id:label')"/>
+              </input>
+              <input ref="/fp_renewal/inputs/contact/parent/parent/contact/name">
+                <label ref="jr:itext('/fp_renewal/inputs/contact/parent/parent/contact/name:label')"/>
+              </input>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list summary" ref="/fp_renewal/i_patient_details">
+      <label ref="jr:itext('/fp_renewal/i_patient_details:label')"/>
+      <input appearance="li" ref="/fp_renewal/i_patient_details/i_patient_family_name">
+        <label ref="jr:itext('/fp_renewal/i_patient_details/i_patient_family_name:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_renewal/i_patient_details/i_patient_family_ext_id">
+        <label ref="jr:itext('/fp_renewal/i_patient_details/i_patient_family_ext_id:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_renewal/i_patient_details/i_patient_name">
+        <label ref="jr:itext('/fp_renewal/i_patient_details/i_patient_name:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_renewal/i_patient_details/i_code_patient">
+        <label ref="jr:itext('/fp_renewal/i_patient_details/i_code_patient:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_renewal/i_patient_details/i_patient_phone">
+        <label ref="jr:itext('/fp_renewal/i_patient_details/i_patient_phone:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_renewal/i_patient_details/i_patient_info_age">
+        <label ref="jr:itext('/fp_renewal/i_patient_details/i_patient_info_age:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_renewal/i_patient_details/i_last_methode_pf">
+        <label ref="jr:itext('/fp_renewal/i_patient_details/i_last_methode_pf:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_renewal/i_patient_details/i_method_start_date">
+        <label ref="jr:itext('/fp_renewal/i_patient_details/i_method_start_date:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_renewal/i_patient_details/i_next_date_pf">
+        <label ref="jr:itext('/fp_renewal/i_patient_details/i_next_date_pf:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/fp_renewal/renew_fp">
+      <label ref="jr:itext('/fp_renewal/renew_fp:label')"/>
+      <select1 appearance="columns" ref="/fp_renewal/renew_fp/c_change_method">
+        <label ref="jr:itext('/fp_renewal/renew_fp/c_change_method:label')"/>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_change_method/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_change_method/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/fp_renewal/renew_fp/c_new_method_note">
+        <label ref="jr:itext('/fp_renewal/renew_fp/c_new_method_note:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/fp_renewal/renew_fp/c_method_was_renew">
+        <label ref="jr:itext('/fp_renewal/renew_fp/c_method_was_renew:label')"/>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_was_renew/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_was_renew/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fp_renewal/renew_fp/c_method_not_given_reason">
+        <label ref="jr:itext('/fp_renewal/renew_fp/c_method_not_given_reason:label')"/>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_not_given_reason/side_effect:label')"/>
+          <value>side_effect</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_not_given_reason/health_problem:label')"/>
+          <value>health_problem</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_not_given_reason/refusal:label')"/>
+          <value>refusal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_not_given_reason/think_about_it:label')"/>
+          <value>think_about_it</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_not_given_reason/want_babies:label')"/>
+          <value>want_babies</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_not_given_reason/postponed:label')"/>
+          <value>postponed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_not_given_reason/no_answer:label')"/>
+          <value>no_answer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_not_given_reason/on_break:label')"/>
+          <value>on_break</value>
+        </item>
+      </select1>
+      <input ref="/fp_renewal/renew_fp/c_method_not_given_health_problem_reason">
+        <label ref="jr:itext('/fp_renewal/renew_fp/c_method_not_given_health_problem_reason:label')"/>
+      </input>
+      <select1 ref="/fp_renewal/renew_fp/c_method_months_count_1">
+        <label ref="jr:itext('/fp_renewal/renew_fp/c_method_months_count_1:label')"/>
+        <itemset nodeset="instance('method_month_count_list')/root/item[filter &gt; 0]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+      <select1 ref="/fp_renewal/renew_fp/c_method_months_count_2">
+        <label ref="jr:itext('/fp_renewal/renew_fp/c_method_months_count_2:label')"/>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_months_count_2/0:label')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_months_count_2/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_months_count_2/2:label')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_months_count_2/3:label')"/>
+          <value>3</value>
+        </item>
+      </select1>
+      <input ref="/fp_renewal/renew_fp/c_method_days_count">
+        <label ref="jr:itext('/fp_renewal/renew_fp/c_method_days_count:label')"/>
+        <hint ref="jr:itext('/fp_renewal/renew_fp/c_method_days_count:hint')"/>
+      </input>
+      <input ref="/fp_renewal/renew_fp/c_condoms_quantity_given">
+        <label ref="jr:itext('/fp_renewal/renew_fp/c_condoms_quantity_given:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/fp_renewal/renew_fp/c_method_start_today">
+        <label ref="jr:itext('/fp_renewal/renew_fp/c_method_start_today:label')"/>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_start_today/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/renew_fp/c_method_start_today/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/fp_renewal/renew_fp/c_method_start_date">
+        <label ref="jr:itext('/fp_renewal/renew_fp/c_method_start_date:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/fp_renewal/s_group_review">
+      <label ref="jr:itext('/fp_renewal/s_group_review:label')"/>
+      <input appearance="h1 yellow" ref="/fp_renewal/s_group_review/s_summary">
+        <label ref="jr:itext('/fp_renewal/s_group_review/s_summary:label')"/>
+      </input>
+      <input appearance="center" ref="/fp_renewal/s_group_review/s_patient_info_name">
+        <label ref="jr:itext('/fp_renewal/s_group_review/s_patient_info_name:label')"/>
+      </input>
+      <input appearance="center" ref="/fp_renewal/s_group_review/s_patient_info_sex">
+        <label ref="jr:itext('/fp_renewal/s_group_review/s_patient_info_sex:label')"/>
+      </input>
+      <input appearance="center" ref="/fp_renewal/s_group_review/s_patient_info_age">
+        <label ref="jr:itext('/fp_renewal/s_group_review/s_patient_info_age:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/fp_renewal/s_group_review/s_refer_USP">
+        <label ref="jr:itext('/fp_renewal/s_group_review/s_refer_USP:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_renewal/s_group_review/s_refer_FS_FP_renew">
+        <label ref="jr:itext('/fp_renewal/s_group_review/s_refer_FS_FP_renew:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_renewal/s_group_review/s_refer_FS_health_problem">
+        <label ref="jr:itext('/fp_renewal/s_group_review/s_refer_FS_health_problem:label')"/>
+      </input>
+      <select1 ref="/fp_renewal/s_group_review/s_referal_health_center">
+        <label ref="jr:itext('/fp_renewal/s_group_review/s_referal_health_center:label')"/>
+        <item>
+          <label ref="jr:itext('/fp_renewal/s_group_review/s_referal_health_center/health_center:label')"/>
+          <value>health_center</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/s_group_review/s_referal_health_center/health_poste:label')"/>
+          <value>health_poste</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fp_renewal/s_group_review/s_referal_health_center/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/fp_renewal/s_group_review/s_other_referal_health_center">
+        <label ref="jr:itext('/fp_renewal/s_group_review/s_other_referal_health_center:label')"/>
+      </input>
+      <input appearance="h1 green" ref="/fp_renewal/s_group_review/s_followup">
+        <label ref="jr:itext('/fp_renewal/s_group_review/s_followup:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_renewal/s_group_review/s_next_visit_date_renew_pf">
+        <label ref="jr:itext('/fp_renewal/s_group_review/s_next_visit_date_renew_pf:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_renewal/s_group_review/s_referal_followup">
+        <label ref="jr:itext('/fp_renewal/s_group_review/s_referal_followup:label')"/>
+      </input>
+      <input appearance="li" ref="/fp_renewal/s_group_review/s_no_followup">
+        <label ref="jr:itext('/fp_renewal/s_group_review/s_no_followup:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

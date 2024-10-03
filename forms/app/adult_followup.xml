@@ -1,0 +1,1984 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>SUIVI ADULTE</h:title>
+    <model>
+      <itext>
+        <translation lang="fr">
+          <text id="/adult_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/adult_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/adult_followup/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/adult_followup/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/adult_followup/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/adult_followup/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/contact:label">
+            <value>Information du RECO</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/adult_followup/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/adult_followup/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/adult_followup/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/adult_followup/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/adult_followup/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/adult_followup/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/adult_followup/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/adult_followup/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/adult_followup/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/adult_followup/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/adult_followup/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/adult_followup/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/adult_followup/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/adult_followup/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/adult_followup/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/adult_followup/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/adult_followup/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/adult_followup/patient_family_name:label">
+            <value>Nom du ménage</value>
+          </text>
+          <text id="/adult_followup/patient_phone:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/adult_followup/patient_phone_to_show:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/adult_followup/patient_family_external_id:label">
+            <value>Numéro du ménage</value>
+          </text>
+          <text id="/adult_followup/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/adult_followup/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/adult_followup/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/adult_followup/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/adult_followup/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/adult_followup/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/adult_followup/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/adult_followup/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/adult_followup/visited_contact_uuid:label">
+            <value>Identifiant de la famille</value>
+          </text>
+          <text id="/adult_followup/patient_infos:label">
+            <value>DÉTAILS DU PATIENT</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_patient_family_name:label">
+            <value>Nom du ménage : **<output value=" /adult_followup/patient_family_name "/>**</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_patient_family_ext_id:label">
+            <value>Numéro du ménage : **<output value=" /adult_followup/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_patient_name:label">
+            <value>Nom du patient : **<output value=" /adult_followup/patient_name_to_show "/>**</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_code_patient:label">
+            <value>Code du patient : **<output value=" /adult_followup/patient_external_id_to_show "/>**</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_patient_info_age:label">
+            <value>Âge : **<output value=" /adult_followup/patient_age_display_fr "/>**</value>
+          </text>
+          <text id="/adult_followup/patient_infos/last_consul_details:label">
+            <value>&lt;br&gt;&lt;strong style="color: rgb(1, 34, 118);"&gt;DÉTAILS DE LA DERNIÈRE CONSULTATION&lt;/strong&gt;</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_malaria:label">
+            <value>Paludisme</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_fever:label">
+            <value>Fievre simple</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_diarrhea:label">
+            <value>Diarrhéé</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_yellow_fever:label">
+            <value>Fièvre jaune</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_tetanus_:label">
+            <value>Tétanos</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_cough_or_cold:label">
+            <value>Toux ou Rhume</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_viral_diseases:label">
+            <value>Maladies virales</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_acute_flaccid_paralysis:label">
+            <value>Paralysie flasque aiguë</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_meningitis:label">
+            <value>Méningite</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_miscarriage:label">
+            <value>Fausse couche</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_traffic_accidents:label">
+            <value>Accident de la circulation</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_burns:label">
+            <value>Brûlure</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_suspected_tb:label">
+            <value>Cas suspects de TB</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_dermatosis:label">
+            <value>Dermatose</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_bloody_diarrhea:label">
+            <value>Diarrhée sanglante</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_urethral_discharge:label">
+            <value>Ecoulement uretale</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_vaginal_discharge:label">
+            <value>Ecoulement vaginal</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_loss_of_urine_:label">
+            <value>Perte urinaire</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_accidental_ingestion_of_caustic_products:label">
+            <value>Ingestion accidentelle de produits caustiques</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_food_poisoning:label">
+            <value>Intoxication alimentaire</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_oral_and_dental_diseases:label">
+            <value>Maladies bucco-dentaires</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_dog_bites:label">
+            <value>Morsure de chien</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_snake_bite:label">
+            <value>Morsure de serpent</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_parasitosis:label">
+            <value>Parasitose</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_measles:label">
+            <value>Rougeole</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_trauma:label">
+            <value>Traumatisme</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_gender_based_violence:label">
+            <value>Violence basées sur le genre (VBG)</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_vomit:label">
+            <value>Vomir</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_headaches:label">
+            <value>Maux de tête</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_abdominal_pain:label">
+            <value>Douleur abdominale</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_bleeding:label">
+            <value>Saignement</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_feel_pain_injection:label">
+            <value>Douleur à l'endroit de l'injection</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_health_center_FP:label">
+            <value>Centre de santé Planification Familiale</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_cpn_not_performed:label">
+            <value>CPN (nbre CPN) non réalisé</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_td_1:label">
+            <value>Td 1 non fait</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_td_2:label">
+            <value>Td 2 non fait</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_danger_sign:label">
+            <value>Présence de signe de danger</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_fp_side_effect:label">
+            <value>Effet secondaire PF</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_domestic_violence:label">
+            <value>Violence conjugale</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_afp:label">
+            <value>PFA (Paralysie Flasque Aiguë)</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_cholera:label">
+            <value>Choléra</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_other_health_problems:label">
+            <value><output value=" /adult_followup/inputs/t_other_problems "/></value>
+          </text>
+          <text id="/adult_followup/patient_presence:label">
+            <value>PRÉSENCE DU PATIENT</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_is_present:label">
+            <value>Le patient est-il présent ?</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_is_present/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_is_present/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_absence_reasons:label">
+            <value>Motif d'absence</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_absence_reasons/observation:label">
+            <value>Observation</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_absence_reasons/hospitalized:label">
+            <value>Hospitalisé</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_absence_reasons/patient_Absent:label">
+            <value>Patient Absent</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_absence_reasons/others:label">
+            <value>Autre Motif</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_other_absence_reasons:label">
+            <value>Saisir l'autre motif d'absence</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_reference_health_facility:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_reference_health_facility:label">
+            <value>Le patient est-il allé dans une structure de santé après sa dernière référence ?</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_reference_health_facility/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_reference_health_facility/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_coupon_available:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_coupon_available:label">
+            <value>Coupon de contre référence est-il disponible ?</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_coupon_available/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_coupon_available/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_coupon_number:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_coupon_number:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_coupon_number:label">
+            <value>Numéro du Coupon de contre référence</value>
+          </text>
+          <text id="/adult_followup/patient_status:label">
+            <value>ÉTAT DU PATIENT</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_state:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_state:label">
+            <value>Comment trouvez-vous l'état du patient?</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_state/cured:label">
+            <value>Guéri</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_state/improvement:label">
+            <value>Amélioration</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_state/no_improvement:label">
+            <value>Pas d'amélioration</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_state/getting_worse:label">
+            <value>S'aggrave</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_state/new_complaint:label">
+            <value>Nouvelle plainte</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_new_form:label">
+            <value>**Veuillez refaire une nouvelle consultation pour prendre en compte les nouvelles plaintes**</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_taking_meg:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_taking_meg:label">
+            <value>Est-ce que le patient prend bien ses médicaments ?</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_taking_meg/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_taking_meg/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_advise_note:label">
+            <value>Conseiller et montrer l'importance de la bonne prise de médicament.</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_congratulate_note:label">
+            <value>Féliciter et encourager le patient</value>
+          </text>
+          <text id="/adult_followup/group_review/s_summary:label">
+            <value>Détails du Patient &lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/adult_followup/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /adult_followup/patient_name_to_show "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/adult_followup/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /adult_followup/patient_sex_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/adult_followup/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /adult_followup/patient_age_display_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/adult_followup/group_review/s_informations:label">
+            <value>INFORMATIONS</value>
+          </text>
+          <text id="/adult_followup/group_review/s_cured:label">
+            <value>L'enfant est Guéri</value>
+          </text>
+          <text id="/adult_followup/group_review/s_improvement:label">
+            <value>L'etat de l'enfant s'Améliore</value>
+          </text>
+          <text id="/adult_followup/group_review/s_new_complaint:label">
+            <value>L'enafnt a une nouvelle plainte</value>
+          </text>
+          <text id="/adult_followup/group_review/sign_danger_dectected:label">
+            <value>SIGNES DE DANGER DÉTECTÉS</value>
+          </text>
+          <text id="/adult_followup/group_review/no_improvement:label">
+            <value>Pas d'amélioration</value>
+          </text>
+          <text id="/adult_followup/group_review/getting_worse:label">
+            <value>S'aggrave</value>
+          </text>
+          <text id="/adult_followup/group_review/s_refer_USP:label">
+            <value>Référence vers une formation sanitaire</value>
+          </text>
+          <text id="/adult_followup/group_review/s_refer_HC:label">
+            <value>Veuillez référer le patient dans une structure sanitaire pour **état de santé non amélioré **</value>
+          </text>
+          <text id="/adult_followup/group_review/s_referal_health_center:label">
+            <value>Selectionner le centre de santé de référence</value>
+          </text>
+          <text id="/adult_followup/group_review/s_referal_health_center/health_center:label">
+            <value>Centre de santé</value>
+          </text>
+          <text id="/adult_followup/group_review/s_referal_health_center/health_poste:label">
+            <value>Poste de santé</value>
+          </text>
+          <text id="/adult_followup/group_review/s_referal_health_center/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/adult_followup/group_review/s_other_referal_health_center:label">
+            <value>Saisir le nom de la formation sanitaire de référence</value>
+          </text>
+          <text id="/adult_followup/group_review/followup:label">
+            <value>Suivi</value>
+          </text>
+          <text id="/adult_followup/group_review/s_next_visit_date:label">
+            <value>La visite de suivi référence de ce patient est dans **3 jours**</value>
+          </text>
+          <text id="/adult_followup/group_review/s_no_next_visit:label">
+            <value>Aucun suivi ne sera créé</value>
+          </text>
+        </translation>
+        <translation lang="en">
+          <text id="/adult_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/adult_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/adult_followup/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/adult_followup/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/adult_followup/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/adult_followup/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/adult_followup/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/adult_followup/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/adult_followup/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/adult_followup/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/adult_followup/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/adult_followup/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/adult_followup/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/adult_followup/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/adult_followup/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/adult_followup/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/adult_followup/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/adult_followup/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/adult_followup/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/adult_followup/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/adult_followup/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/adult_followup/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/adult_followup/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/adult_followup/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/adult_followup/patient_family_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/adult_followup/patient_phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/adult_followup/patient_phone_to_show:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/adult_followup/patient_family_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/adult_followup/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/adult_followup/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/adult_followup/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/adult_followup/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/adult_followup/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/adult_followup/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/adult_followup/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/adult_followup/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/adult_followup/visited_contact_uuid:label">
+            <value>Family Id</value>
+          </text>
+          <text id="/adult_followup/patient_infos:label">
+            <value>PATIENT DETAILS</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_patient_family_name:label">
+            <value>Family name : **<output value=" /adult_followup/patient_family_name "/>**</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_patient_family_ext_id:label">
+            <value>Family External ID : **<output value=" /adult_followup/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_patient_name:label">
+            <value>Patient name : **<output value=" /adult_followup/patient_name_to_show "/>**</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_code_patient:label">
+            <value>Patient code : **<output value=" /adult_followup/patient_external_id_to_show "/>**</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_patient_info_age:label">
+            <value>Age : **<output value=" /adult_followup/patient_age_display_en "/>**</value>
+          </text>
+          <text id="/adult_followup/patient_infos/last_consul_details:label">
+            <value>&lt;br&gt;&lt;strong style="color: rgb(1, 34, 118);"&gt;LAST CONSULTATION DETAILS&lt;/strong&gt;</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_malaria:label">
+            <value>Malaria</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_fever:label">
+            <value>Fever</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_diarrhea:label">
+            <value>Diarrhea</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_yellow_fever:label">
+            <value>Yellow fever</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_tetanus_:label">
+            <value>Tetanus</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_cough_or_cold:label">
+            <value>Cough or cold</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_viral_diseases:label">
+            <value>Viral diseases</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_acute_flaccid_paralysis:label">
+            <value>Acute flaccid paralysis</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_meningitis:label">
+            <value>Meningitis</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_miscarriage:label">
+            <value>Miscarriage</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_traffic_accidents:label">
+            <value>Traffic accidents</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_burns:label">
+            <value>Burns</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_suspected_tb:label">
+            <value>Suspected TB</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_dermatosis:label">
+            <value>Dermatosis</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_bloody_diarrhea:label">
+            <value>Bloody diarrhea</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_urethral_discharge:label">
+            <value>Urethral discharge</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_vaginal_discharge:label">
+            <value>Vaginal discharge</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_loss_of_urine_:label">
+            <value>Loss of urine</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_accidental_ingestion_of_caustic_products:label">
+            <value>Accidental ingestion of caustic products</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_food_poisoning:label">
+            <value>Food poisoning</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_oral_and_dental_diseases:label">
+            <value>Oral and dental diseases</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_dog_bites:label">
+            <value>Dog bites</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_snake_bite:label">
+            <value>Snake bite</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_parasitosis:label">
+            <value>Parasitosis</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_measles:label">
+            <value>Measles</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_trauma:label">
+            <value>Trauma</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_gender_based_violence:label">
+            <value>Gender-based violence (GBV)</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_vomit:label">
+            <value>Vomit</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_headaches:label">
+            <value>Headaches</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_abdominal_pain:label">
+            <value>Abdominal pain</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_bleeding:label">
+            <value>Bleeding</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_feel_pain_injection:label">
+            <value>Feel pain injection</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_health_center_FP:label">
+            <value>Health center Family Planning</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_cpn_not_performed:label">
+            <value>CPN not performed</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_td_1:label">
+            <value>Td 1</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_td_2:label">
+            <value>Td 2</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_danger_sign:label">
+            <value>Danger sign</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_fp_side_effect:label">
+            <value>FP side effect</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_domestic_violence:label">
+            <value>Domestic violence</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_afp:label">
+            <value>AFP (Acute Flaccid Paralysis)</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_cholera:label">
+            <value>Cholera</value>
+          </text>
+          <text id="/adult_followup/patient_infos/i_other_health_problems:label">
+            <value><output value=" /adult_followup/inputs/t_other_problems "/></value>
+          </text>
+          <text id="/adult_followup/patient_presence:label">
+            <value>PATIENT PRESENCE</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_is_present:label">
+            <value>Is the patient present?</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_is_present/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_is_present/no:label">
+            <value>No</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_absence_reasons:label">
+            <value>Reason for absence</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_absence_reasons/observation:label">
+            <value>Observation</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_absence_reasons/hospitalized:label">
+            <value>Hospitalized</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_absence_reasons/patient_Absent:label">
+            <value>Patient Absent</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_absence_reasons/others:label">
+            <value>Other reason</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_other_absence_reasons:label">
+            <value>Enter other reason for absence</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_reference_health_facility:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_reference_health_facility:label">
+            <value>Did the patient go to a health facility after his last referral?</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_reference_health_facility/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_reference_health_facility/no:label">
+            <value>No</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_coupon_available:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_coupon_available:label">
+            <value>Is the counter-referral coupon available?</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_coupon_available/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_coupon_available/no:label">
+            <value>No</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_coupon_number:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_coupon_number:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/adult_followup/patient_presence/c_coupon_number:label">
+            <value>Counter-referral coupon number</value>
+          </text>
+          <text id="/adult_followup/patient_status:label">
+            <value>PATIENT STATUS</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_state:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_state:label">
+            <value>How do you rate the patient's condition?</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_state/cured:label">
+            <value>Cured</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_state/improvement:label">
+            <value>Improvement</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_state/no_improvement:label">
+            <value>No improvement</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_state/getting_worse:label">
+            <value>Getting worse</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_state/new_complaint:label">
+            <value>New complaint</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_new_form:label">
+            <value>**Please do another consultation to take new complaints into account**</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_taking_meg:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_taking_meg:label">
+            <value>Is the patient taking his medication properly?</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_taking_meg/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_patient_taking_meg/no:label">
+            <value>No</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_advise_note:label">
+            <value>Advise and show the mother the importance of taking her medication correctly.</value>
+          </text>
+          <text id="/adult_followup/patient_status/c_congratulate_note:label">
+            <value>Congratulate and encourage the mother.</value>
+          </text>
+          <text id="/adult_followup/group_review/s_summary:label">
+            <value>Patient Summary&lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/adult_followup/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /adult_followup/patient_name_to_show "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/adult_followup/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /adult_followup/patient_sex_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/adult_followup/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /adult_followup/patient_age_display_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/adult_followup/group_review/s_informations:label">
+            <value>INFORMATIONS</value>
+          </text>
+          <text id="/adult_followup/group_review/s_cured:label">
+            <value>Cured</value>
+          </text>
+          <text id="/adult_followup/group_review/s_improvement:label">
+            <value>Improvement</value>
+          </text>
+          <text id="/adult_followup/group_review/s_new_complaint:label">
+            <value>New complaint</value>
+          </text>
+          <text id="/adult_followup/group_review/sign_danger_dectected:label">
+            <value>SIGN DANGER</value>
+          </text>
+          <text id="/adult_followup/group_review/no_improvement:label">
+            <value>No improvement</value>
+          </text>
+          <text id="/adult_followup/group_review/getting_worse:label">
+            <value>Getting worse</value>
+          </text>
+          <text id="/adult_followup/group_review/s_refer_USP:label">
+            <value>Referral to a health facility</value>
+          </text>
+          <text id="/adult_followup/group_review/s_refer_HC:label">
+            <value>**Please refer the patient to a health facility for non-improvement**</value>
+          </text>
+          <text id="/adult_followup/group_review/s_referal_health_center:label">
+            <value>Select the reference health center</value>
+          </text>
+          <text id="/adult_followup/group_review/s_referal_health_center/health_center:label">
+            <value>Health center</value>
+          </text>
+          <text id="/adult_followup/group_review/s_referal_health_center/health_poste:label">
+            <value>Health poste</value>
+          </text>
+          <text id="/adult_followup/group_review/s_referal_health_center/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/adult_followup/group_review/s_other_referal_health_center:label">
+            <value>Enter the name of the reference health facility</value>
+          </text>
+          <text id="/adult_followup/group_review/followup:label">
+            <value>Follow up</value>
+          </text>
+          <text id="/adult_followup/group_review/s_next_visit_date:label">
+            <value>The next followup visit is for tomorrow</value>
+          </text>
+          <text id="/adult_followup/group_review/s_no_next_visit:label">
+            <value>The child is doing well, no follow-up will be created</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <adult_followup id="adult_followup" prefix="J1!adult_followup!" delimiter="#" version="2024-08-16  17-08">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <t_is_pregnant/>
+            <t_malaria/>
+            <t_fever/>
+            <t_diarrhea/>
+            <t_yellow_fever/>
+            <t_tetanus/>
+            <t_cough_or_cold/>
+            <t_viral_diseases/>
+            <t_acute_flaccid_paralysis/>
+            <t_meningitis/>
+            <t_miscarriage/>
+            <t_traffic_accident/>
+            <t_burns/>
+            <t_suspected_tb/>
+            <t_dermatosis/>
+            <t_bloody_diarrhea/>
+            <t_urethral_discharge/>
+            <t_vaginal_discharge/>
+            <t_loss_of_urine/>
+            <t_accidental_ingestion_caustic_products/>
+            <t_food_poisoning/>
+            <t_oral_and_dental_diseases/>
+            <t_dog_bites/>
+            <t_snake_bite/>
+            <t_parasitosis/>
+            <t_measles/>
+            <t_trauma/>
+            <t_gender_based_violence/>
+            <t_vomit/>
+            <t_headaches/>
+            <t_abdominal_pain/>
+            <t_bleeding/>
+            <t_feel_pain_injection/>
+            <t_health_center_FP/>
+            <t_cpn_not_done/>
+            <t_td1_not_done/>
+            <t_td2_not_done/>
+            <t_danger_sign/>
+            <t_fp_side_effect/>
+            <t_domestic_violence/>
+            <t_afp/>
+            <t_cholera/>
+            <t_other_problems/>
+            <t_family_id/>
+            <t_family_name/>
+            <t_family_external_id/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <sex/>
+              <date_of_birth/>
+              <external_id/>
+              <phone/>
+              <parent>
+                <_id/>
+                <name/>
+                <external_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                  <contact>
+                    <_id/>
+                    <name/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_uuid/>
+          <patient_name/>
+          <patient_name_to_show/>
+          <patient_external_id/>
+          <patient_external_id_to_show/>
+          <patient_sex/>
+          <patient_date_of_birth/>
+          <patient_age_in_years/>
+          <patient_age_in_months/>
+          <patient_age_in_days/>
+          <patient_age_display_fr/>
+          <patient_age_display_en/>
+          <patient_sex_en/>
+          <patient_sex_fr/>
+          <patient_family_name/>
+          <patient_phone/>
+          <patient_phone_to_show/>
+          <patient_family_external_id/>
+          <household_id/>
+          <village_secteur_id/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <visited_contact_uuid/>
+          <today_decimal_date/>
+          <is_pregnant/>
+          <is_present/>
+          <absence_reasons/>
+          <went_to_health_center/>
+          <coupon_available/>
+          <coupon_number/>
+          <respect_reference_appointment/>
+          <has_no_improvement/>
+          <has_getting_worse/>
+          <is_referred/>
+          <patient_infos>
+            <i_patient_family_name/>
+            <i_patient_family_ext_id/>
+            <i_patient_name/>
+            <i_code_patient/>
+            <i_patient_info_age/>
+            <last_consul_details/>
+            <i_malaria/>
+            <i_fever/>
+            <i_diarrhea/>
+            <i_yellow_fever/>
+            <i_tetanus_/>
+            <i_cough_or_cold/>
+            <i_viral_diseases/>
+            <i_acute_flaccid_paralysis/>
+            <i_meningitis/>
+            <i_miscarriage/>
+            <i_traffic_accidents/>
+            <i_burns/>
+            <i_suspected_tb/>
+            <i_dermatosis/>
+            <i_bloody_diarrhea/>
+            <i_urethral_discharge/>
+            <i_vaginal_discharge/>
+            <i_loss_of_urine_/>
+            <i_accidental_ingestion_of_caustic_products/>
+            <i_food_poisoning/>
+            <i_oral_and_dental_diseases/>
+            <i_dog_bites/>
+            <i_snake_bite/>
+            <i_parasitosis/>
+            <i_measles/>
+            <i_trauma/>
+            <i_gender_based_violence/>
+            <i_vomit/>
+            <i_headaches/>
+            <i_abdominal_pain/>
+            <i_bleeding/>
+            <i_feel_pain_injection/>
+            <i_health_center_FP/>
+            <i_cpn_not_performed/>
+            <i_td_1/>
+            <i_td_2/>
+            <i_danger_sign/>
+            <i_fp_side_effect/>
+            <i_domestic_violence/>
+            <i_afp/>
+            <i_cholera/>
+            <i_other_health_problems/>
+          </patient_infos>
+          <patient_presence>
+            <c_is_present/>
+            <c_absence_reasons/>
+            <c_other_absence_reasons/>
+            <c_reference_health_facility/>
+            <c_coupon_available/>
+            <c_coupon_number/>
+          </patient_presence>
+          <patient_status>
+            <c_patient_state/>
+            <c_new_form/>
+            <c_patient_taking_meg/>
+            <c_advise_note/>
+            <c_congratulate_note/>
+          </patient_status>
+          <group_review>
+            <s_summary/>
+            <s_patient_info_name/>
+            <s_patient_info_sex/>
+            <s_patient_info_age/>
+            <s_informations/>
+            <s_cured/>
+            <s_improvement/>
+            <s_new_complaint/>
+            <sign_danger_dectected/>
+            <no_improvement/>
+            <getting_worse/>
+            <s_refer_USP/>
+            <s_refer_HC/>
+            <s_referal_health_center/>
+            <s_other_referal_health_center/>
+            <followup/>
+            <s_next_visit_date/>
+            <s_no_next_visit/>
+          </group_review>
+          <meta>
+            <instanceID/>
+          </meta>
+        </adult_followup>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/adult_followup/inputs/source" type="string"/>
+      <bind nodeset="/adult_followup/inputs/source_id" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_is_pregnant" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_malaria" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_fever" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_diarrhea" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_yellow_fever" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_tetanus" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_cough_or_cold" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_viral_diseases" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_acute_flaccid_paralysis" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_meningitis" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_miscarriage" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_traffic_accident" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_burns" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_suspected_tb" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_dermatosis" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_bloody_diarrhea" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_urethral_discharge" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_vaginal_discharge" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_loss_of_urine" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_accidental_ingestion_caustic_products" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_food_poisoning" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_oral_and_dental_diseases" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_dog_bites" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_snake_bite" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_parasitosis" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_measles" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_trauma" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_gender_based_violence" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_vomit" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_headaches" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_abdominal_pain" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_bleeding" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_feel_pain_injection" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_health_center_FP" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_cpn_not_done" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_td1_not_done" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_td2_not_done" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_danger_sign" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_fp_side_effect" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_domestic_violence" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_afp" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_cholera" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_other_problems" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_family_id" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_family_name" type="string"/>
+      <bind nodeset="/adult_followup/inputs/t_family_external_id" type="string"/>
+      <bind nodeset="/adult_followup/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/adult_followup/inputs/user/name" type="string"/>
+      <bind nodeset="/adult_followup/inputs/user/phone" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/_id" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/name" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/sex" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/external_id" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/phone" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/parent/_id" type="db:person"/>
+      <bind nodeset="/adult_followup/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/parent/external_id" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/parent/parent/contact/_id" type="string"/>
+      <bind nodeset="/adult_followup/inputs/contact/parent/parent/contact/name" type="string"/>
+      <bind nodeset="/adult_followup/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/adult_followup/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/adult_followup/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/adult_followup/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/adult_followup/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/adult_followup/patient_name_to_show" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/adult_followup/patient_external_id" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/adult_followup/patient_external_id_to_show" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/adult_followup/patient_sex" type="string" calculate="../inputs/contact/sex"/>
+      <bind nodeset="/adult_followup/patient_date_of_birth" type="string" calculate="../inputs/contact/date_of_birth"/>
+      <bind nodeset="/adult_followup/patient_age_in_years" type="string" calculate="if (  /adult_followup/inputs/contact/date_of_birth = '', '', floor( difference-in-months(  /adult_followup/inputs/contact/date_of_birth , today() ) div 12 ) )"/>
+      <bind nodeset="/adult_followup/patient_age_in_months" type="string" calculate="difference-in-months(  /adult_followup/inputs/contact/date_of_birth , today() )"/>
+      <bind nodeset="/adult_followup/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time( /adult_followup/inputs/contact/date_of_birth ) )"/>
+      <bind nodeset="/adult_followup/patient_age_display_fr" type="string" calculate="concat(concat(../patient_age_in_years, if(../patient_age_in_years = 1,' an et ',' ans et ')),concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12)=1,' mois',' mois')))"/>
+      <bind nodeset="/adult_followup/patient_age_display_en" type="string" calculate="concat(concat(../patient_age_in_years, if(../patient_age_in_years = 1,' year and ',' years and ')),concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12)=1,' month old',' months old')))"/>
+      <bind nodeset="/adult_followup/patient_sex_en" type="string" calculate="if( /adult_followup/inputs/contact/sex  = 'male' or  /adult_followup/inputs/contact/sex  = 'homme' or  /adult_followup/inputs/contact/sex  = 'Homme', 'Male', if( /adult_followup/inputs/contact/sex  = 'female' or  /adult_followup/inputs/contact/sex  = 'femme' or  /adult_followup/inputs/contact/sex  = 'Femme', 'Female', ''))"/>
+      <bind nodeset="/adult_followup/patient_sex_fr" type="string" calculate="if( /adult_followup/inputs/contact/sex  = 'male' or  /adult_followup/inputs/contact/sex  = 'homme' or  /adult_followup/inputs/contact/sex  = 'Homme', 'Masculin', if( /adult_followup/inputs/contact/sex  = 'female' or  /adult_followup/inputs/contact/sex  = 'femme' or  /adult_followup/inputs/contact/sex  = 'Femme', 'Féminin', ''))"/>
+      <bind nodeset="/adult_followup/patient_family_name" type="string" calculate="coalesce(../inputs/contact/parent/name, /adult_followup/inputs/t_family_name )"/>
+      <bind nodeset="/adult_followup/patient_phone" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/adult_followup/patient_phone_to_show" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/adult_followup/patient_family_external_id" type="string" calculate="coalesce(../inputs/contact/parent/external_id, /adult_followup/inputs/t_family_external_id )"/>
+      <bind nodeset="/adult_followup/household_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/adult_followup/village_secteur_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/adult_followup/district_quartier_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/adult_followup/hospital_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/adult_followup/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/adult_followup/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/adult_followup/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/adult_followup/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/adult_followup/visited_contact_uuid" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/adult_followup/today_decimal_date" type="string" calculate="coalesce( /adult_followup/today_decimal_date ,decimal-date-time(today()))"/>
+      <bind nodeset="/adult_followup/is_pregnant" type="string" calculate=" /adult_followup/inputs/t_is_pregnant "/>
+      <bind nodeset="/adult_followup/is_present" type="string" calculate="if( /adult_followup/patient_presence/c_is_present  = 'yes','true','false')"/>
+      <bind nodeset="/adult_followup/absence_reasons" type="string" calculate=" /adult_followup/patient_presence/c_absence_reasons "/>
+      <bind nodeset="/adult_followup/went_to_health_center" type="string" calculate="if( /adult_followup/patient_presence/c_reference_health_facility  = '','',if( /adult_followup/patient_presence/c_reference_health_facility  = 'yes','true','false'))"/>
+      <bind nodeset="/adult_followup/coupon_available" type="string" calculate="if( /adult_followup/patient_presence/c_coupon_available  = 'yes','true','false')"/>
+      <bind nodeset="/adult_followup/coupon_number" type="string" calculate=" /adult_followup/patient_presence/c_coupon_number "/>
+      <bind nodeset="/adult_followup/respect_reference_appointment" type="string" calculate="if( /adult_followup/patient_presence/c_reference_health_facility  = 'yes','true', 'false')"/>
+      <bind nodeset="/adult_followup/has_no_improvement" type="string" calculate="if(selected( /adult_followup/patient_status/c_patient_state ,'no_improvement'),'true', 'false')"/>
+      <bind nodeset="/adult_followup/has_getting_worse" type="string" calculate="if(selected( /adult_followup/patient_status/c_patient_state ,'getting_worse'),'true', 'false')"/>
+      <bind nodeset="/adult_followup/is_referred" type="string" calculate="if( /adult_followup/patient_presence/c_reference_health_facility  = 'no' or  /adult_followup/patient_status/c_patient_state  = 'no_improvement' or  /adult_followup/patient_status/c_patient_state  = 'getting_worse','true', 'false')"/>
+      <bind nodeset="/adult_followup/patient_infos/i_patient_family_name" readonly="true()" type="string"/>
+      <bind nodeset="/adult_followup/patient_infos/i_patient_family_ext_id" readonly="true()" type="string"/>
+      <bind nodeset="/adult_followup/patient_infos/i_patient_name" readonly="true()" type="string"/>
+      <bind nodeset="/adult_followup/patient_infos/i_code_patient" readonly="true()" type="string"/>
+      <bind nodeset="/adult_followup/patient_infos/i_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/adult_followup/patient_infos/last_consul_details" readonly="true()" type="string"/>
+      <bind nodeset="/adult_followup/patient_infos/i_malaria" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_malaria  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_fever" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_fever  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_diarrhea" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_diarrhea  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_yellow_fever" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_yellow_fever  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_tetanus_" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_tetanus  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_cough_or_cold" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_cough_or_cold  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_viral_diseases" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_viral_diseases  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_acute_flaccid_paralysis" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_acute_flaccid_paralysis  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_meningitis" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_meningitis  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_miscarriage" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_miscarriage  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_traffic_accidents" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_traffic_accident  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_burns" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_burns  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_suspected_tb" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_suspected_tb  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_dermatosis" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_dermatosis  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_bloody_diarrhea" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_bloody_diarrhea  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_urethral_discharge" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_urethral_discharge  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_vaginal_discharge" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_vaginal_discharge  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_loss_of_urine_" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_loss_of_urine  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_accidental_ingestion_of_caustic_products" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_accidental_ingestion_caustic_products  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_food_poisoning" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_food_poisoning  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_oral_and_dental_diseases" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_oral_and_dental_diseases  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_dog_bites" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_dog_bites  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_snake_bite" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_snake_bite  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_parasitosis" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_parasitosis  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_measles" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_measles  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_trauma" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_trauma  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_gender_based_violence" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_gender_based_violence  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_vomit" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_vomit  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_headaches" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_headaches  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_abdominal_pain" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_abdominal_pain  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_bleeding" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_bleeding  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_feel_pain_injection" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_feel_pain_injection  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_health_center_FP" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_health_center_FP  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_cpn_not_performed" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_cpn_not_done  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_td_1" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_td1_not_done  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_td_2" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_td2_not_done  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_danger_sign" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_danger_sign  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_fp_side_effect" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_fp_side_effect  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_domestic_violence" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_domestic_violence  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_afp" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_afp  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_cholera" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_cholera  = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_infos/i_other_health_problems" readonly="true()" type="string" relevant=" /adult_followup/inputs/t_other_problems  != ''"/>
+      <bind nodeset="/adult_followup/patient_presence/c_is_present" type="select1" required="true()"/>
+      <bind nodeset="/adult_followup/patient_presence/c_absence_reasons" type="select" relevant="../c_is_present = 'no'" required="true()"/>
+      <bind nodeset="/adult_followup/patient_presence/c_other_absence_reasons" type="string" relevant="../c_is_present = 'no' and ../c_absence_reasons = 'others'"/>
+      <bind nodeset="/adult_followup/patient_presence/c_reference_health_facility" type="select1" relevant="../c_is_present = 'yes'" required="true()" jr:requiredMsg="jr:itext('/adult_followup/patient_presence/c_reference_health_facility:jr:requiredMsg')"/>
+      <bind nodeset="/adult_followup/patient_presence/c_coupon_available" type="select1" relevant="../c_is_present = 'yes' and ../c_reference_health_facility = 'yes'" required="true()" jr:requiredMsg="jr:itext('/adult_followup/patient_presence/c_coupon_available:jr:requiredMsg')"/>
+      <bind nodeset="/adult_followup/patient_presence/c_coupon_number" type="int" relevant="../c_is_present = 'yes' and ../c_reference_health_facility = 'yes' and ../c_coupon_available = 'yes'" constraint=". &gt;= 0" required="true()" jr:constraintMsg="jr:itext('/adult_followup/patient_presence/c_coupon_number:jr:constraintMsg')" jr:requiredMsg="jr:itext('/adult_followup/patient_presence/c_coupon_number:jr:requiredMsg')"/>
+      <bind nodeset="/adult_followup/patient_status" relevant="../patient_presence/c_is_present = 'yes'"/>
+      <bind nodeset="/adult_followup/patient_status/c_patient_state" type="select1" required="true()" jr:requiredMsg="jr:itext('/adult_followup/patient_status/c_patient_state:jr:requiredMsg')"/>
+      <bind nodeset="/adult_followup/patient_status/c_new_form" readonly="true()" type="string" relevant="selected(../c_patient_state,'new_complaint')"/>
+      <bind nodeset="/adult_followup/patient_status/c_patient_taking_meg" type="select1" required="true()" jr:requiredMsg="jr:itext('/adult_followup/patient_status/c_patient_taking_meg:jr:requiredMsg')"/>
+      <bind nodeset="/adult_followup/patient_status/c_advise_note" readonly="true()" type="string" relevant="../c_patient_taking_meg = 'no'"/>
+      <bind nodeset="/adult_followup/patient_status/c_congratulate_note" readonly="true()" type="string" relevant="../c_patient_taking_meg = 'yes'"/>
+      <bind nodeset="/adult_followup/group_review/s_summary" readonly="true()" type="string"/>
+      <bind nodeset="/adult_followup/group_review/s_patient_info_name" readonly="true()" type="string"/>
+      <bind nodeset="/adult_followup/group_review/s_patient_info_sex" readonly="true()" type="string"/>
+      <bind nodeset="/adult_followup/group_review/s_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/adult_followup/group_review/s_informations" readonly="true()" type="string" relevant="selected( /adult_followup/patient_status/c_patient_state ,'cured') or selected( /adult_followup/patient_status/c_patient_state ,'improvement') or selected( /adult_followup/patient_status/c_patient_state ,'new_complaint')"/>
+      <bind nodeset="/adult_followup/group_review/s_cured" readonly="true()" type="string" relevant="selected( /adult_followup/patient_status/c_patient_state ,'cured')"/>
+      <bind nodeset="/adult_followup/group_review/s_improvement" readonly="true()" type="string" relevant="selected( /adult_followup/patient_status/c_patient_state ,'improvement')"/>
+      <bind nodeset="/adult_followup/group_review/s_new_complaint" readonly="true()" type="string" relevant="selected( /adult_followup/patient_status/c_patient_state ,'new_complaint')"/>
+      <bind nodeset="/adult_followup/group_review/sign_danger_dectected" readonly="true()" type="string" relevant="selected( /adult_followup/patient_status/c_patient_state ,'no_improvement') or selected( /adult_followup/patient_status/c_patient_state ,'getting_worse')"/>
+      <bind nodeset="/adult_followup/group_review/no_improvement" readonly="true()" type="string" relevant="selected( /adult_followup/patient_status/c_patient_state ,'no_improvement')"/>
+      <bind nodeset="/adult_followup/group_review/getting_worse" readonly="true()" type="string" relevant="selected( /adult_followup/patient_status/c_patient_state ,'getting_worse')"/>
+      <bind nodeset="/adult_followup/group_review/s_refer_USP" readonly="true()" type="string" relevant=" /adult_followup/is_referred  = 'true'"/>
+      <bind nodeset="/adult_followup/group_review/s_refer_HC" readonly="true()" type="string" relevant=" /adult_followup/is_referred  = 'true'"/>
+      <bind nodeset="/adult_followup/group_review/s_referal_health_center" type="select1" relevant=" /adult_followup/is_referred  = 'true'"/>
+      <bind nodeset="/adult_followup/group_review/s_other_referal_health_center" type="string" relevant=" /adult_followup/is_referred  = 'true' and  /adult_followup/group_review/s_referal_health_center  = 'others'"/>
+      <bind nodeset="/adult_followup/group_review/followup" readonly="true()" type="string"/>
+      <bind nodeset="/adult_followup/group_review/s_next_visit_date" readonly="true()" type="string" relevant=" /adult_followup/is_referred  = 'true'"/>
+      <bind nodeset="/adult_followup/group_review/s_no_next_visit" readonly="true()" type="string" relevant=" /adult_followup/is_referred  != 'true'"/>
+      <bind nodeset="/adult_followup/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/adult_followup/inputs">
+      <label ref="jr:itext('/adult_followup/inputs:label')"/>
+      <input appearance="hidden" ref="/adult_followup/inputs/source">
+        <label ref="jr:itext('/adult_followup/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/source_id">
+        <label ref="jr:itext('/adult_followup/inputs/source_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_is_pregnant">
+        <label ref="jr:itext('/adult_followup/inputs/t_is_pregnant:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_malaria">
+        <label ref="jr:itext('/adult_followup/inputs/t_malaria:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_fever">
+        <label ref="jr:itext('/adult_followup/inputs/t_fever:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_diarrhea">
+        <label ref="jr:itext('/adult_followup/inputs/t_diarrhea:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_yellow_fever">
+        <label ref="jr:itext('/adult_followup/inputs/t_yellow_fever:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_tetanus">
+        <label ref="jr:itext('/adult_followup/inputs/t_tetanus:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_cough_or_cold">
+        <label ref="jr:itext('/adult_followup/inputs/t_cough_or_cold:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_viral_diseases">
+        <label ref="jr:itext('/adult_followup/inputs/t_viral_diseases:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_acute_flaccid_paralysis">
+        <label ref="jr:itext('/adult_followup/inputs/t_acute_flaccid_paralysis:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_meningitis">
+        <label ref="jr:itext('/adult_followup/inputs/t_meningitis:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_miscarriage">
+        <label ref="jr:itext('/adult_followup/inputs/t_miscarriage:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_traffic_accident">
+        <label ref="jr:itext('/adult_followup/inputs/t_traffic_accident:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_burns">
+        <label ref="jr:itext('/adult_followup/inputs/t_burns:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_suspected_tb">
+        <label ref="jr:itext('/adult_followup/inputs/t_suspected_tb:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_dermatosis">
+        <label ref="jr:itext('/adult_followup/inputs/t_dermatosis:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_bloody_diarrhea">
+        <label ref="jr:itext('/adult_followup/inputs/t_bloody_diarrhea:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_urethral_discharge">
+        <label ref="jr:itext('/adult_followup/inputs/t_urethral_discharge:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_vaginal_discharge">
+        <label ref="jr:itext('/adult_followup/inputs/t_vaginal_discharge:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_loss_of_urine">
+        <label ref="jr:itext('/adult_followup/inputs/t_loss_of_urine:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_accidental_ingestion_caustic_products">
+        <label ref="jr:itext('/adult_followup/inputs/t_accidental_ingestion_caustic_products:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_food_poisoning">
+        <label ref="jr:itext('/adult_followup/inputs/t_food_poisoning:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_oral_and_dental_diseases">
+        <label ref="jr:itext('/adult_followup/inputs/t_oral_and_dental_diseases:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_dog_bites">
+        <label ref="jr:itext('/adult_followup/inputs/t_dog_bites:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_snake_bite">
+        <label ref="jr:itext('/adult_followup/inputs/t_snake_bite:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_parasitosis">
+        <label ref="jr:itext('/adult_followup/inputs/t_parasitosis:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_measles">
+        <label ref="jr:itext('/adult_followup/inputs/t_measles:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_trauma">
+        <label ref="jr:itext('/adult_followup/inputs/t_trauma:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_gender_based_violence">
+        <label ref="jr:itext('/adult_followup/inputs/t_gender_based_violence:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_vomit">
+        <label ref="jr:itext('/adult_followup/inputs/t_vomit:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_headaches">
+        <label ref="jr:itext('/adult_followup/inputs/t_headaches:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_abdominal_pain">
+        <label ref="jr:itext('/adult_followup/inputs/t_abdominal_pain:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_bleeding">
+        <label ref="jr:itext('/adult_followup/inputs/t_bleeding:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_feel_pain_injection">
+        <label ref="jr:itext('/adult_followup/inputs/t_feel_pain_injection:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_health_center_FP">
+        <label ref="jr:itext('/adult_followup/inputs/t_health_center_FP:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_cpn_not_done">
+        <label ref="jr:itext('/adult_followup/inputs/t_cpn_not_done:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_td1_not_done">
+        <label ref="jr:itext('/adult_followup/inputs/t_td1_not_done:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_td2_not_done">
+        <label ref="jr:itext('/adult_followup/inputs/t_td2_not_done:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_danger_sign">
+        <label ref="jr:itext('/adult_followup/inputs/t_danger_sign:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_fp_side_effect">
+        <label ref="jr:itext('/adult_followup/inputs/t_fp_side_effect:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_domestic_violence">
+        <label ref="jr:itext('/adult_followup/inputs/t_domestic_violence:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_afp">
+        <label ref="jr:itext('/adult_followup/inputs/t_afp:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_cholera">
+        <label ref="jr:itext('/adult_followup/inputs/t_cholera:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_other_problems">
+        <label ref="jr:itext('/adult_followup/inputs/t_other_problems:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_family_id">
+        <label ref="jr:itext('/adult_followup/inputs/t_family_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_family_name">
+        <label ref="jr:itext('/adult_followup/inputs/t_family_name:label')"/>
+      </input>
+      <input appearance="hidden" ref="/adult_followup/inputs/t_family_external_id">
+        <label ref="jr:itext('/adult_followup/inputs/t_family_external_id:label')"/>
+      </input>
+      <group ref="/adult_followup/inputs/user">
+        <label ref="jr:itext('/adult_followup/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/adult_followup/inputs/user/contact_id">
+          <label ref="jr:itext('/adult_followup/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/adult_followup/inputs/user/name">
+          <label ref="jr:itext('/adult_followup/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/adult_followup/inputs/user/phone">
+          <label ref="jr:itext('/adult_followup/inputs/user/phone:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/adult_followup/inputs/contact">
+        <label ref="jr:itext('/adult_followup/inputs/contact:label')"/>
+        <input appearance="db-object bind-id-only" ref="/adult_followup/inputs/contact/_id">
+          <label ref="jr:itext('/adult_followup/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/adult_followup/inputs/contact/name">
+          <label ref="jr:itext('/adult_followup/inputs/contact/name:label')"/>
+        </input>
+        <input ref="/adult_followup/inputs/contact/sex">
+          <label ref="jr:itext('/adult_followup/inputs/contact/sex:label')"/>
+        </input>
+        <input ref="/adult_followup/inputs/contact/date_of_birth">
+          <label ref="jr:itext('/adult_followup/inputs/contact/date_of_birth:label')"/>
+        </input>
+        <input ref="/adult_followup/inputs/contact/external_id">
+          <label ref="jr:itext('/adult_followup/inputs/contact/external_id:label')"/>
+        </input>
+        <input ref="/adult_followup/inputs/contact/phone">
+          <label ref="jr:itext('/adult_followup/inputs/contact/phone:label')"/>
+        </input>
+        <group ref="/adult_followup/inputs/contact/parent">
+          <label ref="jr:itext('/adult_followup/inputs/contact/parent:label')"/>
+          <input ref="/adult_followup/inputs/contact/parent/_id">
+            <label ref="jr:itext('/adult_followup/inputs/contact/parent/_id:label')"/>
+          </input>
+          <input ref="/adult_followup/inputs/contact/parent/name">
+            <label ref="jr:itext('/adult_followup/inputs/contact/parent/name:label')"/>
+          </input>
+          <input ref="/adult_followup/inputs/contact/parent/external_id">
+            <label ref="jr:itext('/adult_followup/inputs/contact/parent/external_id:label')"/>
+          </input>
+          <group ref="/adult_followup/inputs/contact/parent/parent">
+            <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent:label')"/>
+            <input ref="/adult_followup/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/adult_followup/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/adult_followup/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/adult_followup/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/adult_followup/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/adult_followup/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                    <group ref="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      <input ref="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id">
+                        <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                      </input>
+                      <group ref="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                        <input ref="/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id">
+                          <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                        </input>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+            <group ref="/adult_followup/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/contact:label')"/>
+              <input appearance="db-object bind-id-only" ref="/adult_followup/inputs/contact/parent/parent/contact/_id">
+                <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/contact/_id:label')"/>
+              </input>
+              <input ref="/adult_followup/inputs/contact/parent/parent/contact/name">
+                <label ref="jr:itext('/adult_followup/inputs/contact/parent/parent/contact/name:label')"/>
+              </input>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list summary" ref="/adult_followup/patient_infos">
+      <label ref="jr:itext('/adult_followup/patient_infos:label')"/>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_patient_family_name">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_patient_family_name:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_patient_family_ext_id">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_patient_family_ext_id:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_patient_name">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_patient_name:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_code_patient">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_code_patient:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_patient_info_age">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_patient_info_age:label')"/>
+      </input>
+      <input ref="/adult_followup/patient_infos/last_consul_details">
+        <label ref="jr:itext('/adult_followup/patient_infos/last_consul_details:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_malaria">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_malaria:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_fever">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_fever:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_diarrhea">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_diarrhea:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_yellow_fever">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_yellow_fever:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_tetanus_">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_tetanus_:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_cough_or_cold">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_cough_or_cold:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_viral_diseases">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_viral_diseases:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_acute_flaccid_paralysis">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_acute_flaccid_paralysis:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_meningitis">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_meningitis:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_miscarriage">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_miscarriage:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_traffic_accidents">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_traffic_accidents:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_burns">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_burns:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_suspected_tb">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_suspected_tb:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_dermatosis">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_dermatosis:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_bloody_diarrhea">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_bloody_diarrhea:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_urethral_discharge">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_urethral_discharge:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_vaginal_discharge">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_vaginal_discharge:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_loss_of_urine_">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_loss_of_urine_:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_accidental_ingestion_of_caustic_products">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_accidental_ingestion_of_caustic_products:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_food_poisoning">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_food_poisoning:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_oral_and_dental_diseases">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_oral_and_dental_diseases:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_dog_bites">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_dog_bites:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_snake_bite">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_snake_bite:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_parasitosis">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_parasitosis:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_measles">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_measles:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_trauma">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_trauma:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_gender_based_violence">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_gender_based_violence:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_vomit">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_vomit:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_headaches">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_headaches:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_abdominal_pain">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_abdominal_pain:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_bleeding">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_bleeding:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_feel_pain_injection">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_feel_pain_injection:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_health_center_FP">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_health_center_FP:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_cpn_not_performed">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_cpn_not_performed:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_td_1">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_td_1:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_td_2">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_td_2:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_danger_sign">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_danger_sign:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_fp_side_effect">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_fp_side_effect:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_domestic_violence">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_domestic_violence:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_afp">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_afp:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_cholera">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_cholera:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/patient_infos/i_other_health_problems">
+        <label ref="jr:itext('/adult_followup/patient_infos/i_other_health_problems:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/adult_followup/patient_presence">
+      <label ref="jr:itext('/adult_followup/patient_presence:label')"/>
+      <select1 appearance="columns" ref="/adult_followup/patient_presence/c_is_present">
+        <label ref="jr:itext('/adult_followup/patient_presence/c_is_present:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_presence/c_is_present/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_presence/c_is_present/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/adult_followup/patient_presence/c_absence_reasons">
+        <label ref="jr:itext('/adult_followup/patient_presence/c_absence_reasons:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_presence/c_absence_reasons/observation:label')"/>
+          <value>observation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_presence/c_absence_reasons/hospitalized:label')"/>
+          <value>hospitalized</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_presence/c_absence_reasons/patient_Absent:label')"/>
+          <value>patient_Absent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_presence/c_absence_reasons/others:label')"/>
+          <value>others</value>
+        </item>
+      </select>
+      <input ref="/adult_followup/patient_presence/c_other_absence_reasons">
+        <label ref="jr:itext('/adult_followup/patient_presence/c_other_absence_reasons:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/adult_followup/patient_presence/c_reference_health_facility">
+        <label ref="jr:itext('/adult_followup/patient_presence/c_reference_health_facility:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_presence/c_reference_health_facility/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_presence/c_reference_health_facility/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/adult_followup/patient_presence/c_coupon_available">
+        <label ref="jr:itext('/adult_followup/patient_presence/c_coupon_available:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_presence/c_coupon_available/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_presence/c_coupon_available/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/adult_followup/patient_presence/c_coupon_number">
+        <label ref="jr:itext('/adult_followup/patient_presence/c_coupon_number:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/adult_followup/patient_status">
+      <label ref="jr:itext('/adult_followup/patient_status:label')"/>
+      <select1 ref="/adult_followup/patient_status/c_patient_state">
+        <label ref="jr:itext('/adult_followup/patient_status/c_patient_state:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_status/c_patient_state/cured:label')"/>
+          <value>cured</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_status/c_patient_state/improvement:label')"/>
+          <value>improvement</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_status/c_patient_state/no_improvement:label')"/>
+          <value>no_improvement</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_status/c_patient_state/getting_worse:label')"/>
+          <value>getting_worse</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_status/c_patient_state/new_complaint:label')"/>
+          <value>new_complaint</value>
+        </item>
+      </select1>
+      <input ref="/adult_followup/patient_status/c_new_form">
+        <label ref="jr:itext('/adult_followup/patient_status/c_new_form:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/adult_followup/patient_status/c_patient_taking_meg">
+        <label ref="jr:itext('/adult_followup/patient_status/c_patient_taking_meg:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_status/c_patient_taking_meg/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_followup/patient_status/c_patient_taking_meg/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/adult_followup/patient_status/c_advise_note">
+        <label ref="jr:itext('/adult_followup/patient_status/c_advise_note:label')"/>
+      </input>
+      <input ref="/adult_followup/patient_status/c_congratulate_note">
+        <label ref="jr:itext('/adult_followup/patient_status/c_congratulate_note:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/adult_followup/group_review">
+      <label ref="jr:itext('/adult_followup/group_review:label')"/>
+      <input appearance="h1 yellow" ref="/adult_followup/group_review/s_summary">
+        <label ref="jr:itext('/adult_followup/group_review/s_summary:label')"/>
+      </input>
+      <input appearance="center" ref="/adult_followup/group_review/s_patient_info_name">
+        <label ref="jr:itext('/adult_followup/group_review/s_patient_info_name:label')"/>
+      </input>
+      <input appearance="center" ref="/adult_followup/group_review/s_patient_info_sex">
+        <label ref="jr:itext('/adult_followup/group_review/s_patient_info_sex:label')"/>
+      </input>
+      <input appearance="center" ref="/adult_followup/group_review/s_patient_info_age">
+        <label ref="jr:itext('/adult_followup/group_review/s_patient_info_age:label')"/>
+      </input>
+      <input appearance="h1 blue" ref="/adult_followup/group_review/s_informations">
+        <label ref="jr:itext('/adult_followup/group_review/s_informations:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/group_review/s_cured">
+        <label ref="jr:itext('/adult_followup/group_review/s_cured:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/group_review/s_improvement">
+        <label ref="jr:itext('/adult_followup/group_review/s_improvement:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/group_review/s_new_complaint">
+        <label ref="jr:itext('/adult_followup/group_review/s_new_complaint:label')"/>
+      </input>
+      <input appearance="h3 red" ref="/adult_followup/group_review/sign_danger_dectected">
+        <label ref="jr:itext('/adult_followup/group_review/sign_danger_dectected:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/group_review/no_improvement">
+        <label ref="jr:itext('/adult_followup/group_review/no_improvement:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/group_review/getting_worse">
+        <label ref="jr:itext('/adult_followup/group_review/getting_worse:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/adult_followup/group_review/s_refer_USP">
+        <label ref="jr:itext('/adult_followup/group_review/s_refer_USP:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/group_review/s_refer_HC">
+        <label ref="jr:itext('/adult_followup/group_review/s_refer_HC:label')"/>
+      </input>
+      <select1 ref="/adult_followup/group_review/s_referal_health_center">
+        <label ref="jr:itext('/adult_followup/group_review/s_referal_health_center:label')"/>
+        <item>
+          <label ref="jr:itext('/adult_followup/group_review/s_referal_health_center/health_center:label')"/>
+          <value>health_center</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_followup/group_review/s_referal_health_center/health_poste:label')"/>
+          <value>health_poste</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/adult_followup/group_review/s_referal_health_center/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/adult_followup/group_review/s_other_referal_health_center">
+        <label ref="jr:itext('/adult_followup/group_review/s_other_referal_health_center:label')"/>
+      </input>
+      <input appearance="h1 green" ref="/adult_followup/group_review/followup">
+        <label ref="jr:itext('/adult_followup/group_review/followup:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/group_review/s_next_visit_date">
+        <label ref="jr:itext('/adult_followup/group_review/s_next_visit_date:label')"/>
+      </input>
+      <input appearance="li" ref="/adult_followup/group_review/s_no_next_visit">
+        <label ref="jr:itext('/adult_followup/group_review/s_no_next_visit:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

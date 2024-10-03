@@ -1,0 +1,1753 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>SUIVI PCIMNE</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/pcimne_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pcimne_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pcimne_followup/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/pcimne_followup/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/pcimne_followup/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact:label">
+            <value>User Information</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent:label">
+            <value>parent Information</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/contact:label">
+            <value>RECO Information</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/pcimne_followup/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/pcimne_followup/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/pcimne_followup/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pcimne_followup/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pcimne_followup/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/pcimne_followup/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/pcimne_followup/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/pcimne_followup/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/pcimne_followup/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/pcimne_followup/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/pcimne_followup/patient_age_in_years:label">
+            <value>Age in Years</value>
+          </text>
+          <text id="/pcimne_followup/patient_age_in_months:label">
+            <value>Age In Months</value>
+          </text>
+          <text id="/pcimne_followup/patient_age_in_days:label">
+            <value>Age In Days</value>
+          </text>
+          <text id="/pcimne_followup/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/pcimne_followup/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/pcimne_followup/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/pcimne_followup/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/pcimne_followup/patient_family_name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/pcimne_followup/patient_phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/pcimne_followup/patient_phone_to_show:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/pcimne_followup/patient_family_external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/pcimne_followup/household_id:label">
+            <value>Household Id</value>
+          </text>
+          <text id="/pcimne_followup/village_secteur_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/pcimne_followup/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/pcimne_followup/hospital_id:label">
+            <value>Hospital Id</value>
+          </text>
+          <text id="/pcimne_followup/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/pcimne_followup/prefecture_id:label">
+            <value>Prefecture Id</value>
+          </text>
+          <text id="/pcimne_followup/region_id:label">
+            <value>Region Id</value>
+          </text>
+          <text id="/pcimne_followup/country_id:label">
+            <value>Country Id</value>
+          </text>
+          <text id="/pcimne_followup/visited_contact_uuid:label">
+            <value>Family Id</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos:label">
+            <value>PATIENT DETAILS</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_patient_family_name:label">
+            <value>Family name : **<output value=" /pcimne_followup/patient_family_name "/>**</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_patient_family_ext_id:label">
+            <value>Family External ID : **<output value=" /pcimne_followup/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_patient_name:label">
+            <value>Patient name : **<output value=" /pcimne_followup/patient_name_to_show "/>**</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_patient_sexe:label">
+            <value>Patient sexe : **<output value=" /pcimne_followup/patient_sex_fr "/>**</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_code_patient:label">
+            <value>Patient code : **<output value=" /pcimne_followup/patient_external_id_to_show "/>**</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_patient_info_age:label">
+            <value>Age : **<output value=" /pcimne_followup/patient_age_display_en "/>**</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/last_consul_details:label">
+            <value>&lt;br&gt;&lt;strong style="color: rgb(1, 34, 118);"&gt;LAST CONSULTATION DETAILS&lt;/strong&gt;</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_temperature:label">
+            <value>Temperature at last visit : **<output value=" /pcimne_followup/inputs/t_temperature "/>**</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_fever:label">
+            <value>Presence of fever</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_malaria:label">
+            <value>Presence of malaria</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_diarrhea:label">
+            <value>Presence of diarrhea</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_cough_cold:label">
+            <value>Presence of cough or cold</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_pneumonia:label">
+            <value>Presence of pneumonia</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_malnutrition:label">
+            <value>Presence of malnutrition</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_unable_drink_breastfeed:label">
+            <value>Unable to drink or suck</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_vomits_everything:label">
+            <value>Vomits everything eaten</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_convulsions:label">
+            <value>Convulsions</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_sleepy_unconscious:label">
+            <value>Unconscious or drowsy</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_stiff_neck:label">
+            <value>Stiff neck</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_bulging_fontanelle:label">
+            <value>Curved fontanel</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_breathing_difficulty:label">
+            <value>Wheezing</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_cough_more_than_14days:label">
+            <value>Cough for more than 14 days</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_subcostal_indrawing:label">
+            <value>Subcostal tugging</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_wheezing:label">
+            <value>Wheezing</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_bloody_diarrhea:label">
+            <value>bloody diarrhea</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_diarrhea_more_than_14_days:label">
+            <value>Diarrhea for more than 14 days</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_blood_in_stool:label">
+            <value>Blood in stool</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_restless:label">
+            <value>Restless</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_drinks_hungrily:label">
+            <value>Drinks hungrily</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_sunken_eyes:label">
+            <value>Sunken eyes</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_edema:label">
+            <value>Child have Edema</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_other_diseases:label">
+            <value><output value=" /pcimne_followup/inputs/t_other_diseases "/></value>
+          </text>
+          <text id="/pcimne_followup/patient_presence:label">
+            <value>PATIENT PRESENCE</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_is_present:label">
+            <value>Is the child present?</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_is_present/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_is_present/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_absence_reasons:label">
+            <value>Reason for absence</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_absence_reasons/observation:label">
+            <value>Observation</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_absence_reasons/hospitalized:label">
+            <value>Hospitalized</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_absence_reasons/patient_Absent:label">
+            <value>Patient Absent</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_absence_reasons/others:label">
+            <value>Other reason</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_other_absence_reasons:label">
+            <value>Enter other reason for absence</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_reference_health_facility:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_reference_health_facility:label">
+            <value>Did the patient go to a health facility after his last referral?</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_reference_health_facility/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_reference_health_facility/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_coupon_available:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_coupon_available:label">
+            <value>Is the counter-referral coupon available?</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_coupon_available/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_coupon_available/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_coupon_number:jr:constraintMsg">
+            <value>The value must be a positive integer</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_coupon_number:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_coupon_number:label">
+            <value>Counter-referral coupon number</value>
+          </text>
+          <text id="/pcimne_followup/child_status:label">
+            <value>PATIENT STATUS</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_state:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_state:label">
+            <value>How do you rate the patient's condition?</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_state/cured:label">
+            <value>Cured</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_state/improvement:label">
+            <value>Improvement</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_state/no_improvement:label">
+            <value>No improvement</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_state/getting_worse:label">
+            <value>Getting worse</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_state/new_complaint:label">
+            <value>New complaint</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_new_form:label">
+            <value>**Please do another consultation to take new complaints into account**</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_taking_meg:jr:requiredMsg">
+            <value>This field is required</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_taking_meg:label">
+            <value>Is the child taking his medication properly?</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_taking_meg/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_taking_meg/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_advise_note:label">
+            <value>Advise and show the mother the importance of taking her medication correctly.</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_congratulate_note:label">
+            <value>Congratulate and encourage the mother.</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_summary:label">
+            <value>Patient Summary&lt;i class ="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /pcimne_followup/patient_name_to_show "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /pcimne_followup/patient_sex_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /pcimne_followup/patient_age_display_en "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_informations:label">
+            <value>FOLLOWUP INFORMATIONS</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_cured:label">
+            <value>Cured</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_improvement:label">
+            <value>Improvement</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_new_complaint:label">
+            <value>New complaint</value>
+          </text>
+          <text id="/pcimne_followup/group_review/no_improvement:label">
+            <value>No improvement</value>
+          </text>
+          <text id="/pcimne_followup/group_review/getting_worse:label">
+            <value>Getting worse</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_refer_USP:label">
+            <value>Referral to a health facility</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_refer_HC:label">
+            <value>**Please refer the patient to a health facility for non-improvement**</value>
+          </text>
+          <text id="/pcimne_followup/group_review/c_pre_reference_treatments:label">
+            <value>Does the reference require pre-referral processing?</value>
+          </text>
+          <text id="/pcimne_followup/group_review/c_pre_reference_treatments/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pcimne_followup/group_review/c_pre_reference_treatments/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_referal_health_center:label">
+            <value>Select the reference health center</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_referal_health_center/health_center:label">
+            <value>Health center</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_referal_health_center/health_poste:label">
+            <value>Health poste</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_referal_health_center/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_other_referal_health_center:label">
+            <value>Enter the name of the reference health facility</value>
+          </text>
+          <text id="/pcimne_followup/group_review/followup:label">
+            <value>Follow up</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_next_visit_date:label">
+            <value>The next followup visit is for tomorrow</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_no_next_visit:label">
+            <value>The child is doing well, no follow-up will be created</value>
+          </text>
+        </translation>
+        <translation lang="fr">
+          <text id="/pcimne_followup/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pcimne_followup/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pcimne_followup/inputs/user/contact_id:label">
+            <value>Votre Nom</value>
+          </text>
+          <text id="/pcimne_followup/inputs/user/name:label">
+            <value>Username</value>
+          </text>
+          <text id="/pcimne_followup/inputs/user/phone:label">
+            <value>Phone</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact:label">
+            <value>Information de l'utilisateur</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/date_of_birth:label">
+            <value>Patient Birth Date</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/phone:label">
+            <value>Patient Phone</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent:label">
+            <value>Information du parent</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/_id:label">
+            <value>Family UUID</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/name:label">
+            <value>Family name</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/external_id:label">
+            <value>Family external ID</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent:label">
+            <value>Village/Secteur</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/_id:label">
+            <value>Village/Secteur ID</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/parent/_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/parent/parent/_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/contact:label">
+            <value>Information du RECO</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/contact/_id:label">
+            <value>RECO ID</value>
+          </text>
+          <text id="/pcimne_followup/inputs/contact/parent/parent/contact/name:label">
+            <value>RECO Name</value>
+          </text>
+          <text id="/pcimne_followup/user_id:label">
+            <value>User contact id</value>
+          </text>
+          <text id="/pcimne_followup/user_phone:label">
+            <value>User phone</value>
+          </text>
+          <text id="/pcimne_followup/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pcimne_followup/patient_uuid:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pcimne_followup/patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/pcimne_followup/patient_name_to_show:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/pcimne_followup/patient_sex:label">
+            <value>Patient Sex</value>
+          </text>
+          <text id="/pcimne_followup/patient_external_id:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/pcimne_followup/patient_external_id_to_show:label">
+            <value>Code Patient</value>
+          </text>
+          <text id="/pcimne_followup/patient_date_of_birth:label">
+            <value>Patient date_of_birth</value>
+          </text>
+          <text id="/pcimne_followup/patient_age_in_years:label">
+            <value>Age en Annees</value>
+          </text>
+          <text id="/pcimne_followup/patient_age_in_months:label">
+            <value>Age en Mois</value>
+          </text>
+          <text id="/pcimne_followup/patient_age_in_days:label">
+            <value>Age en Jours</value>
+          </text>
+          <text id="/pcimne_followup/patient_age_display_fr:label">
+            <value>FR Age Display</value>
+          </text>
+          <text id="/pcimne_followup/patient_age_display_en:label">
+            <value>EN Age Display</value>
+          </text>
+          <text id="/pcimne_followup/patient_sex_en:label">
+            <value>FR Sex Display</value>
+          </text>
+          <text id="/pcimne_followup/patient_sex_fr:label">
+            <value>EN Sex Display</value>
+          </text>
+          <text id="/pcimne_followup/patient_family_name:label">
+            <value>Nom du ménage</value>
+          </text>
+          <text id="/pcimne_followup/patient_phone:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/pcimne_followup/patient_phone_to_show:label">
+            <value>Numéro de Téléphone</value>
+          </text>
+          <text id="/pcimne_followup/patient_family_external_id:label">
+            <value>Numéro du ménage</value>
+          </text>
+          <text id="/pcimne_followup/household_id:label">
+            <value>Ménage Id</value>
+          </text>
+          <text id="/pcimne_followup/village_secteur_id:label">
+            <value>Village/Secteur Id</value>
+          </text>
+          <text id="/pcimne_followup/district_quartier_id:label">
+            <value>District/Quartier Id</value>
+          </text>
+          <text id="/pcimne_followup/hospital_id:label">
+            <value>Centre de Santé Id</value>
+          </text>
+          <text id="/pcimne_followup/commune_id:label">
+            <value>Commune Id</value>
+          </text>
+          <text id="/pcimne_followup/prefecture_id:label">
+            <value>Préfecture/District Sanitaire Id</value>
+          </text>
+          <text id="/pcimne_followup/region_id:label">
+            <value>Région/IRS Id</value>
+          </text>
+          <text id="/pcimne_followup/country_id:label">
+            <value>Pays Id</value>
+          </text>
+          <text id="/pcimne_followup/visited_contact_uuid:label">
+            <value>Identifiant de la famille</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos:label">
+            <value>DÉTAILS DU PATIENT</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_patient_family_name:label">
+            <value>Nom du ménage : **<output value=" /pcimne_followup/patient_family_name "/>**</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_patient_family_ext_id:label">
+            <value>Numéro du ménage : **<output value=" /pcimne_followup/patient_family_external_id "/>**</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_patient_name:label">
+            <value>Nom de l'enfant : **<output value=" /pcimne_followup/patient_name_to_show "/>**</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_patient_sexe:label">
+            <value>Sexe de l'enfant : **<output value=" /pcimne_followup/patient_sex_fr "/>**</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_code_patient:label">
+            <value>Code du patient : **<output value=" /pcimne_followup/patient_external_id_to_show "/>**</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_patient_info_age:label">
+            <value>Âge : **<output value=" /pcimne_followup/patient_age_display_fr "/>**</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/last_consul_details:label">
+            <value>&lt;br&gt;&lt;strong style="color: rgb(1, 34, 118);"&gt;RESUME DE LA DERNIÈRE CONSULTATION&lt;/strong&gt;</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_temperature:label">
+            <value>Température de la dernière consultation: **<output value=" /pcimne_followup/inputs/t_temperature "/>** °C</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_fever:label">
+            <value>Présence de fièvre</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_malaria:label">
+            <value>Présence de paludisme</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_diarrhea:label">
+            <value>Présence de diarrhée</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_cough_cold:label">
+            <value>Présence de toux ou rhume</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_pneumonia:label">
+            <value>Présence de pneumonie</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_malnutrition:label">
+            <value>Présence de malnutrition</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_unable_drink_breastfeed:label">
+            <value>Incapable de boire ou de téter</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_vomits_everything:label">
+            <value>Vomit tout ce qu'il consomme</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_convulsions:label">
+            <value>Convulsions</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_sleepy_unconscious:label">
+            <value>Inconscient ou Somnolent</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_stiff_neck:label">
+            <value>Nuque raide</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_bulging_fontanelle:label">
+            <value>Fontanelle bombée</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_breathing_difficulty:label">
+            <value>Respiration difficile</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_cough_more_than_14days:label">
+            <value>Toux plus de 14 jours</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_subcostal_indrawing:label">
+            <value>Tirage sous-costal</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_wheezing:label">
+            <value>Respiration sifflante</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_bloody_diarrhea:label">
+            <value>Diarrhée sanglante</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_diarrhea_more_than_14_days:label">
+            <value>Diarrhée plus de 14 jours</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_blood_in_stool:label">
+            <value>Sang dans les selles</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_restless:label">
+            <value>Agité</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_drinks_hungrily:label">
+            <value>Boit avidement</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_sunken_eyes:label">
+            <value>Yeux enfoncés</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_has_edema:label">
+            <value>Œdemes</value>
+          </text>
+          <text id="/pcimne_followup/patient_infos/i_other_diseases:label">
+            <value><output value=" /pcimne_followup/inputs/t_other_diseases "/></value>
+          </text>
+          <text id="/pcimne_followup/patient_presence:label">
+            <value>PRÉSENCE DU PATIENT</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_is_present:label">
+            <value>L'enfant est-il présent ?</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_is_present/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_is_present/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_absence_reasons:label">
+            <value>Motif d'absence</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_absence_reasons/observation:label">
+            <value>Observation</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_absence_reasons/hospitalized:label">
+            <value>Hospitalisé</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_absence_reasons/patient_Absent:label">
+            <value>Patient Absent</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_absence_reasons/others:label">
+            <value>Autre Motif</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_other_absence_reasons:label">
+            <value>Saisir l'autre motif d'absence</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_reference_health_facility:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_reference_health_facility:label">
+            <value>Le patient est-il allé dans une structure de santé après sa dernière référence ?</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_reference_health_facility/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_reference_health_facility/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_coupon_available:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_coupon_available:label">
+            <value>Coupon de contre référence est-il disponible ?</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_coupon_available/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_coupon_available/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_coupon_number:jr:constraintMsg">
+            <value>La valeur doit être un entier positif</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_coupon_number:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/pcimne_followup/patient_presence/c_coupon_number:label">
+            <value>Numéro du Coupon de contre référence</value>
+          </text>
+          <text id="/pcimne_followup/child_status:label">
+            <value>ÉTAT DE L'ENFANT</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_state:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_state:label">
+            <value>Comment trouvez-vous l'état de l'enfant?</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_state/cured:label">
+            <value>Guéri</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_state/improvement:label">
+            <value>Amélioration</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_state/no_improvement:label">
+            <value>Pas d'amélioration</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_state/getting_worse:label">
+            <value>S'aggrave</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_state/new_complaint:label">
+            <value>Nouvelle plainte</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_new_form:label">
+            <value>**Veuillez refaire une nouvelle consultation pour prendre en compte les nouvelles plaintes**</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_taking_meg:jr:requiredMsg">
+            <value>Ce champ est obligatoire</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_taking_meg:label">
+            <value>Est-ce que l'enfant prends bien ses médicaments ?</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_taking_meg/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_child_taking_meg/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_advise_note:label">
+            <value>Conseiller et montrer à la maman l'importance de la bonne prise de médicament.</value>
+          </text>
+          <text id="/pcimne_followup/child_status/c_congratulate_note:label">
+            <value>Féliciter et encourager la maman.</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_summary:label">
+            <value>Détails du Patient &lt;i class ="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_patient_info_name:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /pcimne_followup/patient_name_to_show "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_patient_info_sex:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /pcimne_followup/patient_sex_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_patient_info_age:label">
+            <value>&lt;strong style=&quot;text-align:center;font-size:16px;&quot;&gt;<output value=" /pcimne_followup/patient_age_display_fr "/>&lt;/strong&gt;</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_informations:label">
+            <value>INFORMATIONS DUI SUIVI</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_cured:label">
+            <value>L'enfant est Guéri</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_improvement:label">
+            <value>L'etat de l'enfant s'Améliore</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_new_complaint:label">
+            <value>L'enafnt a une nouvelle plainte</value>
+          </text>
+          <text id="/pcimne_followup/group_review/no_improvement:label">
+            <value>Pas d'amélioration</value>
+          </text>
+          <text id="/pcimne_followup/group_review/getting_worse:label">
+            <value>S'aggrave</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_refer_USP:label">
+            <value>Référence vers une formation sanitaire</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_refer_HC:label">
+            <value>Veuillez référer le patient pour **état de santé non amélioré **</value>
+          </text>
+          <text id="/pcimne_followup/group_review/c_pre_reference_treatments:label">
+            <value>La référence nécéssite t'elle un traitement pré-référence ?</value>
+          </text>
+          <text id="/pcimne_followup/group_review/c_pre_reference_treatments/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pcimne_followup/group_review/c_pre_reference_treatments/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_referal_health_center:label">
+            <value>Selectionner le centre de santé de référence</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_referal_health_center/health_center:label">
+            <value>Centre de santé</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_referal_health_center/health_poste:label">
+            <value>Poste de santé</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_referal_health_center/others:label">
+            <value>Autres</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_other_referal_health_center:label">
+            <value>Saisir le nom de la formation sanitaire de référence</value>
+          </text>
+          <text id="/pcimne_followup/group_review/followup:label">
+            <value>Suivi</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_next_visit_date:label">
+            <value>La visite de suivi de cet enfant est dans **24 Heures**</value>
+          </text>
+          <text id="/pcimne_followup/group_review/s_no_next_visit:label">
+            <value>**Aucun suivi ne sera créé**</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pcimne_followup id="pcimne_followup" prefix="J1!pcimne_followup!" delimiter="#" version="2024-08-17  7-29">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <t_family_id/>
+            <t_family_name/>
+            <t_family_external_id/>
+            <t_temperature/>
+            <t_has_fever/>
+            <t_has_malaria/>
+            <t_has_diarrhea/>
+            <t_has_cough_cold/>
+            <t_has_malnutrition/>
+            <t_has_pneumonia/>
+            <t_unable_drink_breastfeed/>
+            <t_vomits_everything/>
+            <t_convulsions/>
+            <t_sleepy_unconscious/>
+            <t_has_stiff_neck/>
+            <t_has_bulging_fontanelle/>
+            <t_breathing_difficulty/>
+            <t_cough_more_than_14days/>
+            <t_subcostal_indrawing/>
+            <t_wheezing/>
+            <t_bloody_diarrhea/>
+            <t_diarrhea_more_than_14_days/>
+            <t_blood_in_stool/>
+            <t_restless/>
+            <t_drinks_hungrily/>
+            <t_sunken_eyes/>
+            <t_has_edema/>
+            <t_has_other_disease_problem/>
+            <t_has_afp/>
+            <t_other_diseases/>
+            <t_is_referred/>
+            <user>
+              <contact_id/>
+              <name/>
+              <phone/>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <sex/>
+              <date_of_birth/>
+              <external_id/>
+              <phone/>
+              <parent>
+                <_id/>
+                <name/>
+                <external_id/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <_id/>
+                      <parent>
+                        <_id/>
+                        <parent>
+                          <_id/>
+                          <parent>
+                            <_id/>
+                            <parent>
+                              <_id/>
+                            </parent>
+                          </parent>
+                        </parent>
+                      </parent>
+                    </parent>
+                  </parent>
+                  <contact>
+                    <_id/>
+                    <name/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <user_id/>
+          <user_phone/>
+          <patient_id/>
+          <patient_uuid/>
+          <patient_name/>
+          <patient_name_to_show/>
+          <patient_sex/>
+          <patient_external_id/>
+          <patient_external_id_to_show/>
+          <patient_date_of_birth/>
+          <patient_age_in_years/>
+          <patient_age_in_months/>
+          <patient_age_in_days/>
+          <patient_age_display_fr/>
+          <patient_age_display_en/>
+          <patient_sex_en/>
+          <patient_sex_fr/>
+          <patient_family_name/>
+          <patient_phone/>
+          <patient_phone_to_show/>
+          <patient_family_external_id/>
+          <household_id/>
+          <village_secteur_id/>
+          <district_quartier_id/>
+          <hospital_id/>
+          <commune_id/>
+          <prefecture_id/>
+          <region_id/>
+          <country_id/>
+          <visited_contact_uuid/>
+          <today_decimal_date/>
+          <other_diseases/>
+          <is_present/>
+          <absence_reasons/>
+          <went_to_health_center/>
+          <coupon_available/>
+          <coupon_number/>
+          <has_no_improvement/>
+          <has_getting_worse/>
+          <has_pre_reference_treatments/>
+          <is_referred/>
+          <patient_infos>
+            <i_patient_family_name/>
+            <i_patient_family_ext_id/>
+            <i_patient_name/>
+            <i_patient_sexe/>
+            <i_code_patient/>
+            <i_patient_info_age/>
+            <last_consul_details/>
+            <i_temperature/>
+            <i_has_fever/>
+            <i_has_malaria/>
+            <i_has_diarrhea/>
+            <i_has_cough_cold/>
+            <i_has_pneumonia/>
+            <i_has_malnutrition/>
+            <i_unable_drink_breastfeed/>
+            <i_vomits_everything/>
+            <i_convulsions/>
+            <i_sleepy_unconscious/>
+            <i_has_stiff_neck/>
+            <i_has_bulging_fontanelle/>
+            <i_breathing_difficulty/>
+            <i_cough_more_than_14days/>
+            <i_subcostal_indrawing/>
+            <i_wheezing/>
+            <i_bloody_diarrhea/>
+            <i_diarrhea_more_than_14_days/>
+            <i_blood_in_stool/>
+            <i_restless/>
+            <i_drinks_hungrily/>
+            <i_sunken_eyes/>
+            <i_has_edema/>
+            <i_other_diseases/>
+          </patient_infos>
+          <patient_presence>
+            <c_is_present/>
+            <c_absence_reasons/>
+            <c_other_absence_reasons/>
+            <c_reference_health_facility/>
+            <c_coupon_available/>
+            <c_coupon_number/>
+          </patient_presence>
+          <child_status>
+            <c_child_state/>
+            <c_new_form/>
+            <c_child_taking_meg/>
+            <c_advise_note/>
+            <c_congratulate_note/>
+          </child_status>
+          <group_review>
+            <s_summary/>
+            <s_patient_info_name/>
+            <s_patient_info_sex/>
+            <s_patient_info_age/>
+            <s_informations/>
+            <s_cured/>
+            <s_improvement/>
+            <s_new_complaint/>
+            <no_improvement/>
+            <getting_worse/>
+            <s_refer_USP/>
+            <s_refer_HC/>
+            <c_pre_reference_treatments/>
+            <s_referal_health_center/>
+            <s_other_referal_health_center/>
+            <followup/>
+            <s_next_visit_date/>
+            <s_no_next_visit/>
+          </group_review>
+          <meta>
+            <instanceID/>
+          </meta>
+        </pcimne_followup>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pcimne_followup/inputs/source" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/source_id" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_family_id" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_family_name" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_family_external_id" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_temperature" type="decimal"/>
+      <bind nodeset="/pcimne_followup/inputs/t_has_fever" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_has_malaria" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_has_diarrhea" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_has_cough_cold" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_has_malnutrition" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_has_pneumonia" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_unable_drink_breastfeed" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_vomits_everything" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_convulsions" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_sleepy_unconscious" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_has_stiff_neck" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_has_bulging_fontanelle" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_breathing_difficulty" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_cough_more_than_14days" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_subcostal_indrawing" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_wheezing" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_bloody_diarrhea" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_diarrhea_more_than_14_days" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_blood_in_stool" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_restless" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_drinks_hungrily" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_sunken_eyes" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_has_edema" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_has_other_disease_problem" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_has_afp" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_other_diseases" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/t_is_referred" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/user/contact_id" type="db:person" readonly="true()"/>
+      <bind nodeset="/pcimne_followup/inputs/user/name" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/user/phone" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/_id" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/name" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/sex" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/external_id" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/phone" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/parent/_id" type="db:person"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/parent/external_id" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/parent/parent/_id" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/parent/parent/contact/_id" type="string"/>
+      <bind nodeset="/pcimne_followup/inputs/contact/parent/parent/contact/name" type="string"/>
+      <bind nodeset="/pcimne_followup/user_id" type="string" calculate="../inputs/user/contact_id"/>
+      <bind nodeset="/pcimne_followup/user_phone" type="string" calculate="../inputs/user/phone"/>
+      <bind nodeset="/pcimne_followup/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pcimne_followup/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pcimne_followup/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/pcimne_followup/patient_name_to_show" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/pcimne_followup/patient_sex" type="string" calculate="../inputs/contact/sex"/>
+      <bind nodeset="/pcimne_followup/patient_external_id" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/pcimne_followup/patient_external_id_to_show" type="string" calculate="../inputs/contact/external_id"/>
+      <bind nodeset="/pcimne_followup/patient_date_of_birth" type="string" calculate="../inputs/contact/date_of_birth"/>
+      <bind nodeset="/pcimne_followup/patient_age_in_years" type="string" calculate="if (../patient_date_of_birth = '', '', floor( difference-in-months(../patient_date_of_birth, today() ) div 12 ) )"/>
+      <bind nodeset="/pcimne_followup/patient_age_in_months" type="string" calculate="difference-in-months( ../patient_date_of_birth, today() )"/>
+      <bind nodeset="/pcimne_followup/patient_age_in_days" type="string" calculate="floor( decimal-date-time(today()) - decimal-date-time(../patient_date_of_birth) )"/>
+      <bind nodeset="/pcimne_followup/patient_age_display_fr" type="string" calculate="concat(concat(../patient_age_in_years, if(../patient_age_in_years = 1,' an et ',' ans et ')),concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12) =1,' mois',' mois')))"/>
+      <bind nodeset="/pcimne_followup/patient_age_display_en" type="string" calculate="concat(concat(../patient_age_in_years, if(../patient_age_in_years = 1,' year and ',' years and ')),concat(../patient_age_in_months mod 12, if((../patient_age_in_months mod 12) =1,' month old',' months old')))"/>
+      <bind nodeset="/pcimne_followup/patient_sex_en" type="string" calculate="if(../patient_sex = 'male' or ../patient_sex = 'homme' or ../patient_sex = 'Homme', 'Male', if(../patient_sex = 'female' or ../patient_sex = 'femme' or ../patient_sex = 'Femme', 'Female', ''))"/>
+      <bind nodeset="/pcimne_followup/patient_sex_fr" type="string" calculate="if(../patient_sex = 'male' or ../patient_sex = 'homme' or ../patient_sex = 'Homme', 'Masculin', if(../patient_sex = 'female' or ../patient_sex = 'femme' or ../patient_sex = 'Femme', 'Féminin', ''))"/>
+      <bind nodeset="/pcimne_followup/patient_family_name" type="string" calculate="coalesce(../inputs/contact/parent/name, /pcimne_followup/inputs/t_family_name )"/>
+      <bind nodeset="/pcimne_followup/patient_phone" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/pcimne_followup/patient_phone_to_show" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/pcimne_followup/patient_family_external_id" type="string" calculate="coalesce(../inputs/contact/parent/external_id, /pcimne_followup/inputs/t_family_external_id )"/>
+      <bind nodeset="/pcimne_followup/household_id" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/pcimne_followup/village_secteur_id" type="string" calculate="../inputs/contact/parent/parent/_id"/>
+      <bind nodeset="/pcimne_followup/district_quartier_id" type="string" calculate="../inputs/contact/parent/parent/parent/_id"/>
+      <bind nodeset="/pcimne_followup/hospital_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/pcimne_followup/commune_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/pcimne_followup/prefecture_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/pcimne_followup/region_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/pcimne_followup/country_id" type="string" calculate="../inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id"/>
+      <bind nodeset="/pcimne_followup/visited_contact_uuid" type="string" calculate="../inputs/contact/parent/_id"/>
+      <bind nodeset="/pcimne_followup/today_decimal_date" type="string" calculate="coalesce( /pcimne_followup/today_decimal_date ,decimal-date-time(today()))"/>
+      <bind nodeset="/pcimne_followup/other_diseases" type="string" calculate="if( /pcimne_followup/patient_presence/c_reference_health_facility  = 'no','Référence non effective',if(selected( /pcimne_followup/child_status/c_child_state ,'no_improvement'),'Amélioration non constatée',if(selected( /pcimne_followup/child_status/c_child_state ,'getting_worse'),'Aggravation de santé constaté','')))"/>
+      <bind nodeset="/pcimne_followup/is_present" type="string" calculate="if( /pcimne_followup/patient_presence/c_is_present  = 'yes','true','false')"/>
+      <bind nodeset="/pcimne_followup/absence_reasons" type="string" calculate=" /pcimne_followup/patient_presence/c_absence_reasons "/>
+      <bind nodeset="/pcimne_followup/went_to_health_center" type="string" calculate="if( /pcimne_followup/patient_presence/c_reference_health_facility  = '','',if( /pcimne_followup/patient_presence/c_reference_health_facility  = 'yes','true','false'))"/>
+      <bind nodeset="/pcimne_followup/coupon_available" type="string" calculate="if( /pcimne_followup/patient_presence/c_coupon_available  = 'yes','true','false')"/>
+      <bind nodeset="/pcimne_followup/coupon_number" type="string" calculate=" /pcimne_followup/patient_presence/c_coupon_number "/>
+      <bind nodeset="/pcimne_followup/has_no_improvement" type="string" calculate="if(selected(../child_status/c_child_state,'no_improvement'),'true', 'false')"/>
+      <bind nodeset="/pcimne_followup/has_getting_worse" type="string" calculate="if(selected(../child_status/c_child_state,'getting_worse'),'true', 'false')"/>
+      <bind nodeset="/pcimne_followup/has_pre_reference_treatments" type="string" calculate="if( /pcimne_followup/group_review/c_pre_reference_treatments  = 'yes','true', 'false')"/>
+      <bind nodeset="/pcimne_followup/is_referred" type="string" calculate="if(selected( /pcimne_followup/child_status/c_child_state ,'cured') or selected( /pcimne_followup/child_status/c_child_state ,'improvement'),'false',if(../patient_presence/c_reference_health_facility = 'no' or selected(../child_status/c_child_state,'no_improvement') or selected(../child_status/c_child_state,'getting_worse'),'true', 'false'))"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_patient_family_name" readonly="true()" type="string"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_patient_family_ext_id" readonly="true()" type="string"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_patient_name" readonly="true()" type="string"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_patient_sexe" readonly="true()" type="string"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_code_patient" readonly="true()" type="string"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/pcimne_followup/patient_infos/last_consul_details" readonly="true()" type="string"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_temperature" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_temperature  != ''"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_has_fever" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_has_fever  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_has_malaria" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_has_malaria  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_has_diarrhea" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_has_diarrhea  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_has_cough_cold" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_has_cough_cold  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_has_pneumonia" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_has_pneumonia  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_has_malnutrition" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_has_malnutrition  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_unable_drink_breastfeed" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_unable_drink_breastfeed  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_vomits_everything" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_vomits_everything  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_convulsions" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_convulsions  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_sleepy_unconscious" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_sleepy_unconscious  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_has_stiff_neck" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_has_stiff_neck  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_has_bulging_fontanelle" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_has_bulging_fontanelle  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_breathing_difficulty" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_breathing_difficulty  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_cough_more_than_14days" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_cough_more_than_14days  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_subcostal_indrawing" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_subcostal_indrawing  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_wheezing" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_wheezing  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_bloody_diarrhea" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_bloody_diarrhea  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_diarrhea_more_than_14_days" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_diarrhea_more_than_14_days  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_blood_in_stool" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_blood_in_stool  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_restless" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_restless  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_drinks_hungrily" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_drinks_hungrily  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_sunken_eyes" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_sunken_eyes  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_has_edema" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_has_edema  = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_infos/i_other_diseases" readonly="true()" type="string" relevant=" /pcimne_followup/inputs/t_other_diseases  != ''"/>
+      <bind nodeset="/pcimne_followup/patient_presence/c_is_present" type="select1" required="true()"/>
+      <bind nodeset="/pcimne_followup/patient_presence/c_absence_reasons" type="select" required="true()" relevant="../c_is_present = 'no'"/>
+      <bind nodeset="/pcimne_followup/patient_presence/c_other_absence_reasons" type="string" relevant="../c_is_present = 'no' and ../c_absence_reasons = 'others'"/>
+      <bind nodeset="/pcimne_followup/patient_presence/c_reference_health_facility" type="select1" required="true()" jr:requiredMsg="jr:itext('/pcimne_followup/patient_presence/c_reference_health_facility:jr:requiredMsg')" relevant="../c_is_present = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_presence/c_coupon_available" type="select1" required="true()" jr:requiredMsg="jr:itext('/pcimne_followup/patient_presence/c_coupon_available:jr:requiredMsg')" relevant="../c_is_present = 'yes' and ../c_reference_health_facility = 'yes'"/>
+      <bind nodeset="/pcimne_followup/patient_presence/c_coupon_number" type="int" required="true()" relevant="../c_is_present = 'yes' and ../c_reference_health_facility = 'yes' and ../c_coupon_available = 'yes'" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('/pcimne_followup/patient_presence/c_coupon_number:jr:constraintMsg')" jr:requiredMsg="jr:itext('/pcimne_followup/patient_presence/c_coupon_number:jr:requiredMsg')"/>
+      <bind nodeset="/pcimne_followup/child_status" relevant="../patient_presence/c_is_present = 'yes'"/>
+      <bind nodeset="/pcimne_followup/child_status/c_child_state" type="select1" required="true()" jr:requiredMsg="jr:itext('/pcimne_followup/child_status/c_child_state:jr:requiredMsg')"/>
+      <bind nodeset="/pcimne_followup/child_status/c_new_form" readonly="true()" type="string" relevant="selected(../c_child_state,'new_complaint')"/>
+      <bind nodeset="/pcimne_followup/child_status/c_child_taking_meg" type="select1" required="true()" jr:requiredMsg="jr:itext('/pcimne_followup/child_status/c_child_taking_meg:jr:requiredMsg')"/>
+      <bind nodeset="/pcimne_followup/child_status/c_advise_note" readonly="true()" type="string" relevant="../c_child_taking_meg = 'no' and (selected( /pcimne_followup/child_status/c_child_state ,'improvement') or selected( /pcimne_followup/child_status/c_child_state ,'no_improvement') or selected( /pcimne_followup/child_status/c_child_state ,'getting_worse'))"/>
+      <bind nodeset="/pcimne_followup/child_status/c_congratulate_note" readonly="true()" type="string" relevant=" /pcimne_followup/is_referred  != 'true' and ../c_child_taking_meg = 'yes'"/>
+      <bind nodeset="/pcimne_followup/group_review/s_summary" readonly="true()" type="string"/>
+      <bind nodeset="/pcimne_followup/group_review/s_patient_info_name" readonly="true()" type="string"/>
+      <bind nodeset="/pcimne_followup/group_review/s_patient_info_sex" readonly="true()" type="string"/>
+      <bind nodeset="/pcimne_followup/group_review/s_patient_info_age" readonly="true()" type="string"/>
+      <bind nodeset="/pcimne_followup/group_review/s_informations" readonly="true()" type="string" relevant="selected( /pcimne_followup/child_status/c_child_state ,'cured') or selected( /pcimne_followup/child_status/c_child_state ,'improvement') or selected( /pcimne_followup/child_status/c_child_state ,'new_complaint') or selected( /pcimne_followup/child_status/c_child_state ,'no_improvement') or selected( /pcimne_followup/child_status/c_child_state ,'getting_worse')"/>
+      <bind nodeset="/pcimne_followup/group_review/s_cured" readonly="true()" type="string" relevant="selected( /pcimne_followup/child_status/c_child_state ,'cured')"/>
+      <bind nodeset="/pcimne_followup/group_review/s_improvement" readonly="true()" type="string" relevant="selected( /pcimne_followup/child_status/c_child_state ,'improvement')"/>
+      <bind nodeset="/pcimne_followup/group_review/s_new_complaint" readonly="true()" type="string" relevant="selected( /pcimne_followup/child_status/c_child_state ,'new_complaint')"/>
+      <bind nodeset="/pcimne_followup/group_review/no_improvement" readonly="true()" type="string" relevant="selected( /pcimne_followup/child_status/c_child_state ,'no_improvement')"/>
+      <bind nodeset="/pcimne_followup/group_review/getting_worse" readonly="true()" type="string" relevant="selected( /pcimne_followup/child_status/c_child_state ,'getting_worse')"/>
+      <bind nodeset="/pcimne_followup/group_review/s_refer_USP" readonly="true()" type="string" relevant=" /pcimne_followup/is_referred  = 'true'"/>
+      <bind nodeset="/pcimne_followup/group_review/s_refer_HC" readonly="true()" type="string" relevant=" /pcimne_followup/is_referred  = 'true'"/>
+      <bind nodeset="/pcimne_followup/group_review/c_pre_reference_treatments" type="select1" relevant=" /pcimne_followup/is_referred  = 'true'"/>
+      <bind nodeset="/pcimne_followup/group_review/s_referal_health_center" type="select1" relevant=" /pcimne_followup/is_referred  = 'true'"/>
+      <bind nodeset="/pcimne_followup/group_review/s_other_referal_health_center" type="string" relevant=" /pcimne_followup/is_referred  = 'true' and  /pcimne_followup/group_review/s_referal_health_center  = 'others'"/>
+      <bind nodeset="/pcimne_followup/group_review/followup" readonly="true()" type="string"/>
+      <bind nodeset="/pcimne_followup/group_review/s_next_visit_date" readonly="true()" type="string" relevant=" /pcimne_followup/is_referred  = 'true'"/>
+      <bind nodeset="/pcimne_followup/group_review/s_no_next_visit" readonly="true()" type="string" relevant=" /pcimne_followup/is_referred  != 'true'"/>
+      <bind nodeset="/pcimne_followup/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/pcimne_followup/inputs">
+      <label ref="jr:itext('/pcimne_followup/inputs:label')"/>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/source">
+        <label ref="jr:itext('/pcimne_followup/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/source_id">
+        <label ref="jr:itext('/pcimne_followup/inputs/source_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_family_id">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_family_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_family_name">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_family_name:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_family_external_id">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_family_external_id:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_temperature">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_temperature:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_has_fever">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_has_fever:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_has_malaria">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_has_malaria:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_has_diarrhea">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_has_diarrhea:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_has_cough_cold">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_has_cough_cold:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_has_malnutrition">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_has_malnutrition:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_has_pneumonia">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_has_pneumonia:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_unable_drink_breastfeed">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_unable_drink_breastfeed:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_vomits_everything">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_vomits_everything:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_convulsions">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_convulsions:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_sleepy_unconscious">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_sleepy_unconscious:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_has_stiff_neck">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_has_stiff_neck:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_has_bulging_fontanelle">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_has_bulging_fontanelle:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_breathing_difficulty">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_breathing_difficulty:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_cough_more_than_14days">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_cough_more_than_14days:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_subcostal_indrawing">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_subcostal_indrawing:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_wheezing">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_wheezing:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_bloody_diarrhea">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_bloody_diarrhea:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_diarrhea_more_than_14_days">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_diarrhea_more_than_14_days:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_blood_in_stool">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_blood_in_stool:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_restless">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_restless:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_drinks_hungrily">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_drinks_hungrily:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_sunken_eyes">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_sunken_eyes:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_has_edema">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_has_edema:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_has_other_disease_problem">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_has_other_disease_problem:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_has_afp">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_has_afp:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_other_diseases">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_other_diseases:label')"/>
+      </input>
+      <input appearance="hidden" ref="/pcimne_followup/inputs/t_is_referred">
+        <label ref="jr:itext('/pcimne_followup/inputs/t_is_referred:label')"/>
+      </input>
+      <group ref="/pcimne_followup/inputs/user">
+        <label ref="jr:itext('/pcimne_followup/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/pcimne_followup/inputs/user/contact_id">
+          <label ref="jr:itext('/pcimne_followup/inputs/user/contact_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/pcimne_followup/inputs/user/name">
+          <label ref="jr:itext('/pcimne_followup/inputs/user/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/pcimne_followup/inputs/user/phone">
+          <label ref="jr:itext('/pcimne_followup/inputs/user/phone:label')"/>
+        </input>
+      </group>
+      <group appearance="hidden" ref="/pcimne_followup/inputs/contact">
+        <label ref="jr:itext('/pcimne_followup/inputs/contact:label')"/>
+        <input appearance="db-object bind-id-only" ref="/pcimne_followup/inputs/contact/_id">
+          <label ref="jr:itext('/pcimne_followup/inputs/contact/_id:label')"/>
+        </input>
+        <input ref="/pcimne_followup/inputs/contact/name">
+          <label ref="jr:itext('/pcimne_followup/inputs/contact/name:label')"/>
+        </input>
+        <input ref="/pcimne_followup/inputs/contact/sex">
+          <label ref="jr:itext('/pcimne_followup/inputs/contact/sex:label')"/>
+        </input>
+        <input ref="/pcimne_followup/inputs/contact/date_of_birth">
+          <label ref="jr:itext('/pcimne_followup/inputs/contact/date_of_birth:label')"/>
+        </input>
+        <input ref="/pcimne_followup/inputs/contact/external_id">
+          <label ref="jr:itext('/pcimne_followup/inputs/contact/external_id:label')"/>
+        </input>
+        <input ref="/pcimne_followup/inputs/contact/phone">
+          <label ref="jr:itext('/pcimne_followup/inputs/contact/phone:label')"/>
+        </input>
+        <group ref="/pcimne_followup/inputs/contact/parent">
+          <label ref="jr:itext('/pcimne_followup/inputs/contact/parent:label')"/>
+          <input ref="/pcimne_followup/inputs/contact/parent/_id">
+            <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/_id:label')"/>
+          </input>
+          <input ref="/pcimne_followup/inputs/contact/parent/name">
+            <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/name:label')"/>
+          </input>
+          <input ref="/pcimne_followup/inputs/contact/parent/external_id">
+            <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/external_id:label')"/>
+          </input>
+          <group ref="/pcimne_followup/inputs/contact/parent/parent">
+            <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent:label')"/>
+            <input ref="/pcimne_followup/inputs/contact/parent/parent/_id">
+              <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/_id:label')"/>
+            </input>
+            <group ref="/pcimne_followup/inputs/contact/parent/parent/parent">
+              <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/parent:label')"/>
+              <input ref="/pcimne_followup/inputs/contact/parent/parent/parent/_id">
+                <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/parent/_id:label')"/>
+              </input>
+              <group ref="/pcimne_followup/inputs/contact/parent/parent/parent/parent">
+                <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/parent/parent:label')"/>
+                <input ref="/pcimne_followup/inputs/contact/parent/parent/parent/parent/_id">
+                  <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/parent/parent/_id:label')"/>
+                </input>
+                <group ref="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent">
+                  <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent:label')"/>
+                  <input ref="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/_id">
+                    <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/_id:label')"/>
+                  </input>
+                  <group ref="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent">
+                    <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent:label')"/>
+                    <input ref="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id">
+                      <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                    </input>
+                    <group ref="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent">
+                      <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                      <input ref="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id">
+                        <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                      </input>
+                      <group ref="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent">
+                        <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent:label')"/>
+                        <input ref="/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id">
+                          <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/parent/parent/parent/parent/parent/parent/_id:label')"/>
+                        </input>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+            <group ref="/pcimne_followup/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/contact:label')"/>
+              <input appearance="db-object bind-id-only" ref="/pcimne_followup/inputs/contact/parent/parent/contact/_id">
+                <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/contact/_id:label')"/>
+              </input>
+              <input ref="/pcimne_followup/inputs/contact/parent/parent/contact/name">
+                <label ref="jr:itext('/pcimne_followup/inputs/contact/parent/parent/contact/name:label')"/>
+              </input>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list summary" ref="/pcimne_followup/patient_infos">
+      <label ref="jr:itext('/pcimne_followup/patient_infos:label')"/>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_patient_family_name">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_patient_family_name:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_patient_family_ext_id">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_patient_family_ext_id:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_patient_name">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_patient_name:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_patient_sexe">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_patient_sexe:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_code_patient">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_code_patient:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_patient_info_age">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_patient_info_age:label')"/>
+      </input>
+      <input ref="/pcimne_followup/patient_infos/last_consul_details">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/last_consul_details:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_temperature">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_temperature:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_has_fever">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_has_fever:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_has_malaria">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_has_malaria:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_has_diarrhea">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_has_diarrhea:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_has_cough_cold">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_has_cough_cold:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_has_pneumonia">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_has_pneumonia:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_has_malnutrition">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_has_malnutrition:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_unable_drink_breastfeed">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_unable_drink_breastfeed:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_vomits_everything">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_vomits_everything:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_convulsions">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_convulsions:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_sleepy_unconscious">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_sleepy_unconscious:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_has_stiff_neck">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_has_stiff_neck:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_has_bulging_fontanelle">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_has_bulging_fontanelle:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_breathing_difficulty">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_breathing_difficulty:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_cough_more_than_14days">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_cough_more_than_14days:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_subcostal_indrawing">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_subcostal_indrawing:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_wheezing">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_wheezing:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_bloody_diarrhea">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_bloody_diarrhea:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_diarrhea_more_than_14_days">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_diarrhea_more_than_14_days:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_blood_in_stool">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_blood_in_stool:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_restless">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_restless:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_drinks_hungrily">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_drinks_hungrily:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_sunken_eyes">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_sunken_eyes:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_has_edema">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_has_edema:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/patient_infos/i_other_diseases">
+        <label ref="jr:itext('/pcimne_followup/patient_infos/i_other_diseases:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/pcimne_followup/patient_presence">
+      <label ref="jr:itext('/pcimne_followup/patient_presence:label')"/>
+      <select1 appearance="columns" ref="/pcimne_followup/patient_presence/c_is_present">
+        <label ref="jr:itext('/pcimne_followup/patient_presence/c_is_present:label')"/>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/patient_presence/c_is_present/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/patient_presence/c_is_present/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/pcimne_followup/patient_presence/c_absence_reasons">
+        <label ref="jr:itext('/pcimne_followup/patient_presence/c_absence_reasons:label')"/>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/patient_presence/c_absence_reasons/observation:label')"/>
+          <value>observation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/patient_presence/c_absence_reasons/hospitalized:label')"/>
+          <value>hospitalized</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/patient_presence/c_absence_reasons/patient_Absent:label')"/>
+          <value>patient_Absent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/patient_presence/c_absence_reasons/others:label')"/>
+          <value>others</value>
+        </item>
+      </select>
+      <input ref="/pcimne_followup/patient_presence/c_other_absence_reasons">
+        <label ref="jr:itext('/pcimne_followup/patient_presence/c_other_absence_reasons:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/pcimne_followup/patient_presence/c_reference_health_facility">
+        <label ref="jr:itext('/pcimne_followup/patient_presence/c_reference_health_facility:label')"/>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/patient_presence/c_reference_health_facility/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/patient_presence/c_reference_health_facility/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/pcimne_followup/patient_presence/c_coupon_available">
+        <label ref="jr:itext('/pcimne_followup/patient_presence/c_coupon_available:label')"/>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/patient_presence/c_coupon_available/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/patient_presence/c_coupon_available/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pcimne_followup/patient_presence/c_coupon_number">
+        <label ref="jr:itext('/pcimne_followup/patient_presence/c_coupon_number:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/pcimne_followup/child_status">
+      <label ref="jr:itext('/pcimne_followup/child_status:label')"/>
+      <select1 ref="/pcimne_followup/child_status/c_child_state">
+        <label ref="jr:itext('/pcimne_followup/child_status/c_child_state:label')"/>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/child_status/c_child_state/cured:label')"/>
+          <value>cured</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/child_status/c_child_state/improvement:label')"/>
+          <value>improvement</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/child_status/c_child_state/no_improvement:label')"/>
+          <value>no_improvement</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/child_status/c_child_state/getting_worse:label')"/>
+          <value>getting_worse</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/child_status/c_child_state/new_complaint:label')"/>
+          <value>new_complaint</value>
+        </item>
+      </select1>
+      <input ref="/pcimne_followup/child_status/c_new_form">
+        <label ref="jr:itext('/pcimne_followup/child_status/c_new_form:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/pcimne_followup/child_status/c_child_taking_meg">
+        <label ref="jr:itext('/pcimne_followup/child_status/c_child_taking_meg:label')"/>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/child_status/c_child_taking_meg/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/child_status/c_child_taking_meg/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pcimne_followup/child_status/c_advise_note">
+        <label ref="jr:itext('/pcimne_followup/child_status/c_advise_note:label')"/>
+      </input>
+      <input ref="/pcimne_followup/child_status/c_congratulate_note">
+        <label ref="jr:itext('/pcimne_followup/child_status/c_congratulate_note:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/pcimne_followup/group_review">
+      <label ref="jr:itext('/pcimne_followup/group_review:label')"/>
+      <input appearance="h1 yellow" ref="/pcimne_followup/group_review/s_summary">
+        <label ref="jr:itext('/pcimne_followup/group_review/s_summary:label')"/>
+      </input>
+      <input appearance="center" ref="/pcimne_followup/group_review/s_patient_info_name">
+        <label ref="jr:itext('/pcimne_followup/group_review/s_patient_info_name:label')"/>
+      </input>
+      <input appearance="center" ref="/pcimne_followup/group_review/s_patient_info_sex">
+        <label ref="jr:itext('/pcimne_followup/group_review/s_patient_info_sex:label')"/>
+      </input>
+      <input appearance="center" ref="/pcimne_followup/group_review/s_patient_info_age">
+        <label ref="jr:itext('/pcimne_followup/group_review/s_patient_info_age:label')"/>
+      </input>
+      <input appearance="h1 blue" ref="/pcimne_followup/group_review/s_informations">
+        <label ref="jr:itext('/pcimne_followup/group_review/s_informations:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/group_review/s_cured">
+        <label ref="jr:itext('/pcimne_followup/group_review/s_cured:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/group_review/s_improvement">
+        <label ref="jr:itext('/pcimne_followup/group_review/s_improvement:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/group_review/s_new_complaint">
+        <label ref="jr:itext('/pcimne_followup/group_review/s_new_complaint:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/group_review/no_improvement">
+        <label ref="jr:itext('/pcimne_followup/group_review/no_improvement:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/group_review/getting_worse">
+        <label ref="jr:itext('/pcimne_followup/group_review/getting_worse:label')"/>
+      </input>
+      <input appearance="h1 red" ref="/pcimne_followup/group_review/s_refer_USP">
+        <label ref="jr:itext('/pcimne_followup/group_review/s_refer_USP:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/group_review/s_refer_HC">
+        <label ref="jr:itext('/pcimne_followup/group_review/s_refer_HC:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/pcimne_followup/group_review/c_pre_reference_treatments">
+        <label ref="jr:itext('/pcimne_followup/group_review/c_pre_reference_treatments:label')"/>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/group_review/c_pre_reference_treatments/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/group_review/c_pre_reference_treatments/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pcimne_followup/group_review/s_referal_health_center">
+        <label ref="jr:itext('/pcimne_followup/group_review/s_referal_health_center:label')"/>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/group_review/s_referal_health_center/health_center:label')"/>
+          <value>health_center</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/group_review/s_referal_health_center/health_poste:label')"/>
+          <value>health_poste</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pcimne_followup/group_review/s_referal_health_center/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/pcimne_followup/group_review/s_other_referal_health_center">
+        <label ref="jr:itext('/pcimne_followup/group_review/s_other_referal_health_center:label')"/>
+      </input>
+      <input appearance="h1 green" ref="/pcimne_followup/group_review/followup">
+        <label ref="jr:itext('/pcimne_followup/group_review/followup:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/group_review/s_next_visit_date">
+        <label ref="jr:itext('/pcimne_followup/group_review/s_next_visit_date:label')"/>
+      </input>
+      <input appearance="li" ref="/pcimne_followup/group_review/s_no_next_visit">
+        <label ref="jr:itext('/pcimne_followup/group_review/s_no_next_visit:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

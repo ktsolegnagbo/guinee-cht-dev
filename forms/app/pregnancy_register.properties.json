@@ -1,0 +1,18 @@
+{
+    "context": {
+        "expression": "user.role === 'reco' && user._id !== contact._id && summary.alive && summary.is_family_person && !summary.muted && contact.type === 'person' && ageInYears(contact) >= 10 && ageInYears(contact) <= 70 && contact.sex === 'female'",
+        "person": true,
+        "place": false
+    },
+    "icon": "pregnancy",
+    "title": [
+      {
+        "locale": "en",
+        "content": "Registration for pregnacy"
+      },
+      {
+        "locale": "fr",
+        "content": "Enrégistrement Femme enceinte"
+      }
+    ]
+}

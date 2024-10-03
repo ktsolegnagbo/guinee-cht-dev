@@ -1,0 +1,18 @@
+{
+    "context": {
+      "expression": "user.role === 'reco' && user._id !== contact._id && !summary.alive && contact.type === 'person' && ageInYears(contact) < 150",
+        "person": true,
+        "place": false
+    },
+    "icon": "icon-person",
+    "title": [
+        {
+          "locale": "en",
+          "content": "Undo death report"
+        },
+        {
+          "locale": "fr",
+          "content": "Annuler le rapport de décès"
+        }
+      ]
+}
